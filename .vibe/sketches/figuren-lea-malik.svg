@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="sans-serif" font-size="14">
+  <title>Figuren: Léa und Malik (Skizze)</title>
+  <rect width="520" height="300" fill="#fff"/>
+  <text x="20" y="28" font-size="18" font-weight="bold">Léa und Malik – fest für alle Seiten</text>
+  <g transform="translate(70,60)"><circle cx="50" cy="40" r="32" fill="#f3d2b3" stroke="#333"/><path d="M18 36 Q50 -4 82 36 Q82 20 50 14 Q18 20 18 36Z" fill="#6b3f1e"/><circle cx="40" cy="42" r="3" fill="#222"/><circle cx="60" cy="42" r="3" fill="#222"/><path d="M42 54 Q50 60 58 54" stroke="#222" fill="none"/><rect x="18" y="74" width="64" height="84" rx="12" fill="#d33" stroke="#333"/></g>
+  <text x="80" y="250" font-weight="bold">Léa, 11</text><text x="40" y="270" font-size="12">kurze braune Haare, rote Jacke</text>
+  <g transform="translate(330,60)"><circle cx="50" cy="40" r="32" fill="#c68f62" stroke="#333"/><path d="M18 34 Q20 4 50 8 Q80 4 82 34 Q70 18 50 20 Q30 18 18 34Z" fill="#222"/><circle cx="40" cy="42" r="8" fill="none" stroke="#222"/><circle cx="60" cy="42" r="8" fill="none" stroke="#222"/><path d="M42 56 Q50 62 58 56" stroke="#222" fill="none"/><rect x="18" y="74" width="64" height="84" rx="12" fill="#3a6fd8" stroke="#333"/></g>
+  <text x="350" y="250" font-weight="bold">Malik, 11</text><text x="320" y="270" font-size="12">schwarze Locken, Brille, blauer Rucksack</text>
+</svg>

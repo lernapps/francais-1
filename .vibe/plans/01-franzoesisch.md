@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit. Change the value line below, never this comment.
-phase: explore
+phase: plan
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
@@ -41,6 +41,10 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Archetyp `explainer`: Seiten mit Erklärung, Beispiel und Übungen; Hör-Diktat und Nachsprechen sind mit `audio` und `speaking-task` möglich (Vorlagen-Version 0.8.0).
 - Audio verlangt `@lernapps/app-templates` 0.8.0 (die Version, die `init` installiert hat, ist 0.7.1 ohne Audio). Nach `create` wird die Vorlage auf 0.8.0 gehoben und geprüft (guess).
 - Der Ton ist ausdrücklich gewünscht: Hören und Nachsprechen am Anfang.
+- Kein `open-task` und kein Material des Erstellers: kein `scope` in `src/app.yaml` und auf den Seiten (guess).
+- Ein Kapitel `kapitel-1` mit sieben Seiten; Dateinamen `src/kapitel-1/<seite>.yaml`.
+- Eine Stimme für alle Aufnahmen; Auswahl und Freigabe durch den Ersteller vor dem ersten Erzeugen (Code, Seite 1).
+- Selbsteinschätzung des Kapitels: ja, in Commit (guess); Nachsprech-Aufgaben zählen dort nicht.
 
 ## Notes
 
@@ -108,12 +112,12 @@ Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstelle
       "Key decisions". Set `archetype`.
 - [x] Install the archetype's skills: `npx --no -- lernapps skills --archetype <archetype>`. Load skill
       `lernapps-<archetype>-design`.
-- [ ] Interview: ask the other topics of "Answers" in order. Skip a topic an earlier answer covers; note which.
+- [x] Interview: ask the other topics of "Answers" in order. Skip a topic an earlier answer covers; note which.
       A confirmed assignment covers Goal, Learners, Content, Amount and Languages; an explainer has no "Look and
       feel" (its look is the runtime's): note "covered by the assignment" or "fixed by the archetype", ask only the
       rest. No answer → ask once more; still none → write your assumption with "(guess)". Done when every topic has
       an answer, a note or a guess.
-- [ ] Load skill `lernapps-content-research`. Research as it says. Under "Notes": curriculum orientation (none
+- [x] Load skill `lernapps-content-research`. Research as it says. Under "Notes": curriculum orientation (none
       when the content comes from the map, an assignment or a strand: the map gives the order), competencies by
       chapter as "Ich kann …", verified sources. No competencies → not done. First the learning map as
       skill `lernapps-content-research` says: recommend a strand that fits (`<subject>/<strand>`), else `none`; with a
@@ -121,19 +125,20 @@ Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstelle
       unit app across strands (`subject: <subject>`), one strand per page. Write both under "Notes", and how they map onto
       chapters and pages (an explainer: as a rule one page per competency; competencies that build on each other, by
       the map's `requires`, share a chapter, in that order).
-- [ ] Under "Notes", one line per competency: how learners get there (derive, not only read off; e.g. a tree diagram
+- [x] Under "Notes", one line per competency: how learners get there (derive, not only read off; e.g. a tree diagram
       shows how a probability comes about), which misconception the feedback catches.
-- [ ] Under "Notes", the scope: what is in, what is out and why, the data range (e.g. "all main-group elements",
+- [x] Under "Notes", the scope: what is in, what is out and why, the data range (e.g. "all main-group elements",
       never a silent "1–20"), the languages.
 - [ ] Fetch https://lernapps.net/apps/schemas/entry.v1.schema.json and read each property's description. Ask what
       helps teachers and parents find the app. Fill "Entry draft". Search words: one or two words each, as people
       type them.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, curriculum orientation (not with a
+      Offen: Schema gelesen und "Entry draft" gefüllt, aber die Frage nach Suchwörtern ist noch nicht gestellt; sie steht im Plan-Checkpoint.
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, curriculum orientation (not with a
       strand), competencies by chapter (with their ids) and their pages, didactic approach, scope, every "(guess)", sources and how you
       checked them, what is unchecked, archetype and reason. With a strand, the map decides the structure: competencies
       that build on each other (its `requires`) share a chapter, in that order; no curriculum search is needed for it.
       Stop and wait. Changes → change, ask again.
-- [ ] Set `phase: plan`: change the value line (`grep '^phase:'` prints `phase: plan`).
+- [x] Set `phase: plan`: change the value line (`grep '^phase:'` prints `phase: plan`).
 
 ### Answers
 
@@ -175,14 +180,14 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: plan`; else set it.
-- [ ] Map the content as skill `lernapps-<archetype>-design` says; reread it if it is no longer in view.
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says (loaded in Explore; reread it if it
+- [x] `grep '^phase:'` prints `phase: plan`; else set it.
+- [x] Map the content as skill `lernapps-<archetype>-design` says; reread it if it is no longer in view.
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says (loaded in Explore; reread it if it
       is no longer in view). Write "Content method".
-- [ ] Write the Code tasks under "Code": pages or screens, their content, what each shows. Each ends in a commit:
+- [x] Write the Code tasks under "Code": pages or screens, their content, what each shows. Each ends in a commit:
       one task, one commit. Steps too small for a commit of their own → one task.
       The first task: one complete page or screen as the pattern for the others (`early-preview`).
-- [ ] Each screen, component or interactive exercise: a sketch (static SVG or image, or the steps with what
+- [x] Each screen, component or interactive exercise: a sketch (static SVG or image, or the steps with what
       learners see after each). Words alone are not enough. Keep sketch files in `.vibe/sketches/`, which `create` leaves alone.
 - [ ] Show the creator, short: goal, competencies by chapter (chapters along the map's `requires`), entry draft, tasks, sketches; the content method in
       plain words (what learners see and do, what it cannot do). At most 2 questions.
@@ -192,11 +197,21 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Content method
 
-<!-- One line each: exercise patterns and where; figures and how they are made; data files; each component, what it
-checks and cannot; how a later agent adds a chapter. Each figure, model and component: its learning action in two to
-four sentences: the whole, what its parts and marks mean, what learners do and what stays the same, how that leads to
-the statement (an explainer: rule `explainer-representation-explained`). A control without a part in it goes. An explainer on the map: per page its prerequisites (`requires`)
-the app does not practise, and which get a recap page, which a link. Becomes the content guide in Code. -->
+- **Seitenaufbau, überall gleich** (Ids): `einstieg` (Szene und Ziel: „Danach kannst du …“, knüpft an die Seite davor an), `neu` (Wörter oder Regel, jedes Wort mit Bedeutung, Tabelle), `nachsprechen` (nur Seiten mit Ton), `uebung` (leicht → schwer: auswählen → Lücke → hören und schreiben → übersetzen). Ein Abschnitt, den eine Seite nicht braucht, fällt weg. Skizze: `.vibe/sketches/seitenaufbau.svg`.
+- **Szene (Figur)**: gezeichnete Szene `src/images/szene-<seite>.svg` mit Léa und Malik, mit Bildunterschrift und `alt`; sie zeigt, was gegeben ist, nie die Lösung. Die Figuren sind fest (`.vibe/sketches/figuren-lea-malik.svg`): Léa, 11, kurze braune Haare, rote Jacke; Malik, 11, schwarze Locken, Brille, blauer Rucksack. Lernaktion: Kinder schauen die Szene an und beantworten eine Frage dazu (Wer sagt was? Wo steht das Wort?); sie ist Anlass, nicht Inhalt.
+- **Wörter einführen** (Muster „Neu“): `table` mit Wort, Bedeutung, Hinweis; die Wörter der Seite stehen vor der Übung da, sie kommen aus dem Grundwortschatz (A1) oder werden erklärt. Datei: `src/data/woerter.yaml` (ein Satz je Wort mit Seite, Wort, Bedeutung), damit jedes Wort einmal steht.
+- **Nachsprechen** (`speaking-task`, Seiten 1–3, danach wo es passt): 3–6 Sätze oder Wörter mit Modell-Audio; Kinder hören, nehmen auf, vergleichen, bewerten sich selbst („schon gut / fast / noch üben“). Prüft nichts, die App hört nicht zu. Ablauf: `.vibe/sketches/nachsprechen-ablauf.svg`. Datei: `src/audio/*.mp3`, gemacht mit `lernapps-audio`.
+- **Hören und schreiben** (`language-task` mit `audio`, Diktat; Seite 1: Wort, Seite 2: Gruß, Seite 3: Zahl als `direction: to-source` mit Zahl als `source`, z. B. 75): Der gesprochene Text ist die richtige Antwort; Zahlen im Audio ausgeschrieben (soixante-quinze). Rückmeldungen: 2–3 `mistakes` je Aufgabe mit Regel (zum Beispiel „ou klingt wie ein langes u, nicht wie o-u“).
+- **Zuordnen/Auswählen** (Quiztypen `single-choice`, `matching`, `true-false`): Schreibung ↔ Bedeutung, Pronomen ↔ Person, Artikel ↔ Nomen; jede falsche Option mit `info`, warum sie nicht passt.
+- **Lücke und Formen** (`language-task` Modi `gap`, `choice`, `table`): être und avoir als Formentabelle, Sätze mit Lücke, Artikel mit `distractors` (le/la/l’/les); typische Fehler als `mistakes` (je suis 11 ans, il appelle, le école).
+- **Übersetzen** (`language-task` `write`): kurze Sätze Deutsch → Französisch, mit Varianten `(…|…)` und `form`: Großschreibung und Satzzeichen als Hinweis, Akzente zählen.
+- **Zahlen** (Seite 3): `generated` mit Datei `src/data/zahlen.yaml` (Felder `n`, `fr`, `hinweis`): „Schreibe die Zahl: soixante-quinze“ → 75; typische Fehler: 60+15 falsch addiert (65), quatre-vingts als 40/80-Verwechslung. Bereich: 0–100 vollständig, nie still gekürzt; die Zahlen 70–99 werden aus 60/20 abgeleitet und gezeigt.
+- **Aussprache der Buchstabenverbindungen** (Seite 1): `table` Buchstabenverbindung / Beispielwort / Bedeutung mit Wörtern, die Kinder hören; Regel durch Hören abgeleitet. Keine Lautschrift (der Ersteller hat sie nicht verlangt); die Kinder hören statt zu lesen.
+- **Figuren/Bilder** (alle): eigene SVG-Zeichnungen, keine Fotos; Bildunterschrift, `alt`, gleiche Farben der Figuren auf jeder Seite; auf 360 px lesbar; kein Bild gibt die Lösung vor.
+- **Eine Komponente?** Nein: kein Baustein fehlt (Begründung für `prefer-built-in-block`). Die Hör- und Nachsprech-Blöcke und `language-task` genügen.
+- **Rückmeldung falscher Antworten:** immer mit der Regel (nie nur „falsch“); 2–3 typische Fehler je Aufgabe aus „Hürden“.
+- **Nächste Seite/Kapitel später:** Ein Agent liest den Abschnitt „Adding a chapter or round“ der Inhaltsanleitung (`app-content`) und legt `src/kapitel-N/` mit den Seiten, `src/data/woerter.yaml`, `src/audio/` und den Karten-Ids an; neue Wörter nur aus A1 oder erklärt.
+- **Figuren zu Seiten:** Seite 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer mit Hausnummern/Alter, 4 Fußballtraining, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer; Szenen nach der Reihenfolge der Seiten.
 
 ### Completed
 
@@ -219,6 +234,7 @@ the app does not practise, and which get a recap page, which a link. Becomes the
 - [ ] `grep '^phase:'` prints `phase: code`; else set it.
 - [ ] Load skill `lernapps-cli`. Create the app in this plan's folder as it says. `create` keeps this plan. Never
       write the app by hand.
+- [ ] Nach `create`: `@lernapps/app-templates` auf 0.8.0 heben (Audio), prüfen mit `npx --no -- lernapps check`; ein Commit. Geht das nicht: dem Ersteller sagen, Ton bleibt dann aus.
 - [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method"
       (`app-content-guide`). Keep its nine headings and fill each: Curriculum, Competencies, Content structure,
       Terminology, Exercise patterns, Figures, Sources, Adding a chapter or round, Rules learned from mistakes
@@ -229,10 +245,16 @@ the app does not practise, and which get a recap page, which a link. Becomes the
 - [ ] An explainer: decide on `scope` as `references/structure.md` of skill `lernapps-explainer` says. Needed with an
       `open-task` or the creator's material: then `scope` in `src/app.yaml` and on every page
       (`explainer-scope-matches`). Write the choice under "Key decisions".
-- [ ] <the first task written in Plan, the pattern page; commit on `work`>
+- [ ] Seite 1 `laut-und-schrift` (Muster-Seite) komplett: Szene, Tabelle, Hör-Diktat, Nachsprechen, Übung. Vorher dem Ersteller sagen, was das Audio-Werkzeug braucht (0,6 GB Download, Netz für pypi.org, files.pythonhosted.org, github.com, huggingface.co), die Stimme wählen lassen (`ff_siwis` weiblich oder `pierre` männlich) und auf das Ja warten; die Sätze vom Ersteller (oder jemandem mit Französisch) anhören lassen. Commit auf `work`.
 - [ ] **Checkpoint:** the pattern page (`early-preview`): check it against the design rules, let a sub-agent check
       it as a learner, show it to the creator, wait for the answer. A change → change the pattern first.
-- [ ] <the other tasks written in Plan, after the pattern; after each, commit on `work`>
+- [ ] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
+- [ ] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
+- [ ] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
+- [ ] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
+- [ ] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
+- [ ] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.
+- [ ] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
 - [ ] The content guide matches what was built (`app-content-matches`).
 - [ ] `npx --no -- lernapps check` passes.
 - [ ] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
