@@ -249,7 +249,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Seite 1 `laut-und-schrift` (Muster-Seite) komplett: Szene, Tabelle, Hör-Diktat, Nachsprechen, Übung. Vorher dem Ersteller sagen, was das Audio-Werkzeug braucht (0,6 GB Download, Netz für pypi.org, files.pythonhosted.org, github.com, huggingface.co), die Stimme wählen lassen (`ff_siwis` weiblich oder `pierre` männlich) und auf das Ja warten; die Sätze vom Ersteller (oder jemandem mit Französisch) anhören lassen. Commit auf `work`.
 - [x] **Checkpoint:** the pattern page (`early-preview`): check it against the design rules, let a sub-agent check
       it as a learner, show it to the creator, wait for the answer. A change → change the pattern first.
-- [ ] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
+- [x] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
 - [ ] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
 - [ ] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
 - [ ] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.

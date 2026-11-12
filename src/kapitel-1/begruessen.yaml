@@ -1,0 +1,155 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Begrüßen und Vorstellen
+description: Sich auf Französisch begrüßen, verabschieden, vorstellen und fragen, wie es jemandem geht.
+competencies: [begruessen-und-vorstellen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-begruessen.svg
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Schulhof. Über beiden schwebt eine leere Sprechblase.
+        caption: Léa (links) und Malik (rechts) treffen sich auf dem Schulhof. Was sagen sie wohl?
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Auf der letzten Seite hast du Laute geübt. Jetzt benutzt du sie: Léa und Malik begrüßen sich zum ersten Mal.
+
+          **Danach kannst du:** dich auf Französisch begrüßen und verabschieden, deinen Namen sagen und fragen, wie es jemandem geht.
+  - type: section
+    id: neu
+    title: "Neu: Sätze für den Schulhof"
+    blocks:
+      - type: text
+        text: |
+          Diese Sätze lernst du als Ganzes, wie ein Wort. Du musst noch nicht wissen, wie sie gebaut sind.
+      - type: table
+        caption: Begrüßen, verabschieden, vorstellen
+        header: [Französisch, Deutsch]
+        rows:
+          - ["Salut !", "Hallo! (unter Kindern)"]
+          - ["Bonjour !", "Guten Tag!"]
+          - ["Au revoir !", "Auf Wiedersehen!"]
+          - ["Ça va ?", "Wie geht's?"]
+          - ["Ça va bien, merci.", "Gut, danke."]
+          - ["Je m'appelle Léa.", "Ich heiße Léa."]
+          - ["Et toi ?", "Und du?"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Bei *je m'appelle* fehlt nie das *m'*. Das *ç* in *ça* ist ein „c“ mit einem Häkchen und klingt wie „ss“.
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Zuerst einzelne Sätze: Léa spricht *Salut !*, *Ça va ?* und *Au revoir !* vor, Malik *Bonjour !* und *Ça va bien, merci.*
+          Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: salut.mp3
+            text: Salut !
+          - audio: bonjour.mp3
+            text: Bonjour !
+          - audio: ca-va.mp3
+            text: Ça va ?
+          - audio: ca-va-bien-merci.mp3
+            text: Ça va bien, merci.
+          - audio: au-revoir.mp3
+            text: Au revoir !
+        hint: "Bei *Ça va ?* geht die Stimme am Ende nach oben, weil es eine Frage ist."
+      - type: text
+        text: |
+          Jetzt eine kleine Begegnung: Léa sagt *Salut ! Je m'appelle Léa. Et toi ?* und Malik antwortet *Bonjour ! Je m'appelle Malik.*
+          Sprich beide Sätze in einem Zug.
+      - type: speaking-task
+        id: sprechen-satz
+        language: fr
+        items:
+          - audio: salut-je-mappelle-lea-et-toi.mp3
+            text: Salut ! Je m'appelle Léa. Et toi ?
+          - audio: bonjour-je-mappelle-malik.mp3
+            text: Bonjour ! Je m'appelle Malik.
+        hint: "Sprich den ganzen Satz ohne Pause zwischen den Wörtern."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: saetze-zuordnen
+        text: Ordne jedem französischen Satz die deutsche Bedeutung zu.
+        pairs:
+          - { left: "Salut !", right: "Hallo!" }
+          - { left: "Au revoir !", right: "Auf Wiedersehen!" }
+          - { left: "Ça va ?", right: "Wie geht's?" }
+          - { left: "Ça va bien, merci.", right: "Gut, danke." }
+          - { left: "Et toi ?", right: "Und du?" }
+        explanation: "Salut ist ein Gruß unter Kindern, au revoir verabschiedet, ça va ? fragt, wie es geht, und et toi ? gibt die Frage zurück."
+        links:
+          - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
+      - type: language-task
+        id: saetze-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle das passende Wort für die Lücke.
+        items:
+          - source: Ich heiße Léa.
+            target: "Je [m'appelle] Léa."
+            distractors: [[appelle, "t'appelle"]]
+          - source: Auf Wiedersehen!
+            target: "[Au revoir] !"
+            distractors: [[Bonjour, Merci]]
+          - source: Gut, danke.
+            target: "Ça va bien, [merci]."
+            distractors: [[salut, toi]]
+      - type: language-task
+        id: satz-hoeren
+        languages: { source: de, target: fr }
+        task: Höre den Satz und schreibe ihn auf. Du kannst ihn so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: au-revoir.mp3
+            target: Au revoir !
+            mistakes:
+              - answer: Aurevoir
+                message: "Es sind zwei Wörter: au revoir."
+          - audio: ca-va-bien-merci.mp3
+            target: Ça va bien, merci.
+            mistakes:
+              - answer: Ca va bien, merci.
+                message: "Das ç mit dem Häkchen gehört dazu: ça. Ohne Häkchen wäre es ein hartes „k“."
+          - audio: je-mappelle-malik.mp3
+            target: Je m'appelle Malik.
+            mistakes:
+              - answer: Je appelle Malik.
+                message: "Zu s'appeler gehört das m': je m'appelle."
+      - type: language-task
+        id: wie-geht-es
+        languages: { source: de, target: fr }
+        direction: to-source
+        task: Höre den Satz und schreibe ihn auf Deutsch.
+        items:
+          - audio: ca-va.mp3
+            source: "Wie geht's?"
+      - type: language-task
+        id: saetze-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe den Satz auf Französisch.
+        form: { punctuation: ok }
+        items:
+          - source: Ich heiße Malik.
+            target: Je m'appelle Malik.
+            mistakes:
+              - answer: Je appelle Malik.
+                message: "Zu s'appeler gehört das m': je m'appelle."
+          - source: Wie geht's?
+            target: Ça va ?
+          - source: Gut, danke.
+            target: Ça va bien, merci.
