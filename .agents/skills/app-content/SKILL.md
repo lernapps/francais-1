@@ -55,7 +55,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 - Anrede der Kinder: „du“ durchgehend. Kurze Sätze, Sachen aus dem Alltag von Elf- bis Zwölfjährigen.
 - Verwendet: „Seite“, „Übung“, „Hören“, „Nachsprechen“, „Merke“ (für `note`), „Wort“, „Verb“, „Artikel“ (die Begriffe der Grammatik erklären, bevor sie gebraucht werden).
-- Vermieden: Lautschrift und Fachwörter ohne Erklärung (z. B. „Nasal“, „Liaison“, „Subjekt“) auf diesen Seiten.
+- Vermieden: Lautschrift und Fachwörter ohne Erklärung (z. B. „Nasal“, „Liaison“, „Subjekt“) auf diesen Seiten; „Buchstabenverbindung“ und „Laut“ werden auf Seite 1 erklärt. Klangvergleiche (z. B. „ou wie langes u in Mut“) prüft vor der Veröffentlichung jemand mit Französisch-Kenntnissen.
 - Wörter: aus dem Grundwortschatz Französisch (Stufe A1, `https://lernapps.net/apps/map/franzoesisch/grundwortschatz/`); ein Wort außerhalb nur,
   wenn die Szene es braucht, und es wird dort mit Bedeutung erklärt. Jedes Wort mit Bedeutung stehen, bevor eine Übung danach fragt.
 - Französisch: Akzente und Apostroph wie geschrieben (m’appelle, l’école); im YAML Texte mit `:` oder `'` am Anfang in Anführungszeichen.
@@ -63,14 +63,14 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 ## Exercise patterns
 
-- **Wörter einführen** (alle Seiten): `table` mit `header: [Französisch, Deutsch, …]`; kein Datensatz. Beispiel: `kapitel-1/begruessen.yaml`, Abschnitt `neu`.
+- **Wörter einführen** (alle Seiten): `table` mit schmalen Spalten (höchstens drei, kurze Zellen, wegen 360 px), z. B. `header: [Buchstaben, Wort, Bedeutung]`, ein Wort je Zeile; kein Datensatz. Beispiel: `kapitel-1/laut-und-schrift.yaml`, Abschnitt `neu`.
 - **Hören und nachsprechen** (Seiten 1 bis 3, dann wo es passt): Block `speaking-task` mit `language: fr`, `items` (1 bis 10) mit `audio: <datei>.mp3`
   und `text`. Kein Prüfen; die Kinder bewerten sich selbst. Kann nicht in die Selbsteinschätzung.
 - **Hören und schreiben** (Diktat, Hören): `language-task` mit `languages: { source: de, target: fr }`; Item mit `audio` und `target`; für Zahlen
   `direction: to-source` mit `audio` und `source` (z. B. `75`). Der gesprochene Text ist eine richtige Antwort; Zahlen im gesprochenen Text ausschreiben.
 - **Zuordnen und Auswählen**: Quizblöcke `single-choice`, `matching`, `true-false`; jede falsche Option mit `info`, die die Regel nennt.
 - **Lücke und Formen**: `language-task` Modus `gap`, `choice` (mit `distractors` je Lücke), `table` (Formentabelle von être und avoir).
-- **Übersetzen**: `language-task` `write`; Varianten `(…|…)`; `form`: Akzent zählt, Großschreibung und Satzzeichen nur Hinweis (`case: hint`,
+- **Übersetzen**: `language-task` `write`; die Aufgabe sagt „ohne Artikel“, wo nur das Wort gefragt ist; Varianten `(…|…)`; `form`: Akzent zählt, Großschreibung und Satzzeichen nur Hinweis (`case: hint`,
   `punctuation: hint`).
 - **Zahlen erzeugen** (Seite 3): `generated`; Datei `src/data/zahlen.yaml` mit Feldern `n`, `fr`, `hinweis`, alle Zahlen von 0 bis 100; Aufgabe
   „Schreibe die Zahl: soixante-quinze“, Antwort `n`; Fehler: `n - 10` bei 70 bis 79 usw.
@@ -85,7 +85,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 - Eigene SVG-Zeichnungen in `src/images/szene-<seite>.svg`, keine Fotos; `source: eigene Zeichnung`, `licence: CC-BY-4.0`.
 - Figurenstil: Kopf und weicher, abgerundeter Torso, ohne Hals, Arme und Beine (Wunsch des Erstellers). Léa: kurze braune Haare, rote Jacke, hellere Haut; Malik:
   schwarze Locken, Brille, blauer Rucksack (ein Träger sichtbar). Skizze: `.vibe/sketches/figuren-lea-malik.svg`.
-- Jede Zeichnung hat `alt` (was zu sehen ist, nicht die Antwort) und `caption` (worauf achten). Auf 360 px lesbar; ein Bild gibt nie die Lösung einer Übung vor.
+- Jede Zeichnung hat `alt` (nennt, wer links und rechts steht) und `caption` (nennt Figuren, Wort auf Schildern mit Bedeutung). Auf 360 px lesbar; ein Bild gibt nie die Lösung einer Übung vor.
 - Gleiche Farben der Figuren auf allen Seiten; Hintergrund hell.
 
 ## Sources

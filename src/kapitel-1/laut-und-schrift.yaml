@@ -9,14 +9,14 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-laut-und-schrift.svg
-        alt: Léa und Malik stehen vor dem Schultor. Über dem Tor hängt ein Schild mit dem Wort ÉCOLE.
-        caption: Léa zeigt Malik das Schultor. Schau auf das große Schild.
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen vor dem Schulhaus. Über der Tür hängt ein Schild mit dem Wort ÉCOLE.
+        caption: Léa (links) zeigt Malik (rechts) die Schule. Auf dem Schild steht ÉCOLE. Das heißt „Schule“.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Malik ist neu in Léas Klasse. Er hört auf dem Schulhof französische Wörter und sieht sie auf Schildern. Manche
-          Buchstaben klingen zusammen anders als einzeln.
+          Malik ist neu in Léas Klasse. Auf dem Schulhof hört er viele französische Wörter und möchte sie richtig sagen.
+          Dabei hilft ihm ein Trick: Manche Buchstaben klingen zusammen anders als einzeln.
 
           **Danach kannst du:** fünf häufige Buchstabenverbindungen richtig aussprechen und im Wort erkennen: *ou*, *oi*,
           *au / eau*, *ch* und *gn*. Das ist die erste Seite. Du brauchst noch nichts vorher.
@@ -26,30 +26,48 @@ blocks:
     blocks:
       - type: text
         text: |
-          Im Französischen klingen manche Buchstabenpaare anders, als du es vom Deutschen gewohnt bist. Hör die Beispiele
-          unten an und sprich sie nach. Die Stimmen sind KI-Stimmen.
+          Eine **Buchstabenverbindung** sind zwei oder drei Buchstaben, die zusammen einen einzigen Laut ergeben. Ein Laut
+          ist das, was man hört. Im Französischen klingen manche Verbindungen anders, als du es vom Deutschen gewohnt bist.
       - type: table
-        caption: Fünf Buchstabenverbindungen mit Beispielwörtern
-        header: [Buchstaben, Klingt wie, "Beispiele (Bedeutung)"]
+        caption: So klingen die fünf Buchstabenverbindungen
+        header: [Buchstaben, Klingt wie]
         rows:
-          - ["ou", "langes „u“ wie in „Mut“", "nous (wir), rouge (rot), jour (Tag)"]
-          - ["oi", "„wa“ wie in „Wasser“", "moi (ich, mich), toi (du, dich), noir (schwarz)"]
-          - ["au, eau", "„o“ wie in „Boot“", "beau (schön), bureau (Büro), gâteau (Kuchen)"]
-          - ["ch", "„sch“ wie in „Schule“", "chat (Katze), chocolat (Schokolade), cheval (Pferd)"]
-          - ["gn", "„nj“ wie in „Anja“", "montagne (Berg), campagne (Land), signe (Zeichen)"]
+          - ["ou", "langes „u“ wie in „Mut“"]
+          - ["oi", "„ua“, schnell gesprochen"]
+          - ["au, eau", "„o“ wie in „Boot“"]
+          - ["ch", "„sch“ wie in „Schule“"]
+          - ["gn", "„nj“ wie in „Anja“"]
+      - type: text
+        text: Hier siehst du zu jeder Verbindung zwei Wörter, die du gleich hörst und nachsprichst.
+      - type: table
+        caption: Beispielwörter mit ihrer Bedeutung
+        header: [Buchstaben, Wort, Bedeutung]
+        rows:
+          - ["ou", "nous", "wir"]
+          - ["ou", "rouge", "rot"]
+          - ["oi", "moi", "ich, mich"]
+          - ["oi", "noir", "schwarz"]
+          - ["eau", "beau", "schön"]
+          - ["eau", "bureau", "das Büro"]
+          - ["ch", "chat", "die Katze"]
+          - ["ch", "chocolat", "die Schokolade"]
+          - ["gn", "montagne", "der Berg"]
+          - ["gn", "campagne", "das Land (nicht Stadt)"]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              *ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Laut. *ch* klingt nicht wie „k“ und nicht wie „tsch“,
-              sondern wie das deutsche „sch“.
+              *ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Laut. *ch* klingt wie das deutsche „sch“,
+              nicht wie „k“. Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *chat* klingt wie „scha“.
   - type: section
     id: nachsprechen
     title: Hören und nachsprechen
     blocks:
       - type: text
-        text: Léa und Malik sprechen abwechselnd vor. Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+        text: |
+          Léa spricht *rouge*, *beau* und *montagne* vor, Malik *moi* und *chat*. Höre zu, nimm dich selbst auf und vergleiche.
+          Bewerte danach, wie es klang. Hör jedes Wort so oft, wie du magst.
       - type: speaking-task
         id: sprechen-ueben
         language: fr
@@ -74,12 +92,12 @@ blocks:
         text: Ordne jeder Buchstabenverbindung ihren Klang zu.
         pairs:
           - { left: ou, right: "langes „u“ (Mut)" }
-          - { left: oi, right: "„wa“ (Wasser)" }
-          - { left: eau, right: "„o“ (Boot)" }
+          - { left: oi, right: "„ua“ (schnell)" }
+          - { left: "au, eau", right: "„o“ (Boot)" }
           - { left: ch, right: "„sch“ (Schule)" }
           - { left: gn, right: "„nj“ (Anja)" }
         distractors: ["„k“ (Kuh)"]
-        explanation: "*ou* klingt wie ein langes „u“, *oi* wie „wa“, *eau* wie „o“, *ch* wie „sch“ und *gn* wie „nj“."
+        explanation: "ou klingt wie ein langes „u“, oi wie „ua“ (schnell gesprochen), au und eau wie „o“, ch wie „sch“ und gn wie „nj“."
         links:
           - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
       - type: language-task
@@ -103,7 +121,7 @@ blocks:
       - type: language-task
         id: wort-hoeren
         languages: { source: de, target: fr }
-        task: Höre das Wort und schreibe es auf.
+        task: Höre das Wort und schreibe es auf. Du kannst es so oft hören, wie du magst.
         form: { case: hint, punctuation: ok }
         items:
           - audio: nous.mp3
@@ -115,7 +133,7 @@ blocks:
             target: noir
             mistakes:
               - answer: nuar
-                message: "„wa“ schreibt man *oi*: noir."
+                message: "„ua“ (schnell) schreibt man *oi*: noir."
           - audio: bureau.mp3
             target: bureau
             mistakes:
@@ -134,7 +152,7 @@ blocks:
       - type: language-task
         id: woerter-uebersetzen
         languages: { source: de, target: fr }
-        task: Schreibe das französische Wort.
+        task: Schreibe das französische Wort ohne Artikel (ohne „der“, „die“, „das“).
         items:
           - source: die Katze
             target: chat
