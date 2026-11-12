@@ -38,51 +38,66 @@ blocks:
           - ["ch", "„sch“ wie in „Schule“"]
           - ["gn", "„nj“ wie in „Anja“"]
       - type: text
-        text: Hier siehst du zu jeder Verbindung zwei Wörter, die du gleich hörst und nachsprichst.
+        text: |
+          Hier siehst du zu jeder Verbindung zwei Wörter, die du gleich hörst und nachsprichst. Das kleine Wort davor
+          (*le*, *la*) gehört dazu: Merke dir jedes Wort gleich mit ihm. Was *le* und *la* genau sind, lernst du auf Seite 6.
       - type: table
         caption: Beispielwörter mit ihrer Bedeutung
         header: [Laut, Wort, Bedeutung]
         rows:
-          - ["ou", "nous", "wir"]
-          - ["ou", "rouge", "rot"]
-          - ["oi", "moi", "ich, mich"]
-          - ["oi", "noir", "schwarz"]
-          - ["eau", "beau", "schön"]
-          - ["eau", "bureau", "das Büro"]
-          - ["ch", "chat", "die Katze"]
-          - ["ch", "chocolat", "die Schokolade"]
-          - ["gn", "montagne", "der Berg"]
-          - ["gn", "campagne", "das Land"]
+          - ["ou", "le jour", "der Tag"]
+          - ["ou", "la route", "die Straße"]
+          - ["oi", "le soir", "der Abend"]
+          - ["oi", "la voiture", "das Auto"]
+          - ["eau", "le bureau", "das Büro"]
+          - ["eau", "le gâteau", "der Kuchen"]
+          - ["ch", "le chat", "die Katze"]
+          - ["ch", "le chocolat", "die Schokolade"]
+          - ["gn", "la montagne", "der Berg"]
+          - ["gn", "la campagne", "das Land"]
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
               *ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Laut. *ch* klingt wie das deutsche „sch“,
-              nicht wie „k“. Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *chat* klingt wie „scha“.
+              nicht wie „k“. Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *le chat* klingt wie „le scha“.
   - type: section
     id: nachsprechen
     title: Hören und nachsprechen
     blocks:
       - type: text
         text: |
-          Léa spricht *rouge*, *beau* und *montagne* vor, Malik *moi* und *chat*. Höre zu, nimm dich selbst auf und vergleiche.
-          Bewerte danach, wie es klang. Hör jedes Wort so oft, wie du magst.
+          Zuerst einzelne Wörter: Léa spricht *le jour*, *le gâteau* und *la montagne* vor, Malik *le soir* und *le chat*.
+          Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang. Hör jedes Wort so oft, wie du magst.
       - type: speaking-task
         id: sprechen-ueben
         language: fr
         items:
-          - audio: rouge.mp3
-            text: rouge
-          - audio: moi.mp3
-            text: moi
-          - audio: beau.mp3
-            text: beau
-          - audio: chat.mp3
-            text: chat
-          - audio: montagne.mp3
-            text: montagne
+          - audio: le-jour.mp3
+            text: le jour
+          - audio: le-soir.mp3
+            text: le soir
+          - audio: le-gateau.mp3
+            text: le gâteau
+          - audio: le-chat.mp3
+            text: le chat
+          - audio: la-montagne.mp3
+            text: la montagne
         hint: "Sprich langsam. Bei *ou* bleiben die Lippen rund wie bei „u“."
+      - type: text
+        text: |
+          Jetzt zwei kurze Sätze. Ein Satz klingt leichter, weil die Wörter ineinander übergehen. *Voici* heißt „hier ist“:
+          *Voici le chat.* sagt Malik, *Voici la montagne.* sagt Léa.
+      - type: speaking-task
+        id: sprechen-satz
+        language: fr
+        items:
+          - audio: voici-le-chat.mp3
+            text: Voici le chat.
+          - audio: voici-la-montagne.mp3
+            text: Voici la montagne.
+        hint: "Sprich den ganzen Satz in einem Zug, ohne zwischen den Wörtern abzusetzen."
   - type: section
     id: uebung
     title: Übung
@@ -106,17 +121,17 @@ blocks:
         mode: choice
         task: Wähle die Buchstaben, die in die Lücke gehören.
         items:
-          - source: rot
-            target: "r[ou]ge"
+          - source: die Straße
+            target: "la r[ou]te"
             distractors: [[oi, ch]]
-          - source: schwarz
-            target: "n[oi]r"
+          - source: der Abend
+            target: "le s[oi]r"
             distractors: [[ou, gn]]
-          - source: Katze
-            target: "[ch]at"
+          - source: die Katze
+            target: "le [ch]at"
             distractors: [[gn, ou]]
-          - source: Berg
-            target: "monta[gn]e"
+          - source: der Berg
+            target: "la monta[gn]e"
             distractors: [[ch, oi]]
       - type: language-task
         id: wort-hoeren
@@ -124,47 +139,52 @@ blocks:
         task: Höre das Wort und schreibe es auf. Du kannst es so oft hören, wie du magst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: nous.mp3
-            target: nous
+          - audio: la-route.mp3
+            target: la route
             mistakes:
-              - answer: nu
-                message: "Der Laut ist ein langes „u“, aber man schreibt ihn *ou*: nous."
-          - audio: noir.mp3
-            target: noir
+              - answer: la rute
+                message: "Der Laut „u“ schreibt man hier *ou*: la route."
+          - audio: la-voiture.mp3
+            target: la voiture
             mistakes:
-              - answer: nuar
-                message: "„ua“ (schnell) schreibt man *oi*: noir."
-          - audio: bureau.mp3
-            target: bureau
+              - answer: la vuatur
+                message: "„ua“ (schnell) schreibt man *oi*: la voiture."
+          - audio: le-bureau.mp3
+            target: le bureau
             mistakes:
-              - answer: buro
-                message: "Der Laut „o“ am Ende schreibt man *eau*: bureau."
-          - audio: chocolat.mp3
-            target: chocolat
+              - answer: le buro
+                message: "Der Laut „o“ am Ende schreibt man *eau*: le bureau."
+          - audio: le-chocolat.mp3
+            target: le chocolat
             mistakes:
-              - answer: schocolat
-                message: "„sch“ schreibt man im Französischen *ch*: chocolat."
-          - audio: campagne.mp3
-            target: campagne
+              - answer: le schocolat
+                message: "„sch“ schreibt man im Französischen *ch*: le chocolat."
+          - audio: la-campagne.mp3
+            target: la campagne
             mistakes:
-              - answer: campanje
-                message: "„nj“ schreibt man *gn*: campagne."
+              - answer: la campanje
+                message: "„nj“ schreibt man *gn*: la campagne."
       - type: language-task
         id: woerter-uebersetzen
         languages: { source: de, target: fr }
-        task: Schreibe das französische Wort ohne Artikel (ohne „der“, „die“, „das“).
+        task: Schreibe das französische Wort mit seinem kleinen Wort davor (le oder la).
         items:
           - source: die Katze
-            target: chat
+            target: le chat
             mistakes:
-              - answer: schat
-                message: "„sch“ schreibt man *ch*: chat."
-          - source: wir
-            target: nous
-          - source: schön
-            target: beau
+              - answer: chat
+                message: "Das kleine Wort gehört dazu: le chat."
+              - answer: le schat
+                message: "„sch“ schreibt man *ch*: le chat."
+          - source: der Abend
+            target: le soir
             mistakes:
-              - answer: bo
-                message: "Der Laut „o“ schreibt man hier *eau*: beau."
+              - answer: le suar
+                message: "„ua“ (schnell) schreibt man *oi*: le soir."
           - source: das Büro
-            target: bureau
+            target: le bureau
+          - source: der Kuchen
+            target: le gâteau
+            mistakes:
+              - answer: le gato
+                message: "Der Laut „o“ am Ende schreibt man *eau*: le gâteau."

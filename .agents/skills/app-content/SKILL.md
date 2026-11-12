@@ -64,6 +64,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 ## Exercise patterns
 
 - **Wörter einführen** (alle Seiten): `table` mit schmalen Spalten (höchstens drei, kurze Zellen, wegen 360 px), z. B. `header: [Buchstaben, Wort, Bedeutung]`, ein Wort je Zeile; kein Datensatz. Beispiel: `kapitel-1/laut-und-schrift.yaml`, Abschnitt `neu`.
+- **Wörter mit Artikel, dann Sätze** (Wunsch des Erstellers nach Hören der Stimmen): Einzelwörter werden mit le/la gesprochen und geschrieben („le chat“), weil die Stimmen Einzelwörter schlecht sprechen; vor Seite 6 sind le/la feste Wendungen (die Seite sagt: „gehört dazu, mehr auf Seite 6“). Zweite Stufe des Nachsprechens: ein kurzer Satz „Voici le chat.“ in einem zweiten `speaking-task` (Id `sprechen-satz`). Ein Einzelwort ohne Artikel wird nicht als Audio erzeugt.
 - **Hören und nachsprechen** (Seiten 1 bis 3, dann wo es passt): Block `speaking-task` mit `language: fr`, `items` (1 bis 10) mit `audio: <datei>.mp3`
   und `text`. Kein Prüfen; die Kinder bewerten sich selbst. Kann nicht in die Selbsteinschätzung.
 - **Hören und schreiben** (Diktat, Hören): `language-task` mit `languages: { source: de, target: fr }`; Item mit `audio` und `target`; für Zahlen
