@@ -43,18 +43,18 @@ Die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und qua
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel. Bildunterschrift: Im Klassenzimmer zählen Léa und Malik laut. Auf der Tafel stehen die Zahlen noch nicht.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel. Bildunterschrift: Léa (links) und Malik (rechts) spielen im Klassenzimmer ein Zahlenspiel. Die Tafel ist noch leer.
 
-Bei den Begrüßungen hast du *je m'appelle* gelernt. Jetzt möchte Léa wissen, wie alt Malik ist, und er will ihre Hausnummer
-verstehen. Dazu braucht man Zahlen.
+Nach der Begrüßung auf dem Schulhof will Léa mit Malik ein Zahlenspiel spielen: Einer sagt eine Zahl auf Französisch, der andere schreibt sie auf.
+Bis 20 ist das einfach. Bei den Zahlen ab 70 muss man rechnen, und genau da wird es spannend.
 
-**Danach kannst du:** die Zahlen von 0 bis 100 verstehen und sagen, auch die schwierigen von 70 bis 99.
+**Danach kannst du:** die Zahlen von 0 bis 100 verstehen und sagen, auch die schwierigen von 70 bis 99, und du weißt, wie man sie ausrechnet.
 
 ### Neu: So zählt man auf Französisch
 
 #### Von 0 bis 20
 
-Diese Wörter lernst du am besten auswendig. Hör sie dir gleich an.
+Diese Wörter lernst du am besten auswendig. Einige hörst du gleich im Abschnitt „Hören und nachsprechen“.
 
 Die Zahlen von 0 bis 10:
 - Zahl | Französisch
@@ -83,7 +83,7 @@ Die Zahlen von 11 bis 20:
 - 19 | dix-neuf
 - 20 | vingt
 
-#### Die Zehner bis 60
+#### Zehner und die 100
 
 Zehner und die Zahl 100:
 - Zahl | Französisch
@@ -118,21 +118,20 @@ So entstehen die Zahlen von 70 bis 99:
 
 *quatre-vingts* hat nur bei der glatten 80 ein *s*. Bei *quatre-vingt-un* (81) und den anderen fehlt es.
 
+### Kurz geübt
+
+- Übung `quatre-vingts-bedeutung` (unten)
+
 ### Hören und nachsprechen
 
-Zuerst einzelne Zahlen: Léa spricht *soixante-dix* und *quatre-vingt-dix* vor, Malik *soixante-quinze* und *quatre-vingts*.
-Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+Malik zählt *un, deux, trois, quatre, cinq* und spricht *quatre-vingts* vor, Léa spricht *soixante-dix* und *quatre-vingt-dix* vor.
+Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
 
-Jetzt zählst du: Malik zählt *un, deux, trois, quatre, cinq*, Léa zählt *soixante-dix, soixante et onze, soixante-douze*.
-Sprich jede Reihe in einem Zug.
-
-- Übung `sprechen-zaehlen` (unten)
-
 ### Übung
 
-- Übung `quatre-vingts-bedeutung` (unten)
+- Übung `wie-rechnet-man` (unten)
 
 - Übung `zahl-bis-69` (unten)
 
@@ -140,27 +139,7 @@ Sprich jede Reihe in einem Zug.
 
 - Übung `zahl-hoeren` (unten)
 
-### Übung sprechen-ueben
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → soixante-dix
-2. Audio → soixante-quinze
-3. Audio → quatre-vingts
-4. Audio → quatre-vingt-dix
-- Tipp der App: Sprich langsam. Bei *quatre-vingts* sprichst du das *s* am Ende nicht.
-- Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
-
-### Übung sprechen-zaehlen
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → un, deux, trois, quatre, cinq
-2. Audio → soixante-dix, soixante et onze, soixante-douze
-- Tipp der App: Zähle gleichmäßig, wie im Rhythmus eines Liedes.
-- Link: [../?via=tutor#sprechen-zaehlen](../?via=tutor#sprechen-zaehlen)
+- Übung `zahl-schreiben` (unten)
 
 ### Übung quatre-vingts-bedeutung
 
@@ -175,9 +154,34 @@ Sprich jede Reihe in einem Zug.
 - Erklärung: quatre-vingts heißt wörtlich „vier Zwanziger“: 4 × 20 = 80.
 - Link: [../?via=tutor#quatre-vingts-bedeutung](../?via=tutor#quatre-vingts-bedeutung)
 
+### Übung sprechen-ueben
+
+- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
+- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
+- Sätze:
+1. Audio → un, deux, trois, quatre, cinq
+2. Audio → soixante-dix
+3. Audio → quatre-vingts
+4. Audio → quatre-vingt-dix
+- Tipp der App: Zähle gleichmäßig, wie im Rhythmus eines Liedes. Bei quatre-vingts sprichst du das s am Ende nicht.
+- Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
+
+### Übung wie-rechnet-man
+
+- Aufgabe: Léa sagt quatre-vingt-quinze. Wie rechnet man das aus?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 80 + 15 – Richtig: quatre-vingt ist 80, dazu kommt quinze, also 15. Das macht 95.
+  - ✗ 60 + 15 – 60 + 15 wäre soixante-quinze (75). Bei quatre-vingt-quinze startest du bei 80.
+  - ✗ 4 + 20 + 15 – quatre-vingt heißt 4 × 20, also 80, nicht 4 + 20.
+  - ✗ 90 + 5 – 90 ist quatre-vingt-dix. Bei quatre-vingt-quinze geht es von 80 aus weiter.
+- Lösung: 80 + 15
+- Erklärung: Ab 90 zählt man von quatre-vingt (80) weiter: quatre-vingt-quinze = 80 + 15 = 95.
+- Link: [../?via=tutor#wie-rechnet-man](../?via=tutor#wie-rechnet-man)
+
 ### Übung zahl-bis-69
 
-- Aufgabe: „Schreibe die Zahl mit Ziffern: {e.fr}.“
+- Aufgabe: „Zahlenspiel! Léa sagt: {e.fr}. Welche Zahl schreibt Malik mit Ziffern?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Du kennst die Einer und Zehner schon: Setze sie zusammen.“
 - Lösungsweg:
@@ -259,7 +263,7 @@ Nr. | e.fr | e.n | Lösung
 
 ### Übung zahl-70-bis-99
 
-- Aufgabe: „Schreibe die Zahl mit Ziffern: {e.fr}.“
+- Aufgabe: „Jetzt wird es schwer! Léa sagt: {e.fr}. Welche Zahl schreibt Malik?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei 70 bis 79 beginnst du bei 60, bei 80 bis 99 bei 80.“
 - Lösungsweg:
@@ -319,3 +323,18 @@ Nr. | e.fr | e.n | Lösung | F1 | F2
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#zahl-hoeren](../?via=tutor#zahl-hoeren)
+
+### Übung zahl-schreiben
+
+- Aufgabe: Jetzt bist du dran! Schreibe die Zahl als französisches Wort.
+- Antwortformat: die ganze Antwort auf Französisch schreiben
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. 21 → vingt et un
+     - vingt-un: Bei 21, 31, 41 und so weiter sagt man „et un“: vingt et un.
+2. 70 → soixante-dix
+3. 80 → quatre-vingts
+     - quatre-vingt: Bei der glatten 80 steht ein s am Ende: quatre-vingts.
+4. 90 → quatre-vingt-dix
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#zahl-schreiben](../?via=tutor#zahl-schreiben)

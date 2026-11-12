@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=sprechen-ueben`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=sie-fuer-beide`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Übung, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/pronomen/?via=tutor#sprechen-ueben`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/pronomen/?via=tutor#sie-fuer-beide`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -43,16 +43,16 @@ Die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden.
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor. Bildunterschrift: Léa (links) und Malik (rechts) beim Fußballtraining.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor. Bildunterschrift: Léa (links) und Malik (rechts) beim Fußballtraining. Wer schießt gleich aufs Tor?
 
-Beim Training spricht Léa über sich, über Malik und über beide zusammen. Im Deutschen sagst du dafür „ich“, „er“, „sie“ oder „wir“.
-Diese kleinen Wörter heißen **Pronomen**: Sie stehen für Personen, damit du ihre Namen nicht immer wiederholen musst.
+Nach dem Zahlenspiel geht es raus auf den Fußballplatz. Léa spricht über sich, über Malik und über beide zusammen.
+Statt jedes Mal alle Namen zu sagen, benutzt sie kleine Wörter wie „ich“, „er“, „sie“ oder „wir“. Diese Wörter heißen **Pronomen**.
 
-**Danach kannst du:** die neun französischen Pronomen *je, tu, il, elle, on, nous, vous, ils* und *elles* verwenden.
+**Danach kannst du:** die neun französischen Pronomen *je, tu, il, elle, on, nous, vous, ils* und *elles* verwenden und weißt, wann du welches nimmst.
 
 ### Neu: Die neun Pronomen
 
-- **Pronomen**: Ein Pronomen ist ein kleines Wort, das für eine Person oder Sache steht, zum Beispiel „er“ oder „wir“.
+- **Pronomen**: Ein Pronomen ist ein kleines Wort, das für eine Person steht, zum Beispiel „er“ oder „wir“.
 
 Die Pronomen mit ihrer Bedeutung:
 - Pronomen | Bedeutung
@@ -60,32 +60,35 @@ Die Pronomen mit ihrer Bedeutung:
 - tu | du
 - il | er (ein Junge, ein Mann)
 - elle | sie (ein Mädchen, eine Frau)
-- on | man, oft auch „wir“
+- on | wir (unter Freunden) oder man
 - nous | wir
-- vous | ihr, oder „Sie“ (höflich)
+- vous | ihr oder „Sie“ (zu Erwachsenen)
 - ils | sie (Jungen oder gemischte Gruppe)
 - elles | sie (nur Mädchen oder Frauen)
 
-Zu jedem Pronomen gehört ein Verb, und das Verb verändert sich mit dem Pronomen. Wie das genau geht, lernst du später.
-Jetzt lernst du die Wendungen als Ganzes kennen: *Je m'appelle Léa.* — *Tu t'appelles Malik.* — *Il s'appelle Malik.* —
-*Elle s'appelle Léa.* — *Nous jouons au foot.* (*jouer au foot* heißt „Fußball spielen“.)
+So klingt das beim Training. Die Wörter nach dem Pronomen verändern sich, wie das geht, lernst du später. Hier lernst du die Sätze als Ganzes:
+
+- *Je m'appelle Léa.* (Ich heiße Léa.)
+- *Tu t'appelles Malik ?* (Heißt du Malik?)
+- *Il s'appelle Malik.* (Er heißt Malik.) — *Elle s'appelle Léa.* (Sie heißt Léa.)
+- *Nous jouons au foot.* (Wir spielen Fußball.) — *On joue au foot !* (Wir spielen Fußball! Oder: Man spielt Fußball.)
+- *Vous jouez au foot ?* (Spielt ihr Fußball?) — *Ils jouent au foot.* (Sie spielen Fußball.)
 
 **Merke: Merke**
 
-*il* ist nur ein Junge oder ein Mann, *elle* nur ein Mädchen oder eine Frau. Bei einer Gruppe nimmst du *ils*, sobald ein Junge
-dabei ist, auch wenn viele Mädchen dabei sind. *elles* sagst du nur, wenn alle Mädchen sind.
+Für einen Jungen nimmst du *il*, für ein Mädchen *elle*. Bei einer Gruppe sagst du *ils*, sobald ein Junge dabei ist, auch wenn viele Mädchen dabei sind.
+Nur wenn alle Mädchen sind, sagst du *elles*.
+
+### Kurz geübt
+
+- Übung `sie-fuer-beide` (unten)
 
 ### Hören und nachsprechen
 
-Zuerst einzelne Sätze: Léa spricht *Je m'appelle Léa.*, *Elle s'appelle Léa.* und *Nous jouons au foot.* vor, Malik
-*Tu t'appelles Malik.* und *Il s'appelle Malik.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+Malik sagt *Il s'appelle Malik.* und *Ils jouent au foot.*, Léa sagt *Elle s'appelle Léa.* und *On joue au foot !*
+Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
-
-Jetzt ein Satz, in dem das Pronomen die Namen ersetzt: Malik sagt *Léa et Malik jouent au foot. Ils jouent au foot.*
-Sprich beide Sätze in einem Zug.
-
-- Übung `sprechen-satz` (unten)
 
 ### Übung
 
@@ -97,27 +100,30 @@ Sprich beide Sätze in einem Zug.
 
 - Übung `pronomen-uebersetzen` (unten)
 
+### Übung sie-fuer-beide
+
+- Aufgabe: Léa und Malik spielen zusammen Fußball. Wie sagst du „sie“ für die beiden?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ ils – Richtig: Eine gemischte Gruppe aus einem Mädchen und einem Jungen ist ils.
+  - ✗ elles – elles steht nur für Gruppen, in denen alle Mädchen sind. Hier ist ein Junge dabei.
+  - ✗ il – il steht für einen einzelnen Jungen. Hier sind es zwei Kinder.
+  - ✗ elle – elle steht für ein einzelnes Mädchen. Hier sind es zwei Kinder.
+- Lösung: ils
+- Erklärung: Sobald ein Junge in der Gruppe ist, sagt man ils.
+- Link: [../?via=tutor#sie-fuer-beide](../?via=tutor#sie-fuer-beide)
+
 ### Übung sprechen-ueben
 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Je m'appelle Léa.
-2. Audio → Tu t'appelles Malik.
-3. Audio → Il s'appelle Malik.
-4. Audio → Elle s'appelle Léa.
-5. Audio → Nous jouons au foot.
-- Tipp der App: Sprich langsam und achte auf den Laut *ou* in *nous* und *jouons*: Er klingt wie ein langes „u“.
+1. Audio → Il s'appelle Malik.
+2. Audio → Elle s'appelle Léa.
+3. Audio → On joue au foot !
+4. Audio → Ils jouent au foot.
+- Tipp der App: Sprich langsam und höre auf den Laut ou: Er klingt wie ein langes „u“.
 - Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
-
-### Übung sprechen-satz
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → Léa et Malik jouent au foot. Ils jouent au foot.
-- Tipp der App: *ils* am Anfang klingt wie „il“: Das *s* am Ende hörst du nicht.
-- Link: [../?via=tutor#sprechen-satz](../?via=tutor#sprechen-satz)
 
 ### Übung pronomen-zuordnen
 
@@ -133,10 +139,18 @@ Sprich beide Sätze in einem Zug.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Er heißt Malik. → Il s'appelle Malik.
-2. Sie heißt Léa. → Elle s'appelle Léa.
-3. Wir spielen Fußball. → Nous jouons au foot.
-4. Du heißt Malik. → Tu t'appelles Malik.
+1. Wir spielen Fußball. → Nous jouons au foot.
+     - Ils: ils heißt „sie“ (mehrere). Wenn du selbst dabei bist, sagst du nous.
+     - Vous: vous heißt „ihr“. Wenn du selbst dabei bist, sagst du nous.
+2. Spielt ihr Fußball? → Vous jouez au foot ?
+     - Tu: tu heißt „du“ (eine Person). Bei „ihr“ sagst du vous.
+     - Ils: ils heißt „sie“ (über andere). Wenn du sie ansprichst, sagst du vous.
+3. Er heißt Malik. → Il s'appelle Malik.
+     - Elle: Malik ist ein Junge: Dafür nimmst du il. elle gehört zu einem Mädchen.
+     - Tu: tu heißt „du“. Über Malik sprichst du mit il.
+4. Wir spielen Fußball! → On joue au foot !
+     - Tu: tu heißt „du“. Für „wir“ im Gespräch unter Freunden passt on.
+     - Vous: vous heißt „ihr“. Für „wir“ im Gespräch unter Freunden passt on.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#pronomen-waehlen](../?via=tutor#pronomen-waehlen)
 
@@ -146,10 +160,10 @@ Sprich beide Sätze in einem Zug.
 - Antwortformat: die ganze Antwort auf Französisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Il s'appelle Malik.
-     - Elle s'appelle Malik.: Malik ist ein Junge, also il. elle gehört zu einem Mädchen.
-2. Audio → Elle s'appelle Léa.
-     - Il s'appelle Léa.: Léa ist ein Mädchen, also elle. il gehört zu einem Jungen.
+1. Audio → Je m'appelle Léa.
+     - Je appelle Léa.: Zu s'appeler gehört das m': je m'appelle.
+2. Audio → Tu t'appelles Malik.
+     - Il t'appelles Malik.: Hier sprichst du Malik an: Dafür nimmst du tu, nicht il.
 3. Audio → Nous jouons au foot.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -161,9 +175,10 @@ Sprich beide Sätze in einem Zug.
 - Antwortformat: die ganze Antwort auf Französisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Er heißt Malik. → Il s'appelle Malik.
-     - Elle s'appelle Malik.: Malik ist ein Junge: Dafür nimmst du il.
-2. Sie heißt Léa. → Elle s'appelle Léa.
+1. Er heißt Noé. → Il s'appelle Noé.
+     - Elle s'appelle Noé.: Noé ist ein Junge: Dafür nimmst du il.
+2. Sie heißt Zoé. → Elle s'appelle Zoé.
+     - Il s'appelle Zoé.: Zoé ist ein Mädchen: Dafür nimmst du elle.
 3. Wir spielen Fußball. → Nous jouons au foot. (auch richtig: Nous jouons au football.)
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#pronomen-uebersetzen](../?via=tutor#pronomen-uebersetzen)

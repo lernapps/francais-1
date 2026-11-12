@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=sprechen-ueben`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=katze-vorstellen`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Übung, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/etre/?via=tutor#sprechen-ueben`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/etre/?via=tutor#katze-vorstellen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -43,16 +43,18 @@ Das Verb être im Präsens konjugieren und damit Personen und Dinge vorstellen (
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen neben einem großen Foto an der Wand. Auf dem Foto sind die beiden und eine Katze zu sehen. Bildunterschrift: Léa (links) zeigt Malik (rechts) ein Foto von ihnen beiden und der Katze.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen neben einem großen Foto an der Wand. Auf dem Foto sind die beiden und eine Katze zu sehen. Bildunterschrift: Léa (links) zeigt Malik (rechts) ein Foto von ihnen beiden und der Katze. Findest du die Katze?
 
-Auf der letzten Seite hast du die Pronomen gelernt. Jetzt kommt das wichtigste Verb dazu: *être*, auf Deutsch „sein“.
-Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind.
+Auf der Seite „Wer macht was?“ hast du die Pronomen gelernt. Jetzt brauchen sie ein Wort, das mit ihnen zusammenarbeitet.
+Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind. Dafür braucht sie das wichtigste Wort überhaupt: *être*, auf Deutsch „sein“.
 
-**Danach kannst du:** *être* mit allen Pronomen verwenden und mit *c'est* und *il est* sagen, wer oder was etwas ist.
+**Danach kannst du:** *être* mit allen Pronomen verwenden und mit *c'est* und *il est* sagen, wer oder was etwas ist und wo jemand ist.
 
 ### Neu: So lautet être
 
-être im Präsens („sein“):
+- **Verb**: Ein Verb sagt, was jemand tut oder ist, zum Beispiel „spielen“ oder „sein“. Es verändert sich mit dem Pronomen.
+
+être („sein“):
 - Pronomen | Form
 - je | suis
 - tu | es
@@ -61,27 +63,28 @@ Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind.
 - vous | êtes
 - ils / elles | sont
 
-Mit *être* stellst du Personen und Dinge vor:
-*C'est Léa.* heißt „Das ist Léa.“ und *C'est le chat.* heißt „Das ist die Katze.“
-Mit *il est* und *elle est* sagst du etwas über jemanden, zum Beispiel wo er oder sie ist: *Il est ici.* (Er ist hier.) und
-*Nous sommes à l'école.* (Wir sind in der Schule.)
+Zwei kleine Wörter helfen dir auf dem Foto, wenn du etwas sagen willst:
+
+- **c'est** stellt etwas vor: *C'est Léa.* (Das ist Léa.) *C'est le chat.* (Das ist die Katze.)
+- **il est / elle est** sagt etwas über jemanden, zum Beispiel wo er oder sie ist: *Elle est ici.* (Sie ist hier.) *Il est à l'école.* (Er ist in der Schule.)
+
+Du kannst es dir so merken: Erst zeigst du mit *c'est* auf jemanden, dann sagst du mit *il est* oder *elle est* mehr über ihn oder sie.
 
 **Merke: Merke**
 
 Lerne jede Form mit dem Pronomen davor: *je suis*, *tu es*, *il est*. Zu *nous* gehört *sommes*, zu *vous* gehört *êtes*,
 zu *ils* und *elles* gehört *sont*.
 
+### Kurz geübt
+
+- Übung `katze-vorstellen` (unten)
+
 ### Hören und nachsprechen
 
-Zuerst einzelne Sätze: Léa spricht *Je suis Léa.*, *Il est ici.* und *Nous sommes à l'école.* vor, Malik *Tu es Malik.*
-und *C'est le chat.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik.* und *C'est le chat.*
+Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
-
-Jetzt zwei kurze Sätze hintereinander: Malik sagt *C'est Malik. Il est ici.* und Léa sagt *C'est Léa. Elle est ici.*
-Sprich beide in einem Zug.
-
-- Übung `sprechen-satz` (unten)
 
 ### Übung
 
@@ -91,9 +94,24 @@ Sprich beide in einem Zug.
 
 - Übung `etre-waehlen` (unten)
 
+- Übung `cest-oder-il-est` (unten)
+
 - Übung `etre-hoeren` (unten)
 
 - Übung `etre-uebersetzen` (unten)
+
+### Übung katze-vorstellen
+
+- Aufgabe: Léa zeigt auf die Katze auf dem Foto. Was sagt sie?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ C'est le chat. – Richtig: Mit c'est stellst du jemanden oder etwas vor. „Das ist die Katze.“
+  - ✗ Il est le chat. – il est sagst du, um mehr über jemanden zu sagen, zum Beispiel wo er ist. Zum Vorstellen nimmst du c'est.
+  - ✗ Je suis le chat. – Je suis heißt „ich bin“. Léa ist aber nicht die Katze!
+  - ✗ Nous sommes le chat. – Nous sommes heißt „wir sind“. Die Katze ist nur eine.
+- Lösung: C'est le chat.
+- Erklärung: Zum Vorstellen sagst du c'est: C'est le chat.
+- Link: [../?via=tutor#katze-vorstellen](../?via=tutor#katze-vorstellen)
 
 ### Übung sprechen-ueben
 
@@ -102,28 +120,17 @@ Sprich beide in einem Zug.
 - Sätze:
 1. Audio → Je suis Léa.
 2. Audio → Tu es Malik.
-3. Audio → Il est ici.
+3. Audio → C'est le chat.
 4. Audio → Nous sommes à l'école.
-5. Audio → C'est le chat.
 - Tipp der App: Sprich die Formen von être langsam und deutlich nach.
 - Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
-
-### Übung sprechen-satz
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → C'est Malik. Il est ici.
-2. Audio → C'est Léa. Elle est ici.
-- Tipp der App: Sprich beide kurzen Sätze ohne Pause zwischen den Wörtern.
-- Link: [../?via=tutor#sprechen-satz](../?via=tutor#sprechen-satz)
 
 ### Übung formen-zuordnen
 
 - Aufgabe: Welche Form von être gehört zu welchem Pronomen?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: je – suis; tu – es; nous – sommes; vous – êtes; ils – sont
-- Erklärung: je suis, tu es, nous sommes, vous êtes, ils sont. Die Form est gehört zu il, elle und on.
+- Lösung: je – suis; tu – es; on – est; vous – êtes; ils – sont
+- Erklärung: je suis, tu es, on est, vous êtes, ils sont. Die Form sommes gehört zu nous.
 - Link: [../?via=tutor#formen-zuordnen](../?via=tutor#formen-zuordnen)
 
 ### Übung etre-formen
@@ -148,11 +155,34 @@ Sprich beide in einem Zug.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
 1. Ich bin Malik. → Je suis Malik.
-2. Du bist hier. → Tu es ici.
-3. Léa ist hier. → Léa est ici.
-4. Wir sind in der Schule. → Nous sommes à l'école.
+     - es: es gehört zu tu („du bist“). Zu je gehört suis: je suis.
+     - est: est gehört zu il, elle und on. Zu je gehört suis: je suis.
+2. Seid ihr hier? → Vous êtes ici ?
+     - sommes: sommes gehört zu nous („wir sind“). Zu vous gehört êtes: vous êtes.
+     - sont: sont gehört zu ils und elles („sie sind“). Zu vous gehört êtes: vous êtes.
+3. Sie sind in der Schule. → Ils sont à l'école.
+     - est: est gehört zu einer Person (il, elle). Bei mehreren sagst du sont: ils sont.
+     - êtes: êtes gehört zu vous („ihr seid“). Zu ils gehört sont: ils sont.
+4. Wir sind hier. → On est ici.
+     - sont: sont gehört zu ils und elles. Zu on gehört est: on est.
+     - es: es gehört zu tu. Zu on gehört est: on est.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#etre-waehlen](../?via=tutor#etre-waehlen)
+
+### Übung cest-oder-il-est
+
+- Aufgabe: c'est oder il est / elle est? Wähle das passende Wort.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Das ist Léa. → C'est Léa.
+     - Elle est: Hier stellst du Léa vor („Das ist Léa“). Zum Vorstellen nimmst du c'est.
+     - Il est: Hier stellst du Léa vor („Das ist Léa“). Zum Vorstellen nimmst du c'est.
+2. Sie ist hier. (Léa) → Elle est ici.
+     - C'est: Du sagst, wo Léa ist, nicht wer sie ist. Dafür nimmst du elle est.
+     - Il est: Léa ist ein Mädchen: Dafür nimmst du elle est.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#cest-oder-il-est](../?via=tutor#cest-oder-il-est)
 
 ### Übung etre-hoeren
 
@@ -162,10 +192,10 @@ Sprich beide in einem Zug.
 - Einträge (Vorgabe → Lösung):
 1. Audio → Je suis Malik.
      - Je es Malik.: Zu je gehört suis: je suis.
-2. Audio → Nous sommes à l'école.
-     - Nous êtes à l'école.: Zu nous gehört sommes: nous sommes. êtes gehört zu vous.
-3. Audio → C'est le chat.
-     - Cest le chat.: Der Apostroph gehört dazu: c'est.
+2. Audio → Il est ici.
+     - Il es ici.: Zu il gehört est: il est.
+3. Audio → Ils sont à l'école.
+     - Ils est à l'école.: Bei mehreren sagst du sont: ils sont.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#etre-hoeren](../?via=tutor#etre-hoeren)
@@ -180,7 +210,7 @@ Sprich beide in einem Zug.
      - Je es Léa.: Zu je gehört suis: je suis.
 2. Du bist hier. → Tu es ici.
      - Tu suis ici.: Zu tu gehört es: tu es.
-3. Wir sind in der Schule. → Nous sommes à l'école.
-4. Das ist die Katze. → C'est le chat.
+3. Das ist Malik. → C'est Malik.
+     - Il est Malik.: Zum Vorstellen sagst du c'est: C'est Malik.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#etre-uebersetzen](../?via=tutor#etre-uebersetzen)

@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=sprechen-ueben`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=ch-wie-k`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Übung, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/laut-und-schrift/?via=tutor#sprechen-ueben`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/laut-und-schrift/?via=tutor#ch-wie-k`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -45,30 +45,30 @@ Fünf Buchstabenverbindungen im Französischen richtig aussprechen und erkennen.
 
 Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen vor dem Schulhaus. Über der Tür hängt ein Schild mit dem Wort ÉCOLE. Bildunterschrift: Léa (links) zeigt Malik (rechts) die Schule. Auf dem Schild steht ÉCOLE. Das heißt „Schule“.
 
-Malik ist neu in Léas Klasse. Auf dem Schulhof hört er viele französische Wörter und möchte sie richtig sagen.
-Dabei hilft ihm ein Trick: Manche Buchstaben klingen zusammen anders als einzeln.
+Malik ist neu in Léas Klasse. Auf dem Schulhof hört er viele französische Wörter und möchte sie so sagen wie Léa.
 
-**Danach kannst du:** fünf häufige Buchstabenverbindungen richtig aussprechen und im Wort erkennen: *ou*, *oi*,
-*au / eau*, *ch* und *gn*. Das ist die erste Seite. Du brauchst noch nichts vorher.
+Léa verrät ihm ein Geheimnis: Im Französischen schließen sich manche Buchstaben zu einem **Team** zusammen.
+Das Team klingt dann ganz anders als die einzelnen Buchstaben. Wer die fünf wichtigsten Teams kennt, kann schon viele Wörter lesen.
 
-### Neu: Buchstaben, die zusammen klingen
+**Danach kannst du:** die Teams *ou*, *oi*, *au / eau*, *ch* und *gn* erkennen und aussprechen, so wie Léa und Malik.
 
-Eine **Buchstabenverbindung** sind zwei oder drei Buchstaben, die zusammen einen einzigen Laut ergeben. Ein Laut
-ist das, was man hört. Im Französischen klingen manche Verbindungen anders, als du es vom Deutschen gewohnt bist.
+### Neu: Die fünf Buchstaben-Teams
 
-So klingen die fünf Buchstabenverbindungen:
-- Buchstaben | Klingt wie
-- ou | langes „u“ wie in „Mut“
-- oi | „ua“, schnell gesprochen
-- au, eau | „o“ wie in „Boot“
-- ch | „sch“ wie in „Schule“
-- gn | „nj“ wie in „Anja“
+- **Buchstabenverbindung**: Zwei oder drei Buchstaben, die zusammen einen einzigen Klang ergeben. Wir nennen sie hier „Buchstaben-Teams“.
 
-Hier siehst du zu jeder Verbindung zwei Wörter, die du gleich hörst und nachsprichst. Das kleine Wort davor
-(*le*, *la*) gehört dazu: Merke dir jedes Wort gleich mit ihm. Was *le* und *la* genau sind, lernst du auf Seite 6.
+Fünf Teams, ihr Klang und ein Beispiel:
+- Team | Klingt wie | Beispiel
+- ou | langes „u“ | nous = „nu“
+- oi | „ua“ | moi = „mua“
+- au, eau | „o“ | le gâteau = „le gato“
+- ch | „sch“ | le chat = „le scha“
+- gn | „nj“ | la montagne = „la montanje“
+
+Hier sind zu jedem Team zwei Wörter. Gleich sprichst du einige davon nach, die Hör-Knöpfe findest du im nächsten Abschnitt.
+Das kleine Wort davor (*le*, *la*) gehört zum Wort: Merke dir jedes Wort gleich mit ihm. Was *le* und *la* genau sind, erfährst du auf der Seite „Der bestimmte Artikel“.
 
 Beispielwörter mit ihrer Bedeutung:
-- Laut | Wort | Bedeutung
+- Team | Wort | Bedeutung
 - ou | le jour | der Tag
 - ou | la route | die Straße
 - oi | le soir | der Abend
@@ -82,20 +82,19 @@ Beispielwörter mit ihrer Bedeutung:
 
 **Merke: Merke**
 
-*ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Laut. *ch* klingt wie das deutsche „sch“,
-nicht wie „k“. Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *le chat* klingt wie „le scha“.
+*ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Klang. *ch* klingt wie das deutsche „sch“, nicht wie „k“.
+Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *le chat* klingt wie „le scha“.
+
+### Kurz geübt
+
+- Übung `ch-wie-k` (unten)
 
 ### Hören und nachsprechen
 
-Zuerst einzelne Wörter: Léa spricht *le jour*, *le gâteau* und *la montagne* vor, Malik *le soir* und *le chat*.
-Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang. Hör jedes Wort so oft, wie du magst.
+Léa und Malik sprechen vor: Léa sagt *le gâteau* und *la montagne*, Malik *le chat* und den Satz *Voici le chat.* (das heißt „Hier ist die Katze.“).
+Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
-
-Jetzt zwei kurze Sätze. Ein Satz klingt leichter, weil die Wörter ineinander übergehen. *Voici* heißt „hier ist“:
-*Voici le chat.* sagt Malik, *Voici la montagne.* sagt Léa.
-
-- Übung `sprechen-satz` (unten)
 
 ### Übung
 
@@ -107,47 +106,52 @@ Jetzt zwei kurze Sätze. Ein Satz klingt leichter, weil die Wörter ineinander �
 
 - Übung `woerter-uebersetzen` (unten)
 
+### Übung ch-wie-k
+
+- Aufgabe: Stimmt das? Das ch in le chat spricht man wie ein deutsches „k“.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Nein: ch klingt wie „sch“. Die Katze heißt also „le scha“, nicht „le kat“.
+- Link: [../?via=tutor#ch-wie-k](../?via=tutor#ch-wie-k)
+
 ### Übung sprechen-ueben
 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → le jour
-2. Audio → le soir
-3. Audio → le gâteau
-4. Audio → le chat
-5. Audio → la montagne
-- Tipp der App: Sprich langsam. Bei *ou* bleiben die Lippen rund wie bei „u“.
+1. Audio → le chat
+2. Audio → le gâteau
+3. Audio → la montagne
+4. Audio → Voici le chat.
+- Tipp der App: Sprich langsam. Bei ou bleiben die Lippen rund wie bei „u“. Ein ganzer Satz klingt leichter, weil die Wörter ineinander übergehen.
 - Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
-
-### Übung sprechen-satz
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → Voici le chat.
-2. Audio → Voici la montagne.
-- Tipp der App: Sprich den ganzen Satz in einem Zug, ohne zwischen den Wörtern abzusetzen.
-- Link: [../?via=tutor#sprechen-satz](../?via=tutor#sprechen-satz)
 
 ### Übung klang-zuordnen
 
-- Aufgabe: Ordne jeder Buchstabenverbindung ihren Klang zu.
+- Aufgabe: Welches Team klingt wie was? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: ou – langes „u“ (Mut); oi – „ua“ (schnell); au, eau – „o“ (Boot); ch – „sch“ (Schule); gn – „nj“ (Anja)
-- Erklärung: ou klingt wie ein langes „u“, oi wie „ua“ (schnell gesprochen), au und eau wie „o“, ch wie „sch“ und gn wie „nj“.
+- Lösung: ou – langes „u“ (Mut); oi – „ua“; au, eau – „o“ (Boot); ch – „sch“ (Schule); gn – „nj“ (Anja)
+- Erklärung: ou klingt wie ein langes „u“, oi wie „ua“, au und eau wie „o“, ch wie „sch“ und gn wie „nj“.
 - Link: [../?via=tutor#klang-zuordnen](../?via=tutor#klang-zuordnen)
 
 ### Übung buchstaben-waehlen
 
-- Aufgabe: Wähle die Buchstaben, die in die Lücke gehören.
+- Aufgabe: Welches Team fehlt? Wähle die Buchstaben.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
 1. die Straße → la route
+     - oi: oi klingt wie „ua“. In „la route“ hörst du aber ein langes „u“: Das ist ou.
+     - ch: ch klingt wie „sch“. In „la route“ hörst du ein „u“: Das ist ou.
 2. der Abend → le soir
+     - ou: ou klingt wie ein langes „u“. In „le soir“ hörst du „ua“: Das ist oi.
+     - gn: gn klingt wie „nj“. In „le soir“ hörst du „ua“: Das ist oi.
 3. die Katze → le chat
+     - gn: gn klingt wie „nj“. Die Katze beginnt mit „sch“: Das ist ch.
+     - ou: ou klingt wie ein langes „u“. Die Katze beginnt mit „sch“: Das ist ch.
 4. der Berg → la montagne
+     - ch: ch klingt wie „sch“. In „la montagne“ hörst du „nj“: Das ist gn.
+     - oi: oi klingt wie „ua“. In „la montagne“ hörst du „nj“: Das ist gn.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#buchstaben-waehlen](../?via=tutor#buchstaben-waehlen)
 
@@ -158,15 +162,16 @@ Jetzt zwei kurze Sätze. Ein Satz klingt leichter, weil die Wörter ineinander �
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → la route
-     - la rute: Der Laut „u“ schreibt man hier *ou*: la route.
+     - la rute: Das lange „u“ schreibt man hier ou: la route.
 2. Audio → la voiture
-     - la vuatur: „ua“ (schnell) schreibt man *oi*: la voiture.
+     - la vuatur: „ua“ schreibt man oi: la voiture.
 3. Audio → le bureau
-     - le buro: Der Laut „o“ am Ende schreibt man *eau*: le bureau.
+     - le buro: Der Klang „o“ am Ende schreibt man eau: le bureau.
 4. Audio → le chocolat
-     - le schocolat: „sch“ schreibt man im Französischen *ch*: le chocolat.
+     - le schocolat: „sch“ schreibt man im Französischen ch: le chocolat.
+     - la chocolat: chocolat ist männlich: le chocolat.
 5. Audio → la campagne
-     - la campanje: „nj“ schreibt man *gn*: la campagne.
+     - la campanje: „nj“ schreibt man gn: la campagne.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wort-hoeren](../?via=tutor#wort-hoeren)
@@ -179,11 +184,12 @@ Jetzt zwei kurze Sätze. Ein Satz klingt leichter, weil die Wörter ineinander �
 - Einträge (Vorgabe → Lösung):
 1. die Katze → le chat
      - chat: Das kleine Wort gehört dazu: le chat.
-     - le schat: „sch“ schreibt man *ch*: le chat.
+     - la chat: chat ist männlich: le chat.
+     - le schat: „sch“ schreibt man ch: le chat.
 2. der Abend → le soir
-     - le suar: „ua“ (schnell) schreibt man *oi*: le soir.
+     - le suar: „ua“ schreibt man oi: le soir.
 3. das Büro → le bureau
 4. der Kuchen → le gâteau
-     - le gato: Der Laut „o“ am Ende schreibt man *eau*: le gâteau.
+     - le gato: Der Klang „o“ am Ende schreibt man eau: le gâteau.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#woerter-uebersetzen](../?via=tutor#woerter-uebersetzen)

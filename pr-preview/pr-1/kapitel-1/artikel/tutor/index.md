@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=sprechen-ueben`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Übung die Nummer der Aufgabe, die das Kind gerade vor sich hat, z. B. `?uebung=artikel-vor-ecole`. Schlag die Nummern unten bei den Übungen nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Übung und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Übung, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/artikel/?via=tutor#sprechen-ueben`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Aufgabe hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/kapitel-1/artikel/?via=tutor#artikel-vor-ecole`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Für eine weitere Aufgabe nimm eine andere Nummer der Übung und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -43,83 +43,62 @@ Den bestimmten Artikel le, la, l' und les richtig vor ein Nomen setzen.
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (Mitte, blaue Jacke, Brille) stehen an einem Tisch. Auf dem Tisch liegen ein blauer Rucksack, Hefte, ein Buch, ein Stift und ein gelbes Federmäppchen. Bildunterschrift: Léa (links) und Malik (Mitte) packen die Schultasche. Auf dem Tisch liegen Heft, Federmäppchen, Buch und Stift.
+Bild: Léa (links, rote Jacke) und Malik (daneben, blaue Jacke, Brille) stehen an einem Tisch. Auf dem Tisch liegen eine blaue Tasche, ein Heft auf zwei Büchern, ein Stift und ein gelbes Federmäppchen. Rechts oben steht ein Schulhaus mit dem Schild ÉCOLE. Bildunterschrift: Léa (links) und Malik (daneben) packen die Schultasche. Auf dem Tisch liegen Heft, Bücher, Stift und Federmäppchen. Rechts oben siehst du die Schule.
 
-Du kennst *le chat* und *la montagne* von der ersten Seite. Das kleine Wort davor ist der **Artikel**: Es gehört zu jedem Nomen.
-Léa und Malik packen die Schultasche und benennen alles, was sie einpacken.
+Auf der Seite „Laut und Schrift“ hast du *le chat* und *la montagne* gesprochen. Da hast du dich vielleicht gefragt, warum vor jedem Wort ein *le* oder *la* steht.
+Jetzt kommst du dem Geheimnis auf die Spur: Léa und Malik packen die Schultasche, und jedes Ding bekommt sein kleines Wort.
 
-**Danach kannst du:** den bestimmten Artikel *le*, *la*, *l'* und *les* richtig vor ein Nomen setzen.
+**Danach kannst du:** das richtige kleine Wort (*le*, *la*, *l'* oder *les*) vor ein Nomen setzen, so wie Léa und Malik.
 
 ### Neu: le, la, l' und les
 
-Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst,
-hängt vom Nomen ab.
-
 - **Artikel**: Der Artikel ist das kleine Wort vor einem Nomen, im Deutschen „der“, „die“ oder „das“.
+
+- **Nomen**: Ein Nomen ist ein Wort für ein Ding, ein Tier oder eine Person, zum Beispiel „Heft“, „Katze“ oder „Léa“.
+
+Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst, hängt vom Nomen ab.
 
 Die vier Formen des bestimmten Artikels:
 - Artikel | Wort | Bedeutung
 - le | le cahier | das Heft
+- le | le livre | das Buch
 - le | le stylo | der Stift
+- le | le sac | die Tasche
 - la | la trousse | das Federmäppchen
-- la | la porte | die Tür
+- la | la table | der Tisch
 - l' | l'école | die Schule
 - l' | l'ami | der Freund
 - les | les livres | die Bücher
 - les | les stylos | die Stifte
 
 - **le** steht vor männlichen Nomen, **la** vor weiblichen.
-- **l'** steht statt *le* oder *la* vor einem Vokal (a, e, i, o, u) oder einem stummen h, zum Beispiel *l'école*.
-- **les** steht, wenn es mehrere gibt. Das Nomen bekommt dann meist ein *s*, das man nicht hört: *les livres*.
+- **l'** steht statt *le* oder *la* vor einem Vokal. Vokale sind a, e, i, o, u (auch mit Akzent, wie das é in *école*): *l'école*, *l'ami*.
+- **les** steht, wenn es mehrere gibt: *les livres* (die Bücher).
 
 **Merke: Merke**
 
-Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der ersten Seite.
+Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt, auch im Deutschen. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
+
+### Kurz geübt
+
+- Übung `artikel-vor-ecole` (unten)
 
 ### Hören und nachsprechen
 
-Zuerst einzelne Wörter: Léa spricht *le cahier*, *l'école* und *le stylo* vor, Malik *la trousse* und *les livres*.
-Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+Malik sagt *la trousse* und *les livres*, Léa sagt *l'école* und den Satz *Voici le cahier et la trousse.* (Hier sind das Heft und das Federmäppchen.)
+Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
 
-Jetzt zwei kurze Sätze: Léa sagt *Voici le cahier et la trousse.*, Malik sagt *Voici l'école et les livres.*
-Sprich beide Sätze in einem Zug.
-
-- Übung `sprechen-satz` (unten)
-
 ### Übung
 
-- Übung `artikel-vor-ecole` (unten)
+- Übung `nomen-zuordnen` (unten)
 
 - Übung `artikel-waehlen` (unten)
 
 - Übung `artikel-hoeren` (unten)
 
 - Übung `artikel-uebersetzen` (unten)
-
-### Übung sprechen-ueben
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → le cahier
-2. Audio → la trousse
-3. Audio → l'école
-4. Audio → les livres
-5. Audio → le stylo
-- Tipp der App: Sprich den Artikel und das Nomen zusammen, ohne Pause dazwischen.
-- Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
-
-### Übung sprechen-satz
-
-- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
-- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
-- Sätze:
-1. Audio → Voici le cahier et la trousse.
-2. Audio → Voici l'école et les livres.
-- Tipp der App: Sprich jeden Satz in einem Zug, ohne zwischen den Wörtern abzusetzen.
-- Link: [../?via=tutor#sprechen-satz](../?via=tutor#sprechen-satz)
 
 ### Übung artikel-vor-ecole
 
@@ -134,17 +113,44 @@ Sprich beide Sätze in einem Zug.
 - Erklärung: Vor einem Vokal wird le oder la zu l'. Darum l'école.
 - Link: [../?via=tutor#artikel-vor-ecole](../?via=tutor#artikel-vor-ecole)
 
+### Übung sprechen-ueben
+
+- Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
+- Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
+- Sätze:
+1. Audio → la trousse
+2. Audio → l'école
+3. Audio → les livres
+4. Audio → Voici le cahier et la trousse.
+- Tipp der App: Sprich den Artikel und das Nomen zusammen, ohne Pause dazwischen. Den Satz sprichst du in einem Zug.
+- Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
+
+### Übung nomen-zuordnen
+
+- Aufgabe: Léa packt die Tasche. Was bedeutet was?
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: le cahier – das Heft; le stylo – der Stift; la table – der Tisch; l'ami – der Freund; le sac – die Tasche
+- Erklärung: le cahier ist das Heft, le stylo der Stift, la table der Tisch, l'ami der Freund und le sac die Tasche.
+- Link: [../?via=tutor#nomen-zuordnen](../?via=tutor#nomen-zuordnen)
+
 ### Übung artikel-waehlen
 
 - Aufgabe: Wähle den passenden Artikel.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. das Heft → Le cahier
-2. das Federmäppchen → La trousse
-3. die Schule → L'école
-4. die Bücher → Les livres
-5. der Stift → Le stylo
+1. das Buch → Le livre
+     - La: livre ist männlich: le livre.
+     - L': livre beginnt mit einem Konsonanten (l). Das l' brauchst du nur vor einem Vokal: le livre.
+2. der Tisch → La table
+     - Le: table ist weiblich: la table.
+     - L': table beginnt mit einem Konsonanten (t). Das l' brauchst du nur vor einem Vokal: la table.
+3. der Freund → L'ami
+     - Le: ami beginnt mit einem Vokal (a): Vor einem Vokal wird le zu l': l'ami.
+     - La: ami beginnt mit einem Vokal (a): Vor einem Vokal wird la zu l': l'ami.
+4. die Stifte → Les stylos
+     - Le: Bei mehreren sagst du les: les stylos.
+     - La: Bei mehreren sagst du les: les stylos.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#artikel-waehlen](../?via=tutor#artikel-waehlen)
 
@@ -156,12 +162,10 @@ Sprich beide Sätze in einem Zug.
 - Einträge (Vorgabe → Lösung):
 1. Audio → le cahier
      - la cahier: cahier ist männlich: le cahier.
-2. Audio → la trousse
-     - le trousse: trousse ist weiblich: la trousse.
-3. Audio → l'école
-     - le école: Vor einem Vokal wird le zu l': l'école.
-4. Audio → les livres
-     - les livre: Bei mehreren steht das Nomen meist mit s: les livres.
+2. Audio → le stylo
+     - la stylo: stylo ist männlich: le stylo.
+3. Audio → le sac
+     - la sac: sac ist männlich: le sac.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#artikel-hoeren](../?via=tutor#artikel-hoeren)
@@ -172,11 +176,14 @@ Sprich beide Sätze in einem Zug.
 - Antwortformat: die ganze Antwort auf Französisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. das Heft → le cahier
-2. die Tür → la porte
-     - le porte: porte ist weiblich: la porte.
+1. das Buch → le livre
+     - la livre: livre ist männlich: le livre.
+2. der Tisch → la table
+     - le table: table ist weiblich: la table.
 3. die Schule → l'école
      - la école: Vor einem Vokal wird la zu l': l'école.
+     - le école: Vor einem Vokal wird le zu l': l'école.
 4. die Bücher → les livres
+     - les livre: Bei mehreren steht das Nomen meist mit s am Ende: les livres.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#artikel-uebersetzen](../?via=tutor#artikel-uebersetzen)
