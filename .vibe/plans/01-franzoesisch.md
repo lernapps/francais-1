@@ -51,6 +51,36 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Kein Ton-Prüfen: Nachsprechen bewerten die Kinder selbst, die App hört nicht zu.
 - Wörter: aus dem Grundwortschatz Französisch (https://lernapps.net/apps/map/franzoesisch/grundwortschatz/, 1930 Wörter, Stufe A1 zuerst), geprüft beim Schreiben der Seiten. Ein Wort außerhalb der Liste nur, wenn die Szene es braucht; es wird dort erklärt. Die Beispielwörter im Auftrag sind noch nicht geprüft.
 
+### Recherche (2026-11-12)
+
+**Lehrplan.** Kein Land und keine Schule genannt, deshalb KMK. Die KMK-Bildungsstandards „Erste Fremdsprache (Englisch/Französisch) für den Ersten Schulabschluss und den Mittleren Schulabschluss“ (Beschluss 2003/2004, i. d. F. vom 22.06.2023, https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2023/2023_06_22-Bista-ESA-MSA-ErsteFremdsprache.pdf) habe ich geöffnet und gelesen (verified). Sie gelten für Jahrgangsstufe 9 und 10, nicht für Richtstufe 5/6, und der Primarbereich ist im Dokument nur erwähnt. Für diese Stufe zitiere ich daher keine Einheit; die Lernlandkarte gibt Reihenfolge und Stufe vor.
+
+**Karte.** `franzoesisch` (explainerFocus competency, Status draft): Einheit-App `subject: franzoesisch`, eine Strangart pro Seite. Alle Kompetenzen der Karte sind bisher von keiner App geübt (Lücken).
+
+**Kompetenzen nach Kapitel (Kapitel 1, Seiten in dieser Reihenfolge, Ids der Karte):**
+1. `laut-und-schrift` (Aussprache, Schritt 1): Ich kann häufige Buchstabenverbindungen richtig aussprechen, zum Beispiel ou, oi, au, eau, ch und gn.
+2. `begruessen-und-vorstellen` (Wortschatz, Schritt 1): Ich kann mich begrüßen, verabschieden, vorstellen und fragen, wie es jemandem geht.
+3. `zahlen-bis-100` (Wortschatz, Schritt 1): Ich kann die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und quatre-vingt-dix.
+4. `subjektpronomen` (Grammatik, Schritt 1): Ich kann die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden.
+5. `verb-etre` (Grammatik, Schritt 2): Ich kann das Verb être im Präsens konjugieren und damit Personen und Dinge vorstellen (c’est, il est).
+6. `bestimmter-artikel` (Grammatik, Schritt 1): Ich kann den bestimmten Artikel le, la, l’ und les richtig vor ein Nomen setzen.
+7. `verb-avoir` (Grammatik, Schritt 2): Ich kann das Verb avoir im Präsens konjugieren und Wendungen wie il y a und j’ai 13 ans verwenden.
+
+Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstellen, laut-und-schrift, bestimmter-artikel haben keine; subjektpronomen hat keine; verb-etre und verb-avoir verlangen subjektpronomen (steht auf Seite 4, vor 5 und 7). Alle Voraussetzungen sind in der App geübt, deshalb keine Wiederholungsseite und kein `ahead`.
+
+**Didaktik, eine Zeile je Kompetenz:**
+- laut-und-schrift: Kinder hören ein Wort, sehen die Buchstaben und ordnen den Laut zu; sie leiten die Regel aus gehörten Beispielen ab (ou, oi, eau, ch, gn). Typischer Fehler: Buchstaben wie im Deutschen lesen (ou als „o-u“, ch als „k“).
+- begruessen-und-vorstellen: Kurze Dialoge hören, ordnen und nachsprechen; je m’appelle als feste Wendung. Typischer Fehler: „je appelle“ ohne m’.
+- zahlen-bis-100: Zahlen hören und tippen; die Bildung von 70–99 wird aus 60/20 abgeleitet. Typischer Fehler: soixante-dix als „sechzig-zehn“ nicht erkennen, quatre-vingts mit s/ohne s.
+- subjektpronomen: Pronomen zu Personen und Bildern zuordnen. Typischer Fehler: il/elle bei Dingen, tu/vous (Höflichkeit), on als „wir“.
+- verb-etre: Tabelle der Formen, Satz ergänzen; c’est/il est für Personen. Typischer Fehler: je es, tu suis.
+- bestimmter-artikel: Geschlecht lernen und l’ vor Vokal; Nomen zu le/la/l’/les zuordnen. Typischer Fehler: Geschlecht vom Deutschen übertragen, Plural-s nicht hören.
+- verb-avoir: Formen der Tabelle, Alter mit avoir (j’ai 11 ans). Typischer Fehler: „je suis 11 ans“.
+
+**Umfang.** Drin: Kapitel 1 mit 7 Seiten, deutsche Erklärungen, französische Beispiele, Hören und Nachsprechen auf mindestens den Seiten 1–3 (weitere, wo es passt), Zahlen bis 100, erste Verbformen von être und avoir. Draußen: unbestimmter Artikel, Possessiv, Verneinung, Fragen, weitere Verben (spätere Kapitel); automatische Sprechprüfung (geht nicht). Sprache: Deutsch (Erklärungen), Französisch (Beispiele); kein Englisch.
+
+**Quellen.** Wörter: Grundwortschatz Französisch (https://lernapps.net/apps/map/franzoesisch/grundwortschatz/, geöffnet, 200). Zweitquellen, geöffnet und geladen: Wikipedia „Französische Sprache“ mit Abschnitt zur Aussprache (https://de.wikipedia.org/wiki/Französische_Phonologie leitet dorthin um; Titel der Seite: „Französische Sprache“) und „Französische Grammatik“ (https://de.wikipedia.org/wiki/Französische_Grammatik), Lizenz CC BY-SA 4.0 laut Seite; nur Fakten, keine Sätze. Keine Videos: ich habe keine gesucht und keines geprüft; das bleibt offen. Nicht geprüft: Aussprache einzelner Wörter durch eine Person mit Französisch-Kenntnissen (vor der Veröffentlichung nötig); Zahlwörter und Verbformen werden beim Schreiben gegen die Wikipedia-Seiten und den Grundwortschatz abgeglichen.
+
 ## Explore
 
 <!--
@@ -124,6 +154,11 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 <!-- YAML valid against the entry schema, with its property names. Only known values, never invented. -->
 
 ```yaml
+title: Bonjour, Léa und Malik!
+subject: franzoesisch
+grades: [5, 6]
+summary: Léa und Malik begleiten Kinder durch einen Schultag auf Französisch. Sie hören, sprechen nach und üben Aussprache, Begrüßen, Zahlen, être, Artikel und avoir.
+keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 ```
 
 ### Completed
