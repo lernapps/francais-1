@@ -1,0 +1,176 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das Verb être
+description: Das Verb être im Präsens konjugieren und damit Personen und Dinge vorstellen (c'est, il est).
+competencies: [verb-etre]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-etre.svg
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen neben einem großen Foto an der Wand. Auf dem Foto sind die beiden und eine Katze zu sehen.
+        caption: Léa (links) zeigt Malik (rechts) ein Foto von ihnen beiden und der Katze.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Auf der letzten Seite hast du die Pronomen gelernt. Jetzt kommt das wichtigste Verb dazu: *être*, auf Deutsch „sein“.
+          Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind.
+
+          **Danach kannst du:** *être* mit allen Pronomen verwenden und mit *c'est* und *il est* sagen, wer oder was etwas ist.
+  - type: section
+    id: neu
+    title: "Neu: So lautet être"
+    blocks:
+      - type: table
+        caption: être im Präsens („sein“)
+        header: [Pronomen, Form]
+        rows:
+          - ["je", "suis"]
+          - ["tu", "es"]
+          - ["il / elle / on", "est"]
+          - ["nous", "sommes"]
+          - ["vous", "êtes"]
+          - ["ils / elles", "sont"]
+      - type: text
+        text: |
+          Mit *être* stellst du Personen und Dinge vor:
+          *C'est Léa.* heißt „Das ist Léa.“ und *C'est le chat.* heißt „Das ist die Katze.“
+          Mit *il est* und *elle est* sagst du etwas über jemanden, zum Beispiel wo er oder sie ist: *Il est ici.* (Er ist hier.) und
+          *Nous sommes à l'école.* (Wir sind in der Schule.)
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Lerne jede Form mit dem Pronomen davor: *je suis*, *tu es*, *il est*. Zu *nous* gehört *sommes*, zu *vous* gehört *êtes*,
+              zu *ils* und *elles* gehört *sont*.
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Zuerst einzelne Sätze: Léa spricht *Je suis Léa.*, *Il est ici.* und *Nous sommes à l'école.* vor, Malik *Tu es Malik.*
+          und *C'est le chat.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: je-suis-lea.mp3
+            text: Je suis Léa.
+          - audio: tu-es-malik.mp3
+            text: Tu es Malik.
+          - audio: il-est-ici.mp3
+            text: Il est ici.
+          - audio: nous-sommes-a-lecole.mp3
+            text: Nous sommes à l'école.
+          - audio: cest-le-chat.mp3
+            text: C'est le chat.
+        hint: "Sprich die Formen von être langsam und deutlich nach."
+      - type: text
+        text: |
+          Jetzt zwei kurze Sätze hintereinander: Malik sagt *C'est Malik. Il est ici.* und Léa sagt *C'est Léa. Elle est ici.*
+          Sprich beide in einem Zug.
+      - type: speaking-task
+        id: sprechen-satz
+        language: fr
+        items:
+          - audio: cest-malik-il-est-ici.mp3
+            text: C'est Malik. Il est ici.
+          - audio: cest-lea-elle-est-ici.mp3
+            text: C'est Léa. Elle est ici.
+        hint: "Sprich beide kurzen Sätze ohne Pause zwischen den Wörtern."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: formen-zuordnen
+        text: Welche Form von être gehört zu welchem Pronomen?
+        pairs:
+          - { left: je, right: suis }
+          - { left: tu, right: es }
+          - { left: nous, right: sommes }
+          - { left: vous, right: êtes }
+          - { left: ils, right: sont }
+        distractors: [est]
+        explanation: "je suis, tu es, nous sommes, vous êtes, ils sont. Die Form est gehört zu il, elle und on."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+      - type: language-task
+        id: etre-formen
+        languages: { source: de, target: fr }
+        mode: table
+        task: Schreibe die fehlenden Formen von être.
+        form: { case: hint }
+        table:
+          caption: être · présent
+          header: [Pronomen, Form]
+          rows:
+            - [je, "[suis]"]
+            - [tu, "[es]"]
+            - [il / elle, "[est]"]
+            - [nous, "[sommes]"]
+            - [vous, "[êtes]"]
+            - [ils / elles, "[sont]"]
+      - type: language-task
+        id: etre-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle die passende Form von être.
+        items:
+          - source: Ich bin Malik.
+            target: "Je [suis] Malik."
+            distractors: [[es, est]]
+          - source: Du bist hier.
+            target: "Tu [es] ici."
+            distractors: [[suis, est]]
+          - source: Léa ist hier.
+            target: "Léa [est] ici."
+            distractors: [[es, sont]]
+          - source: Wir sind in der Schule.
+            target: "Nous [sommes] à l'école."
+            distractors: [[êtes, sont]]
+      - type: language-task
+        id: etre-hoeren
+        languages: { source: de, target: fr }
+        task: Höre den Satz und schreibe ihn auf. Du kannst ihn so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: je-suis-malik.mp3
+            target: Je suis Malik.
+            mistakes:
+              - answer: Je es Malik.
+                message: "Zu je gehört suis: je suis."
+          - audio: nous-sommes-a-lecole.mp3
+            target: Nous sommes à l'école.
+            mistakes:
+              - answer: Nous êtes à l'école.
+                message: "Zu nous gehört sommes: nous sommes. êtes gehört zu vous."
+          - audio: cest-le-chat.mp3
+            target: C'est le chat.
+            mistakes:
+              - answer: Cest le chat.
+                message: "Der Apostroph gehört dazu: c'est."
+      - type: language-task
+        id: etre-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe den Satz auf Französisch.
+        form: { punctuation: ok }
+        items:
+          - source: Ich bin Léa.
+            target: Je suis Léa.
+            mistakes:
+              - answer: Je es Léa.
+                message: "Zu je gehört suis: je suis."
+          - source: Du bist hier.
+            target: Tu es ici.
+            mistakes:
+              - answer: Tu suis ici.
+                message: "Zu tu gehört es: tu es."
+          - source: Wir sind in der Schule.
+            target: Nous sommes à l'école.
+          - source: Das ist die Katze.
+            target: C'est le chat.

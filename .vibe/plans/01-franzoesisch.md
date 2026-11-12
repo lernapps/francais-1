@@ -45,6 +45,7 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Ein Kapitel `kapitel-1` mit sieben Seiten; Dateinamen `src/kapitel-1/<seite>.yaml`.
 - Ton nach dem Anhören (Ersteller): Wörter immer mit Artikel (le/la), dazu kurze Sätze („Voici le chat.“) als zweite Stufe des Nachsprechens; Einzelwörter ohne Artikel klangen schlecht.
 - Zwei Stimmen (Wunsch des Erstellers): Léa spricht `ff_siwis` (weiblich), Malik `pierre` (männlich); Sätze ohne Sprecher (Wörter, Zahlen, Buchstabenverbindungen) mit `ff_siwis`. Freigabe der Aufnahmen durch den Ersteller vor der Veröffentlichung.
+- Abweichungen beim Bau (guess): Seite 5 zeigt ein Foto von Léa, Malik und der Katze statt eines Familienfotos (Familie und „mon/ma“ gehören in ein späteres Kapitel); Seite 7 nennt „il y a un chat“ als feste Wendung, „un“ wird später erklärt; Seite 4 benutzt „s'appelle“ und „jouer au foot“ als feste Wendungen, damit die Pronomen ein Verb haben.
 - Selbsteinschätzung des Kapitels: ja, in Commit (guess); Nachsprech-Aufgaben zählen dort nicht.
 
 ## Notes
@@ -252,7 +253,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
 - [x] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
 - [x] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
-- [ ] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
+- [x] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
 - [ ] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
 - [ ] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.
 - [ ] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
