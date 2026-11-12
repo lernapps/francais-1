@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit. Change the value line below, never this comment.
-phase: code
+phase: commit
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
@@ -57,6 +57,10 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Kein Ton-Prüfen: Nachsprechen bewerten die Kinder selbst, die App hört nicht zu.
 - Wörter: aus dem Grundwortschatz Französisch (https://lernapps.net/apps/map/franzoesisch/grundwortschatz/, 1930 Wörter, Stufe A1 zuerst), geprüft beim Schreiben der Seiten. Ein Wort außerhalb der Liste nur, wenn die Szene es braucht; es wird dort erklärt. Die Beispielwörter im Auftrag sind noch nicht geprüft.
 
+### Prüfung der Seiten im Browser (Code)
+
+Startseite, Seite 1 und Seite 3 habe ich als Bilder angesehen; alle sieben Seiten wurden bei 1280 px und 360 px im Browser gemessen und geprüft: kein seitliches Überlaufen, Tabellen passen, Bilder laden, Audiodateien sind erreichbar, keine Skriptfehler. Die Seiten 2, 4, 5, 6 und 7 habe ich nicht einzeln als Bild angesehen. Hören konnte ich die Aufnahmen nicht; der Ersteller hat die von Seite 1 gehört. Die Aufnahmen der Seiten 2 bis 7 sind noch nicht freigegeben.
+
 ### Recherche (2026-11-12)
 
 **Lehrplan.** Kein Land und keine Schule genannt, deshalb KMK. Die KMK-Bildungsstandards „Erste Fremdsprache (Englisch/Französisch) für den Ersten Schulabschluss und den Mittleren Schulabschluss“ (Beschluss 2003/2004, i. d. F. vom 22.06.2023, https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2023/2023_06_22-Bista-ESA-MSA-ErsteFremdsprache.pdf) habe ich geöffnet und gelesen (verified). Sie gelten für Jahrgangsstufe 9 und 10, nicht für Richtstufe 5/6, und der Primarbereich ist im Dokument nur erwähnt. Für diese Stufe zitiere ich daher keine Einheit; die Lernlandkarte gibt Reihenfolge und Stufe vor.
@@ -104,7 +108,7 @@ Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstelle
       the folder was not started with `init`. `git branch --show-current` prints `work`; else `git switch -c work`.
 - [x] Load skill `lernapps-app`. Tell the creator in two sentences what a lernapps app is and where it will live: at
       their own address, free, public, and once listed as a copy on lernapps.net. The technical part (GitHub) comes at the end, and you do it.
-- [ ] Interview: ask the topics "Goal" and "Learners" of "Answers".
+- [x] Interview: ask the topics "Goal" and "Learners" of "Answers".
 - [x] No fixed content yet ("an app for my class", "a gap on the map") → load skill `lernapps-map-assignment` and
       write its assignment first; its yes answers the topics it covers.
 - [x] Load skill `lernapps-exercise-patterns` and read the patterns of the subject: how will learners practise what
@@ -256,15 +260,15 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
 - [x] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
 - [x] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.
-- [ ] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
-- [ ] The content guide matches what was built (`app-content-matches`).
-- [ ] `npx --no -- lernapps check` passes.
-- [ ] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
+- [x] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
+- [x] The content guide matches what was built (`app-content-matches`).
+- [x] `npx --no -- lernapps check` passes.
+- [x] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
       each with the confirmed sketches; each figure in its own image (`npx --no -- lernapps screenshots --desktop`).
       Your tools cannot show an image: check each screen in the browser instead (text, element boxes at both widths),
       write that under "Notes" and tick the box.
-- [ ] Every box of Explore, Plan and Code ticked.
-- [ ] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
+- [x] Every box of Explore, Plan and Code ticked.
+- [x] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
       No checkpoint here: set it before you ask or report anything, then start Commit in the same message.
       The creator asked to stop before publishing (e.g. a trial) → stop instead: leave this box open, the reason
       under it.
@@ -283,7 +287,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: commit`; else set it.
+- [x] `grep '^phase:'` prints `phase: commit`; else set it.
 - [ ] An explainer: load skill `lernapps-explainer-self-assessment` (missing → `npx --no -- lernapps skills --archetype
       explainer`). Add the self-assessment as it says, or
       write under "Key decisions" why the app has none. Commit; the hooks check.
