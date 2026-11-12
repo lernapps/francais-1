@@ -1,0 +1,211 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Der bestimmte Artikel
+description: "Das kleine Wort vor dem Nomen: le, la, l' und les richtig benutzen."
+competencies: [bestimmter-artikel]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-artikel.svg
+        alt: Léa (links, rote Jacke) und Malik (daneben, blaue Jacke, Brille) stehen an einem Tisch. Auf dem Tisch liegen eine blaue Tasche, ein Heft auf zwei Büchern, ein Stift und ein gelbes Federmäppchen. Rechts oben steht ein Schulhaus mit dem Schild ÉCOLE.
+        caption: Léa (links) und Malik (daneben) packen die Schultasche. Auf dem Tisch liegen Heft, Bücher, Stift und Federmäppchen. Rechts oben siehst du die Schule.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Auf der Seite „Laut und Schrift“ hast du *le chat* und *la montagne* gesprochen. Da hast du dich vielleicht gefragt, warum vor jedem Wort ein *le* oder *la* steht.
+          Jetzt kommst du dem Geheimnis auf die Spur: Léa und Malik packen die Schultasche, und jedes Ding bekommt sein kleines Wort.
+
+          **Danach kannst du:** das richtige kleine Wort (*le*, *la*, *l'* oder *les*) vor ein Nomen setzen, so wie Léa und Malik.
+  - type: section
+    id: neu
+    title: "Neu: le, la, l' und les"
+    blocks:
+      - type: definition
+        term: Artikel
+        explanation: Der Artikel ist das kleine Wort vor einem Nomen, im Deutschen „der“, „die“ oder „das“.
+      - type: definition
+        term: Nomen
+        explanation: Ein Nomen ist ein Wort für ein Ding, ein Tier oder eine Person, zum Beispiel „Heft“, „Katze“ oder „Léa“.
+      - type: definition
+        term: Vokal
+        explanation: Ein Vokal ist ein Selbstlaut, also a, e, i, o oder u (im Französischen auch mit Akzent, zum Beispiel é).
+      - type: definition
+        term: männlich und weiblich
+        explanation: Jedes Nomen im Französischen ist männlich (dann steht le davor) oder weiblich (dann steht la davor). Das passt nicht immer zum Deutschen. la table ist „der Tisch“, le sac ist „die Tasche“.
+      - type: text
+        text: |
+          Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst, hängt vom Nomen ab.
+      - type: table
+        caption: Die vier Formen des bestimmten Artikels
+        header: [Artikel, Wort, Bedeutung]
+        rows:
+          - ["le", "le cahier", "das Heft"]
+          - ["le", "le livre", "das Buch"]
+          - ["le", "le stylo", "der Stift"]
+          - ["le", "le sac", "die Tasche"]
+          - ["la", "la trousse", "das Federmäppchen"]
+          - ["la", "la table", "der Tisch"]
+          - ["l'", "l'école", "die Schule"]
+          - ["l'", "l'ami", "der Freund"]
+          - ["les", "les livres", "die Bücher"]
+          - ["les", "les stylos", "die Stifte"]
+      - type: text
+        text: |
+          - **le** steht vor männlichen Nomen, **la** vor weiblichen.
+          - **l'** steht statt *le* oder *la* vor einem Vokal. Vokale sind a, e, i, o, u (auch mit Akzent, wie das é in *école*): *l'école*, *l'ami*.
+          - **les** steht, wenn es mehrere gibt: *les livres* (die Bücher).
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt. Es muss auch nicht zum Deutschen passen: *la table* ist „der Tisch“ und *le sac* ist „die Tasche“. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
+  - type: section
+    id: kurz-geuebt
+    title: Kurz geübt
+    blocks:
+      - type: single-choice
+        id: artikel-vor-ecole
+        text: Welcher Artikel steht vor école?
+        options:
+          - { text: "l'", correct: true, info: "Richtig: école beginnt mit einem Vokal, darum l'école." }
+          - { text: le, correct: false, info: "le steht vor männlichen Nomen. Vor einem Vokal wird daraus l'." }
+          - { text: la, correct: false, info: "la steht vor weiblichen Nomen. Vor einem Vokal wird daraus l'." }
+          - { text: les, correct: false, info: "les steht bei mehreren. école ist eine einzelne Schule." }
+        explanation: "Vor einem Vokal wird le oder la zu l'. Darum l'école."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Malik sagt *la trousse* und *les livres*, Léa sagt *l'école* und den Satz *Voici le cahier et la trousse.* (Hier sind das Heft und das Federmäppchen.)
+          Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: la-trousse.mp3
+            text: la trousse
+          - audio: lecole.mp3
+            text: l'école
+          - audio: les-livres.mp3
+            text: les livres
+          - audio: voici-le-cahier-et-la-trousse.mp3
+            text: Voici le cahier et la trousse.
+        hint: "Sprich den Artikel und das Nomen zusammen, ohne Pause dazwischen. Den Satz sprichst du in einem Zug."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: nomen-zuordnen
+        text: Léa packt die Tasche. Was bedeutet was?
+        pairs:
+          - { left: le cahier, right: das Heft }
+          - { left: le stylo, right: der Stift }
+          - { left: la table, right: der Tisch }
+          - { left: l'ami, right: der Freund }
+          - { left: le sac, right: die Tasche }
+        explanation: "le cahier ist das Heft, le stylo der Stift, la table der Tisch, l'ami der Freund und le sac die Tasche."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+      - type: language-task
+        id: artikel-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle den passenden Artikel.
+        items:
+          - source: das Heft
+            target: "[Le] cahier"
+            distractors: [[La, "L'"]]
+            mistakes:
+              - answer: La
+                message: "cahier ist männlich: le cahier."
+              - answer: "L'"
+                message: "cahier beginnt mit dem Buchstaben c, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: le cahier."
+          - source: der Berg
+            target: "[La] montagne"
+            distractors: [[Le, "L'"]]
+            mistakes:
+              - answer: Le
+                message: "montagne ist weiblich: la montagne. Auch hier passt das Deutsche nicht: der Berg."
+              - answer: "L'"
+                message: "montagne beginnt mit dem Buchstaben m, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: la montagne."
+          - source: der Freund
+            target: "[L']ami"
+            distractors: [[Le, La]]
+            mistakes:
+              - answer: Le
+                message: "ami beginnt mit einem Vokal (a): Vor einem Vokal wird le zu l': l'ami."
+              - answer: La
+                message: "ami beginnt mit einem Vokal (a): Vor einem Vokal wird la zu l': l'ami."
+          - source: die Stifte
+            target: "[Les] stylos"
+            distractors: [[Le, La]]
+            mistakes:
+              - answer: Le
+                message: "Bei mehreren sagst du les: les stylos."
+              - answer: La
+                message: "Bei mehreren sagst du les: les stylos."
+      - type: language-task
+        id: artikel-hoeren
+        languages: { source: de, target: fr }
+        task: Höre das Wort mit Artikel und schreibe es auf. Du kannst es so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: le-cahier.mp3
+            target: le cahier
+            mistakes:
+              - answer: la cahier
+                message: "cahier ist männlich: le cahier."
+              - answer: cahier
+                message: "Das kleine Wort gehört dazu: le cahier."
+          - audio: le-bureau.mp3
+            target: le bureau
+            mistakes:
+              - answer: la bureau
+                message: "bureau ist männlich: le bureau."
+              - answer: bureau
+                message: "Das kleine Wort gehört dazu: le bureau."
+          - audio: la-campagne.mp3
+            target: la campagne
+            mistakes:
+              - answer: le campagne
+                message: "campagne ist weiblich: la campagne."
+              - answer: campagne
+                message: "Das kleine Wort gehört dazu: la campagne."
+      - type: language-task
+        id: artikel-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe das französische Wort mit seinem Artikel.
+        items:
+          - source: das Buch
+            target: le livre
+            mistakes:
+              - answer: la livre
+                message: "livre ist männlich: le livre."
+          - source: der Berg
+            target: la montagne
+            mistakes:
+              - answer: le montagne
+                message: "montagne ist weiblich: la montagne."
+              - answer: montagne
+                message: "Das kleine Wort gehört dazu: la montagne."
+          - source: die Schule
+            target: l'école
+            mistakes:
+              - answer: la école
+                message: "Vor einem Vokal wird la zu l': l'école."
+              - answer: le école
+                message: "Vor einem Vokal wird le zu l': l'école."
+          - source: die Bücher
+            target: les livres
+            mistakes:
+              - answer: les livre
+                message: "Bei mehreren steht das Nomen meist mit s am Ende: les livres."

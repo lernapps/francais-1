@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="sans-serif" font-size="14">
+  <title>Figuren: Léa und Malik (Skizze)</title>
+  <rect width="640" height="300" fill="#fff"/>
+  <text x="20" y="28" font-size="18" font-weight="bold">Léa und Malik – fest für alle Seiten</text>
+  <!-- Léa: Kopf und weicher Torso, kein Hals, keine Arme -->
+  <g transform="translate(70,50)" stroke="#333" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#d33"/>
+    <path d="M50 88 L50 150" stroke="#a22"/>
+    <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+    <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/>
+    <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+    <path d="M42 68 Q50 75 58 68" fill="none"/>
+  </g>
+  <text x="76" y="270" font-weight="bold">Léa, 11</text>
+  <text x="20" y="290" font-size="12">kurze braune Haare, rote Jacke</text>
+  <!-- Malik -->
+  <g transform="translate(400,50)" stroke="#333" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a6fd8"/>
+    <path d="M26 100 C22 130 24 156 30 170" stroke="#244a9a" stroke-width="5" fill="none"/>
+    <ellipse cx="50" cy="54" rx="30" ry="32" fill="#c68f62"/>
+    <path d="M18 54 Q10 22 30 14 Q40 6 52 12 Q72 6 82 22 Q92 40 82 54 Q80 34 62 28 Q40 34 22 42 Z" fill="#222"/>
+    <circle cx="39" cy="57" r="8" fill="none"/><circle cx="61" cy="57" r="8" fill="none"/><path d="M47 57 L53 57" fill="none"/>
+    <circle cx="39" cy="57" r="2.5" fill="#222"/><circle cx="61" cy="57" r="2.5" fill="#222"/>
+    <path d="M42 70 Q50 77 58 70" fill="none"/>
+  </g>
+  <text x="406" y="270" font-weight="bold">Malik, 11</text>
+  <text x="350" y="290" font-size="12">schwarze Locken, Brille, blauer Rucksack (Träger)</text>
+</svg>
