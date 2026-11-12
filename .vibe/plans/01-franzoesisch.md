@@ -247,7 +247,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
       `open-task` or the creator's material: then `scope` in `src/app.yaml` and on every page
       (`explainer-scope-matches`). Write the choice under "Key decisions".
 - [x] Seite 1 `laut-und-schrift` (Muster-Seite) komplett: Szene, Tabelle, Hör-Diktat, Nachsprechen, Übung. Vorher dem Ersteller sagen, was das Audio-Werkzeug braucht (0,6 GB Download, Netz für pypi.org, files.pythonhosted.org, github.com, huggingface.co), die Stimme wählen lassen (`ff_siwis` weiblich oder `pierre` männlich) und auf das Ja warten; die Sätze vom Ersteller (oder jemandem mit Französisch) anhören lassen. Commit auf `work`.
-- [ ] **Checkpoint:** the pattern page (`early-preview`): check it against the design rules, let a sub-agent check
+- [x] **Checkpoint:** the pattern page (`early-preview`): check it against the design rules, let a sub-agent check
       it as a learner, show it to the creator, wait for the answer. A change → change the pattern first.
 - [ ] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
 - [ ] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
