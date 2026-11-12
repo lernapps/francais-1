@@ -5,59 +5,106 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-<!--
-Skeleton. Delete this comment when you fill the guide.
-- When: after the plan is confirmed, before any content. Replace every placeholder comment below; none may remain
-  (`lernapps check`, rule app-content-guide, fails once the plan is in Commit).
-- Keep the headings.
-- Concrete, for an agent without your conversation: files, ids, data files, one example.
-  - No: "Use varied exercises with figures where they help."
-  - Yes: "Every page ends with section `uebung`: one `generated` exercise of pattern 'Ohmsches Gesetz' from
-    `src/data/widerstaende.yaml`, one `matching` of symbols and parts."
-- Content decision changes → update this file in the same commit.
-- Public: no personal data, no goals of one learner.
--->
+Explainer "Bonjour, Léa und Malik!" für Französisch, Richtstufe 5/6 (Anfang 1. Lernjahr), eine Einheit-App
+(`subject: franzoesisch` in `src/app.yaml`, format 2, `languages: [de]`). Kein `scope` (kein `open-task`, kein Material des
+Erstellers). Ton: Ja, mit KI-Stimme, siehe „Exercise patterns“.
 
 ## Curriculum
 
-<!-- FILL IN: Land, Schulform, Jahrgang; orientation (Lehrplan: document, issuer, year, address, page and unit per
-part; welcome, not required); where the creator's material differs, and which one the app follows. -->
+- Land und Schulform unbekannt, Richtstufe 5/6. Orientierung: die Lernlandkarte `https://lernapps.net/apps/map/franzoesisch.json`
+  (Reihenfolge nach `requires`, Richtstufe 5-6, Stufe 1 und 2). Der Lehrplan ersetzt das nicht.
+- KMK-Bildungsstandards Erste Fremdsprache (2003/2004, i. d. F. 22.06.2023) gelten für Klasse 9/10, nicht für 5/6; geöffnet,
+  keine Einheit zitiert.
+- Das Material des Erstellers (nicht vorhanden) hätte Vorrang vor der Karte.
 
 ## Competencies
 
-<!-- FILL IN: every competency as "Ich kann …", grouped by chapter; per competency: page or round (file, id),
-exercise ids. -->
+Ein Kapitel `kapitel-1` „Bonjour, Léa und Malik!“, sieben Seiten, je eine Kompetenz der Karte (Ids der Karte, Wortlaut nicht ändern).
+Datei `src/kapitel-1/<seite>.yaml`; die Seite nennt `competencies: [<id>]`.
+
+| Seite (Datei) | Id der Karte | Strang | Ich kann … |
+|---|---|---|---|
+| `laut-und-schrift` | `laut-und-schrift` | aussprache | häufige Buchstabenverbindungen richtig aussprechen, z. B. ou, oi, au, eau, ch und gn |
+| `begruessen` | `begruessen-und-vorstellen` | wortschatz | mich begrüßen, verabschieden, vorstellen und fragen, wie es jemandem geht |
+| `zahlen` | `zahlen-bis-100` | wortschatz | die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und quatre-vingt-dix |
+| `pronomen` | `subjektpronomen` | grammatik | die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden |
+| `etre` | `verb-etre` | grammatik | être im Präsens konjugieren und damit Personen und Dinge vorstellen (c’est, il est) |
+| `artikel` | `bestimmter-artikel` | grammatik | den bestimmten Artikel le, la, l’ und les richtig vor ein Nomen setzen |
+| `avoir` | `verb-avoir` | grammatik | avoir im Präsens konjugieren und Wendungen wie il y a und j’ai 13 ans verwenden |
+
+Reihenfolge der Seiten wie in der Tabelle (`pages` in `chapter.yaml`); jede Voraussetzung (`requires`) steht auf einer früheren Seite,
+kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ein Strang.
 
 ## Content structure
 
-<!-- FILL IN: how a chapter, page or round is built: sections or question groups in order, ids or titles, what
-each holds; length. -->
+- Jede Seite besteht aus `section`-Blöcken mit festen Ids, in dieser Reihenfolge, ein nicht gebrauchter Abschnitt fällt weg:
+  1. `einstieg` – „Worum es geht“: Szene (`figure`, `image: images/szene-<seite>.svg`), zwei bis drei Sätze Situation mit Léa und Malik,
+     dann Ziel in der Form „Danach kannst du …“ und woran die Seite anknüpft.
+  2. `neu` – Titel nach Inhalt („Neu: …“): Tabelle (`table`), kurze Erklärung, jedes neue Wort mit Bedeutung; ein `note` für den häufigsten Fehler.
+  3. `nachsprechen` – Titel „Hören und nachsprechen“: ein `speaking-task` (nur Seiten mit Ton).
+  4. `uebung` – „Übung“: leicht → schwer: 1 Quizblock (`single-choice` oder `matching`), 2 `language-task` Lücke/Auswahl,
+     3 `language-task` mit `audio` (Diktat oder Hören), 4 `language-task` Übersetzen.
+- Länge: Erklärung höchstens 6 kurze Sätze, Tabellen höchstens 8 Zeilen, Übung 4 bis 6 Aufgaben mit je 3 bis 8 Items.
+- Kapitelseite: Titel „Bonjour, Léa und Malik!“, `summary` in einem Satz. Startseite (`src/app.yaml`): `intro` stellt Léa und Malik vor.
+- Geschichte: Léa (11, kurze braune Haare, rote Jacke) lebt in einer kleinen Stadt in Frankreich, Malik (11, schwarze Locken, Brille, blauer
+  Rucksack) ist neu in ihrer Klasse; sie sind eine Szene pro Seite: 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer
+  (Alter, Hausnummer), 4 Fußballtraining, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer. Nur erfundene Figuren, keine Marken, keine Figuren
+  aus Büchern, Filmen oder Spielen.
 
 ## Terminology
 
-<!-- FILL IN: terms used and avoided (why); units, notation; how learners are addressed; glossary terms with
-wording. -->
+- Anrede der Kinder: „du“ durchgehend. Kurze Sätze, Sachen aus dem Alltag von Elf- bis Zwölfjährigen.
+- Verwendet: „Seite“, „Übung“, „Hören“, „Nachsprechen“, „Merke“ (für `note`), „Wort“, „Verb“, „Artikel“ (die Begriffe der Grammatik erklären, bevor sie gebraucht werden).
+- Vermieden: Lautschrift und Fachwörter ohne Erklärung (z. B. „Nasal“, „Liaison“, „Subjekt“) auf diesen Seiten.
+- Wörter: aus dem Grundwortschatz Französisch (Stufe A1, `https://lernapps.net/apps/map/franzoesisch/grundwortschatz/`); ein Wort außerhalb nur,
+  wenn die Szene es braucht, und es wird dort mit Bedeutung erklärt. Jedes Wort mit Bedeutung stehen, bevor eine Übung danach fragt.
+- Französisch: Akzente und Apostroph wie geschrieben (m’appelle, l’école); im YAML Texte mit `:` oder `'` am Anfang in Anführungszeichen.
+- Glossar: Begriffe als `definition`-Block, nur wo gebraucht (z. B. „Artikel“, „Pronomen“), je ein Satz.
 
 ## Exercise patterns
 
-<!-- FILL IN: per pattern: name, competency, archetype form (block or question type, fixed parts, what varies),
-one example (file, id), data file. -->
+- **Wörter einführen** (alle Seiten): `table` mit `header: [Französisch, Deutsch, …]`; kein Datensatz. Beispiel: `kapitel-1/begruessen.yaml`, Abschnitt `neu`.
+- **Hören und nachsprechen** (Seiten 1 bis 3, dann wo es passt): Block `speaking-task` mit `language: fr`, `items` (1 bis 10) mit `audio: <datei>.mp3`
+  und `text`. Kein Prüfen; die Kinder bewerten sich selbst. Kann nicht in die Selbsteinschätzung.
+- **Hören und schreiben** (Diktat, Hören): `language-task` mit `languages: { source: de, target: fr }`; Item mit `audio` und `target`; für Zahlen
+  `direction: to-source` mit `audio` und `source` (z. B. `75`). Der gesprochene Text ist eine richtige Antwort; Zahlen im gesprochenen Text ausschreiben.
+- **Zuordnen und Auswählen**: Quizblöcke `single-choice`, `matching`, `true-false`; jede falsche Option mit `info`, die die Regel nennt.
+- **Lücke und Formen**: `language-task` Modus `gap`, `choice` (mit `distractors` je Lücke), `table` (Formentabelle von être und avoir).
+- **Übersetzen**: `language-task` `write`; Varianten `(…|…)`; `form`: Akzent zählt, Großschreibung und Satzzeichen nur Hinweis (`case: hint`,
+  `punctuation: hint`).
+- **Zahlen erzeugen** (Seite 3): `generated`; Datei `src/data/zahlen.yaml` mit Feldern `n`, `fr`, `hinweis`, alle Zahlen von 0 bis 100; Aufgabe
+  „Schreibe die Zahl: soixante-quinze“, Antwort `n`; Fehler: `n - 10` bei 70 bis 79 usw.
+- **Rückmeldung**: 2 bis 3 `mistakes` je Aufgabe; jede Meldung nennt die Regel („Zu s’appeler gehört das m’: je m’appelle“), nie nur „falsch“. Typische Fehler:
+  je appelle, je suis 11 ans, le école, il appelle, tu suis/je es, ou als „o-u“ gelesen.
+- **Audio**: MP3 in `src/audio/`, gemacht mit Skill `lernapps-audio` (`scripts/lernapps_audio.py`), eine Stimme für die ganze App, vom Ersteller gewählt und
+  freigegeben; Dateinamen kleingeschrieben, `.mp3`; der Text der Datei ist eine richtige Antwort der Aufgabe. Nach jeder Änderung des Satzes die Datei neu
+  machen (`--force`).
 
 ## Figures
 
-<!-- FILL IN: figure kinds and images, for what; conventions (colours, labels, units, orientation, sizes); alt
-texts and captions; image origin and licence. -->
+- Eigene SVG-Zeichnungen in `src/images/szene-<seite>.svg`, keine Fotos; `source: eigene Zeichnung`, `licence: CC-BY-4.0`.
+- Figurenstil: Kopf und weicher, abgerundeter Torso, ohne Hals, Arme und Beine (Wunsch des Erstellers). Léa: kurze braune Haare, rote Jacke, hellere Haut; Malik:
+  schwarze Locken, Brille, blauer Rucksack (ein Träger sichtbar). Skizze: `.vibe/sketches/figuren-lea-malik.svg`.
+- Jede Zeichnung hat `alt` (was zu sehen ist, nicht die Antwort) und `caption` (worauf achten). Auf 360 px lesbar; ein Bild gibt nie die Lösung einer Übung vor.
+- Gleiche Farben der Figuren auf allen Seiten; Hintergrund hell.
 
 ## Sources
 
-<!-- FILL IN: sources linked or relied on (Lehrplan, second explanations, videos, articles), how verified, what
-is left out; the creator's material stays local, never committed. -->
+- Lernlandkarte Französisch (Kompetenzen, Ids): `https://lernapps.net/apps/map/franzoesisch.json`.
+- Grundwortschatz Französisch: `https://lernapps.net/apps/map/franzoesisch/grundwortschatz/` (geöffnet).
+- Wikipedia „Französische Sprache“ (Aussprache) und „Französische Grammatik“, CC BY-SA 4.0, nur Fakten, keine Sätze; Aussprache einzelner Wörter prüft jemand mit
+  Französisch-Kenntnissen vor der Veröffentlichung (nicht geprüft).
+- KMK-Bildungsstandards Erste Fremdsprache (2023), nur zur Einordnung des Ziels. Keine Videos. Stimmen: siehe `src/audio` und die Medienübersicht (`medien/`).
 
 ## Adding a chapter or round
 
-<!-- FILL IN: the steps for a new chapter (explainer) or round (quiz), in order, with the files: competencies,
-content, exercises from the patterns, entry topics, check, commit. -->
+1. Kompetenzen wählen: die nächsten Lücken der Richtstufe 5-6 in `https://lernapps.net/apps/map/franzoesisch.json`, deren `requires` in der App geübt sind; drei bis acht je Kapitel.
+2. Ordner `src/kapitel-<n>/` mit `chapter.yaml` (`title`, `summary`, `pages` mit allen Seiten) und je Seite `src/kapitel-<n>/<seite>.yaml` (`title`, `description`,
+   `competencies`, `blocks`) nach „Content structure“; Kapitel in `src/app.yaml` unter `chapters` ergänzen.
+3. Wörter nur aus Stufe A1 des Grundwortschatzes, jedes mit Bedeutung; eine Szene mit Léa und Malik je Seite in `src/images/szene-<seite>.svg`.
+4. Übungen aus den Mustern oben; Ton: Sätze sammeln und mit Skill `lernapps-audio` erzeugen, anhören lassen.
+5. `npx --no -- lernapps check`, Bilder prüfen (`npx --no -- lernapps screenshots --desktop`), Commit pro Seite; Plan anlegen (`increment-template.md`) und dieses Dokument anpassen.
 
 ## Rules learned from mistakes
 
-<!-- FILL IN: one line per rule with the mistake it came from. "None yet." until the first. -->
+None yet.

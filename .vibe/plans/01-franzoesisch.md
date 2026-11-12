@@ -199,7 +199,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 - **Seitenaufbau, überall gleich** (Ids): `einstieg` (Szene und Ziel: „Danach kannst du …“, knüpft an die Seite davor an), `neu` (Wörter oder Regel, jedes Wort mit Bedeutung, Tabelle), `nachsprechen` (nur Seiten mit Ton), `uebung` (leicht → schwer: auswählen → Lücke → hören und schreiben → übersetzen). Ein Abschnitt, den eine Seite nicht braucht, fällt weg. Skizze: `.vibe/sketches/seitenaufbau.svg`.
 - **Szene (Figur)**: gezeichnete Szene `src/images/szene-<seite>.svg` mit Léa und Malik, mit Bildunterschrift und `alt`; sie zeigt, was gegeben ist, nie die Lösung. Die Figuren sind fest (`.vibe/sketches/figuren-lea-malik.svg`): Léa, 11, kurze braune Haare, rote Jacke; Malik, 11, schwarze Locken, Brille, blauer Rucksack. Lernaktion: Kinder schauen die Szene an und beantworten eine Frage dazu (Wer sagt was? Wo steht das Wort?); sie ist Anlass, nicht Inhalt.
-- **Wörter einführen** (Muster „Neu“): `table` mit Wort, Bedeutung, Hinweis; die Wörter der Seite stehen vor der Übung da, sie kommen aus dem Grundwortschatz (A1) oder werden erklärt. Datei: `src/data/woerter.yaml` (ein Satz je Wort mit Seite, Wort, Bedeutung), damit jedes Wort einmal steht.
+- **Wörter einführen** (Muster „Neu“): `table` mit Wort, Bedeutung, Hinweis; die Wörter der Seite stehen vor der Übung da, sie kommen aus dem Grundwortschatz (A1) oder werden erklärt. Kein eigener Datensatz: Tabellen lesen keine Datendateien; die Wörter stehen je einmal in der Tabelle ihrer Seite.
 - **Nachsprechen** (`speaking-task`, Seiten 1–3, danach wo es passt): 3–6 Sätze oder Wörter mit Modell-Audio; Kinder hören, nehmen auf, vergleichen, bewerten sich selbst („schon gut / fast / noch üben“). Prüft nichts, die App hört nicht zu. Ablauf: `.vibe/sketches/nachsprechen-ablauf.svg`. Datei: `src/audio/*.mp3`, gemacht mit `lernapps-audio`.
 - **Hören und schreiben** (`language-task` mit `audio`, Diktat; Seite 1: Wort, Seite 2: Gruß, Seite 3: Zahl als `direction: to-source` mit Zahl als `source`, z. B. 75): Der gesprochene Text ist die richtige Antwort; Zahlen im Audio ausgeschrieben (soixante-quinze). Rückmeldungen: 2–3 `mistakes` je Aufgabe mit Regel (zum Beispiel „ou klingt wie ein langes u, nicht wie o-u“).
 - **Zuordnen/Auswählen** (Quiztypen `single-choice`, `matching`, `true-false`): Schreibung ↔ Bedeutung, Pronomen ↔ Person, Artikel ↔ Nomen; jede falsche Option mit `info`, warum sie nicht passt.
@@ -210,7 +210,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - **Figuren/Bilder** (alle): eigene SVG-Zeichnungen, keine Fotos; Bildunterschrift, `alt`, gleiche Farben der Figuren auf jeder Seite; Figurenstil: Kopf und weicher, abgerundeter Torso, ohne Hals, Arme und Beine, nicht blockig (Wunsch des Erstellers, gilt für alle Szenen); auf 360 px lesbar; kein Bild gibt die Lösung vor.
 - **Eine Komponente?** Nein: kein Baustein fehlt (Begründung für `prefer-built-in-block`). Die Hör- und Nachsprech-Blöcke und `language-task` genügen.
 - **Rückmeldung falscher Antworten:** immer mit der Regel (nie nur „falsch“); 2–3 typische Fehler je Aufgabe aus „Hürden“.
-- **Nächste Seite/Kapitel später:** Ein Agent liest den Abschnitt „Adding a chapter or round“ der Inhaltsanleitung (`app-content`) und legt `src/kapitel-N/` mit den Seiten, `src/data/woerter.yaml`, `src/audio/` und den Karten-Ids an; neue Wörter nur aus A1 oder erklärt.
+- **Nächste Seite/Kapitel später:** Ein Agent liest den Abschnitt „Adding a chapter or round“ der Inhaltsanleitung (`app-content`) und legt `src/kapitel-N/` mit den Seiten, `src/audio/` und den Karten-Ids an; neue Wörter nur aus A1 oder erklärt.
 - **Figuren zu Seiten:** Seite 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer mit Hausnummern/Alter, 4 Fußballtraining, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer; Szenen nach der Reihenfolge der Seiten.
 
 ### Completed
@@ -235,7 +235,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Load skill `lernapps-cli`. Create the app in this plan's folder as it says. `create` keeps this plan. Never
       write the app by hand.
 - [x] Nach `create`: `@lernapps/app-templates` auf 0.8.0 heben (Audio), prüfen mit `npx --no -- lernapps check`; ein Commit. Geht das nicht: dem Ersteller sagen, Ton bleibt dann aus.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method"
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method"
       (`app-content-guide`). Keep its nine headings and fill each: Curriculum, Competencies, Content structure,
       Terminology, Exercise patterns, Figures, Sources, Adding a chapter or round, Rules learned from mistakes
       ("None yet." until the first). `grep -c "FILL IN" .agents/skills/app-content/SKILL.md` prints 0. Commit it
