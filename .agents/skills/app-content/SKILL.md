@@ -37,19 +37,23 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 ## Content structure
 
-- Jede Seite besteht aus `section`-Blöcken mit festen Ids, in dieser Reihenfolge, ein nicht gebrauchter Abschnitt fällt weg:
-  1. `einstieg` – „Worum es geht“: Szene (`figure`, `image: images/szene-<seite>.svg`), zwei bis drei Sätze Situation mit Léa und Malik,
-     dann Ziel in der Form „Danach kannst du …“ und woran die Seite anknüpft.
-  2. `neu` – Titel nach Inhalt („Neu: …“): Tabelle (`table`), kurze Erklärung, jedes neue Wort mit Bedeutung; ein `note` für den häufigsten Fehler.
-  3. `nachsprechen` – Titel „Hören und nachsprechen“: ein `speaking-task` mit der Id `sprechen-ueben` (eine Aufgaben-Id darf nicht gleich einer Abschnitts-Id sein; nur Seiten mit Ton).
-  4. `uebung` – „Übung“: leicht → schwer: 1 Quizblock (`single-choice` oder `matching`), 2 `language-task` Lücke/Auswahl,
-     3 `language-task` mit `audio` (Diktat oder Hören), 4 `language-task` Übersetzen.
-- Länge: Erklärung höchstens 6 kurze Sätze, Tabellen höchstens 8 Zeilen, Übung 4 bis 6 Aufgaben mit je 3 bis 8 Items.
-- Kapitelseite: Titel „Bonjour, Léa und Malik!“, `summary` in einem Satz. Startseite (`src/app.yaml`): `intro` stellt Léa und Malik vor.
-- Geschichte: Léa (11, kurze braune Haare, rote Jacke) lebt in einer kleinen Stadt in Frankreich, Malik (11, schwarze Locken, Brille, blauer
-  Rucksack) ist neu in ihrer Klasse; sie sind eine Szene pro Seite: 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer
-  (Alter, Hausnummer), 4 Fußballtraining, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer. Nur erfundene Figuren, keine Marken, keine Figuren
-  aus Büchern, Filmen oder Spielen.
+- Jede Seite besteht aus `section`-Blöcken mit festen Ids, in dieser Reihenfolge; ein nicht gebrauchter Abschnitt fällt weg:
+  1. `einstieg` – „Worum es geht“: Szene (`figure`, `image: images/szene-<seite>.svg`, `alt` und `caption` nennen Léa links und Malik rechts), zwei bis drei Sätze Situation
+     mit Léa und Malik und der Rückbindung an die Seite davor mit deren Titel (nie „Seite 3“: die Seiten sind nicht nummeriert), dann „Danach kannst du …“.
+  2. `neu` – Titel „Neu: …“: Tabelle (`table`, höchstens drei kurze Spalten), kurze Erklärung, jedes neue Wort mit Bedeutung; ein `definition`-Block für jeden Fachbegriff
+     (Buchstabenverbindung, Pronomen, Verb, Artikel, Nomen), bevor er benutzt wird; ein `note` „Merke“ für den häufigsten Fehler.
+  3. `kurz-geuebt` – „Kurz geübt“: genau eine Quizfrage (`single-choice` oder `true-false`) mit erklärender `info` je Option, damit Kinder früh einen Erfolg haben.
+  4. `nachsprechen` – „Hören und nachsprechen“: ein `speaking-task` mit der Id `sprechen-ueben` und vier Karten (drei Wörter oder Wendungen, dazu ein kurzer Satz); eine Aufgaben-Id darf nicht gleich
+     einer Abschnitts-Id sein. Die Karten heißen in der Vorlage „Satz 1 …“ (nicht änderbar).
+  5. `uebung` – „Übung“: leicht → schwer: Quiz (`ordering`, `matching` oder `single-choice`), `language-task` Auswahl mit `mistakes`, Seite 3 und 7 zusätzlich `generated`,
+     `language-task` mit `audio` (Diktat oder Hören), `language-task` Übersetzen. Jede Aufgabe benutzt andere Sätze als die Nachsprech-Karten und die Aufgaben davor.
+  6. `geschafft` – nur auf der letzten Seite (`avoir`): Kasten „Das kannst du jetzt“ mit Rückblick und Link zur Startseite.
+- Länge: Erklärung höchstens sechs kurze Sätze, Tabellen höchstens zehn Zeilen, Übung vier bis sieben Aufgaben mit je drei bis acht Items.
+- Kapitelseite: Titel „Bonjour, Léa und Malik!“, `summary` in einem Satz; keine Selbsteinschätzung (siehe unten). Startseite (`src/app.yaml`): `intro` stellt Léa und Malik vor, mit
+  Link „Los geht's“ zu Seite 1 und dem Hinweis, dass die Stimmen Computerstimmen sind.
+- Geschichte: Léa (11, kurze braune Haare, rote Jacke) lebt in einer kleinen Stadt in Frankreich, Malik (11, schwarze Locken, Brille, blauer Rucksack) ist neu in ihrer Klasse; eine Szene
+  pro Seite, Léa immer links, Malik rechts davon: 1 Schulhaus mit Schild ÉCOLE, 2 Schulhof mit Sprechblasen, 3 Klassenzimmer (Zahlenspiel), 4 Fußballtraining, 5 Foto mit Katze, 6 Schultasche (mit Schule im Hintergrund),
+  7 Léas Zimmer. Nur erfundene Figuren, keine Marken, keine Figuren aus Büchern, Filmen oder Spielen. Die Szenen entstehen aus `scenes.py`-artigen SVG-Vorlagen; gleiche Figuren auf jeder Seite.
 
 ## Terminology
 
@@ -65,18 +69,17 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 - **Wörter einführen** (alle Seiten): `table` mit schmalen Spalten (höchstens drei, kurze Zellen, wegen 360 px), z. B. `header: [Buchstaben, Wort, Bedeutung]`, ein Wort je Zeile; kein Datensatz. Beispiel: `kapitel-1/laut-und-schrift.yaml`, Abschnitt `neu`.
 - **Wörter mit Artikel, dann Sätze** (Wunsch des Erstellers nach Hören der Stimmen): Einzelwörter werden mit le/la gesprochen und geschrieben („le chat“), weil die Stimmen Einzelwörter schlecht sprechen; vor Seite 6 sind le/la feste Wendungen (die Seite sagt: „gehört dazu, mehr auf Seite 6“). Zweite Stufe des Nachsprechens: ein kurzer Satz „Voici le chat.“ in einem zweiten `speaking-task` (Id `sprechen-satz`). Ein Einzelwort ohne Artikel wird nicht als Audio erzeugt.
-- **Hören und nachsprechen** (Seiten 1 bis 3, dann wo es passt): Block `speaking-task` mit `language: fr`, `items` (1 bis 10) mit `audio: <datei>.mp3`
-  und `text`. Kein Prüfen; die Kinder bewerten sich selbst. Kann nicht in die Selbsteinschätzung.
+- **Hören und nachsprechen** (alle sieben Seiten): ein Block `speaking-task` mit `language: fr` und genau vier `items` mit `audio: <datei>.mp3` und `text`: drei Wörter oder Wendungen, dazu ein kurzer Satz. Kein Prüfen; die Kinder bewerten sich selbst. In Tabellen gibt es keine Hör-Knöpfe: Der Text sagt, dass die Hör-Knöpfe im Abschnitt „Hören und nachsprechen“ sind.
 - **Hören und schreiben** (Diktat, Hören): `language-task` mit `languages: { source: de, target: fr }`; Item mit `audio` und `target`; für Zahlen
   `direction: to-source` mit `audio` und `source` (z. B. `75`). Der gesprochene Text ist eine richtige Antwort; Zahlen im gesprochenen Text ausschreiben.
 - **Zuordnen und Auswählen**: Quizblöcke `single-choice`, `matching` (die rechte Seite jedes Paars ist verschieden; ein Wort darf nicht zweimal rechts stehen); jede falsche Option mit `info`, die die Regel nennt.
 - **Lücke und Formen**: `language-task` Modus `gap`, `choice` (mit `distractors` je Lücke), `table` (Formentabelle von être und avoir).
 - **Übersetzen**: `language-task` `write`; die Aufgabe sagt „ohne Artikel“, wo nur das Wort gefragt ist; Varianten `(…|…)`; `form`: Akzent zählt, Großschreibung und Satzzeichen nur Hinweis (`case: hint`,
   `punctuation: hint`).
-- **Zahlen erzeugen** (Seite 3): `generated`; Datei `src/data/zahlen.yaml` mit Feldern `n`, `fr`, `hinweis`, alle Zahlen von 0 bis 100; Aufgabe
-  „Schreibe die Zahl: soixante-quinze“, Antwort `n`; Fehler: `n - 10` bei 70 bis 79 usw.
-- **Rückmeldung**: 2 bis 3 `mistakes` je Aufgabe; jede Meldung nennt die Regel („Zu s’appeler gehört das m’: je m’appelle“), nie nur „falsch“. Typische Fehler:
-  je appelle, je suis 11 ans, le école, il appelle, tu suis/je es, ou als „o-u“ gelesen.
+- **Zahlen erzeugen** (Seite 3): zwei `generated` (`zahl-bis-69`, `zahl-70-bis-99`) mit der Datei `src/data/zahlen.yaml` (Felder `n`, `fr`, alle Zahlen von 0 bis 100, jede einmal); Aufgabe „Léa sagt: soixante-quinze. Welche Zahl schreibt Malik?“, Antwort `e.n`; Fehler `e.n - 10` und `e.n - 20` mit Regel. Seite 7: `generated` `alter-raten` mit `src/data/alter.yaml` (Zahlen 8 bis 16, `where` darf nicht zu eng sein: mindestens 1 von 10 Ziehungen). Dazu `language-task` mit `cue` (Ziffer → Zahlwort).
+- **Ordnen und Rätsel**: `ordering` (Seite 2: das Gespräch in die richtige Reihenfolge) und `single-choice` / `true-false` als „Kurz geübt“ mit Fehl-Antworten, die die typischen Verwechslungen sind.
+- **Rückmeldung**: In Auswahl-Aufgaben (`mode: choice`) hat jede Fehl-Auswahl ein `mistakes`-Item (`answer` ist die gewählte Auswahl, `message` nennt die Regel); in den anderen Aufgaben 2 bis 3 `mistakes` je Aufgabe; jede Meldung nennt die Regel („Zu s’appeler gehört das m’: je m’appelle“), nie nur „falsch“. Typische Fehler:
+  je appelle, je suis 11 ans, le école, il appelle, tu suis/je es, ou als „o-u“ gelesen. Keine Behauptung über andere Länder oder Regionen ohne geöffnete Quelle (Erfahrung: eine Aussage zu „septante“ wurde entfernt).
 - **Audio**: MP3 in `src/audio/`, gemacht mit Skill `lernapps-audio` (`scripts/lernapps_audio.py`), zwei Stimmen, vom Ersteller gewählt: Léa `ff_siwis` (weiblich), Malik `pierre` (männlich);
   Wörter, Zahlen und Sätze ohne Sprecher `ff_siwis`; freigegeben durch den Ersteller; Dateinamen kleingeschrieben, `.mp3`; der Text der Datei ist eine richtige Antwort der Aufgabe. Nach jeder Änderung des Satzes die Datei neu
   machen (`--force`).
@@ -104,7 +107,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
    `competencies`, `blocks`) nach „Content structure“; Kapitel in `src/app.yaml` unter `chapters` ergänzen.
 3. Wörter nur aus Stufe A1 des Grundwortschatzes, jedes mit Bedeutung; eine Szene mit Léa und Malik je Seite in `src/images/szene-<seite>.svg`.
 4. Übungen aus den Mustern oben; Ton: Sätze sammeln und mit Skill `lernapps-audio` erzeugen, anhören lassen.
-5. 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (in diesem Kapitel zwei je Seite: eine Auswahl-Aufgabe und eine Übersetzen-Aufgabe, Seite 3 die zwei generierten; Nachsprechen und Hören zählen nicht).
+5. Keine Selbsteinschätzung in diesem Kapitel (Entscheidung nach der Prüfung als Schüler: die Texte der Vorlage sind für Anfänger entmutigend, und die Aufgaben würden die Seitenübungen wiederholen). Wer eine ergänzen will: Skill `lernapps-explainer-self-assessment` lesen, nur Aufgaben ohne Vorwissen wählen.
 6. `npx --no -- lernapps check`, Bilder prüfen (`npx --no -- lernapps screenshots --desktop`), Commit pro Seite; Plan anlegen (`increment-template.md`) und dieses Dokument anpassen.
 
 ## Rules learned from mistakes

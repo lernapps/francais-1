@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
-failedChecks: { checks-pass: 4 }
+failedChecks: { checks-pass: 5 }
 ---
 
 # Plan: Bonjour, Léa und Malik, erste Version
@@ -46,7 +46,7 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Ton nach dem Anhören (Ersteller): Wörter immer mit Artikel (le/la), dazu kurze Sätze („Voici le chat.“) als zweite Stufe des Nachsprechens; Einzelwörter ohne Artikel klangen schlecht.
 - Zwei Stimmen (Wunsch des Erstellers): Léa spricht `ff_siwis` (weiblich), Malik `pierre` (männlich); Sätze ohne Sprecher (Wörter, Zahlen, Buchstabenverbindungen) mit `ff_siwis`. Freigabe der Aufnahmen durch den Ersteller vor der Veröffentlichung.
 - Abweichungen beim Bau (guess): Seite 5 zeigt ein Foto von Léa, Malik und der Katze statt eines Familienfotos (Familie und „mon/ma“ gehören in ein späteres Kapitel); Seite 7 nennt „il y a un chat“ als feste Wendung, „un“ wird später erklärt; Seite 4 benutzt „s'appelle“ und „jouer au foot“ als feste Wendungen, damit die Pronomen ein Verb haben.
-- Selbsteinschätzung des Kapitels: ja, in Commit (guess); Nachsprech-Aufgaben zählen dort nicht.
+- Keine Selbsteinschätzung im Kapitel (guess, Entscheidung nach der Schüler-Prüfung): Die Texte der Vorlage („Lies sie genau“) wirken auf Anfänger entmutigend, und die Aufgaben wären die der Seiten. Der Ersteller kann sie später mit dem Skill ergänzen.
 
 ## Notes
 
