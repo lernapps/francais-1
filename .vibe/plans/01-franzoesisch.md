@@ -43,7 +43,7 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Der Ton ist ausdrücklich gewünscht: Hören und Nachsprechen am Anfang.
 - Kein `open-task` und kein Material des Erstellers: kein `scope` in `src/app.yaml` und auf den Seiten (guess).
 - Ein Kapitel `kapitel-1` mit sieben Seiten; Dateinamen `src/kapitel-1/<seite>.yaml`.
-- Eine Stimme für alle Aufnahmen; Auswahl und Freigabe durch den Ersteller vor dem ersten Erzeugen (Code, Seite 1).
+- Zwei Stimmen (Wunsch des Erstellers): Léa spricht `ff_siwis` (weiblich), Malik `pierre` (männlich); Sätze ohne Sprecher (Wörter, Zahlen, Buchstabenverbindungen) mit `ff_siwis`. Freigabe der Aufnahmen durch den Ersteller vor der Veröffentlichung.
 - Selbsteinschätzung des Kapitels: ja, in Commit (guess); Nachsprech-Aufgaben zählen dort nicht.
 
 ## Notes

@@ -76,8 +76,8 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
   „Schreibe die Zahl: soixante-quinze“, Antwort `n`; Fehler: `n - 10` bei 70 bis 79 usw.
 - **Rückmeldung**: 2 bis 3 `mistakes` je Aufgabe; jede Meldung nennt die Regel („Zu s’appeler gehört das m’: je m’appelle“), nie nur „falsch“. Typische Fehler:
   je appelle, je suis 11 ans, le école, il appelle, tu suis/je es, ou als „o-u“ gelesen.
-- **Audio**: MP3 in `src/audio/`, gemacht mit Skill `lernapps-audio` (`scripts/lernapps_audio.py`), eine Stimme für die ganze App, vom Ersteller gewählt und
-  freigegeben; Dateinamen kleingeschrieben, `.mp3`; der Text der Datei ist eine richtige Antwort der Aufgabe. Nach jeder Änderung des Satzes die Datei neu
+- **Audio**: MP3 in `src/audio/`, gemacht mit Skill `lernapps-audio` (`scripts/lernapps_audio.py`), zwei Stimmen, vom Ersteller gewählt: Léa `ff_siwis` (weiblich), Malik `pierre` (männlich);
+  Wörter, Zahlen und Sätze ohne Sprecher `ff_siwis`; freigegeben durch den Ersteller; Dateinamen kleingeschrieben, `.mp3`; der Text der Datei ist eine richtige Antwort der Aufgabe. Nach jeder Änderung des Satzes die Datei neu
   machen (`--force`).
 
 ## Figures
