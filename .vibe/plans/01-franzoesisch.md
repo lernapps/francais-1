@@ -234,7 +234,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] `grep '^phase:'` prints `phase: code`; else set it.
 - [x] Load skill `lernapps-cli`. Create the app in this plan's folder as it says. `create` keeps this plan. Never
       write the app by hand.
-- [ ] Nach `create`: `@lernapps/app-templates` auf 0.8.0 heben (Audio), prüfen mit `npx --no -- lernapps check`; ein Commit. Geht das nicht: dem Ersteller sagen, Ton bleibt dann aus.
+- [x] Nach `create`: `@lernapps/app-templates` auf 0.8.0 heben (Audio), prüfen mit `npx --no -- lernapps check`; ein Commit. Geht das nicht: dem Ersteller sagen, Ton bleibt dann aus.
 - [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method"
       (`app-content-guide`). Keep its nine headings and fill each: Curriculum, Competencies, Content structure,
       Terminology, Exercise patterns, Figures, Sources, Adding a chapter or round, Rules learned from mistakes
