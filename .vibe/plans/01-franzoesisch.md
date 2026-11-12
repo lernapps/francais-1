@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit. Change the value line below, never this comment.
-phase: plan
+phase: code
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
@@ -129,10 +129,10 @@ Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstelle
       shows how a probability comes about), which misconception the feedback catches.
 - [x] Under "Notes", the scope: what is in, what is out and why, the data range (e.g. "all main-group elements",
       never a silent "1–20"), the languages.
-- [ ] Fetch https://lernapps.net/apps/schemas/entry.v1.schema.json and read each property's description. Ask what
+- [x] Fetch https://lernapps.net/apps/schemas/entry.v1.schema.json and read each property's description. Ask what
       helps teachers and parents find the app. Fill "Entry draft". Search words: one or two words each, as people
       type them.
-      Offen: Schema gelesen und "Entry draft" gefüllt, aber die Frage nach Suchwörtern ist noch nicht gestellt; sie steht im Plan-Checkpoint.
+      Suchwörter vom Ersteller bestätigt.
 - [x] **Checkpoint:** research. Show in plain words: the strand or why none, curriculum orientation (not with a
       strand), competencies by chapter (with their ids) and their pages, didactic approach, scope, every "(guess)", sources and how you
       checked them, what is unchecked, archetype and reason. With a strand, the map decides the structure: competencies
@@ -189,11 +189,11 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
       The first task: one complete page or screen as the pattern for the others (`early-preview`).
 - [x] Each screen, component or interactive exercise: a sketch (static SVG or image, or the steps with what
       learners see after each). Words alone are not enough. Keep sketch files in `.vibe/sketches/`, which `create` leaves alone.
-- [ ] Show the creator, short: goal, competencies by chapter (chapters along the map's `requires`), entry draft, tasks, sketches; the content method in
+- [x] Show the creator, short: goal, competencies by chapter (chapters along the map's `requires`), entry draft, tasks, sketches; the content method in
       plain words (what learners see and do, what it cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method, with the sketches shown. Stop and wait for an
+- [x] **Checkpoint:** confirm the plan and the content method, with the sketches shown. Stop and wait for an
       explicit yes. Changes → change, ask again. No `create` before the yes.
-- [ ] Set `phase: code`: change the value line (`grep '^phase:'` prints `phase: code`).
+- [x] Set `phase: code`: change the value line (`grep '^phase:'` prints `phase: code`).
 
 ### Content method
 
@@ -231,7 +231,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: code`; else set it.
+- [x] `grep '^phase:'` prints `phase: code`; else set it.
 - [ ] Load skill `lernapps-cli`. Create the app in this plan's folder as it says. `create` keeps this plan. Never
       write the app by hand.
 - [ ] Nach `create`: `@lernapps/app-templates` auf 0.8.0 heben (Audio), prüfen mit `npx --no -- lernapps check`; ein Commit. Geht das nicht: dem Ersteller sagen, Ton bleibt dann aus.
