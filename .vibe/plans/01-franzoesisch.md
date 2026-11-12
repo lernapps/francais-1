@@ -49,6 +49,7 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 - Kapitel 1 „Bonjour, Léa und Malik!“ in dieser Reihenfolge: `laut-und-schrift`, `begruessen-und-vorstellen`, `zahlen-bis-100`, `subjektpronomen`, `verb-etre`, `bestimmter-artikel`, `verb-avoir`.
 - Feste Wendungen ohne Grammatik: ma mère, un frère, c'est.
 - Kein Ton-Prüfen: Nachsprechen bewerten die Kinder selbst, die App hört nicht zu.
+- Wörter: aus dem Grundwortschatz Französisch (https://lernapps.net/apps/map/franzoesisch/grundwortschatz/, 1930 Wörter, Stufe A1 zuerst), geprüft beim Schreiben der Seiten. Ein Wort außerhalb der Liste nur, wenn die Szene es braucht; es wird dort erklärt. Die Beispielwörter im Auftrag sind noch nicht geprüft.
 
 ## Explore
 
@@ -110,14 +111,13 @@ Kinder der Richtstufe 5/6 (Anfang 1. Lernjahr Französisch) lesen, hören und sp
 
 - Goal: Beginnen mit Französisch, später bis Ende Klasse 6 erweitern; Situationen aus Schule, Freizeit und Familie. Ton ist wichtig: hören und nachsprechen.
 - Learners: Französisch, Richtstufe 5/6, Anfang 1. Lernjahr.
-- Model and focus: an app of the catalog (read https://lernapps.net/apps/llms.txt) as model; what matters most
-  (exercises, visualisations, game feel).
-- Hurdles: misconceptions and mistakes of the learners; the creator's examples and experiments.
+- Model and focus: kein Vorbild genannt. Eine Mischung, nicht zu dicht, am Anfang gern mit vielen Medien (Bilder, Ton).
+- Hurdles: Der Ersteller überlässt es dem Assistenten (guess): stumme Endungen, Plural-s, m' bei je m'appelle, le/la/l', Aussprache von ou/oi/eau, Zahlen 70-99.
 - Content: bestätigter Auftrag (Karte), Texte vom Assistenten; covered by the assignment.
 - Amount: ein Kapitel mit 7 Seiten; später Erweiterung bis Ende Klasse 6; covered by the assignment.
 - Languages: Deutsche Erklärungen, französische Beispiele; covered by the assignment.
 - Look and feel: calm like a worksheet, or like a game (colours, praise, effects); dark mode.
-- Terms: the creator's words for the main things in the app, used everywhere.
+- Terms: nicht genannt (guess): „Seite“, „Übung“, „Hören“, „Nachsprechen“, „Merke“.
 
 ### Entry draft
 
