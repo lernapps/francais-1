@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Bonjour, Léa und Malik!"
 summary: Léa zeigt Malik ihre Schule. Du lernst, wie man Französisch spricht, begrüßt, zählt und die ersten Verben benutzt.
-pages: [laut-und-schrift, begruessen, zahlen]
+pages: [laut-und-schrift, begruessen, zahlen, pronomen]

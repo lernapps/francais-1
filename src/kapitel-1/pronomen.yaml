@@ -1,0 +1,152 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wer macht was? Die Pronomen
+description: Die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden.
+competencies: [subjektpronomen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-pronomen.svg
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor.
+        caption: Léa (links) und Malik (rechts) beim Fußballtraining.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Beim Training spricht Léa über sich, über Malik und über beide zusammen. Im Deutschen sagst du dafür „ich“, „er“, „sie“ oder „wir“.
+          Diese kleinen Wörter heißen **Pronomen**: Sie stehen für Personen, damit du ihre Namen nicht immer wiederholen musst.
+
+          **Danach kannst du:** die neun französischen Pronomen *je, tu, il, elle, on, nous, vous, ils* und *elles* verwenden.
+  - type: section
+    id: neu
+    title: "Neu: Die neun Pronomen"
+    blocks:
+      - type: table
+        caption: Die Pronomen mit ihrer Bedeutung
+        header: [Pronomen, Bedeutung]
+        rows:
+          - ["je (j' vor a, e, i, o, u)", "ich"]
+          - ["tu", "du"]
+          - ["il", "er (ein Junge, ein Mann)"]
+          - ["elle", "sie (ein Mädchen, eine Frau)"]
+          - ["on", "man, oft auch „wir“"]
+          - ["nous", "wir"]
+          - ["vous", "ihr, oder „Sie“ (höflich)"]
+          - ["ils", "sie (Jungen oder gemischte Gruppe)"]
+          - ["elles", "sie (nur Mädchen oder Frauen)"]
+      - type: text
+        text: |
+          Zu jedem Pronomen gehört ein Verb, und das Verb verändert sich mit dem Pronomen. Wie das genau geht, lernst du später.
+          Jetzt lernst du die Wendungen als Ganzes kennen: *Je m'appelle Léa.* — *Tu t'appelles Malik.* — *Il s'appelle Malik.* —
+          *Elle s'appelle Léa.* — *Nous jouons au foot.* (*jouer au foot* heißt „Fußball spielen“.)
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              *il* ist nur ein Junge oder ein Mann, *elle* nur ein Mädchen oder eine Frau. Bei einer Gruppe nimmst du *ils*, sobald ein Junge
+              dabei ist, auch wenn viele Mädchen dabei sind. *elles* sagst du nur, wenn alle Mädchen sind.
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Zuerst einzelne Sätze: Léa spricht *Je m'appelle Léa.*, *Elle s'appelle Léa.* und *Nous jouons au foot.* vor, Malik
+          *Tu t'appelles Malik.* und *Il s'appelle Malik.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: je-mappelle-lea.mp3
+            text: Je m'appelle Léa.
+          - audio: tu-tappelles-malik.mp3
+            text: Tu t'appelles Malik.
+          - audio: il-sappelle-malik.mp3
+            text: Il s'appelle Malik.
+          - audio: elle-sappelle-lea.mp3
+            text: Elle s'appelle Léa.
+          - audio: nous-jouons-au-foot.mp3
+            text: Nous jouons au foot.
+        hint: "Sprich langsam und achte auf den Laut *ou* in *nous* und *jouons*: Er klingt wie ein langes „u“."
+      - type: text
+        text: |
+          Jetzt ein Satz, in dem das Pronomen die Namen ersetzt: Malik sagt *Léa et Malik jouent au foot. Ils jouent au foot.*
+          Sprich beide Sätze in einem Zug.
+      - type: speaking-task
+        id: sprechen-satz
+        language: fr
+        items:
+          - audio: lea-et-malik-jouent-au-foot-ils.mp3
+            text: Léa et Malik jouent au foot. Ils jouent au foot.
+        hint: "*ils* am Anfang klingt wie „il“: Das *s* am Ende hörst du nicht."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: pronomen-zuordnen
+        text: Welches Pronomen passt zu welcher Person?
+        pairs:
+          - { left: "Léa (ein Mädchen)", right: elle }
+          - { left: "Malik (ein Junge)", right: il }
+          - { left: "Léa und Malik", right: ils }
+          - { left: "zwei Mädchen", right: elles }
+          - { left: "du", right: tu }
+        distractors: [vous]
+        explanation: "Für ein Mädchen nimmst du elle, für einen Jungen il. Eine gemischte Gruppe ist ils, nur Mädchen sind elles. Zu „du“ gehört tu."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+      - type: language-task
+        id: pronomen-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle das passende Pronomen.
+        items:
+          - source: Er heißt Malik.
+            target: "[Il] s'appelle Malik."
+            distractors: [[Elle, Tu]]
+          - source: Sie heißt Léa.
+            target: "[Elle] s'appelle Léa."
+            distractors: [[Il, Je]]
+          - source: Wir spielen Fußball.
+            target: "[Nous] jouons au foot."
+            distractors: [[Ils, Vous]]
+          - source: Du heißt Malik.
+            target: "[Tu] t'appelles Malik."
+            distractors: [[Il, Je]]
+      - type: language-task
+        id: pronomen-hoeren
+        languages: { source: de, target: fr }
+        task: Höre den Satz und schreibe ihn auf. Du kannst ihn so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: il-sappelle-malik.mp3
+            target: Il s'appelle Malik.
+            mistakes:
+              - answer: Elle s'appelle Malik.
+                message: "Malik ist ein Junge, also il. elle gehört zu einem Mädchen."
+          - audio: elle-sappelle-lea.mp3
+            target: Elle s'appelle Léa.
+            mistakes:
+              - answer: Il s'appelle Léa.
+                message: "Léa ist ein Mädchen, also elle. il gehört zu einem Jungen."
+          - audio: nous-jouons-au-foot.mp3
+            target: Nous jouons au foot.
+      - type: language-task
+        id: pronomen-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe den Satz auf Französisch.
+        form: { punctuation: ok }
+        items:
+          - source: Er heißt Malik.
+            target: Il s'appelle Malik.
+            mistakes:
+              - answer: Elle s'appelle Malik.
+                message: "Malik ist ein Junge: Dafür nimmst du il."
+          - source: Sie heißt Léa.
+            target: Elle s'appelle Léa.
+          - source: Wir spielen Fußball.
+            target: Nous jouons au (foot|football).

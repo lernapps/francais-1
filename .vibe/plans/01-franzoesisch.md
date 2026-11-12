@@ -251,7 +251,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
       it as a learner, show it to the creator, wait for the answer. A change → change the pattern first.
 - [x] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
 - [x] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
-- [ ] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
+- [x] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
 - [ ] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
 - [ ] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
 - [ ] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.

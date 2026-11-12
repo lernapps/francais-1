@@ -108,4 +108,4 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 ## Rules learned from mistakes
 
-None yet.
+- Keine Aussprache-Hinweise (Bindung, einzelne Laute, Vergleichswörter) erfinden: ein Hinweis steht nur da, wenn er aus einer geöffneten Quelle stammt oder jemand mit Französisch-Kenntnissen ihn freigegeben hat. Entstanden bei „nous jouons“ (Seite 4): ein Hinweis über eine Bindung war falsch und wurde ersetzt.
