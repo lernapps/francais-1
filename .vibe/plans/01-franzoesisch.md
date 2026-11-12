@@ -255,7 +255,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
 - [x] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
 - [x] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
-- [ ] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.
+- [x] Seite 7 `verb-avoir` (Léas Zimmer); Formen, Alter, il y a. Commit.
 - [ ] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
 - [ ] The content guide matches what was built (`app-content-matches`).
 - [ ] `npx --no -- lernapps check` passes.

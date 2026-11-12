@@ -1,0 +1,173 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das Verb avoir
+description: Das Verb avoir im Präsens konjugieren und Wendungen wie il y a und j'ai onze ans verwenden.
+competencies: [verb-avoir]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-avoir.svg
+        alt: Léa (Mitte, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen in Léas Zimmer. Links steht ein Bett, vor dem Bett sitzt eine Katze, rechts ist ein Fenster.
+        caption: In Léas Zimmer (Léa in der Mitte, Malik rechts) gibt es ein Bett, ein Fenster und eine Katze.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Zum Schluss zeigt Léa Malik ihr Zimmer. Dabei sagt sie, wie alt sie sind und was es in ihrem Zimmer gibt. Dafür braucht sie ein
+          zweites wichtiges Verb: *avoir*, auf Deutsch „haben“. Es ist so wichtig wie *être* von der letzten Seite.
+
+          **Danach kannst du:** *avoir* mit allen Pronomen verwenden, dein Alter sagen und mit *il y a* sagen, was es irgendwo gibt.
+  - type: section
+    id: neu
+    title: "Neu: So lautet avoir"
+    blocks:
+      - type: table
+        caption: avoir im Präsens („haben“)
+        header: [Pronomen, Form]
+        rows:
+          - ["j'", "ai"]
+          - ["tu", "as"]
+          - ["il / elle / on", "a"]
+          - ["nous", "avons"]
+          - ["vous", "avez"]
+          - ["ils / elles", "ont"]
+      - type: text
+        text: |
+          **Alter:** Im Französischen „hat“ man Jahre. *J'ai onze ans.* heißt wörtlich „Ich habe elf Jahre“ und gemeint ist „Ich bin elf Jahre alt“.
+          *ans* heißt „Jahre“. Die Zahlen kennst du von Seite 3.
+
+          **Es gibt:** *Il y a un chat.* heißt „Da ist eine Katze“ oder „Es gibt eine Katze“. *il y a* lernst du als feste Wendung.
+          *un* heißt „ein“; wie das genau funktioniert, lernst du später.
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Für das Alter nimmst du immer *avoir*, nie *être*. *Je suis onze ans* ist falsch. Richtig ist *J'ai onze ans.*
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Zuerst einzelne Sätze: Léa spricht *Léa a onze ans.* und *Nous avons onze ans.* vor, Malik *J'ai onze ans.*, *Tu as onze ans.*
+          und *Ils ont onze ans.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: jai-onze-ans.mp3
+            text: J'ai onze ans.
+          - audio: tu-as-onze-ans.mp3
+            text: Tu as onze ans.
+          - audio: lea-a-onze-ans.mp3
+            text: Léa a onze ans.
+          - audio: nous-avons-onze-ans.mp3
+            text: Nous avons onze ans.
+          - audio: ils-ont-onze-ans.mp3
+            text: Ils ont onze ans.
+        hint: "Sprich langsam und deutlich. Das Alter sagst du mit den Zahlen von Seite 3."
+      - type: text
+        text: |
+          Jetzt zwei Sätze über Léas Katze: Léa sagt *Il y a un chat.* und *Elle a un chat.* Sprich beide Sätze in einem Zug.
+      - type: speaking-task
+        id: sprechen-satz
+        language: fr
+        items:
+          - audio: il-y-a-un-chat.mp3
+            text: Il y a un chat.
+          - audio: elle-a-un-chat.mp3
+            text: Elle a un chat.
+        hint: "Sprich jeden Satz in einem Zug, ohne zwischen den Wörtern abzusetzen."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: formen-zuordnen
+        text: Welche Form von avoir gehört zu welchem Pronomen?
+        pairs:
+          - { left: tu, right: as }
+          - { left: nous, right: avons }
+          - { left: vous, right: avez }
+          - { left: ils, right: ont }
+          - { left: elle, right: a }
+        distractors: [ai]
+        explanation: "tu as, nous avons, vous avez, ils ont, elle a. Die Form ai gehört nur zu j'."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+      - type: language-task
+        id: avoir-formen
+        languages: { source: de, target: fr }
+        mode: table
+        task: Schreibe die fehlenden Formen von avoir.
+        form: { case: hint }
+        table:
+          caption: avoir · présent
+          header: [Pronomen, Form]
+          rows:
+            - ["j'", "[ai]"]
+            - [tu, "[as]"]
+            - [il / elle, "[a]"]
+            - [nous, "[avons]"]
+            - [vous, "[avez]"]
+            - [ils / elles, "[ont]"]
+      - type: language-task
+        id: avoir-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle die passende Form von avoir.
+        items:
+          - source: Ich bin elf Jahre alt.
+            target: "J'[ai] onze ans."
+            distractors: [[as, suis]]
+          - source: Du bist elf Jahre alt.
+            target: "Tu [as] onze ans."
+            distractors: [[ai, a]]
+          - source: Léa ist elf Jahre alt.
+            target: "Léa [a] onze ans."
+            distractors: [[as, ont]]
+          - source: Wir sind elf Jahre alt.
+            target: "Nous [avons] onze ans."
+            distractors: [[avez, ont]]
+      - type: language-task
+        id: avoir-hoeren
+        languages: { source: de, target: fr }
+        task: Höre den Satz und schreibe ihn auf. Du kannst ihn so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: jai-onze-ans.mp3
+            target: J'ai onze ans.
+            mistakes:
+              - answer: Je suis onze ans.
+                message: "Das Alter sagst du mit avoir: j'ai onze ans, nicht mit être."
+          - audio: nous-avons-onze-ans.mp3
+            target: Nous avons onze ans.
+            mistakes:
+              - answer: Nous sommes onze ans.
+                message: "Das Alter sagst du mit avoir: nous avons onze ans."
+          - audio: il-y-a-un-chat.mp3
+            target: Il y a un chat.
+            mistakes:
+              - answer: Il a un chat.
+                message: "il y a heißt „da ist“, il a heißt „er hat“. Hier hörst du il y a."
+      - type: language-task
+        id: avoir-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe den Satz auf Französisch.
+        form: { punctuation: ok }
+        items:
+          - source: Ich bin elf Jahre alt.
+            target: J'ai onze ans.
+            mistakes:
+              - answer: Je suis onze ans.
+                message: "Das Alter sagst du mit avoir: j'ai onze ans."
+          - source: Malik ist elf Jahre alt.
+            target: Malik a onze ans.
+            mistakes:
+              - answer: Malik est onze ans.
+                message: "Das Alter sagst du mit avoir: Malik a onze ans."
+          - source: Da ist eine Katze.
+            target: Il y a un chat.
