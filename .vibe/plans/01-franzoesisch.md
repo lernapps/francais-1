@@ -291,9 +291,9 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] An explainer: load skill `lernapps-explainer-self-assessment` (missing → `npx --no -- lernapps skills --archetype
       explainer`). Add the self-assessment as it says, or
       write under "Key decisions" why the app has none. Commit; the hooks check.
-- [ ] Load skill `lernapps-github`. Repo and Pages as it says: ask the repo name and every click only the creator can
+- [ ] Load skill `lernapps-github`. Repo and Pages as it says (Repo `lernapps/francais-1` da, `main`, `gh-pages` und `work` gepusht; offen: Pages-Quelle `gh-pages` und Sichtbarkeit öffentlich, beides Klicks des Erstellers): ask the repo name and every click only the creator can
       make in one message.
-- [ ] Push `work`, open the preview pull request, see its checks to green as the skill says.
+- [x] Push `work`, open the preview pull request, see its checks to green as the skill says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App"; ask
       whether it may go online; put any open click into the same question. Wait for the yes.
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit
