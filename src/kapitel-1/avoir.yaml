@@ -123,6 +123,9 @@ blocks:
           - source: Ich bin elf Jahre alt.
             target: "J'[ai] onze ans."
             distractors: [[as, suis]]
+            mistakes:
+              - answer: suis
+                message: "Das Alter sagst du mit avoir, nicht mit être: j'ai onze ans."
           - source: Du bist elf Jahre alt.
             target: "Tu [as] onze ans."
             distractors: [[ai, a]]
