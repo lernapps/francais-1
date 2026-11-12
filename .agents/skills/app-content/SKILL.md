@@ -52,7 +52,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 - Kapitelseite: Titel „Bonjour, Léa und Malik!“, `summary` in einem Satz; keine Selbsteinschätzung (siehe unten). Startseite (`src/app.yaml`): `intro` stellt Léa und Malik vor, mit
   Link „Los geht's“ zu Seite 1 und dem Hinweis, dass die Stimmen Computerstimmen sind.
 - Geschichte: Léa (11, kurze braune Haare, rote Jacke) lebt in einer kleinen Stadt in Frankreich, Malik (11, schwarze Locken, Brille, blauer Rucksack) ist neu in ihrer Klasse; eine Szene
-  pro Seite, Léa immer links, Malik rechts davon: 1 Schulhaus mit Schild ÉCOLE, 2 Schulhof mit Sprechblasen, 3 Klassenzimmer (Zahlenspiel), 4 Fußballtraining, 5 Foto mit Katze, 6 Schultasche (mit Schule im Hintergrund),
+  pro Seite, Léa immer links, Malik rechts davon: 1 Schulhaus mit Schild ÉCOLE, 2 Schulhof mit Sprechblasen, 3 Klassenzimmer (Zahlenspiel), 4 Tennisplatz, 5 Foto mit Katze, 6 Schultasche (mit Schule im Hintergrund),
   7 Léas Zimmer. Nur erfundene Figuren, keine Marken, keine Figuren aus Büchern, Filmen oder Spielen. Die Szenen entstehen aus `scenes.py`-artigen SVG-Vorlagen; gleiche Figuren auf jeder Seite.
 
 ## Terminology
@@ -112,6 +112,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 ## Rules learned from mistakes
 
+- Keine englischen Lehnwörter in gesprochenen Sätzen: Die Stimmen lesen sie falsch (bei „foot“ und „football“ hing ein Nachlaut dran, vom Ersteller gehört). Lieber ein anderes Wort; „tennis“ klingt gut (vom Ersteller gehört und gewählt). Neue Wörter vor dem Einbau anhören lassen.
 - Fehler-Rückmeldungen (`mistakes`) stimmen nur auf genau den Wortlaut: Schreibe jede Fehl-Antwort mit Varianten für Schlusszeichen und ersten Buchstaben, zum Beispiel `(J|j)e es Léa(.|)`, sonst erscheint bei „je es Léa“ nur „Deine Fassung kann trotzdem richtig sein“. Entstanden bei der Prüfung als Schüler. In Aufgaben mit mehreren richtigen Antworten (`On joue au foot` statt `Nous jouons au foot`) alle richtigen Varianten im `target` aufführen.
 - Beschreibungen (`description`) und Titel sind kindgerecht, ohne Fachwörter wie „Subjektpronomen“, weil die Startseite sie zeigt; Beschreibungen mit Doppelpunkt in Anführungszeichen setzen.
 - Keine Aussprache-Hinweise (Bindung, einzelne Laute, Vergleichswörter) erfinden: ein Hinweis steht nur da, wenn er aus einer geöffneten Quelle stammt oder jemand mit Französisch-Kenntnissen ihn freigegeben hat. Entstanden bei „nous jouons“ (Seite 4): ein Hinweis über eine Bindung war falsch und wurde ersetzt.

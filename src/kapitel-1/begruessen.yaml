@@ -81,14 +81,14 @@ blocks:
     blocks:
       - type: text
         text: |
-          Léa spricht *Salut !* und *Au revoir !* vor, Malik *Ça va bien, merci.* und *Bonjour ! Je m'appelle Malik.*
+          Léa spricht *Salut* und *Au revoir !* vor, Malik *Ça va bien, merci.* und *Bonjour ! Je m'appelle Malik.*
           Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
       - type: speaking-task
         id: sprechen-ueben
         language: fr
         items:
           - audio: salut.mp3
-            text: Salut !
+            text: Salut
           - audio: ca-va-bien-merci.mp3
             text: Ça va bien, merci.
           - audio: au-revoir.mp3

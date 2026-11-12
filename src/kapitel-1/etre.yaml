@@ -84,7 +84,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik.* und *C'est le chat.*
+          Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik, oui.* („oui“ heißt „ja“) und *C'est le chat.*
           Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
       - type: speaking-task
         id: sprechen-ueben
@@ -92,8 +92,8 @@ blocks:
         items:
           - audio: je-suis-lea.mp3
             text: Je suis Léa.
-          - audio: tu-es-malik.mp3
-            text: Tu es Malik.
+          - audio: tu-es-malik-oui.mp3
+            text: Tu es Malik, oui.
           - audio: cest-le-chat.mp3
             text: C'est le chat.
           - audio: nous-sommes-a-lecole.mp3

@@ -217,7 +217,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - **Eine Komponente?** Nein: kein Baustein fehlt (Begründung für `prefer-built-in-block`). Die Hör- und Nachsprech-Blöcke und `language-task` genügen.
 - **Rückmeldung falscher Antworten:** immer mit der Regel (nie nur „falsch“); 2–3 typische Fehler je Aufgabe aus „Hürden“.
 - **Nächste Seite/Kapitel später:** Ein Agent liest den Abschnitt „Adding a chapter or round“ der Inhaltsanleitung (`app-content`) und legt `src/kapitel-N/` mit den Seiten, `src/audio/` und den Karten-Ids an; neue Wörter nur aus A1 oder erklärt.
-- **Figuren zu Seiten:** Seite 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer mit Hausnummern/Alter, 4 Fußballtraining, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer; Szenen nach der Reihenfolge der Seiten.
+- **Figuren zu Seiten:** Seite 1 Schultor-Schild, 2 Pausenhof-Gruß, 3 Klassenzimmer mit Hausnummern/Alter, 4 Tennisplatz, 5 Familienfoto, 6 Schultasche, 7 Léas Zimmer; Szenen nach der Reihenfolge der Seiten.
 
 ### Completed
 
@@ -330,6 +330,7 @@ Prozessfehler (vom Ersteller bemerkt, hier festgehalten):
 - Ich hatte einen Satz zur Aussprache („nous jouons“, Bindung) ohne Quelle geschrieben und erst beim erneuten Lesen als falsch erkannt; im Leitfaden steht dazu jetzt eine Regel.
 - Beim Figurenstil lag beim Start eine Datei im Ordner, die ich in diesem Gespräch nicht geschrieben hatte (Commit „Figuren runder gezeichnet“, mit Hals, Armen und Beinen, gegen den Wunsch des Erstellers). Herkunft ungeklärt; die Figuren habe ich nach dem Wunsch neu gezeichnet.
 - Nach der Überarbeitung (Gespräch im Einstieg, „Kurz geübt“, ein Nachsprech-Block, neue Sätze, erklärende Rückmeldungen) hat die zweite Prüfung als Schüler weitere Fehler gefunden: Rückmeldungen erschienen nur bei genauem Schlusspunkt und genauer Großschreibung, „On joue au foot“ galt als falsch, ein Altersrätsel verwies auf nicht vorhandenen Text, Seitenbeschreibungen auf der Startseite waren voller Fachwörter, Bildunterschriften versprachen Dinge, die nicht kamen. Behoben und im Leitfaden als Regel festgehalten. Nicht änderbar, weil Texte der Vorlage: „Satz 1“ bei Einzelwörtern, die Marke „KI“ am Player, „Deine Fassung kann trotzdem richtig sein“, „Lies dazu noch einmal den Text über der Aufgabe“, der Wikipedia-Link nach jeder richtigen Antwort, der KI-Tutor-Abschnitt und die Medienübersicht.
+- Englische Lehnwörter (foot, football) wurden von den Stimmen mit einem Nachlaut gesprochen, auch mit Satzzeichen-Varianten; erst der Austausch gegen „tennis“ half. Künftig englische Lehnwörter in gesprochenen Sätzen vermeiden und neue Wörter vor dem Einbau anhören lassen (Regel im Leitfaden). Tempo der Stimmen blieb bei 1,0 (Vorgabe des Audio-Skills); „Tu es Malik“ klang zu schnell und bekam ein „, oui“ als Pause.
 - Eine Aussage zu „septante/nonante“ habe ich in einer Rückmeldung zuerst ohne Quelle geschrieben und nach dem Prüfen entfernt.
 - Die Pages-Einstellung konnte ich über den Proxy nicht lesen oder setzen; ein Klick des Erstellers (zuerst falsche Quelle, dann `gh-pages`) war nötig. Ein leerer Commit auf `gh-pages` und ein Neustart des Workflows halfen nicht.
 - Ich habe die Aussprache aller Aufnahmen nicht gehört; die Klangvergleiche in den Texten sind nicht von jemandem mit Französisch-Kenntnissen geprüft.
