@@ -263,10 +263,11 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
 - [x] The content guide matches what was built (`app-content-matches`).
 - [x] `npx --no -- lernapps check` passes.
-- [x] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
+- [ ] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
       each with the confirmed sketches; each figure in its own image (`npx --no -- lernapps screenshots --desktop`).
       Your tools cannot show an image: check each screen in the browser instead (text, element boxes at both widths),
       write that under "Notes" and tick the box.
+      Offen: Nur Startseite, Seite 1 und Seite 3 habe ich als Bild angesehen; die Seiten 2, 4, 5, 6 und 7 nur gemessen. Eine Prüfung der Seiten als Schüler (Didaktik, Konsistenz, Attraktivität) läuft; das Kästchen bleibt offen, bis ihre Funde bearbeitet sind.
 - [x] Every box of Explore, Plan and Code ticked.
 - [x] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
       No checkpoint here: set it before you ask or report anything, then start Commit in the same message.
