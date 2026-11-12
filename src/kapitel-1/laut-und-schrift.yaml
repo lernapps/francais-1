@@ -41,7 +41,7 @@ blocks:
         text: Hier siehst du zu jeder Verbindung zwei Wörter, die du gleich hörst und nachsprichst.
       - type: table
         caption: Beispielwörter mit ihrer Bedeutung
-        header: [Buchstaben, Wort, Bedeutung]
+        header: [Laut, Wort, Bedeutung]
         rows:
           - ["ou", "nous", "wir"]
           - ["ou", "rouge", "rot"]
@@ -52,7 +52,7 @@ blocks:
           - ["ch", "chat", "die Katze"]
           - ["ch", "chocolat", "die Schokolade"]
           - ["gn", "montagne", "der Berg"]
-          - ["gn", "campagne", "das Land (nicht Stadt)"]
+          - ["gn", "campagne", "das Land"]
       - type: note
         title: Merke
         blocks:
