@@ -10,14 +10,14 @@
   <line x1="320" y1="170" x2="320" y2="260" stroke="#4a361f" stroke-width="3"/>
   <rect x="90" y="170" width="60" height="50" fill="#bfe1f5" stroke="#444" stroke-width="3"/>
   <rect x="490" y="170" width="60" height="50" fill="#bfe1f5" stroke="#444" stroke-width="3"/>
-  <g transform="translate(150,175)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(150,150)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
     <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#d33"/>
     <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
     <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/>
     <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
     <path d="M42 68 Q50 75 58 68" fill="none"/>
   </g>
-  <g transform="translate(390,175)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+  <g transform="translate(390,150)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
     <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a6fd8"/>
     <path d="M26 100 C22 130 24 156 30 170" stroke="#244a9a" stroke-width="5" fill="none"/>
     <ellipse cx="50" cy="54" rx="30" ry="32" fill="#c68f62"/>
