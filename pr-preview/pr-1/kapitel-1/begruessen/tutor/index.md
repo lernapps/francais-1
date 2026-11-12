@@ -79,7 +79,7 @@ Bei *je m'appelle* fehlt nie das *m'*: Es gehört fest dazu. Das *ç* in *ça* i
 
 ### Hören und nachsprechen
 
-Léa spricht *Salut !* und *Au revoir !* vor, Malik *Ça va bien, merci.* und *Bonjour ! Je m'appelle Malik.*
+Léa spricht *Salut* und *Au revoir !* vor, Malik *Ça va bien, merci.* und *Bonjour ! Je m'appelle Malik.*
 Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
@@ -116,7 +116,7 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Salut !
+1. Audio → Salut
 2. Audio → Ça va bien, merci.
 3. Audio → Au revoir !
 4. Audio → Bonjour ! Je m'appelle Malik.

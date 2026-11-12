@@ -81,7 +81,7 @@ zu *ils* und *elles* gehört *sont*.
 
 ### Hören und nachsprechen
 
-Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik.* und *C'est le chat.*
+Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik, oui.* („oui“ heißt „ja“) und *C'est le chat.*
 Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
@@ -119,7 +119,7 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Je suis Léa.
-2. Audio → Tu es Malik.
+2. Audio → Tu es Malik, oui.
 3. Audio → C'est le chat.
 4. Audio → Nous sommes à l'école.
 - Tipp der App: Sprich die Formen von être langsam und deutlich nach.

@@ -43,9 +43,9 @@ Ich, du, er, sie, wir, ihr: die neun kleinen Wörter für Personen auf Französi
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor. Bildunterschrift: Léa (links) und Malik (rechts) beim Fußballtraining. Sie treffen sich zum Spielen.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf einem Tennisplatz. Zwischen ihnen und dem Netz liegt ein Ball, rechts steht ein Tennisschläger. Bildunterschrift: Léa (links) und Malik (rechts) auf dem Tennisplatz. Sie treffen sich zum Spielen.
 
-Nach dem Zahlenspiel geht es raus auf den Fußballplatz. Léa spricht über sich, über Malik und über beide zusammen.
+Nach dem Zahlenspiel geht es raus auf den Tennisplatz. Léa spricht über sich, über Malik und über beide zusammen.
 Statt jedes Mal alle Namen zu sagen, benutzt sie kleine Wörter wie „ich“, „er“, „sie“ oder „wir“. Diese Wörter heißen **Pronomen**.
 
 **Danach kannst du:** die neun französischen Pronomen *je, tu, il, elle, on, nous, vous, ils* und *elles* verwenden und weißt, wann du welches nimmst.
@@ -71,8 +71,8 @@ So klingt das beim Training. Die Wörter nach dem Pronomen verändern sich, wie 
 - *Je m'appelle Léa.* (Ich heiße Léa.)
 - *Tu t'appelles Malik ?* (Heißt du Malik?)
 - *Il s'appelle Malik.* (Er heißt Malik.) — *Elle s'appelle Léa.* (Sie heißt Léa.)
-- *Nous jouons au foot.* (Wir spielen Fußball.) — *On joue au foot !* (Wir spielen Fußball! Oder: Man spielt Fußball.)
-- *Vous jouez au foot ?* (Spielt ihr Fußball?) — *Ils jouent au foot.* (Sie spielen Fußball.)
+- *Nous jouons au tennis.* (Wir spielen Tennis.) — *On joue au tennis.* (Wir spielen Tennis. Oder: Man spielt Tennis.)
+- *Vous jouez au tennis ?* (Spielt ihr Tennis?) — *Ils jouent au tennis.* (Sie spielen Tennis.)
 
 **Merke: Merke**
 
@@ -85,7 +85,7 @@ Nur wenn alle Mädchen sind, sagst du *elles*.
 
 ### Hören und nachsprechen
 
-Malik sagt *Il s'appelle Malik.* und *Ils jouent au foot.*, Léa sagt *Elle s'appelle Léa.* und *On joue au foot !*
+Malik sagt *Il s'appelle Malik.* und *Ils jouent au tennis.*, Léa sagt *Elle s'appelle Léa.* und *On joue au tennis.*
 Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `sprechen-ueben` (unten)
@@ -102,7 +102,7 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 ### Übung sie-fuer-beide
 
-- Aufgabe: Léa und Malik spielen zusammen Fußball. Wie sagst du „sie“ für die beiden?
+- Aufgabe: Léa und Malik spielen zusammen Tennis. Wie sagst du „sie“ für die beiden?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ ils – Richtig: Eine gemischte Gruppe aus einem Mädchen und einem Jungen ist ils.
@@ -120,8 +120,8 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Sätze:
 1. Audio → Il s'appelle Malik.
 2. Audio → Elle s'appelle Léa.
-3. Audio → On joue au foot !
-4. Audio → Ils jouent au foot.
+3. Audio → On joue au tennis.
+4. Audio → Ils jouent au tennis.
 - Tipp der App: Sprich langsam und höre auf den Laut ou: Er klingt wie ein langes „u“.
 - Link: [../?via=tutor#sprechen-ueben](../?via=tutor#sprechen-ueben)
 
@@ -139,16 +139,16 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Wir spielen Fußball. → Nous jouons au foot.
+1. Wir spielen Tennis. → Nous jouons au tennis.
      - Ils: ils heißt „sie“ (mehrere). Wenn du selbst dabei bist, sagst du nous.
      - Vous: vous heißt „ihr“. Wenn du selbst dabei bist, sagst du nous.
-2. Spielt ihr Fußball? → Vous jouez au foot ?
+2. Spielt ihr Tennis? → Vous jouez au tennis ?
      - Tu: tu heißt „du“ (eine Person). Bei „ihr“ sagst du vous.
      - Ils: ils heißt „sie“ (über andere). Wenn du sie ansprichst, sagst du vous.
 3. Er heißt Malik. → Il s'appelle Malik.
      - Elle: Malik ist ein Junge: Dafür nimmst du il. elle gehört zu einem Mädchen.
      - Tu: tu heißt „du“. Über Malik sprichst du mit il.
-4. Wir spielen Fußball! → On joue au foot !
+4. Wir spielen Tennis! → On joue au tennis !
      - Tu: tu heißt „du“. Für „wir“ im Gespräch unter Freunden passt on.
      - Vous: vous heißt „ihr“. Für „wir“ im Gespräch unter Freunden passt on.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -164,7 +164,7 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
      - Je appelle Léa. / Je appelle Léa / je appelle Léa. / je appelle Léa: Zu s'appeler gehört das m': je m'appelle.
 2. Audio → Tu t'appelles Malik.
      - Il t'appelles Malik. / Il t'appelles Malik / il t'appelles Malik. / il t'appelles Malik: Hier sprichst du Malik an: Dafür nimmst du tu, nicht il.
-3. Audio → Nous jouons au foot.
+3. Audio → Nous jouons au tennis.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#pronomen-hoeren](../?via=tutor#pronomen-hoeren)
@@ -181,6 +181,6 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 2. Sie heißt Zoé. → Elle s'appelle Zoé.
      - Elle appelle Zoé. / Elle appelle Zoé / elle appelle Zoé. / elle appelle Zoé: Zu heißen gehört das s': elle s'appelle.
      - Il s'appelle Zoé. / Il s'appelle Zoé / il s'appelle Zoé. / il s'appelle Zoé: Zoé ist ein Mädchen: Dafür nimmst du elle.
-3. Wir spielen Fußball. → Nous jouons au foot. (auch richtig: Nous jouons au football.; On joue au foot.; On joue au football.)
+3. Wir spielen Tennis. → Nous jouons au tennis. (auch richtig: On joue au tennis.)
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#pronomen-uebersetzen](../?via=tutor#pronomen-uebersetzen)
