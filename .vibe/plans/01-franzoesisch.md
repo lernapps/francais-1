@@ -240,9 +240,9 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
       Terminology, Exercise patterns, Figures, Sources, Adding a chapter or round, Rules learned from mistakes
       ("None yet." until the first). `grep -c "FILL IN" .agents/skills/app-content/SKILL.md` prints 0. Commit it
       before any content.
-- [ ] Load skill `lernapps-<archetype>` and the content guide. Questions with options and feedback: also skill
+- [x] Load skill `lernapps-<archetype>` and the content guide. Questions with options and feedback: also skill
       `lernapps-content-questions`.
-- [ ] An explainer: decide on `scope` as `references/structure.md` of skill `lernapps-explainer` says. Needed with an
+- [x] An explainer: decide on `scope` as `references/structure.md` of skill `lernapps-explainer` says. Needed with an
       `open-task` or the creator's material: then `scope` in `src/app.yaml` and on every page
       (`explainer-scope-matches`). Write the choice under "Key decisions".
 - [ ] Seite 1 `laut-und-schrift` (Muster-Seite) komplett: Szene, Tabelle, Hör-Diktat, Nachsprechen, Übung. Vorher dem Ersteller sagen, was das Audio-Werkzeug braucht (0,6 GB Download, Netz für pypi.org, files.pythonhosted.org, github.com, huggingface.co), die Stimme wählen lassen (`ff_siwis` weiblich oder `pierre` männlich) und auf das Ja warten; die Sätze vom Ersteller (oder jemandem mit Französisch) anhören lassen. Commit auf `work`.
