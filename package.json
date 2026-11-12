@@ -1,0 +1,11 @@
+{
+  "name": "franzoesisch",
+  "version": "0.0.0",
+  "private": true,
+  "lernapps": {
+    "init": true
+  },
+  "devDependencies": {
+    "@lernapps/tooling": "^0.12.0"
+  }
+}
