@@ -69,7 +69,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
   und `text`. Kein Prüfen; die Kinder bewerten sich selbst. Kann nicht in die Selbsteinschätzung.
 - **Hören und schreiben** (Diktat, Hören): `language-task` mit `languages: { source: de, target: fr }`; Item mit `audio` und `target`; für Zahlen
   `direction: to-source` mit `audio` und `source` (z. B. `75`). Der gesprochene Text ist eine richtige Antwort; Zahlen im gesprochenen Text ausschreiben.
-- **Zuordnen und Auswählen**: Quizblöcke `single-choice`, `matching`, `true-false`; jede falsche Option mit `info`, die die Regel nennt.
+- **Zuordnen und Auswählen**: Quizblöcke `single-choice`, `matching` (die rechte Seite jedes Paars ist verschieden; ein Wort darf nicht zweimal rechts stehen); jede falsche Option mit `info`, die die Regel nennt.
 - **Lücke und Formen**: `language-task` Modus `gap`, `choice` (mit `distractors` je Lücke), `table` (Formentabelle von être und avoir).
 - **Übersetzen**: `language-task` `write`; die Aufgabe sagt „ohne Artikel“, wo nur das Wort gefragt ist; Varianten `(…|…)`; `form`: Akzent zählt, Großschreibung und Satzzeichen nur Hinweis (`case: hint`,
   `punctuation: hint`).

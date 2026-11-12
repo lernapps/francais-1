@@ -27,6 +27,9 @@ blocks:
         text: |
           Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst,
           hängt vom Nomen ab.
+      - type: definition
+        term: Artikel
+        explanation: Der Artikel ist das kleine Wort vor einem Nomen, im Deutschen „der“, „die“ oder „das“.
       - type: table
         caption: Die vier Formen des bestimmten Artikels
         header: [Artikel, Wort, Bedeutung]

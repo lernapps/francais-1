@@ -23,6 +23,9 @@ blocks:
     id: neu
     title: "Neu: Die neun Pronomen"
     blocks:
+      - type: definition
+        term: Pronomen
+        explanation: Ein Pronomen ist ein kleines Wort, das für eine Person oder Sache steht, zum Beispiel „er“ oder „wir“.
       - type: table
         caption: Die Pronomen mit ihrer Bedeutung
         header: [Pronomen, Bedeutung]
