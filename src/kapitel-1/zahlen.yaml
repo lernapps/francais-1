@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Zahlen bis 100
-description: Die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und quatre-vingt-dix.
+description: "Von 0 bis 100 zählen, auch die kniffligen Zahlen soixante-dix und quatre-vingts."
 competencies: [zahlen-bis-100]
 blocks:
   - type: section
@@ -10,7 +10,7 @@ blocks:
       - type: figure
         image: images/szene-zahlen.svg
         alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel.
-        caption: Léa (links) und Malik (rechts) spielen im Klassenzimmer ein Zahlenspiel. Die Tafel ist noch leer.
+        caption: Léa (links) und Malik (rechts) spielen im Klassenzimmer ein Zahlenspiel.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -29,35 +29,22 @@ blocks:
         blocks:
           - type: text
             text: Diese Wörter lernst du am besten auswendig. Einige hörst du gleich im Abschnitt „Hören und nachsprechen“.
+          - type: text
+            text: "Die Null heißt *zéro*. Dann geht es so weiter:"
           - type: table
-            caption: Die Zahlen von 0 bis 10
-            header: [Zahl, Französisch]
+            caption: Die Zahlen von 1 bis 20
+            header: [Zahl, Französisch, Zahl, Französisch]
             rows:
-              - ["0", "zéro"]
-              - ["1", "un"]
-              - ["2", "deux"]
-              - ["3", "trois"]
-              - ["4", "quatre"]
-              - ["5", "cinq"]
-              - ["6", "six"]
-              - ["7", "sept"]
-              - ["8", "huit"]
-              - ["9", "neuf"]
-              - ["10", "dix"]
-          - type: table
-            caption: Die Zahlen von 11 bis 20
-            header: [Zahl, Französisch]
-            rows:
-              - ["11", "onze"]
-              - ["12", "douze"]
-              - ["13", "treize"]
-              - ["14", "quatorze"]
-              - ["15", "quinze"]
-              - ["16", "seize"]
-              - ["17", "dix-sept"]
-              - ["18", "dix-huit"]
-              - ["19", "dix-neuf"]
-              - ["20", "vingt"]
+              - ["1", "un", "11", "onze"]
+              - ["2", "deux", "12", "douze"]
+              - ["3", "trois", "13", "treize"]
+              - ["4", "quatre", "14", "quatorze"]
+              - ["5", "cinq", "15", "quinze"]
+              - ["6", "six", "16", "seize"]
+              - ["7", "sept", "17", "dix-sept"]
+              - ["8", "huit", "18", "dix-huit"]
+              - ["9", "neuf", "19", "dix-neuf"]
+              - ["10", "dix", "20", "vingt"]
       - type: section
         id: zehner
         title: Zehner und die 100
@@ -85,6 +72,7 @@ blocks:
               Ab 70 zählt man anders. Es gibt kein eigenes Wort für 70, 80 und 90. Man rechnet:
 
               - **70 bis 79:** *soixante* (60) plus 10 bis 19. Also *soixante-dix* ist 60 + 10.
+              - **71:** Hier sagt man wie bei 21 wieder „et“: *soixante et onze* (60 + 11).
               - **80:** *quatre-vingts* heißt wörtlich „vier Zwanziger“, also 4 × 20.
               - **90 bis 99:** *quatre-vingt* (80) plus 10 bis 19. Also *quatre-vingt-dix* ist 80 + 10.
           - type: table
@@ -180,7 +168,7 @@ blocks:
         answer: { value: "e.n", compare: { number: { format: integer } } }
         hint: "Du kennst die Einer und Zehner schon: Setze sie zusammen."
         steps:
-          - "Zerlege das Zahlwort in Zehner und Einer: {{e.fr}}."
+          - "Zerlege das Zahlwort: {{e.fr}} ist {{e.rechnung}}."
           - "Setze beides zusammen: Das Ergebnis ist {{e.n}}."
       - type: generated
         id: zahl-70-bis-99
@@ -201,8 +189,8 @@ blocks:
             }
         hint: "Bei 70 bis 79 beginnst du bei 60, bei 80 bis 99 bei 80."
         steps:
-          - "Erkenne den Anfang des Zahlworts: {{e.fr}}."
-          - "Rechne ab diesem Anfang weiter: Das Ergebnis ist {{e.n}}."
+          - "Erkenne den Anfang des Zahlworts: Bei {{e.fr}} startest du bei 60 oder bei 80."
+          - "Rechne es aus: {{e.fr}} ist {{e.rechnung}}, also {{e.n}}."
       - type: language-task
         id: zahl-hoeren
         languages: { source: de, target: fr }
@@ -229,6 +217,10 @@ blocks:
             mistakes:
               - answer: vingt-un
                 message: "Bei 21, 31, 41 und so weiter sagt man „et un“: vingt et un."
+              - answer: vingt un
+                message: "Zwischen vingt und un fehlt das Wort „et“: vingt et un."
+              - answer: vingt-et-un
+                message: "Hier schreibt man keine Bindestriche: vingt et un."
           - cue: "70"
             target: soixante-dix
           - cue: "80"

@@ -112,4 +112,6 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
 
 ## Rules learned from mistakes
 
+- Fehler-Rückmeldungen (`mistakes`) stimmen nur auf genau den Wortlaut: Schreibe jede Fehl-Antwort mit Varianten für Schlusszeichen und ersten Buchstaben, zum Beispiel `(J|j)e es Léa(.|)`, sonst erscheint bei „je es Léa“ nur „Deine Fassung kann trotzdem richtig sein“. Entstanden bei der Prüfung als Schüler. In Aufgaben mit mehreren richtigen Antworten (`On joue au foot` statt `Nous jouons au foot`) alle richtigen Varianten im `target` aufführen.
+- Beschreibungen (`description`) und Titel sind kindgerecht, ohne Fachwörter wie „Subjektpronomen“, weil die Startseite sie zeigt; Beschreibungen mit Doppelpunkt in Anführungszeichen setzen.
 - Keine Aussprache-Hinweise (Bindung, einzelne Laute, Vergleichswörter) erfinden: ein Hinweis steht nur da, wenn er aus einer geöffneten Quelle stammt oder jemand mit Französisch-Kenntnissen ihn freigegeben hat. Entstanden bei „nous jouons“ (Seite 4): ein Hinweis über eine Bindung war falsch und wurde ersetzt.

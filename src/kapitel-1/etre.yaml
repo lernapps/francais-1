@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das Verb être
-description: Das Verb être im Präsens konjugieren und damit Personen und Dinge vorstellen (c'est, il est).
+description: "Mit être sagst du, wer du bist, wer etwas ist und wo jemand ist: je suis, tu es, c'est, il est."
 competencies: [verb-etre]
 blocks:
   - type: section
@@ -138,8 +138,8 @@ blocks:
         mode: choice
         task: Wähle die passende Form von être.
         items:
-          - source: Ich bin Malik.
-            target: "Je [suis] Malik."
+          - source: Ich bin Léa.
+            target: "Je [suis] Léa."
             distractors: [[es, est]]
             mistakes:
               - answer: es
@@ -154,8 +154,8 @@ blocks:
                 message: "sommes gehört zu nous („wir sind“). Zu vous gehört êtes: vous êtes."
               - answer: sont
                 message: "sont gehört zu ils und elles („sie sind“). Zu vous gehört êtes: vous êtes."
-          - source: Sie sind in der Schule.
-            target: "Ils [sont] à l'école."
+          - source: Sie sind hier.
+            target: "Ils [sont] ici."
             distractors: [[est, êtes]]
             mistakes:
               - answer: est
@@ -192,6 +192,22 @@ blocks:
                 message: "Du sagst, wo Léa ist, nicht wer sie ist. Dafür nimmst du elle est."
               - answer: Il est
                 message: "Léa ist ein Mädchen: Dafür nimmst du elle est."
+          - source: Das ist der Ball.
+            target: "[C'est] le ballon."
+            distractors: [["Il est", "Elle est"]]
+            mistakes:
+              - answer: Il est
+                message: "Du stellst den Ball vor („Das ist der Ball“). Zum Vorstellen nimmst du c'est."
+              - answer: Elle est
+                message: "Du stellst den Ball vor („Das ist der Ball“). Zum Vorstellen nimmst du c'est."
+          - source: Er ist in der Schule. (Malik)
+            target: "[Il est] à l'école."
+            distractors: [["C'est", "Elle est"]]
+            mistakes:
+              - answer: "C'est"
+                message: "Du sagst, wo Malik ist, nicht wer er ist. Dafür nimmst du il est."
+              - answer: Elle est
+                message: "Malik ist ein Junge: Dafür nimmst du il est."
       - type: language-task
         id: etre-hoeren
         languages: { source: de, target: fr }
@@ -201,36 +217,36 @@ blocks:
           - audio: je-suis-malik.mp3
             target: Je suis Malik.
             mistakes:
-              - answer: Je es Malik.
+              - answer: (J|j)e es Malik(.|)
                 message: "Zu je gehört suis: je suis."
           - audio: il-est-ici.mp3
             target: Il est ici.
             mistakes:
-              - answer: Il es ici.
+              - answer: (I|i)l es ici(.|)
                 message: "Zu il gehört est: il est."
           - audio: ils-sont-a-lecole.mp3
             target: Ils sont à l'école.
             mistakes:
-              - answer: Ils est à l'école.
+              - answer: (I|i)ls est à l'école(.|)
                 message: "Bei mehreren sagst du sont: ils sont."
       - type: language-task
         id: etre-uebersetzen
         languages: { source: de, target: fr }
         task: Schreibe den Satz auf Französisch.
-        form: { punctuation: ok }
+        form: { case: hint, punctuation: ok }
         items:
           - source: Ich bin Léa.
             target: Je suis Léa.
             mistakes:
-              - answer: Je es Léa.
+              - answer: (J|j)e es Léa(.|)
                 message: "Zu je gehört suis: je suis."
           - source: Du bist hier.
             target: Tu es ici.
             mistakes:
-              - answer: Tu suis ici.
+              - answer: (T|t)u suis ici(.|)
                 message: "Zu tu gehört es: tu es."
           - source: Das ist Malik.
             target: C'est Malik.
             mistakes:
-              - answer: Il est Malik.
+              - answer: (I|i)l est Malik(.|)
                 message: "Zum Vorstellen sagst du c'est: C'est Malik."

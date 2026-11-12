@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wer macht was? Die Pronomen
-description: Die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden.
+description: "Ich, du, er, sie, wir, ihr: die neun kleinen Wörter für Personen auf Französisch."
 competencies: [subjektpronomen]
 blocks:
   - type: section
@@ -10,7 +10,7 @@ blocks:
       - type: figure
         image: images/szene-pronomen.svg
         alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor.
-        caption: Léa (links) und Malik (rechts) beim Fußballtraining. Wer schießt gleich aufs Tor?
+        caption: Léa (links) und Malik (rechts) beim Fußballtraining. Sie treffen sich zum Spielen.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -163,12 +163,12 @@ blocks:
           - audio: je-mappelle-lea.mp3
             target: Je m'appelle Léa.
             mistakes:
-              - answer: Je appelle Léa.
+              - answer: (J|j)e appelle Léa(.|)
                 message: "Zu s'appeler gehört das m': je m'appelle."
           - audio: tu-tappelles-malik.mp3
             target: Tu t'appelles Malik.
             mistakes:
-              - answer: Il t'appelles Malik.
+              - answer: (I|i)l t'appelles Malik(.|)
                 message: "Hier sprichst du Malik an: Dafür nimmst du tu, nicht il."
           - audio: nous-jouons-au-foot.mp3
             target: Nous jouons au foot.
@@ -181,12 +181,16 @@ blocks:
           - source: Er heißt Noé.
             target: Il s'appelle Noé.
             mistakes:
-              - answer: Elle s'appelle Noé.
+              - answer: (I|i)l appelle Noé(.|)
+                message: "Zu heißen gehört das s': il s'appelle."
+              - answer: (E|e)lle s'appelle Noé(.|)
                 message: "Noé ist ein Junge: Dafür nimmst du il."
           - source: Sie heißt Zoé.
             target: Elle s'appelle Zoé.
             mistakes:
-              - answer: Il s'appelle Zoé.
+              - answer: (E|e)lle appelle Zoé(.|)
+                message: "Zu heißen gehört das s': elle s'appelle."
+              - answer: (I|i)l s'appelle Zoé(.|)
                 message: "Zoé ist ein Mädchen: Dafür nimmst du elle."
           - source: Wir spielen Fußball.
-            target: Nous jouons au (foot|football).
+            target: (Nous jouons|On joue) au (foot|football).

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Der bestimmte Artikel
-description: Den bestimmten Artikel le, la, l' und les richtig vor ein Nomen setzen.
+description: "Das kleine Wort vor dem Nomen: le, la, l' und les richtig benutzen."
 competencies: [bestimmter-artikel]
 blocks:
   - type: section
@@ -29,6 +29,12 @@ blocks:
       - type: definition
         term: Nomen
         explanation: Ein Nomen ist ein Wort für ein Ding, ein Tier oder eine Person, zum Beispiel „Heft“, „Katze“ oder „Léa“.
+      - type: definition
+        term: Vokal
+        explanation: Ein Vokal ist ein Selbstlaut, also a, e, i, o oder u (im Französischen auch mit Akzent, zum Beispiel é).
+      - type: definition
+        term: männlich und weiblich
+        explanation: Jedes Nomen im Französischen ist männlich (dann steht le davor) oder weiblich (dann steht la davor). Das passt nicht immer zum Deutschen. la table ist „der Tisch“, le sac ist „die Tasche“.
       - type: text
         text: |
           Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst, hängt vom Nomen ab.
@@ -56,7 +62,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt, auch im Deutschen. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
+              Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt. Es muss auch nicht zum Deutschen passen: *la table* ist „der Tisch“ und *le sac* ist „die Tasche“. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
   - type: section
     id: kurz-geuebt
     title: Kurz geübt
@@ -115,22 +121,22 @@ blocks:
         mode: choice
         task: Wähle den passenden Artikel.
         items:
-          - source: das Buch
-            target: "[Le] livre"
+          - source: das Heft
+            target: "[Le] cahier"
             distractors: [[La, "L'"]]
             mistakes:
               - answer: La
-                message: "livre ist männlich: le livre."
+                message: "cahier ist männlich: le cahier."
               - answer: "L'"
-                message: "livre beginnt mit einem Konsonanten (l). Das l' brauchst du nur vor einem Vokal: le livre."
-          - source: der Tisch
-            target: "[La] table"
+                message: "cahier beginnt mit dem Buchstaben c, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: le cahier."
+          - source: der Berg
+            target: "[La] montagne"
             distractors: [[Le, "L'"]]
             mistakes:
               - answer: Le
-                message: "table ist weiblich: la table."
+                message: "montagne ist weiblich: la montagne. Auch hier passt das Deutsche nicht: der Berg."
               - answer: "L'"
-                message: "table beginnt mit einem Konsonanten (t). Das l' brauchst du nur vor einem Vokal: la table."
+                message: "montagne beginnt mit dem Buchstaben m, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: la montagne."
           - source: der Freund
             target: "[L']ami"
             distractors: [[Le, La]]
@@ -158,16 +164,22 @@ blocks:
             mistakes:
               - answer: la cahier
                 message: "cahier ist männlich: le cahier."
-          - audio: le-stylo.mp3
-            target: le stylo
+              - answer: cahier
+                message: "Das kleine Wort gehört dazu: le cahier."
+          - audio: le-bureau.mp3
+            target: le bureau
             mistakes:
-              - answer: la stylo
-                message: "stylo ist männlich: le stylo."
-          - audio: le-sac.mp3
-            target: le sac
+              - answer: la bureau
+                message: "bureau ist männlich: le bureau."
+              - answer: bureau
+                message: "Das kleine Wort gehört dazu: le bureau."
+          - audio: la-campagne.mp3
+            target: la campagne
             mistakes:
-              - answer: la sac
-                message: "sac ist männlich: le sac."
+              - answer: le campagne
+                message: "campagne ist weiblich: la campagne."
+              - answer: campagne
+                message: "Das kleine Wort gehört dazu: la campagne."
       - type: language-task
         id: artikel-uebersetzen
         languages: { source: de, target: fr }
@@ -178,11 +190,13 @@ blocks:
             mistakes:
               - answer: la livre
                 message: "livre ist männlich: le livre."
-          - source: der Tisch
-            target: la table
+          - source: der Berg
+            target: la montagne
             mistakes:
-              - answer: le table
-                message: "table ist weiblich: la table."
+              - answer: le montagne
+                message: "montagne ist weiblich: la montagne."
+              - answer: montagne
+                message: "Das kleine Wort gehört dazu: la montagne."
           - source: die Schule
             target: l'école
             mistakes:

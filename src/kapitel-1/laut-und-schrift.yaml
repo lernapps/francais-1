@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Laut und Schrift
-description: Fünf Buchstabenverbindungen im Französischen richtig aussprechen und erkennen.
+description: "Fünf Buchstaben-Teams im Französischen lesen und aussprechen: ou, oi, eau, ch, gn."
 competencies: [laut-und-schrift]
 blocks:
   - type: section
@@ -49,6 +49,7 @@ blocks:
           - ["ou", "la route", "die Straße"]
           - ["oi", "le soir", "der Abend"]
           - ["oi", "la voiture", "das Auto"]
+          - ["au", "aussi", "auch"]
           - ["eau", "le bureau", "das Büro"]
           - ["eau", "le gâteau", "der Kuchen"]
           - ["ch", "le chat", "die Katze"]
@@ -158,28 +159,38 @@ blocks:
           - audio: la-route.mp3
             target: la route
             mistakes:
+              - answer: route
+                message: "Das kleine Wort gehört dazu: la route."
               - answer: la rute
                 message: "Das lange „u“ schreibt man hier ou: la route."
           - audio: la-voiture.mp3
             target: la voiture
             mistakes:
+              - answer: voiture
+                message: "Das kleine Wort gehört dazu: la voiture."
               - answer: la vuatur
                 message: "„ua“ schreibt man oi: la voiture."
           - audio: le-bureau.mp3
             target: le bureau
             mistakes:
+              - answer: bureau
+                message: "Das kleine Wort gehört dazu: le bureau."
               - answer: le buro
                 message: "Der Klang „o“ am Ende schreibt man eau: le bureau."
           - audio: le-chocolat.mp3
             target: le chocolat
             mistakes:
+              - answer: chocolat
+                message: "Das kleine Wort gehört dazu: le chocolat."
               - answer: le schocolat
                 message: "„sch“ schreibt man im Französischen ch: le chocolat."
               - answer: la chocolat
-                message: "chocolat ist männlich: le chocolat."
+                message: "Zu chocolat gehört le: le chocolat."
           - audio: la-campagne.mp3
             target: la campagne
             mistakes:
+              - answer: campagne
+                message: "Das kleine Wort gehört dazu: la campagne."
               - answer: la campanje
                 message: "„nj“ schreibt man gn: la campagne."
       - type: language-task
@@ -193,7 +204,7 @@ blocks:
               - answer: chat
                 message: "Das kleine Wort gehört dazu: le chat."
               - answer: la chat
-                message: "chat ist männlich: le chat."
+                message: "Zu chat gehört le: le chat."
               - answer: le schat
                 message: "„sch“ schreibt man ch: le chat."
           - source: der Abend

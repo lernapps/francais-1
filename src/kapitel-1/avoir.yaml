@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Das Verb avoir
-description: Das Verb avoir im Präsens konjugieren und Wendungen wie il y a und j'ai onze ans verwenden.
+description: "Mit avoir sagst du dein Alter und was es gibt: j'ai onze ans, il y a un chat."
 competencies: [verb-avoir]
 blocks:
   - type: section
@@ -36,7 +36,7 @@ blocks:
       - type: text
         text: |
           - **Alter:** Im Französischen „hat“ man Jahre. *J'ai onze ans.* heißt wörtlich „Ich habe elf Jahre“, gemeint ist „Ich bin elf Jahre alt“. *ans* heißt „Jahre“. Die Zahlen kennst du von der Seite „Zahlen bis 100“.
-          - **Es gibt:** *Il y a un chat.* heißt „Da ist eine Katze“ oder „Es gibt eine Katze“. *il y a* lernst du als Ganzes. *un* heißt „ein“; mehr dazu lernst du später.
+          - **Es gibt:** *Il y a un chat.* heißt „Da ist eine Katze“ oder „Es gibt eine Katze“. *il y a* lernst du als Ganzes. *un* heißt „ein“. Weil *chat* männlich ist, steht *un* davor, und *un chat* heißt „eine Katze“. Mehr dazu lernst du später.
       - type: note
         title: Merke
         blocks:
@@ -158,22 +158,36 @@ blocks:
                 message: "avons gehört zu nous („wir haben“). Zu vous gehört avez: vous avez."
               - answer: ont
                 message: "ont gehört zu ils und elles („sie haben“). Zu vous gehört avez: vous avez."
-          - source: Léa ist elf Jahre alt.
-            target: "Léa [a] onze ans."
+          - source: Zoé ist zehn Jahre alt.
+            target: "Zoé [a] dix ans."
             distractors: [[as, ont]]
             mistakes:
               - answer: as
-                message: "as gehört zu tu. Zu Léa (elle) gehört a: Léa a onze ans."
+                message: "as gehört zu tu. Zu Zoé (elle) gehört a: Zoé a dix ans."
               - answer: ont
-                message: "ont gehört zu mehreren Personen (ils, elles). Léa ist eine Person: Léa a."
+                message: "ont gehört zu mehreren Personen (ils, elles). Zoé ist eine Person: Zoé a."
+      - type: language-task
+        id: il-y-a-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle die passende Wendung.
+        items:
+          - source: Da ist ein Buch.
+            target: "Il [y a] un livre."
+            distractors: [[est, a]]
+            mistakes:
+              - answer: est
+                message: "il est heißt „er ist“. Für „da ist“ sagst du il y a."
+              - answer: a
+                message: "il a heißt „er hat“. Für „da ist“ sagst du il y a."
       - type: generated
         id: alter-raten
         given:
           e: { pick: 1, from: { data: alter } }
         task:
-          text: "Ein Kind in Léas Klasse sagt: J'ai {{e.fr}} ans. Wie alt ist das Kind?"
+          text: "Ein Kind in Léas Klasse sagt: J'ai {{e.fr}} ans. Wie alt ist das Kind? (Schreibe die Zahl mit Ziffern.)"
         answer: { value: "e.n", compare: { number: { format: integer } } }
-        hint: "ans heißt „Jahre“. Welche Zahl steht davor?"
+        hint: "ans heißt „Jahre“. Welche Zahl steht davor? Die Zahlwörter findest du auf der Seite „Zahlen bis 100“."
         steps:
           - "Suche das Zahlwort: {{e.fr}}."
           - "Das Kind ist {{e.n}} Jahre alt."
@@ -186,17 +200,17 @@ blocks:
           - audio: lea-a-onze-ans.mp3
             target: Léa a onze ans.
             mistakes:
-              - answer: Léa est onze ans.
+              - answer: (L|l)éa est onze ans(.|)
                 message: "Das Alter sagst du mit avoir: Léa a onze ans."
           - audio: ils-ont-onze-ans.mp3
             target: Ils ont onze ans.
             mistakes:
-              - answer: Ils sont onze ans.
+              - answer: (I|i)ls sont onze ans(.|)
                 message: "Das Alter sagst du mit avoir: ils ont onze ans."
           - audio: elle-a-un-chat.mp3
             target: Elle a un chat.
             mistakes:
-              - answer: Elle est un chat.
+              - answer: (E|e)lle est un chat(.|)
                 message: "Hier geht es ums Haben, nicht ums Sein: elle a un chat („sie hat eine Katze“)."
       - type: language-task
         id: avoir-uebersetzen
@@ -204,20 +218,25 @@ blocks:
         task: Schreibe den Satz auf Französisch.
         form: { punctuation: ok }
         items:
-          - source: Ich bin zwölf Jahre alt.
-            target: J'ai douze ans.
+          - source: Ich bin dreizehn Jahre alt.
+            target: J'ai treize ans.
             mistakes:
-              - answer: Je suis douze ans.
-                message: "Das Alter sagst du mit avoir: j'ai douze ans."
-              - answer: Je ai douze ans.
+              - answer: (J|j)e suis treize ans(.|)
+                message: "Das Alter sagst du mit avoir: j'ai treize ans."
+              - answer: (J|j)e ai treize ans(.|)
                 message: "Vor einem Vokal wird je zu j': j'ai."
           - source: Malik ist elf Jahre alt.
             target: Malik a onze ans.
             mistakes:
-              - answer: Malik est onze ans.
+              - answer: (M|m)alik est onze ans(.|)
                 message: "Das Alter sagst du mit avoir: Malik a onze ans."
           - source: Da ist eine Katze.
             target: Il y a un chat.
+          - source: Da ist ein Heft.
+            target: Il y a un cahier.
+            mistakes:
+              - answer: (I|i)l est un cahier(.|)
+                message: "il est heißt „er ist“. Für „da ist“ sagst du il y a."
   - type: section
     id: geschafft
     title: Geschafft!
@@ -236,4 +255,4 @@ blocks:
               - mit *être* und *avoir* sagen, wer du bist, wo du bist und wie alt du bist,
               - *le, la, l'* und *les* vor ein Wort setzen.
 
-              Gehe noch einmal zur [Startseite](/), wenn du etwas wiederholen möchtest, oder sprich die Sätze laut mit jemandem durch.
+              Das war das erste Kapitel der App. Du kannst noch einmal von vorn anfangen ([Seite 1](/kapitel-1/laut-und-schrift/)), zur [Startseite](/) gehen oder die Sätze laut mit jemandem durchsprechen.

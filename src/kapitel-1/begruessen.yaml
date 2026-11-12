@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Begrüßen und Vorstellen
-description: Sich auf Französisch begrüßen, verabschieden, vorstellen und fragen, wie es jemandem geht.
+description: "Hallo sagen, dich vorstellen, fragen wie es geht und dich verabschieden."
 competencies: [begruessen-und-vorstellen]
 blocks:
   - type: section
@@ -10,7 +10,7 @@ blocks:
       - type: figure
         image: images/szene-begruessen.svg
         alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Schulhof. Über beiden schwebt eine leere Sprechblase.
-        caption: Léa (links) und Malik (rechts) treffen sich auf dem Schulhof. Was sagen sie wohl? Gleich füllst du die Sprechblasen.
+        caption: Léa (links) und Malik (rechts) treffen sich auf dem Schulhof. Was sagen sie wohl? Das erfährst du gleich.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -164,12 +164,12 @@ blocks:
           - audio: ca-va-bien-merci.mp3
             target: Ça va bien, merci.
             mistakes:
-              - answer: Ca va bien, merci.
+              - answer: (C|c)a va bien, merci(.|)
                 message: "Das ç mit dem Häkchen gehört dazu: ça. Ohne Häkchen wäre es ein hartes „k“."
           - audio: je-mappelle-malik.mp3
             target: Je m'appelle Malik.
             mistakes:
-              - answer: Je appelle Malik.
+              - answer: (J|j)e appelle Malik(.|)
                 message: "Zu s'appeler gehört das m': je m'appelle."
       - type: language-task
         id: wie-geht-es
@@ -186,14 +186,14 @@ blocks:
         form: { punctuation: ok }
         items:
           - source: Hallo! Ich heiße Malik.
-            target: Salut ! Je m'appelle Malik.
+            target: (Salut|Bonjour) ! Je m'appelle Malik.
             mistakes:
-              - answer: Salut ! Je appelle Malik.
+              - answer: (S|s)alut ! Je appelle Malik(.|)
                 message: "Zu s'appeler gehört das m': je m'appelle."
           - source: Und du?
             target: Et toi ?
           - source: Gut, danke.
             target: Ça va bien, merci.
             mistakes:
-              - answer: Ca va bien, merci.
+              - answer: (C|c)a va bien, merci(.|)
                 message: "Das ç mit dem Häkchen gehört dazu: ça."
