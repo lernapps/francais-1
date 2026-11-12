@@ -41,7 +41,7 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
   1. `einstieg` – „Worum es geht“: Szene (`figure`, `image: images/szene-<seite>.svg`), zwei bis drei Sätze Situation mit Léa und Malik,
      dann Ziel in der Form „Danach kannst du …“ und woran die Seite anknüpft.
   2. `neu` – Titel nach Inhalt („Neu: …“): Tabelle (`table`), kurze Erklärung, jedes neue Wort mit Bedeutung; ein `note` für den häufigsten Fehler.
-  3. `nachsprechen` – Titel „Hören und nachsprechen“: ein `speaking-task` (nur Seiten mit Ton).
+  3. `nachsprechen` – Titel „Hören und nachsprechen“: ein `speaking-task` mit der Id `sprechen-ueben` (eine Aufgaben-Id darf nicht gleich einer Abschnitts-Id sein; nur Seiten mit Ton).
   4. `uebung` – „Übung“: leicht → schwer: 1 Quizblock (`single-choice` oder `matching`), 2 `language-task` Lücke/Auswahl,
      3 `language-task` mit `audio` (Diktat oder Hören), 4 `language-task` Übersetzen.
 - Länge: Erklärung höchstens 6 kurze Sätze, Tabellen höchstens 8 Zeilen, Übung 4 bis 6 Aufgaben mit je 3 bis 8 Items.

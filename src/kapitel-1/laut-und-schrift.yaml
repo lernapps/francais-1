@@ -1,0 +1,152 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Laut und Schrift
+description: Fünf Buchstabenverbindungen im Französischen richtig aussprechen und erkennen.
+competencies: [laut-und-schrift]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-laut-und-schrift.svg
+        alt: Léa und Malik stehen vor dem Schultor. Über dem Tor hängt ein Schild mit dem Wort ÉCOLE.
+        caption: Léa zeigt Malik das Schultor. Schau auf das große Schild.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Malik ist neu in Léas Klasse. Er hört auf dem Schulhof französische Wörter und sieht sie auf Schildern. Manche
+          Buchstaben klingen zusammen anders als einzeln.
+
+          **Danach kannst du:** fünf häufige Buchstabenverbindungen richtig aussprechen und im Wort erkennen: *ou*, *oi*,
+          *au / eau*, *ch* und *gn*. Das ist die erste Seite. Du brauchst noch nichts vorher.
+  - type: section
+    id: neu
+    title: "Neu: Buchstaben, die zusammen klingen"
+    blocks:
+      - type: text
+        text: |
+          Im Französischen klingen manche Buchstabenpaare anders, als du es vom Deutschen gewohnt bist. Hör die Beispiele
+          unten an und sprich sie nach. Die Stimmen sind KI-Stimmen.
+      - type: table
+        caption: Fünf Buchstabenverbindungen mit Beispielwörtern
+        header: [Buchstaben, Klingt wie, "Beispiele (Bedeutung)"]
+        rows:
+          - ["ou", "langes „u“ wie in „Mut“", "nous (wir), rouge (rot), jour (Tag)"]
+          - ["oi", "„wa“ wie in „Wasser“", "moi (ich, mich), toi (du, dich), noir (schwarz)"]
+          - ["au, eau", "„o“ wie in „Boot“", "beau (schön), bureau (Büro), gâteau (Kuchen)"]
+          - ["ch", "„sch“ wie in „Schule“", "chat (Katze), chocolat (Schokolade), cheval (Pferd)"]
+          - ["gn", "„nj“ wie in „Anja“", "montagne (Berg), campagne (Land), signe (Zeichen)"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              *ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Laut. *ch* klingt nicht wie „k“ und nicht wie „tsch“,
+              sondern wie das deutsche „sch“.
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: Léa und Malik sprechen abwechselnd vor. Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: rouge.mp3
+            text: rouge
+          - audio: moi.mp3
+            text: moi
+          - audio: beau.mp3
+            text: beau
+          - audio: chat.mp3
+            text: chat
+          - audio: montagne.mp3
+            text: montagne
+        hint: "Sprich langsam. Bei *ou* bleiben die Lippen rund wie bei „u“."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: klang-zuordnen
+        text: Ordne jeder Buchstabenverbindung ihren Klang zu.
+        pairs:
+          - { left: ou, right: "langes „u“ (Mut)" }
+          - { left: oi, right: "„wa“ (Wasser)" }
+          - { left: eau, right: "„o“ (Boot)" }
+          - { left: ch, right: "„sch“ (Schule)" }
+          - { left: gn, right: "„nj“ (Anja)" }
+        distractors: ["„k“ (Kuh)"]
+        explanation: "*ou* klingt wie ein langes „u“, *oi* wie „wa“, *eau* wie „o“, *ch* wie „sch“ und *gn* wie „nj“."
+        links:
+          - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
+      - type: language-task
+        id: buchstaben-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: Wähle die Buchstaben, die in die Lücke gehören.
+        items:
+          - source: rot
+            target: "r[ou]ge"
+            distractors: [[oi, ch]]
+          - source: schwarz
+            target: "n[oi]r"
+            distractors: [[ou, gn]]
+          - source: Katze
+            target: "[ch]at"
+            distractors: [[gn, ou]]
+          - source: Berg
+            target: "monta[gn]e"
+            distractors: [[ch, oi]]
+      - type: language-task
+        id: wort-hoeren
+        languages: { source: de, target: fr }
+        task: Höre das Wort und schreibe es auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: nous.mp3
+            target: nous
+            mistakes:
+              - answer: nu
+                message: "Der Laut ist ein langes „u“, aber man schreibt ihn *ou*: nous."
+          - audio: noir.mp3
+            target: noir
+            mistakes:
+              - answer: nuar
+                message: "„wa“ schreibt man *oi*: noir."
+          - audio: bureau.mp3
+            target: bureau
+            mistakes:
+              - answer: buro
+                message: "Der Laut „o“ am Ende schreibt man *eau*: bureau."
+          - audio: chocolat.mp3
+            target: chocolat
+            mistakes:
+              - answer: schocolat
+                message: "„sch“ schreibt man im Französischen *ch*: chocolat."
+          - audio: campagne.mp3
+            target: campagne
+            mistakes:
+              - answer: campanje
+                message: "„nj“ schreibt man *gn*: campagne."
+      - type: language-task
+        id: woerter-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe das französische Wort.
+        items:
+          - source: die Katze
+            target: chat
+            mistakes:
+              - answer: schat
+                message: "„sch“ schreibt man *ch*: chat."
+          - source: wir
+            target: nous
+          - source: schön
+            target: beau
+            mistakes:
+              - answer: bo
+                message: "Der Laut „o“ schreibt man hier *eau*: beau."
+          - source: das Büro
+            target: bureau

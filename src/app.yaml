@@ -1,10 +1,14 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+subject: franzoesisch
+title: "Bonjour, Léa und Malik!"
+intro: |
+  Léa und Malik gehen in dieselbe Klasse. Malik ist neu, und Léa zeigt ihm die Schule, den Fußballplatz und ihre Familie.
+  Du hörst ihnen zu, sprichst nach und übst die ersten Wörter und Regeln im Französischen.
 languages: [de]
-chapters: [thema]
+chapters: [kapitel-1]
+sources:
+  - title: Grundwortschatz Französisch, Lernlandkarte lernapps.net
+    url: https://lernapps.net/apps/map/franzoesisch/grundwortschatz/
+  - title: Französische Sprache (Wikipedia, CC BY-SA 4.0)
+    url: https://de.wikipedia.org/wiki/Französische_Sprache
