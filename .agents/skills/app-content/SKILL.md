@@ -104,7 +104,8 @@ kein `ahead`, keine Wiederholungsseite. Pro Seite genau eine Kompetenz, genau ei
    `competencies`, `blocks`) nach „Content structure“; Kapitel in `src/app.yaml` unter `chapters` ergänzen.
 3. Wörter nur aus Stufe A1 des Grundwortschatzes, jedes mit Bedeutung; eine Szene mit Léa und Malik je Seite in `src/images/szene-<seite>.svg`.
 4. Übungen aus den Mustern oben; Ton: Sätze sammeln und mit Skill `lernapps-audio` erzeugen, anhören lassen.
-5. `npx --no -- lernapps check`, Bilder prüfen (`npx --no -- lernapps screenshots --desktop`), Commit pro Seite; Plan anlegen (`increment-template.md`) und dieses Dokument anpassen.
+5. 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (in diesem Kapitel zwei je Seite: eine Auswahl-Aufgabe und eine Übersetzen-Aufgabe, Seite 3 die zwei generierten; Nachsprechen und Hören zählen nicht).
+6. `npx --no -- lernapps check`, Bilder prüfen (`npx --no -- lernapps screenshots --desktop`), Commit pro Seite; Plan anlegen (`increment-template.md`) und dieses Dokument anpassen.
 
 ## Rules learned from mistakes
 

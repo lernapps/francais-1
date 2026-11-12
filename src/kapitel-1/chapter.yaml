@@ -2,3 +2,23 @@
 title: "Bonjour, Léa und Malik!"
 summary: Léa zeigt Malik ihre Schule. Du lernst, wie man Französisch spricht, begrüßt, zählt und die ersten Verben benutzt.
 pages: [laut-und-schrift, begruessen, zahlen, pronomen, etre, artikel, avoir]
+selfAssessment:
+  pages:
+    - exercises:
+        - /kapitel-1/laut-und-schrift/#buchstaben-waehlen
+        - /kapitel-1/laut-und-schrift/#woerter-uebersetzen
+        - /kapitel-1/begruessen/#saetze-waehlen
+        - /kapitel-1/begruessen/#saetze-uebersetzen
+    - exercises:
+        - /kapitel-1/zahlen/#zahl-bis-69
+        - /kapitel-1/zahlen/#zahl-70-bis-99
+        - /kapitel-1/pronomen/#pronomen-waehlen
+        - /kapitel-1/pronomen/#pronomen-uebersetzen
+    - exercises:
+        - /kapitel-1/etre/#etre-waehlen
+        - /kapitel-1/etre/#etre-uebersetzen
+        - /kapitel-1/artikel/#artikel-waehlen
+        - /kapitel-1/artikel/#artikel-uebersetzen
+    - exercises:
+        - /kapitel-1/avoir/#avoir-waehlen
+        - /kapitel-1/avoir/#avoir-uebersetzen

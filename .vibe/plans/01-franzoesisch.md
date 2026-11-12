@@ -288,7 +288,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 ### Tasks
 
 - [x] `grep '^phase:'` prints `phase: commit`; else set it.
-- [ ] An explainer: load skill `lernapps-explainer-self-assessment` (missing → `npx --no -- lernapps skills --archetype
+- [x] An explainer: load skill `lernapps-explainer-self-assessment` (missing → `npx --no -- lernapps skills --archetype
       explainer`). Add the self-assessment as it says, or
       write under "Key decisions" why the app has none. Commit; the hooks check.
 - [ ] Load skill `lernapps-github`. Repo and Pages as it says: ask the repo name and every click only the creator can
