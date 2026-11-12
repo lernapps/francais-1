@@ -1,0 +1,207 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zahlen bis 100
+description: Die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und quatre-vingt-dix.
+competencies: [zahlen-bis-100]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-zahlen.svg
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel.
+        caption: Im Klassenzimmer zählen Léa und Malik laut. Auf der Tafel stehen die Zahlen noch nicht.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Bei den Begrüßungen hast du *je m'appelle* gelernt. Jetzt möchte Léa wissen, wie alt Malik ist, und er will ihre Hausnummer
+          verstehen. Dazu braucht man Zahlen.
+
+          **Danach kannst du:** die Zahlen von 0 bis 100 verstehen und sagen, auch die schwierigen von 70 bis 99.
+  - type: section
+    id: neu
+    title: "Neu: So zählt man auf Französisch"
+    blocks:
+      - type: section
+        id: bis-zwanzig
+        title: Von 0 bis 20
+        blocks:
+          - type: text
+            text: Diese Wörter lernst du am besten auswendig. Hör sie dir gleich an.
+          - type: table
+            caption: Die Zahlen von 0 bis 10
+            header: [Zahl, Französisch]
+            rows:
+              - ["0", "zéro"]
+              - ["1", "un"]
+              - ["2", "deux"]
+              - ["3", "trois"]
+              - ["4", "quatre"]
+              - ["5", "cinq"]
+              - ["6", "six"]
+              - ["7", "sept"]
+              - ["8", "huit"]
+              - ["9", "neuf"]
+              - ["10", "dix"]
+          - type: table
+            caption: Die Zahlen von 11 bis 20
+            header: [Zahl, Französisch]
+            rows:
+              - ["11", "onze"]
+              - ["12", "douze"]
+              - ["13", "treize"]
+              - ["14", "quatorze"]
+              - ["15", "quinze"]
+              - ["16", "seize"]
+              - ["17", "dix-sept"]
+              - ["18", "dix-huit"]
+              - ["19", "dix-neuf"]
+              - ["20", "vingt"]
+      - type: section
+        id: zehner
+        title: Die Zehner bis 60
+        blocks:
+          - type: table
+            caption: Zehner und die Zahl 100
+            header: [Zahl, Französisch]
+            rows:
+              - ["20", "vingt"]
+              - ["30", "trente"]
+              - ["40", "quarante"]
+              - ["50", "cinquante"]
+              - ["60", "soixante"]
+              - ["100", "cent"]
+          - type: text
+            text: |
+              Dazwischen hängst du die Einer an: *vingt-deux* (22), *trente-cinq* (35). Bei der 1 sagt man *et un*: *vingt et un* (21),
+              *trente et un* (31).
+      - type: section
+        id: siebzig-bis-neunundneunzig
+        title: Von 70 bis 99
+        blocks:
+          - type: text
+            text: |
+              Ab 70 zählt man anders. Es gibt kein eigenes Wort für 70, 80 und 90. Man rechnet:
+
+              - **70 bis 79:** *soixante* (60) plus 10 bis 19. Also *soixante-dix* ist 60 + 10.
+              - **80:** *quatre-vingts* heißt wörtlich „vier Zwanziger“, also 4 × 20.
+              - **90 bis 99:** *quatre-vingt* (80) plus 10 bis 19. Also *quatre-vingt-dix* ist 80 + 10.
+          - type: table
+            caption: So entstehen die Zahlen von 70 bis 99
+            header: [Zahl, Französisch, Rechnung]
+            rows:
+              - ["70", "soixante-dix", "60 + 10"]
+              - ["75", "soixante-quinze", "60 + 15"]
+              - ["80", "quatre-vingts", "4 × 20"]
+              - ["85", "quatre-vingt-cinq", "80 + 5"]
+              - ["90", "quatre-vingt-dix", "80 + 10"]
+              - ["99", "quatre-vingt-dix-neuf", "80 + 19"]
+          - type: note
+            title: Merke
+            blocks:
+              - type: text
+                text: |
+                  *quatre-vingts* hat nur bei der glatten 80 ein *s*. Bei *quatre-vingt-un* (81) und den anderen fehlt es.
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Zuerst einzelne Zahlen: Léa spricht *soixante-dix* und *quatre-vingt-dix* vor, Malik *soixante-quinze* und *quatre-vingts*.
+          Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: soixante-dix.mp3
+            text: soixante-dix
+          - audio: soixante-quinze.mp3
+            text: soixante-quinze
+          - audio: quatre-vingts.mp3
+            text: quatre-vingts
+          - audio: quatre-vingt-dix.mp3
+            text: quatre-vingt-dix
+        hint: "Sprich langsam. Bei *quatre-vingts* sprichst du das *s* am Ende nicht."
+      - type: text
+        text: |
+          Jetzt zählst du: Malik zählt *un, deux, trois, quatre, cinq*, Léa zählt *soixante-dix, soixante et onze, soixante-douze*.
+          Sprich jede Reihe in einem Zug.
+      - type: speaking-task
+        id: sprechen-zaehlen
+        language: fr
+        items:
+          - audio: un-deux-trois-quatre-cinq.mp3
+            text: un, deux, trois, quatre, cinq
+          - audio: soixante-dix-onze-douze.mp3
+            text: soixante-dix, soixante et onze, soixante-douze
+        hint: "Zähle gleichmäßig, wie im Rhythmus eines Liedes."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: quatre-vingts-bedeutung
+        text: Was bedeutet quatre-vingts?
+        options:
+          - { text: "80", correct: true, info: "Richtig: quatre-vingts ist 4 × 20, also 80." }
+          - {
+              text: "20",
+              correct: false,
+              info: "20 ist vingt. Bei quatre-vingts kommt das Wort quatre (vier) davor: 4 × 20.",
+            }
+          - { text: "40", correct: false, info: "40 ist quarante. quatre-vingts ist 4 × 20 und damit mehr." }
+          - { text: "24", correct: false, info: "Das wäre vingt-quatre. quatre-vingts rechnet man mal: 4 × 20." }
+        explanation: "quatre-vingts heißt wörtlich „vier Zwanziger“: 4 × 20 = 80."
+        links:
+          - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
+      - type: generated
+        id: zahl-bis-69
+        given:
+          e: { pick: 1, from: { data: zahlen } }
+        where: ["e.n <= 69"]
+        task:
+          text: "Schreibe die Zahl mit Ziffern: {{e.fr}}."
+        answer: { value: "e.n", compare: { number: { format: integer } } }
+        hint: "Du kennst die Einer und Zehner schon: Setze sie zusammen."
+        steps:
+          - "Zerlege das Zahlwort in Zehner und Einer: {{e.fr}}."
+          - "Setze beides zusammen: Das Ergebnis ist {{e.n}}."
+      - type: generated
+        id: zahl-70-bis-99
+        given:
+          e: { pick: 1, from: { data: zahlen } }
+        where: ["e.n >= 70 and e.n <= 99"]
+        task:
+          text: "Schreibe die Zahl mit Ziffern: {{e.fr}}."
+        answer: { value: "e.n", compare: { number: { format: integer } } }
+        mistakes:
+          - {
+              value: "e.n - 10",
+              message: "Du hast die 10 vergessen: Bei soixante-dix bis soixante-dix-neuf rechnest du 60 plus 10 bis 19.",
+            }
+          - {
+              value: "e.n - 20",
+              message: "quatre-vingts ist 4 × 20 = 80, nicht 60. Rechne ab quatre-vingt mit 80 weiter.",
+            }
+        hint: "Bei 70 bis 79 beginnst du bei 60, bei 80 bis 99 bei 80."
+        steps:
+          - "Erkenne den Anfang des Zahlworts: {{e.fr}}."
+          - "Rechne ab diesem Anfang weiter: Das Ergebnis ist {{e.n}}."
+      - type: language-task
+        id: zahl-hoeren
+        languages: { source: de, target: fr }
+        direction: to-source
+        task: Höre die Zahl und schreibe sie mit Ziffern.
+        items:
+          - audio: quinze.mp3
+            source: "15"
+          - audio: soixante-quinze.mp3
+            source: "75"
+          - audio: quatre-vingts.mp3
+            source: "80"
+          - audio: quatre-vingt-douze.mp3
+            source: "92"
+          - audio: vingt-et-un.mp3
+            source: "21"

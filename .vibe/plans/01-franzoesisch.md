@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: written by the pre-push hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
-failedChecks: { checks-pass: 3 }
+failedChecks: { checks-pass: 4 }
 ---
 
 # Plan: Bonjour, Léa und Malik, erste Version
@@ -250,7 +250,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] **Checkpoint:** the pattern page (`early-preview`): check it against the design rules, let a sub-agent check
       it as a learner, show it to the creator, wait for the answer. A change → change the pattern first.
 - [x] Seite 2 `begruessen-und-vorstellen` (Pausenhof: Gruß, Vorstellen, Wie geht's); Audio, Übung. Commit.
-- [ ] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
+- [x] Seite 3 `zahlen-bis-100` (Klassenzimmer; Alter und Hausnummer); `zahlen.yaml`, generierte Übung, Hören. Commit.
 - [ ] Seite 4 `subjektpronomen` (Fußballtraining); Pronomen zuordnen. Commit.
 - [ ] Seite 5 `verb-etre` (Familienfoto); Formentabelle, c'est/il est. Commit.
 - [ ] Seite 6 `bestimmter-artikel` (Schultasche); le/la/l'/les. Commit.
