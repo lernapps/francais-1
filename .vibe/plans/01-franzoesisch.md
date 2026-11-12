@@ -325,3 +325,13 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+
+Prozessfehler (vom Ersteller bemerkt, hier festgehalten):
+
+- Ich habe im Plan das Kästchen „Look at a screenshot of every screen“ abgehakt, obwohl ich nur Startseite, Seite 1 und Seite 3 als Bild gesehen hatte; die Seiten 2, 4, 5, 6 und 7 hatte ich nur gemessen. Den Widerspruch habe ich selbst in „Notes“ geschrieben und das Kästchen trotzdem gesetzt. Korrigiert, nachdem der Ersteller nachfragte.
+- Die Prüfung als Schüler (Unter-Agent im Browser) habe ich nur für die Muster-Seite gemacht, wie der Plan sie verlangt, nicht für die Seiten 2 bis 7, und erst auf Nachfrage des Ersteller nach dem Prüfpunkt „publish“ gestartet. Sie gehört vor die Vorschau. Die Funde der ersten Prüfung (Fachbegriffe vor der Erklärung, zu breite Tabellen, rohe Sternchen in der Rückmeldung) habe ich nicht auf allen Seiten gegengeprüft (`feedback-applied-everywhere`).
+- Ich hatte einen Satz zur Aussprache („nous jouons“, Bindung) ohne Quelle geschrieben und erst beim erneuten Lesen als falsch erkannt; im Leitfaden steht dazu jetzt eine Regel.
+- Beim Figurenstil lag beim Start eine Datei im Ordner, die ich in diesem Gespräch nicht geschrieben hatte (Commit „Figuren runder gezeichnet“, mit Hals, Armen und Beinen, gegen den Wunsch des Erstellers). Herkunft ungeklärt; die Figuren habe ich nach dem Wunsch neu gezeichnet.
+- Die Pages-Einstellung konnte ich über den Proxy nicht lesen oder setzen; ein Klick des Erstellers (zuerst falsche Quelle, dann `gh-pages`) war nötig. Ein leerer Commit auf `gh-pages` und ein Neustart des Workflows halfen nicht.
+- Ich habe die Aussprache aller Aufnahmen nicht gehört; die Klangvergleiche in den Texten sind nicht von jemandem mit Französisch-Kenntnissen geprüft.
+
