@@ -10,21 +10,24 @@ blocks:
       - type: figure
         image: images/szene-etre.svg
         alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen neben einem großen Foto an der Wand. Auf dem Foto sind die beiden und eine Katze zu sehen.
-        caption: Léa (links) zeigt Malik (rechts) ein Foto von ihnen beiden und der Katze.
+        caption: Léa (links) zeigt Malik (rechts) ein Foto von ihnen beiden und der Katze. Findest du die Katze?
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Auf der letzten Seite hast du die Pronomen gelernt. Jetzt kommt das wichtigste Verb dazu: *être*, auf Deutsch „sein“.
-          Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind.
+          Auf der Seite „Wer macht was?“ hast du die Pronomen gelernt. Jetzt brauchen sie ein Wort, das mit ihnen zusammenarbeitet.
+          Léa zeigt Malik ein Foto und sagt, wer darauf ist und wo alle sind. Dafür braucht sie das wichtigste Wort überhaupt: *être*, auf Deutsch „sein“.
 
-          **Danach kannst du:** *être* mit allen Pronomen verwenden und mit *c'est* und *il est* sagen, wer oder was etwas ist.
+          **Danach kannst du:** *être* mit allen Pronomen verwenden und mit *c'est* und *il est* sagen, wer oder was etwas ist und wo jemand ist.
   - type: section
     id: neu
     title: "Neu: So lautet être"
     blocks:
+      - type: definition
+        term: Verb
+        explanation: Ein Verb sagt, was jemand tut oder ist, zum Beispiel „spielen“ oder „sein“. Es verändert sich mit dem Pronomen.
       - type: table
-        caption: être im Präsens („sein“)
+        caption: être („sein“)
         header: [Pronomen, Form]
         rows:
           - ["je", "suis"]
@@ -35,10 +38,12 @@ blocks:
           - ["ils / elles", "sont"]
       - type: text
         text: |
-          Mit *être* stellst du Personen und Dinge vor:
-          *C'est Léa.* heißt „Das ist Léa.“ und *C'est le chat.* heißt „Das ist die Katze.“
-          Mit *il est* und *elle est* sagst du etwas über jemanden, zum Beispiel wo er oder sie ist: *Il est ici.* (Er ist hier.) und
-          *Nous sommes à l'école.* (Wir sind in der Schule.)
+          Zwei kleine Wörter helfen dir auf dem Foto, wenn du etwas sagen willst:
+
+          - **c'est** stellt etwas vor: *C'est Léa.* (Das ist Léa.) *C'est le chat.* (Das ist die Katze.)
+          - **il est / elle est** sagt etwas über jemanden, zum Beispiel wo er oder sie ist: *Elle est ici.* (Sie ist hier.) *Il est à l'école.* (Er ist in der Schule.)
+
+          Du kannst es dir so merken: Erst zeigst du mit *c'est* auf jemanden, dann sagst du mit *il est* oder *elle est* mehr über ihn oder sie.
       - type: note
         title: Merke
         blocks:
@@ -47,13 +52,40 @@ blocks:
               Lerne jede Form mit dem Pronomen davor: *je suis*, *tu es*, *il est*. Zu *nous* gehört *sommes*, zu *vous* gehört *êtes*,
               zu *ils* und *elles* gehört *sont*.
   - type: section
+    id: kurz-geuebt
+    title: Kurz geübt
+    blocks:
+      - type: single-choice
+        id: katze-vorstellen
+        text: Léa zeigt auf die Katze auf dem Foto. Was sagt sie?
+        options:
+          - {
+              text: "C'est le chat.",
+              correct: true,
+              info: "Richtig: Mit c'est stellst du jemanden oder etwas vor. „Das ist die Katze.“",
+            }
+          - {
+              text: "Il est le chat.",
+              correct: false,
+              info: "il est sagst du, um mehr über jemanden zu sagen, zum Beispiel wo er ist. Zum Vorstellen nimmst du c'est.",
+            }
+          - { text: "Je suis le chat.", correct: false, info: "Je suis heißt „ich bin“. Léa ist aber nicht die Katze!" }
+          - {
+              text: "Nous sommes le chat.",
+              correct: false,
+              info: "Nous sommes heißt „wir sind“. Die Katze ist nur eine.",
+            }
+        explanation: "Zum Vorstellen sagst du c'est: C'est le chat."
+        links:
+          - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
+  - type: section
     id: nachsprechen
     title: Hören und nachsprechen
     blocks:
       - type: text
         text: |
-          Zuerst einzelne Sätze: Léa spricht *Je suis Léa.*, *Il est ici.* und *Nous sommes à l'école.* vor, Malik *Tu es Malik.*
-          und *C'est le chat.* Höre zu, nimm dich selbst auf und vergleiche. Bewerte danach, wie es klang.
+          Léa sagt *Je suis Léa.* und *Nous sommes à l'école.*, Malik sagt *Tu es Malik.* und *C'est le chat.*
+          Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
       - type: speaking-task
         id: sprechen-ueben
         language: fr
@@ -62,26 +94,11 @@ blocks:
             text: Je suis Léa.
           - audio: tu-es-malik.mp3
             text: Tu es Malik.
-          - audio: il-est-ici.mp3
-            text: Il est ici.
-          - audio: nous-sommes-a-lecole.mp3
-            text: Nous sommes à l'école.
           - audio: cest-le-chat.mp3
             text: C'est le chat.
+          - audio: nous-sommes-a-lecole.mp3
+            text: Nous sommes à l'école.
         hint: "Sprich die Formen von être langsam und deutlich nach."
-      - type: text
-        text: |
-          Jetzt zwei kurze Sätze hintereinander: Malik sagt *C'est Malik. Il est ici.* und Léa sagt *C'est Léa. Elle est ici.*
-          Sprich beide in einem Zug.
-      - type: speaking-task
-        id: sprechen-satz
-        language: fr
-        items:
-          - audio: cest-malik-il-est-ici.mp3
-            text: C'est Malik. Il est ici.
-          - audio: cest-lea-elle-est-ici.mp3
-            text: C'est Léa. Elle est ici.
-        hint: "Sprich beide kurzen Sätze ohne Pause zwischen den Wörtern."
   - type: section
     id: uebung
     title: Übung
@@ -92,11 +109,11 @@ blocks:
         pairs:
           - { left: je, right: suis }
           - { left: tu, right: es }
-          - { left: nous, right: sommes }
+          - { left: on, right: est }
           - { left: vous, right: êtes }
           - { left: ils, right: sont }
-        distractors: [est]
-        explanation: "je suis, tu es, nous sommes, vous êtes, ils sont. Die Form est gehört zu il, elle und on."
+        distractors: [sommes]
+        explanation: "je suis, tu es, on est, vous êtes, ils sont. Die Form sommes gehört zu nous."
         links:
           - { title: Französische Grammatik (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Grammatik" }
       - type: language-task
@@ -106,7 +123,7 @@ blocks:
         task: Schreibe die fehlenden Formen von être.
         form: { case: hint }
         table:
-          caption: être · présent
+          caption: être
           header: [Pronomen, Form]
           rows:
             - [je, "[suis]"]
@@ -124,15 +141,57 @@ blocks:
           - source: Ich bin Malik.
             target: "Je [suis] Malik."
             distractors: [[es, est]]
-          - source: Du bist hier.
-            target: "Tu [es] ici."
-            distractors: [[suis, est]]
-          - source: Léa ist hier.
-            target: "Léa [est] ici."
-            distractors: [[es, sont]]
-          - source: Wir sind in der Schule.
-            target: "Nous [sommes] à l'école."
-            distractors: [[êtes, sont]]
+            mistakes:
+              - answer: es
+                message: "es gehört zu tu („du bist“). Zu je gehört suis: je suis."
+              - answer: est
+                message: "est gehört zu il, elle und on. Zu je gehört suis: je suis."
+          - source: Seid ihr hier?
+            target: "Vous [êtes] ici ?"
+            distractors: [[sommes, sont]]
+            mistakes:
+              - answer: sommes
+                message: "sommes gehört zu nous („wir sind“). Zu vous gehört êtes: vous êtes."
+              - answer: sont
+                message: "sont gehört zu ils und elles („sie sind“). Zu vous gehört êtes: vous êtes."
+          - source: Sie sind in der Schule.
+            target: "Ils [sont] à l'école."
+            distractors: [[est, êtes]]
+            mistakes:
+              - answer: est
+                message: "est gehört zu einer Person (il, elle). Bei mehreren sagst du sont: ils sont."
+              - answer: êtes
+                message: "êtes gehört zu vous („ihr seid“). Zu ils gehört sont: ils sont."
+          - source: Wir sind hier.
+            target: "On [est] ici."
+            distractors: [[sont, es]]
+            mistakes:
+              - answer: sont
+                message: "sont gehört zu ils und elles. Zu on gehört est: on est."
+              - answer: es
+                message: "es gehört zu tu. Zu on gehört est: on est."
+      - type: language-task
+        id: cest-oder-il-est
+        languages: { source: de, target: fr }
+        mode: choice
+        task: c'est oder il est / elle est? Wähle das passende Wort.
+        items:
+          - source: Das ist Léa.
+            target: "[C'est] Léa."
+            distractors: [["Elle est", "Il est"]]
+            mistakes:
+              - answer: Elle est
+                message: "Hier stellst du Léa vor („Das ist Léa“). Zum Vorstellen nimmst du c'est."
+              - answer: Il est
+                message: "Hier stellst du Léa vor („Das ist Léa“). Zum Vorstellen nimmst du c'est."
+          - source: Sie ist hier. (Léa)
+            target: "[Elle est] ici."
+            distractors: [["C'est", "Il est"]]
+            mistakes:
+              - answer: "C'est"
+                message: "Du sagst, wo Léa ist, nicht wer sie ist. Dafür nimmst du elle est."
+              - answer: Il est
+                message: "Léa ist ein Mädchen: Dafür nimmst du elle est."
       - type: language-task
         id: etre-hoeren
         languages: { source: de, target: fr }
@@ -144,16 +203,16 @@ blocks:
             mistakes:
               - answer: Je es Malik.
                 message: "Zu je gehört suis: je suis."
-          - audio: nous-sommes-a-lecole.mp3
-            target: Nous sommes à l'école.
+          - audio: il-est-ici.mp3
+            target: Il est ici.
             mistakes:
-              - answer: Nous êtes à l'école.
-                message: "Zu nous gehört sommes: nous sommes. êtes gehört zu vous."
-          - audio: cest-le-chat.mp3
-            target: C'est le chat.
+              - answer: Il es ici.
+                message: "Zu il gehört est: il est."
+          - audio: ils-sont-a-lecole.mp3
+            target: Ils sont à l'école.
             mistakes:
-              - answer: Cest le chat.
-                message: "Der Apostroph gehört dazu: c'est."
+              - answer: Ils est à l'école.
+                message: "Bei mehreren sagst du sont: ils sont."
       - type: language-task
         id: etre-uebersetzen
         languages: { source: de, target: fr }
@@ -170,7 +229,8 @@ blocks:
             mistakes:
               - answer: Tu suis ici.
                 message: "Zu tu gehört es: tu es."
-          - source: Wir sind in der Schule.
-            target: Nous sommes à l'école.
-          - source: Das ist die Katze.
-            target: C'est le chat.
+          - source: Das ist Malik.
+            target: C'est Malik.
+            mistakes:
+              - answer: Il est Malik.
+                message: "Zum Vorstellen sagst du c'est: C'est Malik."
