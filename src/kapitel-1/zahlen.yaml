@@ -231,9 +231,6 @@ blocks:
                 message: "Bei 21, 31, 41 und so weiter sagt man „et un“: vingt et un."
           - cue: "70"
             target: soixante-dix
-            mistakes:
-              - answer: septante
-                message: "Hier lernst du soixante-dix: Das ist 60 + 10."
           - cue: "80"
             target: quatre-vingts
             mistakes:
@@ -241,6 +238,3 @@ blocks:
                 message: "Bei der glatten 80 steht ein s am Ende: quatre-vingts."
           - cue: "90"
             target: quatre-vingt-dix
-            mistakes:
-              - answer: nonante
-                message: "Hier lernst du quatre-vingt-dix: Das ist 80 + 10."
