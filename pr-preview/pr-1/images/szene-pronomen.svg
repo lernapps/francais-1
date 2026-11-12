@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
+  <title>Léa und Malik beim Fußballtraining</title>
+  <rect width="640" height="340" fill="#dff0fb"/><rect y="190" width="640" height="150" fill="#6fa85a"/>
+  <rect x="470" y="100" width="130" height="100" fill="none" stroke="#fff" stroke-width="6"/><path d="M470 100 L600 100 M470 100 L470 200 M600 100 L600 200" stroke="#fff" stroke-width="6"/>
+  <path d="M480 110 L590 110 M480 130 L590 130 M480 150 L590 150 M480 170 L590 170 M500 100 L500 200 M530 100 L530 200 M560 100 L560 200" stroke="#fff" stroke-width="1.5" opacity=".6"/>
+  <circle cx="320" cy="285" r="22" fill="#fff" stroke="#333" stroke-width="3"/><path d="M320 270 l12 9 l-5 14 h-14 l-5 -14 z" fill="#333"/>
+  <g transform="translate(90,120) scale(1.0)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#d33"/>
+    <ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+    <path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/>
+    <circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+    <path d="M42 68 Q50 75 58 68" fill="none"/></g><g transform="translate(200,130) scale(0.9)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a6fd8"/>
+    <path d="M26 100 C22 130 24 156 30 170" stroke="#244a9a" stroke-width="5" fill="none"/>
+    <ellipse cx="50" cy="54" rx="30" ry="32" fill="#c68f62"/>
+    <path d="M18 54 Q10 22 30 14 Q40 6 52 12 Q72 6 82 22 Q92 40 82 54 Q80 34 62 28 Q40 34 22 42 Z" fill="#222"/>
+    <circle cx="39" cy="57" r="8" fill="none"/><circle cx="61" cy="57" r="8" fill="none"/><path d="M47 57 L53 57" fill="none"/>
+    <circle cx="39" cy="57" r="2.5" fill="#222"/><circle cx="61" cy="57" r="2.5" fill="#222"/>
+    <path d="M42 70 Q50 77 58 70" fill="none"/></g>
+</svg>
