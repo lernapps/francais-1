@@ -39,11 +39,11 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Begrüßen und Vorstellen“
 
-Sich auf Französisch begrüßen, verabschieden, vorstellen und fragen, wie es jemandem geht.
+Hallo sagen, dich vorstellen, fragen wie es geht und dich verabschieden.
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Schulhof. Über beiden schwebt eine leere Sprechblase. Bildunterschrift: Léa (links) und Malik (rechts) treffen sich auf dem Schulhof. Was sagen sie wohl? Gleich füllst du die Sprechblasen.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Schulhof. Über beiden schwebt eine leere Sprechblase. Bildunterschrift: Léa (links) und Malik (rechts) treffen sich auf dem Schulhof. Was sagen sie wohl? Das erfährst du gleich.
 
 Auf der Seite „Laut und Schrift“ hast du gelernt, wie Französisch klingt. Jetzt benutzt du das: Léa und Malik begrüßen sich zum ersten Mal.
 
@@ -165,9 +165,9 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Einträge (Vorgabe → Lösung):
 1. Audio → Bonjour !
 2. Audio → Ça va bien, merci.
-     - Ca va bien, merci.: Das ç mit dem Häkchen gehört dazu: ça. Ohne Häkchen wäre es ein hartes „k“.
+     - Ca va bien, merci. / Ca va bien, merci / ca va bien, merci. / ca va bien, merci: Das ç mit dem Häkchen gehört dazu: ça. Ohne Häkchen wäre es ein hartes „k“.
 3. Audio → Je m'appelle Malik.
-     - Je appelle Malik.: Zu s'appeler gehört das m': je m'appelle.
+     - Je appelle Malik. / Je appelle Malik / je appelle Malik. / je appelle Malik: Zu s'appeler gehört das m': je m'appelle.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#satz-hoeren](../?via=tutor#satz-hoeren)
@@ -189,10 +189,10 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Antwortformat: die ganze Antwort auf Französisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Hallo! Ich heiße Malik. → Salut ! Je m'appelle Malik.
-     - Salut ! Je appelle Malik.: Zu s'appeler gehört das m': je m'appelle.
+1. Hallo! Ich heiße Malik. → Salut ! Je m'appelle Malik. (auch richtig: Bonjour ! Je m'appelle Malik.)
+     - Salut ! Je appelle Malik. / Salut ! Je appelle Malik / salut ! Je appelle Malik. / salut ! Je appelle Malik: Zu s'appeler gehört das m': je m'appelle.
 2. Und du? → Et toi ?
 3. Gut, danke. → Ça va bien, merci.
-     - Ca va bien, merci.: Das ç mit dem Häkchen gehört dazu: ça.
+     - Ca va bien, merci. / Ca va bien, merci / ca va bien, merci. / ca va bien, merci: Das ç mit dem Häkchen gehört dazu: ça.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#saetze-uebersetzen](../?via=tutor#saetze-uebersetzen)

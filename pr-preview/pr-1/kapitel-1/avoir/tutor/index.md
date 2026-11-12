@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Das Verb avoir“
 
-Das Verb avoir im Präsens konjugieren und Wendungen wie il y a und j'ai onze ans verwenden.
+Mit avoir sagst du dein Alter und was es gibt: j'ai onze ans, il y a un chat.
 
 ### Worum es geht
 
@@ -62,7 +62,7 @@ avoir („haben“):
 - ils / elles | ont
 
 - **Alter:** Im Französischen „hat“ man Jahre. *J'ai onze ans.* heißt wörtlich „Ich habe elf Jahre“, gemeint ist „Ich bin elf Jahre alt“. *ans* heißt „Jahre“. Die Zahlen kennst du von der Seite „Zahlen bis 100“.
-- **Es gibt:** *Il y a un chat.* heißt „Da ist eine Katze“ oder „Es gibt eine Katze“. *il y a* lernst du als Ganzes. *un* heißt „ein“; mehr dazu lernst du später.
+- **Es gibt:** *Il y a un chat.* heißt „Da ist eine Katze“ oder „Es gibt eine Katze“. *il y a* lernst du als Ganzes. *un* heißt „ein“. Weil *chat* männlich ist, steht *un* davor, und *un chat* heißt „eine Katze“. Mehr dazu lernst du später.
 
 **Merke: Merke**
 
@@ -87,6 +87,8 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Übung `avoir-waehlen` (unten)
 
+- Übung `il-y-a-waehlen` (unten)
+
 - Übung `alter-raten` (unten)
 
 - Übung `avoir-hoeren` (unten)
@@ -106,7 +108,7 @@ Du hast mit Léa und Malik das erste Kapitel geschafft. Das kannst du jetzt:
 - mit *être* und *avoir* sagen, wer du bist, wo du bist und wie alt du bist,
 - *le, la, l'* und *les* vor ein Wort setzen.
 
-Gehe noch einmal zur Startseite, wenn du etwas wiederholen möchtest, oder sprich die Sätze laut mit jemandem durch.
+Das war das erste Kapitel der App. Du kannst noch einmal von vorn anfangen (Seite 1), zur Startseite gehen oder die Sätze laut mit jemandem durchsprechen.
 
 ### Übung alter-sagen
 
@@ -171,17 +173,29 @@ Gehe noch einmal zur Startseite, wenn du etwas wiederholen möchtest, oder spric
 3. Ihr seid zehn Jahre alt. → Vous avez dix ans.
      - avons: avons gehört zu nous („wir haben“). Zu vous gehört avez: vous avez.
      - ont: ont gehört zu ils und elles („sie haben“). Zu vous gehört avez: vous avez.
-4. Léa ist elf Jahre alt. → Léa a onze ans.
-     - as: as gehört zu tu. Zu Léa (elle) gehört a: Léa a onze ans.
-     - ont: ont gehört zu mehreren Personen (ils, elles). Léa ist eine Person: Léa a.
+4. Zoé ist zehn Jahre alt. → Zoé a dix ans.
+     - as: as gehört zu tu. Zu Zoé (elle) gehört a: Zoé a dix ans.
+     - ont: ont gehört zu mehreren Personen (ils, elles). Zoé ist eine Person: Zoé a.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#avoir-waehlen](../?via=tutor#avoir-waehlen)
 
+### Übung il-y-a-waehlen
+
+- Aufgabe: Wähle die passende Wendung.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Da ist ein Buch. → Il y a un livre.
+     - est: il est heißt „er ist“. Für „da ist“ sagst du il y a.
+     - a: il a heißt „er hat“. Für „da ist“ sagst du il y a.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#il-y-a-waehlen](../?via=tutor#il-y-a-waehlen)
+
 ### Übung alter-raten
 
-- Aufgabe: „Ein Kind in Léas Klasse sagt: J'ai {e.fr} ans. Wie alt ist das Kind?“
+- Aufgabe: „Ein Kind in Léas Klasse sagt: J'ai {e.fr} ans. Wie alt ist das Kind? (Schreibe die Zahl mit Ziffern.)“
 - Antwortformat: eine Zahl eintippen
-- Tipp der App: „ans heißt „Jahre“. Welche Zahl steht davor?“
+- Tipp der App: „ans heißt „Jahre“. Welche Zahl steht davor? Die Zahlwörter findest du auf der Seite „Zahlen bis 100“.“
 - Lösungsweg:
   - Suche das Zahlwort: {e.fr}.
   - Das Kind ist {e.n} Jahre alt.
@@ -208,11 +222,11 @@ Nr. | e.fr | e.n | Lösung
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Léa a onze ans.
-     - Léa est onze ans.: Das Alter sagst du mit avoir: Léa a onze ans.
+     - Léa est onze ans. / Léa est onze ans / léa est onze ans. / léa est onze ans: Das Alter sagst du mit avoir: Léa a onze ans.
 2. Audio → Ils ont onze ans.
-     - Ils sont onze ans.: Das Alter sagst du mit avoir: ils ont onze ans.
+     - Ils sont onze ans. / Ils sont onze ans / ils sont onze ans. / ils sont onze ans: Das Alter sagst du mit avoir: ils ont onze ans.
 3. Audio → Elle a un chat.
-     - Elle est un chat.: Hier geht es ums Haben, nicht ums Sein: elle a un chat („sie hat eine Katze“).
+     - Elle est un chat. / Elle est un chat / elle est un chat. / elle est un chat: Hier geht es ums Haben, nicht ums Sein: elle a un chat („sie hat eine Katze“).
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#avoir-hoeren](../?via=tutor#avoir-hoeren)
@@ -223,11 +237,13 @@ Nr. | e.fr | e.n | Lösung
 - Antwortformat: die ganze Antwort auf Französisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Ich bin zwölf Jahre alt. → J'ai douze ans.
-     - Je suis douze ans.: Das Alter sagst du mit avoir: j'ai douze ans.
-     - Je ai douze ans.: Vor einem Vokal wird je zu j': j'ai.
+1. Ich bin dreizehn Jahre alt. → J'ai treize ans.
+     - Je suis treize ans. / Je suis treize ans / je suis treize ans. / je suis treize ans: Das Alter sagst du mit avoir: j'ai treize ans.
+     - Je ai treize ans. / Je ai treize ans / je ai treize ans. / je ai treize ans: Vor einem Vokal wird je zu j': j'ai.
 2. Malik ist elf Jahre alt. → Malik a onze ans.
-     - Malik est onze ans.: Das Alter sagst du mit avoir: Malik a onze ans.
+     - Malik est onze ans. / Malik est onze ans / malik est onze ans. / malik est onze ans: Das Alter sagst du mit avoir: Malik a onze ans.
 3. Da ist eine Katze. → Il y a un chat.
+4. Da ist ein Heft. → Il y a un cahier.
+     - Il est un cahier. / Il est un cahier / il est un cahier. / il est un cahier: il est heißt „er ist“. Für „da ist“ sagst du il y a.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#avoir-uebersetzen](../?via=tutor#avoir-uebersetzen)

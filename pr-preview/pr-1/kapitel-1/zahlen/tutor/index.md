@@ -39,11 +39,11 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Zahlen bis 100“
 
-Die Zahlen bis 100 verstehen und sagen, auch soixante-dix, quatre-vingts und quatre-vingt-dix.
+Von 0 bis 100 zählen, auch die kniffligen Zahlen soixante-dix und quatre-vingts.
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel. Bildunterschrift: Léa (links) und Malik (rechts) spielen im Klassenzimmer ein Zahlenspiel. Die Tafel ist noch leer.
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) sitzen im Klassenzimmer an ihren Tischen. Hinter ihnen hängt eine grüne Tafel. Bildunterschrift: Léa (links) und Malik (rechts) spielen im Klassenzimmer ein Zahlenspiel.
 
 Nach der Begrüßung auf dem Schulhof will Léa mit Malik ein Zahlenspiel spielen: Einer sagt eine Zahl auf Französisch, der andere schreibt sie auf.
 Bis 20 ist das einfach. Bei den Zahlen ab 70 muss man rechnen, und genau da wird es spannend.
@@ -56,32 +56,20 @@ Bis 20 ist das einfach. Bei den Zahlen ab 70 muss man rechnen, und genau da wird
 
 Diese Wörter lernst du am besten auswendig. Einige hörst du gleich im Abschnitt „Hören und nachsprechen“.
 
-Die Zahlen von 0 bis 10:
-- Zahl | Französisch
-- 0 | zéro
-- 1 | un
-- 2 | deux
-- 3 | trois
-- 4 | quatre
-- 5 | cinq
-- 6 | six
-- 7 | sept
-- 8 | huit
-- 9 | neuf
-- 10 | dix
+Die Null heißt *zéro*. Dann geht es so weiter:
 
-Die Zahlen von 11 bis 20:
-- Zahl | Französisch
-- 11 | onze
-- 12 | douze
-- 13 | treize
-- 14 | quatorze
-- 15 | quinze
-- 16 | seize
-- 17 | dix-sept
-- 18 | dix-huit
-- 19 | dix-neuf
-- 20 | vingt
+Die Zahlen von 1 bis 20:
+- Zahl | Wort | Zahl | Wort
+- 1 | un | 11 | onze
+- 2 | deux | 12 | douze
+- 3 | trois | 13 | treize
+- 4 | quatre | 14 | quatorze
+- 5 | cinq | 15 | quinze
+- 6 | six | 16 | seize
+- 7 | sept | 17 | dix-sept
+- 8 | huit | 18 | dix-huit
+- 9 | neuf | 19 | dix-neuf
+- 10 | dix | 20 | vingt
 
 #### Zehner und die 100
 
@@ -102,6 +90,7 @@ Dazwischen hängst du die Einer an: *vingt-deux* (22), *trente-cinq* (35). Bei d
 Ab 70 zählt man anders. Es gibt kein eigenes Wort für 70, 80 und 90. Man rechnet:
 
 - **70 bis 79:** *soixante* (60) plus 10 bis 19. Also *soixante-dix* ist 60 + 10.
+- **71:** Hier sagt man wie bei 21 wieder „et“: *soixante et onze* (60 + 11).
 - **80:** *quatre-vingts* heißt wörtlich „vier Zwanziger“, also 4 × 20.
 - **90 bis 99:** *quatre-vingt* (80) plus 10 bis 19. Also *quatre-vingt-dix* ist 80 + 10.
 
@@ -185,80 +174,80 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Du kennst die Einer und Zehner schon: Setze sie zusammen.“
 - Lösungsweg:
-  - Zerlege das Zahlwort in Zehner und Einer: {e.fr}.
+  - Zerlege das Zahlwort: {e.fr} ist {e.rechnung}.
   - Setze beides zusammen: Das Ergebnis ist {e.n}.
 - Link zu Nummer n: `../?zahl-bis-69=n&via=tutor#zahl-bis-69`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
 
 ```
-Nr. | e.fr | e.n | Lösung
-1 | trente | 30 | 30
-2 | cinq | 5 | 5
-3 | soixante-huit | 68 | 68
-4 | trente-six | 36 | 36
-5 | cinquante | 50 | 50
-6 | sept | 7 | 7
-7 | six | 6 | 6
-8 | vingt-trois | 23 | 23
-9 | huit | 8 | 8
-10 | quatorze | 14 | 14
-11 | cinquante-six | 56 | 56
-12 | dix-huit | 18 | 18
-13 | cinquante-trois | 53 | 53
-14 | soixante-six | 66 | 66
-15 | soixante-trois | 63 | 63
-16 | soixante | 60 | 60
-17 | deux | 2 | 2
-18 | treize | 13 | 13
-19 | quarante-deux | 42 | 42
-20 | trente-huit | 38 | 38
-21 | dix-sept | 17 | 17
-22 | vingt-cinq | 25 | 25
-23 | vingt-neuf | 29 | 29
-24 | quarante-sept | 47 | 47
-25 | soixante-deux | 62 | 62
-26 | cinquante et un | 51 | 51
-27 | cinquante-deux | 52 | 52
-28 | quinze | 15 | 15
-29 | neuf | 9 | 9
-30 | trois | 3 | 3
-31 | un | 1 | 1
-32 | soixante et un | 61 | 61
-33 | quarante-quatre | 44 | 44
-34 | trente-sept | 37 | 37
-35 | soixante-quatre | 64 | 64
-36 | trente-cinq | 35 | 35
-37 | vingt-quatre | 24 | 24
-38 | soixante-sept | 67 | 67
-39 | vingt-six | 26 | 26
-40 | quatre | 4 | 4
-41 | vingt-deux | 22 | 22
-42 | onze | 11 | 11
-43 | vingt-huit | 28 | 28
-44 | quarante-trois | 43 | 43
-45 | soixante-neuf | 69 | 69
-46 | trente-neuf | 39 | 39
-47 | cinquante-huit | 58 | 58
-48 | seize | 16 | 16
-49 | zéro | 0 | 0
-50 | cinquante-sept | 57 | 57
-51 | quarante-neuf | 49 | 49
-52 | trente-trois | 33 | 33
-53 | douze | 12 | 12
-54 | cinquante-cinq | 55 | 55
-55 | dix-neuf | 19 | 19
-56 | trente-deux | 32 | 32
-57 | quarante et un | 41 | 41
-58 | quarante-six | 46 | 46
-59 | quarante | 40 | 40
-60 | cinquante-quatre | 54 | 54
-61 | quarante-cinq | 45 | 45
-62 | trente et un | 31 | 31
-63 | soixante-cinq | 65 | 65
-64 | dix | 10 | 10
-65 | trente-quatre | 34 | 34
-66 | vingt-sept | 27 | 27
-67 | quarante-huit | 48 | 48
+Nr. | e.fr | e.rechnung | e.n | Lösung
+1 | trente | 30 | 30 | 30
+2 | cinq | 5 | 5 | 5
+3 | soixante-huit | 60 + 8 | 68 | 68
+4 | trente-six | 30 + 6 | 36 | 36
+5 | cinquante | 50 | 50 | 50
+6 | sept | 7 | 7 | 7
+7 | six | 6 | 6 | 6
+8 | vingt-trois | 20 + 3 | 23 | 23
+9 | huit | 8 | 8 | 8
+10 | quatorze | 14 | 14 | 14
+11 | cinquante-six | 50 + 6 | 56 | 56
+12 | dix-huit | 18 | 18 | 18
+13 | cinquante-trois | 50 + 3 | 53 | 53
+14 | soixante-six | 60 + 6 | 66 | 66
+15 | soixante-trois | 60 + 3 | 63 | 63
+16 | soixante | 60 | 60 | 60
+17 | deux | 2 | 2 | 2
+18 | treize | 13 | 13 | 13
+19 | quarante-deux | 40 + 2 | 42 | 42
+20 | trente-huit | 30 + 8 | 38 | 38
+21 | dix-sept | 17 | 17 | 17
+22 | vingt-cinq | 20 + 5 | 25 | 25
+23 | vingt-neuf | 20 + 9 | 29 | 29
+24 | quarante-sept | 40 + 7 | 47 | 47
+25 | soixante-deux | 60 + 2 | 62 | 62
+26 | cinquante et un | 50 + 1 | 51 | 51
+27 | cinquante-deux | 50 + 2 | 52 | 52
+28 | quinze | 15 | 15 | 15
+29 | neuf | 9 | 9 | 9
+30 | trois | 3 | 3 | 3
+31 | un | 1 | 1 | 1
+32 | soixante et un | 60 + 1 | 61 | 61
+33 | quarante-quatre | 40 + 4 | 44 | 44
+34 | trente-sept | 30 + 7 | 37 | 37
+35 | soixante-quatre | 60 + 4 | 64 | 64
+36 | trente-cinq | 30 + 5 | 35 | 35
+37 | vingt-quatre | 20 + 4 | 24 | 24
+38 | soixante-sept | 60 + 7 | 67 | 67
+39 | vingt-six | 20 + 6 | 26 | 26
+40 | quatre | 4 | 4 | 4
+41 | vingt-deux | 20 + 2 | 22 | 22
+42 | onze | 11 | 11 | 11
+43 | vingt-huit | 20 + 8 | 28 | 28
+44 | quarante-trois | 40 + 3 | 43 | 43
+45 | soixante-neuf | 60 + 9 | 69 | 69
+46 | trente-neuf | 30 + 9 | 39 | 39
+47 | cinquante-huit | 50 + 8 | 58 | 58
+48 | seize | 16 | 16 | 16
+49 | zéro | 0 | 0 | 0
+50 | cinquante-sept | 50 + 7 | 57 | 57
+51 | quarante-neuf | 40 + 9 | 49 | 49
+52 | trente-trois | 30 + 3 | 33 | 33
+53 | douze | 12 | 12 | 12
+54 | cinquante-cinq | 50 + 5 | 55 | 55
+55 | dix-neuf | 19 | 19 | 19
+56 | trente-deux | 30 + 2 | 32 | 32
+57 | quarante et un | 40 + 1 | 41 | 41
+58 | quarante-six | 40 + 6 | 46 | 46
+59 | quarante | 40 | 40 | 40
+60 | cinquante-quatre | 50 + 4 | 54 | 54
+61 | quarante-cinq | 40 + 5 | 45 | 45
+62 | trente et un | 30 + 1 | 31 | 31
+63 | soixante-cinq | 60 + 5 | 65 | 65
+64 | dix | 10 | 10 | 10
+65 | trente-quatre | 30 + 4 | 34 | 34
+66 | vingt-sept | 20 + 7 | 27 | 27
+67 | quarante-huit | 40 + 8 | 48 | 48
 ```
 
 ### Übung zahl-70-bis-99
@@ -267,8 +256,8 @@ Nr. | e.fr | e.n | Lösung
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei 70 bis 79 beginnst du bei 60, bei 80 bis 99 bei 80.“
 - Lösungsweg:
-  - Erkenne den Anfang des Zahlworts: {e.fr}.
-  - Rechne ab diesem Anfang weiter: Das Ergebnis ist {e.n}.
+  - Erkenne den Anfang des Zahlworts: Bei {e.fr} startest du bei 60 oder bei 80.
+  - Rechne es aus: {e.fr} ist {e.rechnung}, also {e.n}.
 - Typische Fehler und was die App sagt:
   - F1: „Du hast die 10 vergessen: Bei soixante-dix bis soixante-dix-neuf rechnest du 60 plus 10 bis 19.“
   - F2: „quatre-vingts ist 4 × 20 = 80, nicht 60. Rechne ab quatre-vingt mit 80 weiter.“
@@ -276,37 +265,37 @@ Nr. | e.fr | e.n | Lösung
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
 
 ```
-Nr. | e.fr | e.n | Lösung | F1 | F2
-1 | soixante-quatorze | 74 | 74 | 64 | 54
-2 | soixante-douze | 72 | 72 | 62 | 52
-3 | soixante-quinze | 75 | 75 | 65 | 55
-4 | quatre-vingt-seize | 96 | 96 | 86 | 76
-5 | soixante-treize | 73 | 73 | 63 | 53
-6 | soixante-dix-huit | 78 | 78 | 68 | 58
-7 | quatre-vingt-quinze | 95 | 95 | 85 | 75
-8 | quatre-vingt-six | 86 | 86 | 76 | 66
-9 | quatre-vingt-trois | 83 | 83 | 73 | 63
-10 | quatre-vingt-deux | 82 | 82 | 72 | 62
-11 | soixante-dix-sept | 77 | 77 | 67 | 57
-12 | quatre-vingt-douze | 92 | 92 | 82 | 72
-13 | quatre-vingt-onze | 91 | 91 | 81 | 71
-14 | quatre-vingt-dix-sept | 97 | 97 | 87 | 77
-15 | soixante-dix | 70 | 70 | 60 | 50
-16 | soixante-seize | 76 | 76 | 66 | 56
-17 | quatre-vingts | 80 | 80 | 70 | 60
-18 | quatre-vingt-treize | 93 | 93 | 83 | 73
-19 | quatre-vingt-huit | 88 | 88 | 78 | 68
-20 | quatre-vingt-quatre | 84 | 84 | 74 | 64
-21 | quatre-vingt-quatorze | 94 | 94 | 84 | 74
-22 | quatre-vingt-neuf | 89 | 89 | 79 | 69
-23 | quatre-vingt-cinq | 85 | 85 | 75 | 65
-24 | soixante et onze | 71 | 71 | 61 | 51
-25 | quatre-vingt-un | 81 | 81 | 71 | 61
-26 | soixante-dix-neuf | 79 | 79 | 69 | 59
-27 | quatre-vingt-dix-huit | 98 | 98 | 88 | 78
-28 | quatre-vingt-dix-neuf | 99 | 99 | 89 | 79
-29 | quatre-vingt-sept | 87 | 87 | 77 | 67
-30 | quatre-vingt-dix | 90 | 90 | 80 | 70
+Nr. | e.fr | e.rechnung | e.n | Lösung | F1 | F2
+1 | soixante-quatorze | 60 + 14 | 74 | 74 | 64 | 54
+2 | soixante-douze | 60 + 12 | 72 | 72 | 62 | 52
+3 | soixante-quinze | 60 + 15 | 75 | 75 | 65 | 55
+4 | quatre-vingt-seize | 80 + 16 | 96 | 96 | 86 | 76
+5 | soixante-treize | 60 + 13 | 73 | 73 | 63 | 53
+6 | soixante-dix-huit | 60 + 18 | 78 | 78 | 68 | 58
+7 | quatre-vingt-quinze | 80 + 15 | 95 | 95 | 85 | 75
+8 | quatre-vingt-six | 80 + 6 | 86 | 86 | 76 | 66
+9 | quatre-vingt-trois | 80 + 3 | 83 | 83 | 73 | 63
+10 | quatre-vingt-deux | 80 + 2 | 82 | 82 | 72 | 62
+11 | soixante-dix-sept | 60 + 17 | 77 | 77 | 67 | 57
+12 | quatre-vingt-douze | 80 + 12 | 92 | 92 | 82 | 72
+13 | quatre-vingt-onze | 80 + 11 | 91 | 91 | 81 | 71
+14 | quatre-vingt-dix-sept | 80 + 17 | 97 | 97 | 87 | 77
+15 | soixante-dix | 60 + 10 | 70 | 70 | 60 | 50
+16 | soixante-seize | 60 + 16 | 76 | 76 | 66 | 56
+17 | quatre-vingts | 4 × 20 | 80 | 80 | 70 | 60
+18 | quatre-vingt-treize | 80 + 13 | 93 | 93 | 83 | 73
+19 | quatre-vingt-huit | 80 + 8 | 88 | 88 | 78 | 68
+20 | quatre-vingt-quatre | 80 + 4 | 84 | 84 | 74 | 64
+21 | quatre-vingt-quatorze | 80 + 14 | 94 | 94 | 84 | 74
+22 | quatre-vingt-neuf | 80 + 9 | 89 | 89 | 79 | 69
+23 | quatre-vingt-cinq | 80 + 5 | 85 | 85 | 75 | 65
+24 | soixante et onze | 60 + 11 | 71 | 71 | 61 | 51
+25 | quatre-vingt-un | 80 + 1 | 81 | 81 | 71 | 61
+26 | soixante-dix-neuf | 60 + 19 | 79 | 79 | 69 | 59
+27 | quatre-vingt-dix-huit | 80 + 18 | 98 | 98 | 88 | 78
+28 | quatre-vingt-dix-neuf | 80 + 19 | 99 | 99 | 89 | 79
+29 | quatre-vingt-sept | 80 + 7 | 87 | 87 | 77 | 67
+30 | quatre-vingt-dix | 80 + 10 | 90 | 90 | 80 | 70
 ```
 
 ### Übung zahl-hoeren
@@ -332,6 +321,8 @@ Nr. | e.fr | e.n | Lösung | F1 | F2
 - Einträge (Vorgabe → Lösung):
 1. 21 → vingt et un
      - vingt-un: Bei 21, 31, 41 und so weiter sagt man „et un“: vingt et un.
+     - vingt un: Zwischen vingt und un fehlt das Wort „et“: vingt et un.
+     - vingt-et-un: Hier schreibt man keine Bindestriche: vingt et un.
 2. 70 → soixante-dix
 3. 80 → quatre-vingts
      - quatre-vingt: Bei der glatten 80 steht ein s am Ende: quatre-vingts.

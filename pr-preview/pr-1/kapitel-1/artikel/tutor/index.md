@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Der bestimmte Artikel“
 
-Den bestimmten Artikel le, la, l' und les richtig vor ein Nomen setzen.
+Das kleine Wort vor dem Nomen: le, la, l' und les richtig benutzen.
 
 ### Worum es geht
 
@@ -55,6 +55,10 @@ Jetzt kommst du dem Geheimnis auf die Spur: Léa und Malik packen die Schultasch
 - **Artikel**: Der Artikel ist das kleine Wort vor einem Nomen, im Deutschen „der“, „die“ oder „das“.
 
 - **Nomen**: Ein Nomen ist ein Wort für ein Ding, ein Tier oder eine Person, zum Beispiel „Heft“, „Katze“ oder „Léa“.
+
+- **Vokal**: Ein Vokal ist ein Selbstlaut, also a, e, i, o oder u (im Französischen auch mit Akzent, zum Beispiel é).
+
+- **männlich und weiblich**: Jedes Nomen im Französischen ist männlich (dann steht le davor) oder weiblich (dann steht la davor). Das passt nicht immer zum Deutschen. la table ist „der Tisch“, le sac ist „die Tasche“.
 
 Im Deutschen heißt der bestimmte Artikel „der“, „die“ oder „das“. Im Französischen gibt es vier Formen. Welche du brauchst, hängt vom Nomen ab.
 
@@ -77,7 +81,7 @@ Die vier Formen des bestimmten Artikels:
 
 **Merke: Merke**
 
-Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt, auch im Deutschen. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
+Ob ein Nomen mit *le* oder *la* steht, siehst du ihm nicht an: Das ist einfach so festgelegt. Es muss auch nicht zum Deutschen passen: *la table* ist „der Tisch“ und *le sac* ist „die Tasche“. Lerne darum jedes Nomen gleich mit seinem Artikel, wie auf der Seite „Laut und Schrift“.
 
 ### Kurz geübt
 
@@ -139,12 +143,12 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. das Buch → Le livre
-     - La: livre ist männlich: le livre.
-     - L': livre beginnt mit einem Konsonanten (l). Das l' brauchst du nur vor einem Vokal: le livre.
-2. der Tisch → La table
-     - Le: table ist weiblich: la table.
-     - L': table beginnt mit einem Konsonanten (t). Das l' brauchst du nur vor einem Vokal: la table.
+1. das Heft → Le cahier
+     - La: cahier ist männlich: le cahier.
+     - L': cahier beginnt mit dem Buchstaben c, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: le cahier.
+2. der Berg → La montagne
+     - Le: montagne ist weiblich: la montagne. Auch hier passt das Deutsche nicht: der Berg.
+     - L': montagne beginnt mit dem Buchstaben m, und der ist kein Vokal. Das l' brauchst du nur vor einem Vokal: la montagne.
 3. der Freund → L'ami
      - Le: ami beginnt mit einem Vokal (a): Vor einem Vokal wird le zu l': l'ami.
      - La: ami beginnt mit einem Vokal (a): Vor einem Vokal wird la zu l': l'ami.
@@ -162,10 +166,13 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Einträge (Vorgabe → Lösung):
 1. Audio → le cahier
      - la cahier: cahier ist männlich: le cahier.
-2. Audio → le stylo
-     - la stylo: stylo ist männlich: le stylo.
-3. Audio → le sac
-     - la sac: sac ist männlich: le sac.
+     - cahier: Das kleine Wort gehört dazu: le cahier.
+2. Audio → le bureau
+     - la bureau: bureau ist männlich: le bureau.
+     - bureau: Das kleine Wort gehört dazu: le bureau.
+3. Audio → la campagne
+     - le campagne: campagne ist weiblich: la campagne.
+     - campagne: Das kleine Wort gehört dazu: la campagne.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#artikel-hoeren](../?via=tutor#artikel-hoeren)
@@ -178,8 +185,9 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Einträge (Vorgabe → Lösung):
 1. das Buch → le livre
      - la livre: livre ist männlich: le livre.
-2. der Tisch → la table
-     - le table: table ist weiblich: la table.
+2. der Berg → la montagne
+     - le montagne: montagne ist weiblich: la montagne.
+     - montagne: Das kleine Wort gehört dazu: la montagne.
 3. die Schule → l'école
      - la école: Vor einem Vokal wird la zu l': l'école.
      - le école: Vor einem Vokal wird le zu l': l'école.

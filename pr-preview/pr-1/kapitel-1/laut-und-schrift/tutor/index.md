@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Laut und Schrift“
 
-Fünf Buchstabenverbindungen im Französischen richtig aussprechen und erkennen.
+Fünf Buchstaben-Teams im Französischen lesen und aussprechen: ou, oi, eau, ch, gn.
 
 ### Worum es geht
 
@@ -73,6 +73,7 @@ Beispielwörter mit ihrer Bedeutung:
 - ou | la route | die Straße
 - oi | le soir | der Abend
 - oi | la voiture | das Auto
+- au | aussi | auch
 - eau | le bureau | das Büro
 - eau | le gâteau | der Kuchen
 - ch | le chat | die Katze
@@ -162,15 +163,20 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → la route
+     - route: Das kleine Wort gehört dazu: la route.
      - la rute: Das lange „u“ schreibt man hier ou: la route.
 2. Audio → la voiture
+     - voiture: Das kleine Wort gehört dazu: la voiture.
      - la vuatur: „ua“ schreibt man oi: la voiture.
 3. Audio → le bureau
+     - bureau: Das kleine Wort gehört dazu: le bureau.
      - le buro: Der Klang „o“ am Ende schreibt man eau: le bureau.
 4. Audio → le chocolat
+     - chocolat: Das kleine Wort gehört dazu: le chocolat.
      - le schocolat: „sch“ schreibt man im Französischen ch: le chocolat.
-     - la chocolat: chocolat ist männlich: le chocolat.
+     - la chocolat: Zu chocolat gehört le: le chocolat.
 5. Audio → la campagne
+     - campagne: Das kleine Wort gehört dazu: la campagne.
      - la campanje: „nj“ schreibt man gn: la campagne.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -184,7 +190,7 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Einträge (Vorgabe → Lösung):
 1. die Katze → le chat
      - chat: Das kleine Wort gehört dazu: le chat.
-     - la chat: chat ist männlich: le chat.
+     - la chat: Zu chat gehört le: le chat.
      - le schat: „sch“ schreibt man ch: le chat.
 2. der Abend → le soir
      - le suar: „ua“ schreibt man oi: le soir.

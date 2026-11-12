@@ -39,11 +39,11 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Wer macht was? Die Pronomen“
 
-Die Subjektpronomen je, tu, il, elle, on, nous, vous, ils und elles verwenden.
+Ich, du, er, sie, wir, ihr: die neun kleinen Wörter für Personen auf Französisch.
 
 ### Worum es geht
 
-Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor. Bildunterschrift: Léa (links) und Malik (rechts) beim Fußballtraining. Wer schießt gleich aufs Tor?
+Bild: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen auf dem Fußballplatz. Vor ihnen liegt ein Ball, rechts steht ein Tor. Bildunterschrift: Léa (links) und Malik (rechts) beim Fußballtraining. Sie treffen sich zum Spielen.
 
 Nach dem Zahlenspiel geht es raus auf den Fußballplatz. Léa spricht über sich, über Malik und über beide zusammen.
 Statt jedes Mal alle Namen zu sagen, benutzt sie kleine Wörter wie „ich“, „er“, „sie“ oder „wir“. Diese Wörter heißen **Pronomen**.
@@ -161,9 +161,9 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Je m'appelle Léa.
-     - Je appelle Léa.: Zu s'appeler gehört das m': je m'appelle.
+     - Je appelle Léa. / Je appelle Léa / je appelle Léa. / je appelle Léa: Zu s'appeler gehört das m': je m'appelle.
 2. Audio → Tu t'appelles Malik.
-     - Il t'appelles Malik.: Hier sprichst du Malik an: Dafür nimmst du tu, nicht il.
+     - Il t'appelles Malik. / Il t'appelles Malik / il t'appelles Malik. / il t'appelles Malik: Hier sprichst du Malik an: Dafür nimmst du tu, nicht il.
 3. Audio → Nous jouons au foot.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -176,9 +176,11 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Er heißt Noé. → Il s'appelle Noé.
-     - Elle s'appelle Noé.: Noé ist ein Junge: Dafür nimmst du il.
+     - Il appelle Noé. / Il appelle Noé / il appelle Noé. / il appelle Noé: Zu heißen gehört das s': il s'appelle.
+     - Elle s'appelle Noé. / Elle s'appelle Noé / elle s'appelle Noé. / elle s'appelle Noé: Noé ist ein Junge: Dafür nimmst du il.
 2. Sie heißt Zoé. → Elle s'appelle Zoé.
-     - Il s'appelle Zoé.: Zoé ist ein Mädchen: Dafür nimmst du elle.
-3. Wir spielen Fußball. → Nous jouons au foot. (auch richtig: Nous jouons au football.)
+     - Elle appelle Zoé. / Elle appelle Zoé / elle appelle Zoé. / elle appelle Zoé: Zu heißen gehört das s': elle s'appelle.
+     - Il s'appelle Zoé. / Il s'appelle Zoé / il s'appelle Zoé. / il s'appelle Zoé: Zoé ist ein Mädchen: Dafür nimmst du elle.
+3. Wir spielen Fußball. → Nous jouons au foot. (auch richtig: Nous jouons au football.; On joue au foot.; On joue au football.)
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#pronomen-uebersetzen](../?via=tutor#pronomen-uebersetzen)

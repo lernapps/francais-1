@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Das Verb être“
 
-Das Verb être im Präsens konjugieren und damit Personen und Dinge vorstellen (c'est, il est).
+Mit être sagst du, wer du bist, wer etwas ist und wo jemand ist: je suis, tu es, c'est, il est.
 
 ### Worum es geht
 
@@ -154,13 +154,13 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Ich bin Malik. → Je suis Malik.
+1. Ich bin Léa. → Je suis Léa.
      - es: es gehört zu tu („du bist“). Zu je gehört suis: je suis.
      - est: est gehört zu il, elle und on. Zu je gehört suis: je suis.
 2. Seid ihr hier? → Vous êtes ici ?
      - sommes: sommes gehört zu nous („wir sind“). Zu vous gehört êtes: vous êtes.
      - sont: sont gehört zu ils und elles („sie sind“). Zu vous gehört êtes: vous êtes.
-3. Sie sind in der Schule. → Ils sont à l'école.
+3. Sie sind hier. → Ils sont ici.
      - est: est gehört zu einer Person (il, elle). Bei mehreren sagst du sont: ils sont.
      - êtes: êtes gehört zu vous („ihr seid“). Zu ils gehört sont: ils sont.
 4. Wir sind hier. → On est ici.
@@ -181,6 +181,12 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 2. Sie ist hier. (Léa) → Elle est ici.
      - C'est: Du sagst, wo Léa ist, nicht wer sie ist. Dafür nimmst du elle est.
      - Il est: Léa ist ein Mädchen: Dafür nimmst du elle est.
+3. Das ist der Ball. → C'est le ballon.
+     - Il est: Du stellst den Ball vor („Das ist der Ball“). Zum Vorstellen nimmst du c'est.
+     - Elle est: Du stellst den Ball vor („Das ist der Ball“). Zum Vorstellen nimmst du c'est.
+4. Er ist in der Schule. (Malik) → Il est à l'école.
+     - C'est: Du sagst, wo Malik ist, nicht wer er ist. Dafür nimmst du il est.
+     - Elle est: Malik ist ein Junge: Dafür nimmst du il est.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#cest-oder-il-est](../?via=tutor#cest-oder-il-est)
 
@@ -191,11 +197,11 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → Je suis Malik.
-     - Je es Malik.: Zu je gehört suis: je suis.
+     - Je es Malik. / Je es Malik / je es Malik. / je es Malik: Zu je gehört suis: je suis.
 2. Audio → Il est ici.
-     - Il es ici.: Zu il gehört est: il est.
+     - Il es ici. / Il es ici / il es ici. / il es ici: Zu il gehört est: il est.
 3. Audio → Ils sont à l'école.
-     - Ils est à l'école.: Bei mehreren sagst du sont: ils sont.
+     - Ils est à l'école. / Ils est à l'école / ils est à l'école. / ils est à l'école: Bei mehreren sagst du sont: ils sont.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#etre-hoeren](../?via=tutor#etre-hoeren)
@@ -204,13 +210,13 @@ Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
 
 - Aufgabe: Schreibe den Satz auf Französisch.
 - Antwortformat: die ganze Antwort auf Französisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Ich bin Léa. → Je suis Léa.
-     - Je es Léa.: Zu je gehört suis: je suis.
+     - Je es Léa. / Je es Léa / je es Léa. / je es Léa: Zu je gehört suis: je suis.
 2. Du bist hier. → Tu es ici.
-     - Tu suis ici.: Zu tu gehört es: tu es.
+     - Tu suis ici. / Tu suis ici / tu suis ici. / tu suis ici: Zu tu gehört es: tu es.
 3. Das ist Malik. → C'est Malik.
-     - Il est Malik.: Zum Vorstellen sagst du c'est: C'est Malik.
+     - Il est Malik. / Il est Malik / il est Malik. / il est Malik: Zum Vorstellen sagst du c'est: C'est Malik.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#etre-uebersetzen](../?via=tutor#etre-uebersetzen)
