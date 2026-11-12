@@ -33,7 +33,7 @@ blocks:
             text: "Die Null heißt *zéro*. Dann geht es so weiter:"
           - type: table
             caption: Die Zahlen von 1 bis 20
-            header: [Zahl, Französisch, Zahl, Französisch]
+            header: [Zahl, Wort, Zahl, Wort]
             rows:
               - ["1", "un", "11", "onze"]
               - ["2", "deux", "12", "douze"]

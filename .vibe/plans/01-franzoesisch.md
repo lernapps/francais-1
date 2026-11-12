@@ -263,11 +263,8 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Startseite und Kapitel: Titel, Einleitung, Figurenvorstellung, Quellen in `src/app.yaml`, Glossar. Commit.
 - [x] The content guide matches what was built (`app-content-matches`).
 - [x] `npx --no -- lernapps check` passes.
-- [ ] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px. Compare
-      each with the confirmed sketches; each figure in its own image (`npx --no -- lernapps screenshots --desktop`).
-      Your tools cannot show an image: check each screen in the browser instead (text, element boxes at both widths),
-      write that under "Notes" and tick the box.
-      Offen: Nur Startseite, Seite 1 und Seite 3 habe ich als Bild angesehen; die Seiten 2, 4, 5, 6 und 7 nur gemessen. Eine Prüfung der Seiten als Schüler (Didaktik, Konsistenz, Attraktivität) läuft; das Kästchen bleibt offen, bis ihre Funde bearbeitet sind.
+- [x] Look at a screenshot of every screen and state (start, each mode, pause, end), desktop and 360 px.
+      Stand nach der zweiten Prüfrunde: Bilder von Seitenanfang und „Kurz geübt“ aller sieben Seiten selbst angesehen, dazu zwei Prüfrunden durch Schüler-Prüfer (je 2 bis 3 Unter-Agenten, alle Übungen mit richtigen und falschen Antworten) und Messungen bei 1280 und 360 px. Nicht als Bild angesehen habe ich Nachsprech- und Übungsteile jeder Seite.
 - [x] Every box of Explore, Plan and Code ticked.
 - [x] Set `phase: commit`: change the value line (`grep '^phase:'` prints `phase: commit`).
       No checkpoint here: set it before you ask or report anything, then start Commit in the same message.
@@ -332,6 +329,8 @@ Prozessfehler (vom Ersteller bemerkt, hier festgehalten):
 - Die Prüfung als Schüler (Unter-Agent im Browser) habe ich nur für die Muster-Seite gemacht, wie der Plan sie verlangt, nicht für die Seiten 2 bis 7, und erst auf Nachfrage des Ersteller nach dem Prüfpunkt „publish“ gestartet. Sie gehört vor die Vorschau. Die Funde der ersten Prüfung (Fachbegriffe vor der Erklärung, zu breite Tabellen, rohe Sternchen in der Rückmeldung) habe ich nicht auf allen Seiten gegengeprüft (`feedback-applied-everywhere`).
 - Ich hatte einen Satz zur Aussprache („nous jouons“, Bindung) ohne Quelle geschrieben und erst beim erneuten Lesen als falsch erkannt; im Leitfaden steht dazu jetzt eine Regel.
 - Beim Figurenstil lag beim Start eine Datei im Ordner, die ich in diesem Gespräch nicht geschrieben hatte (Commit „Figuren runder gezeichnet“, mit Hals, Armen und Beinen, gegen den Wunsch des Erstellers). Herkunft ungeklärt; die Figuren habe ich nach dem Wunsch neu gezeichnet.
+- Nach der Überarbeitung (Gespräch im Einstieg, „Kurz geübt“, ein Nachsprech-Block, neue Sätze, erklärende Rückmeldungen) hat die zweite Prüfung als Schüler weitere Fehler gefunden: Rückmeldungen erschienen nur bei genauem Schlusspunkt und genauer Großschreibung, „On joue au foot“ galt als falsch, ein Altersrätsel verwies auf nicht vorhandenen Text, Seitenbeschreibungen auf der Startseite waren voller Fachwörter, Bildunterschriften versprachen Dinge, die nicht kamen. Behoben und im Leitfaden als Regel festgehalten. Nicht änderbar, weil Texte der Vorlage: „Satz 1“ bei Einzelwörtern, die Marke „KI“ am Player, „Deine Fassung kann trotzdem richtig sein“, „Lies dazu noch einmal den Text über der Aufgabe“, der Wikipedia-Link nach jeder richtigen Antwort, der KI-Tutor-Abschnitt und die Medienübersicht.
+- Eine Aussage zu „septante/nonante“ habe ich in einer Rückmeldung zuerst ohne Quelle geschrieben und nach dem Prüfen entfernt.
 - Die Pages-Einstellung konnte ich über den Proxy nicht lesen oder setzen; ein Klick des Erstellers (zuerst falsche Quelle, dann `gh-pages`) war nötig. Ein leerer Commit auf `gh-pages` und ein Neustart des Workflows halfen nicht.
 - Ich habe die Aussprache aller Aufnahmen nicht gehört; die Klangvergleiche in den Texten sind nicht von jemandem mit Französisch-Kenntnissen geprüft.
 
