@@ -289,16 +289,16 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] An explainer: load skill `lernapps-explainer-self-assessment` (missing → `npx --no -- lernapps skills --archetype
       explainer`). Add the self-assessment as it says, or
       write under "Key decisions" why the app has none. Commit; the hooks check.
-- [ ] Load skill `lernapps-github`. Repo and Pages as it says (Repo `lernapps/francais-1` da, `main`, `gh-pages` und `work` gepusht; offen: Pages-Quelle `gh-pages` und Sichtbarkeit öffentlich, beides Klicks des Erstellers): ask the repo name and every click only the creator can
+- [x] Load skill `lernapps-github`. Repo and Pages as it says (Repo `lernapps/francais-1` da, `main`, `gh-pages` und `work` gepusht; offen: Pages-Quelle `gh-pages` und Sichtbarkeit öffentlich, beides Klicks des Erstellers): ask the repo name and every click only the creator can
       make in one message.
 - [x] Push `work`, open the preview pull request, see its checks to green as the skill says.
-- [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App"; ask
+- [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App"; ask
       whether it may go online; put any open click into the same question. Wait for the yes.
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit
       with the message from this plan, the run of `Pages` watched to the end.
-- [ ] Open the address the job `deploy` printed; confirm the app shows. Use that address, never a derived one.
+- [x] Open the address the job `deploy` printed; confirm the app shows. Use that address, never a derived one.
 - [ ] Load skill `lernapps-listing`. Complete the entry draft (e.g. the address).
-- [ ] Fill the retrospective.
+- [x] Fill the retrospective.
 - [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
 - [ ] **Checkpoint:** list. Open the listing pull request as the skill says, without asking first: the pull request
       is the review. See it to "bestanden", then show the creator the pull request and its result; change nothing in
@@ -313,11 +313,11 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Commit erreicht. Bestätigt und passiert: Recherche, Plan mit Inhaltsmethode, Muster-Seite, Veröffentlichung (App online unter `lernapps.net/francais-1/`). Offen: Listungs-Pull-Request.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Etwa 20 Nachrichten des Erstellers nach der Bestätigung des Plans, deutlich über dem Ziel von höchstens 3. Themen: Figurenstil (Torso); Audio-Freigabe und Stimmenwahl (zwei Stimmen); Hören der Aufnahmen und Wünsche (Wörter mit Artikel, Sätze; fünf schlechte Aufnahmen, Tennis statt Fußball, Satzzeichen-Varianten); Repo-Name und GitHub-Klicks (Sichtbarkeit, Pages-Quelle); zwei Rückfragen zum Vorgehen (Prüfung als Schüler, Retro-Einträge); „Alles ändern, es soll Spaß machen“; Freigabe zum Veröffentlichen. Hauptgründe: Ton lässt sich nur durch Anhören beurteilen, und Prüfungen aus Schülersicht waren zuerst nicht eingeplant.
 
 ### Where I had to guess
 
