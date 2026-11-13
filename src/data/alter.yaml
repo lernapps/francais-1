@@ -1,0 +1,10 @@
+# Alter von 8 bis 16 Jahren (n: Ziffer, fr: Zahlwort), gleiche Wörter wie in zahlen.yaml, für das Altersrätsel auf der Seite avoir.
+- { n: 8, fr: "huit" }
+- { n: 9, fr: "neuf" }
+- { n: 10, fr: "dix" }
+- { n: 11, fr: "onze" }
+- { n: 12, fr: "douze" }
+- { n: 13, fr: "treize" }
+- { n: 14, fr: "quatorze" }
+- { n: 15, fr: "quinze" }
+- { n: 16, fr: "seize" }

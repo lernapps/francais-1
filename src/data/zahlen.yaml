@@ -1,0 +1,102 @@
+# Die Zahlen von 0 bis 100 (n: Ziffer, fr: Zahlwort, rechnung: so setzt sich das Zahlwort zusammen), jede einmal.
+- { n: 0, fr: "zéro", rechnung: "0" }
+- { n: 1, fr: "un", rechnung: "1" }
+- { n: 2, fr: "deux", rechnung: "2" }
+- { n: 3, fr: "trois", rechnung: "3" }
+- { n: 4, fr: "quatre", rechnung: "4" }
+- { n: 5, fr: "cinq", rechnung: "5" }
+- { n: 6, fr: "six", rechnung: "6" }
+- { n: 7, fr: "sept", rechnung: "7" }
+- { n: 8, fr: "huit", rechnung: "8" }
+- { n: 9, fr: "neuf", rechnung: "9" }
+- { n: 10, fr: "dix", rechnung: "10" }
+- { n: 11, fr: "onze", rechnung: "11" }
+- { n: 12, fr: "douze", rechnung: "12" }
+- { n: 13, fr: "treize", rechnung: "13" }
+- { n: 14, fr: "quatorze", rechnung: "14" }
+- { n: 15, fr: "quinze", rechnung: "15" }
+- { n: 16, fr: "seize", rechnung: "16" }
+- { n: 17, fr: "dix-sept", rechnung: "17" }
+- { n: 18, fr: "dix-huit", rechnung: "18" }
+- { n: 19, fr: "dix-neuf", rechnung: "19" }
+- { n: 20, fr: "vingt", rechnung: "20" }
+- { n: 21, fr: "vingt et un", rechnung: "20 + 1" }
+- { n: 22, fr: "vingt-deux", rechnung: "20 + 2" }
+- { n: 23, fr: "vingt-trois", rechnung: "20 + 3" }
+- { n: 24, fr: "vingt-quatre", rechnung: "20 + 4" }
+- { n: 25, fr: "vingt-cinq", rechnung: "20 + 5" }
+- { n: 26, fr: "vingt-six", rechnung: "20 + 6" }
+- { n: 27, fr: "vingt-sept", rechnung: "20 + 7" }
+- { n: 28, fr: "vingt-huit", rechnung: "20 + 8" }
+- { n: 29, fr: "vingt-neuf", rechnung: "20 + 9" }
+- { n: 30, fr: "trente", rechnung: "30" }
+- { n: 31, fr: "trente et un", rechnung: "30 + 1" }
+- { n: 32, fr: "trente-deux", rechnung: "30 + 2" }
+- { n: 33, fr: "trente-trois", rechnung: "30 + 3" }
+- { n: 34, fr: "trente-quatre", rechnung: "30 + 4" }
+- { n: 35, fr: "trente-cinq", rechnung: "30 + 5" }
+- { n: 36, fr: "trente-six", rechnung: "30 + 6" }
+- { n: 37, fr: "trente-sept", rechnung: "30 + 7" }
+- { n: 38, fr: "trente-huit", rechnung: "30 + 8" }
+- { n: 39, fr: "trente-neuf", rechnung: "30 + 9" }
+- { n: 40, fr: "quarante", rechnung: "40" }
+- { n: 41, fr: "quarante et un", rechnung: "40 + 1" }
+- { n: 42, fr: "quarante-deux", rechnung: "40 + 2" }
+- { n: 43, fr: "quarante-trois", rechnung: "40 + 3" }
+- { n: 44, fr: "quarante-quatre", rechnung: "40 + 4" }
+- { n: 45, fr: "quarante-cinq", rechnung: "40 + 5" }
+- { n: 46, fr: "quarante-six", rechnung: "40 + 6" }
+- { n: 47, fr: "quarante-sept", rechnung: "40 + 7" }
+- { n: 48, fr: "quarante-huit", rechnung: "40 + 8" }
+- { n: 49, fr: "quarante-neuf", rechnung: "40 + 9" }
+- { n: 50, fr: "cinquante", rechnung: "50" }
+- { n: 51, fr: "cinquante et un", rechnung: "50 + 1" }
+- { n: 52, fr: "cinquante-deux", rechnung: "50 + 2" }
+- { n: 53, fr: "cinquante-trois", rechnung: "50 + 3" }
+- { n: 54, fr: "cinquante-quatre", rechnung: "50 + 4" }
+- { n: 55, fr: "cinquante-cinq", rechnung: "50 + 5" }
+- { n: 56, fr: "cinquante-six", rechnung: "50 + 6" }
+- { n: 57, fr: "cinquante-sept", rechnung: "50 + 7" }
+- { n: 58, fr: "cinquante-huit", rechnung: "50 + 8" }
+- { n: 59, fr: "cinquante-neuf", rechnung: "50 + 9" }
+- { n: 60, fr: "soixante", rechnung: "60" }
+- { n: 61, fr: "soixante et un", rechnung: "60 + 1" }
+- { n: 62, fr: "soixante-deux", rechnung: "60 + 2" }
+- { n: 63, fr: "soixante-trois", rechnung: "60 + 3" }
+- { n: 64, fr: "soixante-quatre", rechnung: "60 + 4" }
+- { n: 65, fr: "soixante-cinq", rechnung: "60 + 5" }
+- { n: 66, fr: "soixante-six", rechnung: "60 + 6" }
+- { n: 67, fr: "soixante-sept", rechnung: "60 + 7" }
+- { n: 68, fr: "soixante-huit", rechnung: "60 + 8" }
+- { n: 69, fr: "soixante-neuf", rechnung: "60 + 9" }
+- { n: 70, fr: "soixante-dix", rechnung: "60 + 10" }
+- { n: 71, fr: "soixante et onze", rechnung: "60 + 11" }
+- { n: 72, fr: "soixante-douze", rechnung: "60 + 12" }
+- { n: 73, fr: "soixante-treize", rechnung: "60 + 13" }
+- { n: 74, fr: "soixante-quatorze", rechnung: "60 + 14" }
+- { n: 75, fr: "soixante-quinze", rechnung: "60 + 15" }
+- { n: 76, fr: "soixante-seize", rechnung: "60 + 16" }
+- { n: 77, fr: "soixante-dix-sept", rechnung: "60 + 17" }
+- { n: 78, fr: "soixante-dix-huit", rechnung: "60 + 18" }
+- { n: 79, fr: "soixante-dix-neuf", rechnung: "60 + 19" }
+- { n: 80, fr: "quatre-vingts", rechnung: "4 × 20" }
+- { n: 81, fr: "quatre-vingt-un", rechnung: "80 + 1" }
+- { n: 82, fr: "quatre-vingt-deux", rechnung: "80 + 2" }
+- { n: 83, fr: "quatre-vingt-trois", rechnung: "80 + 3" }
+- { n: 84, fr: "quatre-vingt-quatre", rechnung: "80 + 4" }
+- { n: 85, fr: "quatre-vingt-cinq", rechnung: "80 + 5" }
+- { n: 86, fr: "quatre-vingt-six", rechnung: "80 + 6" }
+- { n: 87, fr: "quatre-vingt-sept", rechnung: "80 + 7" }
+- { n: 88, fr: "quatre-vingt-huit", rechnung: "80 + 8" }
+- { n: 89, fr: "quatre-vingt-neuf", rechnung: "80 + 9" }
+- { n: 90, fr: "quatre-vingt-dix", rechnung: "80 + 10" }
+- { n: 91, fr: "quatre-vingt-onze", rechnung: "80 + 11" }
+- { n: 92, fr: "quatre-vingt-douze", rechnung: "80 + 12" }
+- { n: 93, fr: "quatre-vingt-treize", rechnung: "80 + 13" }
+- { n: 94, fr: "quatre-vingt-quatorze", rechnung: "80 + 14" }
+- { n: 95, fr: "quatre-vingt-quinze", rechnung: "80 + 15" }
+- { n: 96, fr: "quatre-vingt-seize", rechnung: "80 + 16" }
+- { n: 97, fr: "quatre-vingt-dix-sept", rechnung: "80 + 17" }
+- { n: 98, fr: "quatre-vingt-dix-huit", rechnung: "80 + 18" }
+- { n: 99, fr: "quatre-vingt-dix-neuf", rechnung: "80 + 19" }
+- { n: 100, fr: "cent", rechnung: "100" }

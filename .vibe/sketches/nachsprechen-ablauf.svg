@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" font-family="sans-serif" font-size="14">
+  <title>Ablauf Nachsprechen (Skizze)</title>
+  <rect width="760" height="330" fill="#fff"/>
+  <text x="20" y="28" font-size="18" font-weight="bold">Nachsprechen: vier Schritte</text>
+  <g stroke="#444" fill="#f6f6f2"><rect x="20" y="48" width="170" height="200" rx="8"/><rect x="205" y="48" width="170" height="200" rx="8"/><rect x="390" y="48" width="170" height="200" rx="8"/><rect x="575" y="48" width="165" height="200" rx="8"/></g>
+  <text x="32" y="74" font-weight="bold">1 Vorbild hören</text><text x="32" y="102">Satz: „Bonjour, je</text><text x="32" y="122">m'appelle Léa.“</text><text x="32" y="156">▶ Abspielen</text><text x="32" y="180">Tempo 0,75 / 1 / 1,25</text><text x="32" y="220" font-size="12">Nur nach Klick, KI-Label</text>
+  <text x="217" y="74" font-weight="bold">2 Selbst sprechen</text><text x="217" y="102">● Aufnahme starten</text><text x="217" y="126">■ Stopp</text><text x="217" y="170">Bleibt im Browser,</text><text x="217" y="190">wird nicht gespeichert</text><text x="217" y="210">und nicht gesendet.</text>
+  <text x="402" y="74" font-weight="bold">3 Vergleichen</text><text x="402" y="102">▶ Vorbild</text><text x="402" y="126">▶ Meine Aufnahme</text><text x="402" y="150">▶ Beide nacheinander</text>
+  <text x="587" y="74" font-weight="bold">4 Bewerten</text><text x="587" y="102">Wie klang es?</text><text x="587" y="130">○ schon gut</text><text x="587" y="154">○ fast</text><text x="587" y="178">○ noch üben</text><text x="587" y="220" font-size="12">Die App hört nicht zu.</text>
+  <text x="20" y="284">Pfeile zeigen die Reihenfolge: 1 → 2 → 3 → 4. Mikrofon-Erlaubnis fragt der Browser; ohne Erlaubnis bleibt nur das Vorbild (Schritt 1).</text>
+  <text x="20" y="308" font-size="12">Ohne JavaScript steht der französische Satz als Text da; die Aufgabe ist dann nicht möglich (die Seite nennt das).</text>
+</svg>

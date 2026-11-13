@@ -1,0 +1,221 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Laut und Schrift
+description: "Fünf Buchstaben-Teams im Französischen lesen und aussprechen: ou, oi, eau, ch, gn."
+competencies: [laut-und-schrift]
+blocks:
+  - type: section
+    id: einstieg
+    title: Worum es geht
+    blocks:
+      - type: figure
+        image: images/szene-laut-und-schrift.svg
+        alt: Léa (links, rote Jacke) und Malik (rechts, blaue Jacke, Brille) stehen vor dem Schulhaus. Über der Tür hängt ein Schild mit dem Wort ÉCOLE.
+        caption: Léa (links) zeigt Malik (rechts) die Schule. Auf dem Schild steht ÉCOLE. Das heißt „Schule“.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Malik ist neu in Léas Klasse. Auf dem Schulhof hört er viele französische Wörter und möchte sie so sagen wie Léa.
+
+          Léa verrät ihm ein Geheimnis: Im Französischen schließen sich manche Buchstaben zu einem **Team** zusammen.
+          Das Team klingt dann ganz anders als die einzelnen Buchstaben. Wer die fünf wichtigsten Teams kennt, kann schon viele Wörter lesen.
+
+          **Danach kannst du:** die Teams *ou*, *oi*, *au / eau*, *ch* und *gn* erkennen und aussprechen, so wie Léa und Malik.
+  - type: section
+    id: neu
+    title: "Neu: Die fünf Buchstaben-Teams"
+    blocks:
+      - type: definition
+        term: Buchstabenverbindung
+        explanation: Zwei oder drei Buchstaben, die zusammen einen einzigen Klang ergeben. Wir nennen sie hier „Buchstaben-Teams“.
+      - type: table
+        caption: Fünf Teams, ihr Klang und ein Beispiel
+        header: [Team, Klingt wie, Beispiel]
+        rows:
+          - ["ou", "langes „u“", "nous = „nu“"]
+          - ["oi", "„ua“", "moi = „mua“"]
+          - ["au, eau", "„o“", "le gâteau = „le gato“"]
+          - ["ch", "„sch“", "le chat = „le scha“"]
+          - ["gn", "„nj“", "la montagne = „la montanje“"]
+      - type: text
+        text: |
+          Hier sind zu jedem Team zwei Wörter. Gleich sprichst du einige davon nach, die Hör-Knöpfe findest du im nächsten Abschnitt.
+          Das kleine Wort davor (*le*, *la*) gehört zum Wort: Merke dir jedes Wort gleich mit ihm. Was *le* und *la* genau sind, erfährst du auf der Seite „Der bestimmte Artikel“.
+      - type: table
+        caption: Beispielwörter mit ihrer Bedeutung
+        header: [Team, Wort, Bedeutung]
+        rows:
+          - ["ou", "le jour", "der Tag"]
+          - ["ou", "la route", "die Straße"]
+          - ["oi", "le soir", "der Abend"]
+          - ["oi", "la voiture", "das Auto"]
+          - ["au", "aussi", "auch"]
+          - ["eau", "le bureau", "das Büro"]
+          - ["eau", "le gâteau", "der Kuchen"]
+          - ["ch", "le chat", "die Katze"]
+          - ["ch", "le chocolat", "die Schokolade"]
+          - ["gn", "la montagne", "der Berg"]
+          - ["gn", "la campagne", "das Land"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              *ou* sind nicht „o“ und „u“ nacheinander, sondern ein einziger Klang. *ch* klingt wie das deutsche „sch“, nicht wie „k“.
+              Am Ende eines Wortes hört man oft den letzten Buchstaben nicht: *le chat* klingt wie „le scha“.
+  - type: section
+    id: kurz-geuebt
+    title: Kurz geübt
+    blocks:
+      - type: true-false
+        id: ch-wie-k
+        text: "Stimmt das? Das ch in le chat spricht man wie ein deutsches „k“."
+        answer: false
+        explanation: "Nein: ch klingt wie „sch“. Die Katze heißt also „le scha“, nicht „le kat“."
+        links:
+          - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
+  - type: section
+    id: nachsprechen
+    title: Hören und nachsprechen
+    blocks:
+      - type: text
+        text: |
+          Léa und Malik sprechen vor: Léa sagt *le gâteau* und *la montagne*, Malik *le chat* und den Satz *Voici le chat.* (das heißt „Hier ist die Katze.“).
+          Höre zu, nimm dich selbst auf und vergleiche. Dann bewertest du dich selbst.
+      - type: speaking-task
+        id: sprechen-ueben
+        language: fr
+        items:
+          - audio: le-chat.mp3
+            text: le chat
+          - audio: le-gateau.mp3
+            text: le gâteau
+          - audio: la-montagne.mp3
+            text: la montagne
+          - audio: voici-le-chat.mp3
+            text: Voici le chat.
+        hint: "Sprich langsam. Bei ou bleiben die Lippen rund wie bei „u“. Ein ganzer Satz klingt leichter, weil die Wörter ineinander übergehen."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: klang-zuordnen
+        text: Welches Team klingt wie was? Ordne zu.
+        pairs:
+          - { left: ou, right: "langes „u“ (Mut)" }
+          - { left: oi, right: "„ua“" }
+          - { left: "au, eau", right: "„o“ (Boot)" }
+          - { left: ch, right: "„sch“ (Schule)" }
+          - { left: gn, right: "„nj“ (Anja)" }
+        distractors: ["„k“ (Kuh)"]
+        explanation: "ou klingt wie ein langes „u“, oi wie „ua“, au und eau wie „o“, ch wie „sch“ und gn wie „nj“."
+        links:
+          - { title: Französische Sprache (Wikipedia), url: "https://de.wikipedia.org/wiki/Französische_Sprache" }
+      - type: language-task
+        id: buchstaben-waehlen
+        languages: { source: de, target: fr }
+        mode: choice
+        task: "Welches Team fehlt? Wähle die Buchstaben."
+        items:
+          - source: die Straße
+            target: "la r[ou]te"
+            distractors: [[oi, ch]]
+            mistakes:
+              - answer: oi
+                message: "oi klingt wie „ua“. In „la route“ hörst du aber ein langes „u“: Das ist ou."
+              - answer: ch
+                message: "ch klingt wie „sch“. In „la route“ hörst du ein „u“: Das ist ou."
+          - source: der Abend
+            target: "le s[oi]r"
+            distractors: [[ou, gn]]
+            mistakes:
+              - answer: ou
+                message: "ou klingt wie ein langes „u“. In „le soir“ hörst du „ua“: Das ist oi."
+              - answer: gn
+                message: "gn klingt wie „nj“. In „le soir“ hörst du „ua“: Das ist oi."
+          - source: die Katze
+            target: "le [ch]at"
+            distractors: [[gn, ou]]
+            mistakes:
+              - answer: gn
+                message: "gn klingt wie „nj“. Die Katze beginnt mit „sch“: Das ist ch."
+              - answer: ou
+                message: "ou klingt wie ein langes „u“. Die Katze beginnt mit „sch“: Das ist ch."
+          - source: der Berg
+            target: "la monta[gn]e"
+            distractors: [[ch, oi]]
+            mistakes:
+              - answer: ch
+                message: "ch klingt wie „sch“. In „la montagne“ hörst du „nj“: Das ist gn."
+              - answer: oi
+                message: "oi klingt wie „ua“. In „la montagne“ hörst du „nj“: Das ist gn."
+      - type: language-task
+        id: wort-hoeren
+        languages: { source: de, target: fr }
+        task: Höre das Wort und schreibe es auf. Du kannst es so oft hören, wie du magst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: la-route.mp3
+            target: la route
+            mistakes:
+              - answer: route
+                message: "Das kleine Wort gehört dazu: la route."
+              - answer: la rute
+                message: "Das lange „u“ schreibt man hier ou: la route."
+          - audio: la-voiture.mp3
+            target: la voiture
+            mistakes:
+              - answer: voiture
+                message: "Das kleine Wort gehört dazu: la voiture."
+              - answer: la vuatur
+                message: "„ua“ schreibt man oi: la voiture."
+          - audio: le-bureau.mp3
+            target: le bureau
+            mistakes:
+              - answer: bureau
+                message: "Das kleine Wort gehört dazu: le bureau."
+              - answer: le buro
+                message: "Der Klang „o“ am Ende schreibt man eau: le bureau."
+          - audio: le-chocolat.mp3
+            target: le chocolat
+            mistakes:
+              - answer: chocolat
+                message: "Das kleine Wort gehört dazu: le chocolat."
+              - answer: le schocolat
+                message: "„sch“ schreibt man im Französischen ch: le chocolat."
+              - answer: la chocolat
+                message: "Zu chocolat gehört le: le chocolat."
+          - audio: la-campagne.mp3
+            target: la campagne
+            mistakes:
+              - answer: campagne
+                message: "Das kleine Wort gehört dazu: la campagne."
+              - answer: la campanje
+                message: "„nj“ schreibt man gn: la campagne."
+      - type: language-task
+        id: woerter-uebersetzen
+        languages: { source: de, target: fr }
+        task: Schreibe das französische Wort mit seinem kleinen Wort davor (le oder la).
+        items:
+          - source: die Katze
+            target: le chat
+            mistakes:
+              - answer: chat
+                message: "Das kleine Wort gehört dazu: le chat."
+              - answer: la chat
+                message: "Zu chat gehört le: le chat."
+              - answer: le schat
+                message: "„sch“ schreibt man ch: le chat."
+          - source: der Abend
+            target: le soir
+            mistakes:
+              - answer: le suar
+                message: "„ua“ schreibt man oi: le soir."
+          - source: das Büro
+            target: le bureau
+          - source: der Kuchen
+            target: le gâteau
+            mistakes:
+              - answer: le gato
+                message: "Der Klang „o“ am Ende schreibt man eau: le gâteau."
