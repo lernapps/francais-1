@@ -168,8 +168,16 @@ Voraussetzungen der Karte (`requires`): zahlen-bis-100, begruessen-und-vorstelle
 title: Bonjour, Léa und Malik!
 subject: franzoesisch
 grades: [5, 6]
-summary: Léa und Malik begleiten Kinder durch einen Schultag auf Französisch. Sie hören, sprechen nach und üben Aussprache, Begrüßen, Zahlen, être, Artikel und avoir.
+summary: >-
+  Léa zeigt Malik ihre Schule, den Tennisplatz und ihr Zimmer. Du hörst ihnen zu, sprichst nach und übst die ersten
+  Wörter und Regeln auf Französisch: Aussprache, Begrüßen, Zahlen bis 100, Pronomen, être, Artikel und avoir.
+  Mit Ton, kleinen Spielen und Rückmeldung zu jedem Fehler.
+url: https://lernapps.net/francais-1/
 keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
+creator: { name: Oliver }
+source: https://github.com/lernapps/francais-1
+commit: c7209bbf55f10584d43b0c5ffc450b6ed82077e3
+fitness: { account: false, install: false, storage: device, thirdParty: none, checked: false }
 ```
 
 ### Completed
@@ -297,13 +305,13 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 - [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit
       with the message from this plan, the run of `Pages` watched to the end.
 - [x] Open the address the job `deploy` printed; confirm the app shows. Use that address, never a derived one.
-- [ ] Load skill `lernapps-listing`. Complete the entry draft (e.g. the address).
+- [x] Load skill `lernapps-listing`. Complete the entry draft (e.g. the address).
 - [x] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
-- [ ] **Checkpoint:** list. Open the listing pull request as the skill says, without asking first: the pull request
+- [x] Commit this plan on `main` and push it: the listing check and the review read it there.
+- [x] **Checkpoint:** list. Open the listing pull request as the skill says, without asking first: the pull request
       is the review. See it to "bestanden", then show the creator the pull request and its result; change nothing in
       it without their word.
-- [ ] Plan changed since its last push → commit it on `main`, push again.
+- [x] Plan changed since its last push → commit it on `main`, push again.
 
 ### Completed
 
@@ -313,7 +321,7 @@ keywords: [Französisch, Anfänger, Aussprache, Zahlen, être, avoir]
 
 ### Phases reached
 
-Commit erreicht. Bestätigt und passiert: Recherche, Plan mit Inhaltsmethode, Muster-Seite, Veröffentlichung (App online unter `lernapps.net/francais-1/`). Offen: Listungs-Pull-Request.
+Commit erreicht. Bestätigt und passiert: Recherche, Plan mit Inhaltsmethode, Muster-Seite, Veröffentlichung (App online unter `lernapps.net/francais-1/`). Listung: Pull Request lernapps/apps#277 aus dem Fork geöffnet, Prüfung „bestanden“; Entscheidung des Betreibers von lernapps.net offen.
 
 ### Creator turns after the plan
 
