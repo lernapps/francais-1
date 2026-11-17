@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 560" width="360" height="560" role="img" aria-labelledby="t d">
+<title id="t">Skizze: Aufbau einer Seite (360 px)</title>
+<desc id="d">Von oben: Titel und Ziel, Szene mit Léa und Noé, Einführung mit Wortkarten, Merke-Box, Übungen, Postkarte als Anwendung, nächster Schritt.</desc>
+<style>text{font:14px sans-serif;fill:#222}rect{fill:#f4f4f4;stroke:#888}.b{fill:#e8f0ff}.m{fill:#fff4d6}</style>
+<rect x="8" y="8" width="344" height="60"/><text x="20" y="32">Seite 1 · Les articles: le, la, l', les</text><text x="20" y="54">Ziel: Ich kann den Artikel vor das Wort setzen.</text>
+<rect class="b" x="8" y="76" width="344" height="90"/><text x="20" y="100">Szene: Léa und Noé beschriften das Klassenzimmer</text><text x="20" y="122">[Zeichnung] «la porte» – Léa spricht</text><text x="20" y="144">▶ KI-Stimme: Nachsprechen</text>
+<rect x="8" y="174" width="344" height="110"/><text x="20" y="198">Wortkarten mit Artikel (immer mit Artikel!)</text><text x="20" y="222">le livre · la table · l'école · les sacs</text><text x="20" y="246">▶ hören  ▶ nachsprechen  (Aufnahme bleibt im Browser)</text>
+<rect class="m" x="8" y="292" width="344" height="50"/><text x="20" y="314">Merke: Das Geschlecht gehört zum Wort.</text>
+<rect x="8" y="350" width="344" height="110"/><text x="20" y="374">Übung 1 Auswahl · 2 Lücken · 3 Hören &amp; schreiben</text><text x="20" y="398">4 Schreiben · Rückmeldung nennt die Regel</text><text x="20" y="422">[Prüfen]  [Hinweis]</text>
+<rect class="b" x="8" y="468" width="344" height="52"/><text x="20" y="490">Postkarte: Léa schreibt «le stylo…» – du ergänzt</text><text x="20" y="510">Nächster Schritt: Seite 2 · Zahlen</text>
+</svg>

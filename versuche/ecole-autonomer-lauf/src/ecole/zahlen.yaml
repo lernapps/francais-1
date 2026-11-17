@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Les nombres : 0 à 100"
+description: Du liest, hörst und sagst die Zahlen bis 100 und trägst Zimmernummern auf Léas und Noés Postkarte ein.
+competencies: [zahlen-bis-100]
+scope: |
+  Die Seite übt die französischen Zahlen bis 100: die Zahlen bis 20, die Zehner und die besonderen Zahlen ab 70 (soixante-dix = 60 + 10, quatre-vingts = 4 × 20, quatre-vingt-dix = 4 × 20 + 10). Die Kinder lesen, hören und schreiben Zimmernummern (la salle douze). Nicht auf dieser Seite: Zahlen über 100, Uhrzeit, Datum, Verbformen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Zimmernummern
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du Zahlen bis 100 lesen, hören und schreiben. Gleich brauchst du sie für die Zimmernummern auf Léas und Noés Postkarte.
+      - type: text
+        text: |
+          Léa und Noé suchen ihr neues Klassenzimmer in der Schule in Lyon. An den Türen stehen Nummern. Noé liest laut: «Voilà la salle douze !» **La salle** heißt «der Raum».
+  - type: section
+    id: woerter
+    title: Die Zahlen
+    blocks:
+      - type: figure
+        image: images/tueren.svg
+        alt: Drei Türen mit Zimmernummern an Schildern, von links nach rechts 12, 74 und 85.
+        caption: Drei Türen in Léas und Noés Schule. Die Nummern sagst du gleich auf Französisch.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Die Zahlen von 1 bis 20
+        header: [Zahl, Französisch]
+        rows:
+          - ["1", un]
+          - ["2", deux]
+          - ["3", trois]
+          - ["4", quatre]
+          - ["5", cinq]
+          - ["6", six]
+          - ["7", sept]
+          - ["8", huit]
+          - ["9", neuf]
+          - ["10", dix]
+          - ["11", onze]
+          - ["12", douze]
+          - ["13", treize]
+          - ["14", quatorze]
+          - ["15", quinze]
+          - ["16", seize]
+          - ["17", dix-sept]
+          - ["18", dix-huit]
+          - ["19", dix-neuf]
+          - ["20", vingt]
+      - type: table
+        caption: Die Zehner
+        header: [Zahl, Französisch]
+        rows:
+          - ["30", trente]
+          - ["40", quarante]
+          - ["50", cinquante]
+          - ["60", soixante]
+          - ["70", soixante-dix]
+          - ["80", quatre-vingts]
+          - ["90", quatre-vingt-dix]
+          - ["100", cent]
+      - type: text
+        text: |
+          Ab 70 rechnen die Franzosen: **soixante-dix** ist 60 + 10, **quatre-vingts** ist 4 × 20 und **quatre-vingt-dix** ist 4 × 20 + 10. So entstehen die Zahlen dazwischen: 74 ist *soixante-quatorze* (60 + 14), 85 ist *quatre-vingt-cinq* (80 + 5) und 99 ist *quatre-vingt-dix-neuf* (80 + 19).
+      - type: speaking-task
+        id: zahlen-nachsprechen-1
+        language: fr
+        task: Höre die Zimmernummer an, sprich sie nach und vergleiche.
+        items:
+          - audio: salle-douze.mp3
+            text: "Voilà la salle douze."
+          - audio: noe-salle-soixante-quatorze.mp3
+            text: "Voilà la salle soixante-quatorze."
+          - audio: salle-quatre-vingt-cinq.mp3
+            text: "Voilà la salle quatre-vingt-cinq."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Zahlen ab 70 rechnest du
+        blocks:
+          - type: text
+            text: |
+              Es gibt kein eigenes Wort für 70, 80 und 90: Sie werden aus 60, 20 und 10 zusammengesetzt. Das **s** bei *quatre-vingts* steht nur bei genau 80. Folgt eine Zahl, fällt es weg: *quatre-vingt-cinq*.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: zahlen-zuordnen-1
+        text: Ordne jeder Zahl das französische Wort zu.
+        pairs:
+          - { left: "12", right: douze }
+          - { left: "16", right: seize }
+          - { left: "70", right: soixante-dix }
+          - { left: "90", right: quatre-vingt-dix }
+        distractors: [soixante, quatre-vingts]
+        explanation: "Bis 16 gibt es eigene Wörter. 70 ist 60 + 10, 90 ist 4 × 20 + 10."
+        links:
+          - title: "Lernkarte: Zahlen bis 100"
+            url: https://lernapps.net/apps/map/franzoesisch/c/zahlen-bis-100/
+      - type: number
+        id: zahlen-rechnen-2
+        text: "An einer Tür steht «soixante-quinze». Welche Zahl ist das?"
+        answer: 75
+        tolerance: 0
+        hint: "Soixante ist 60. Wie viel ist quinze?"
+        mistakes:
+          - answer: 65
+            message: "Quinze ist 15, nicht 5: 60 + 15."
+          - answer: 15
+            message: "Du hast soixante vergessen: 60 + 15."
+        explanation: "Soixante-quinze ist 60 + 15 = 75."
+        links:
+          - title: "Lernkarte: Zahlen bis 100"
+            url: https://lernapps.net/apps/map/franzoesisch/c/zahlen-bis-100/
+      - type: language-task
+        id: zahlen-tabelle-3
+        languages: { source: de, target: fr }
+        mode: table
+        form: { case: ok, hyphen: hint }
+        task: Ergänze die fehlenden französischen Zahlen.
+        table:
+          caption: So entstehen 70, 80 und 90
+          header: [Rechnung, Zahl, Französisch]
+          rows:
+            - ["60 + 10", "70", "[soixante-dix]"]
+            - ["4 × 20", "80", "[quatre-vingts]"]
+            - ["4 × 20 + 10", "90", "[quatre-vingt-dix]"]
+      - type: language-task
+        id: zahlen-schreiben-4
+        languages: { source: de, target: fr }
+        form: { case: ok, hyphen: hint }
+        task: Schreibe die Zahl auf Französisch.
+        items:
+          - source: "12"
+            target: douze
+          - source: "74"
+            target: soixante-quatorze
+            mistakes:
+              - answer: soixante-quatre
+                message: "Das wäre 64. 74 ist soixante + quatorze (14)."
+          - source: "85"
+            target: quatre-vingt-cinq
+            mistakes:
+              - answer: quatre-vingts-cinq
+                message: "Das s von quatre-vingts fällt weg, sobald eine Zahl folgt: quatre-vingt-cinq."
+          - source: "99"
+            target: quatre-vingt-dix-neuf
+            mistakes:
+              - answer: quatre-vingt-neuf
+                message: "Das wäre 89. 99 ist quatre-vingt + dix-neuf (19)."
+      - type: language-task
+        id: zahlen-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok, hyphen: hint }
+        task: Höre zu und schreibe den Satz, den du hörst. Du kannst ihn mehrmals anhören.
+        items:
+          - audio: salle-quinze.mp3
+            target: "Voilà la salle quinze."
+          - audio: salle-soixante-dix-sept.mp3
+            target: "Voilà la salle soixante-dix-sept."
+            mistakes:
+              - answer: "Voilà la salle soixante-sept."
+                message: "Das wäre 67. Du hörst soixante-dix-sept: 60 + 17."
+          - audio: salle-quatre-vingt-quinze.mp3
+            target: "Voilà la salle quatre-vingt-quinze."
+            mistakes:
+              - answer: "Voilà la salle quatre-vingt-cinq."
+                message: "Das wäre 85. Du hörst quinze: 80 + 15 = 95."
+  - type: section
+    id: postkarte
+    title: Die Zimmernummern für die Postkarte
+    blocks:
+      - type: text
+        text: |
+          Léa und Noé schreiben die Zimmernummern auf ihre Postkarte. Schreibe ihre Sätze.
+      - type: language-task
+        id: zahlen-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok, hyphen: hint }
+        task: Schreibe den Satz für die Postkarte auf Französisch.
+        items:
+          - source: Hier ist Raum 12.
+            target: "(Voilà|Voici) la salle douze."
+          - source: Hier ist Raum 80.
+            target: "(Voilà|Voici) la salle quatre-vingts."
+            mistakes:
+              - answer: "Voilà la salle quatre-vingt."
+                message: "Genau 80 schreibst du mit s: quatre-vingts."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Jetzt kennen Léa und Noé die Zimmernummern. In der Schultasche suchen sie ihre Sachen. Auf der nächsten Seite lernst du un, une und des.

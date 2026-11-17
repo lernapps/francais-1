@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+<rect width="400" height="200" fill="#f6f1e7"/>
+<rect x="110" y="15" width="180" height="170" fill="#fff" stroke="#5a4326" stroke-width="4"/>
+<rect x="110" y="15" width="180" height="40" fill="#c0392b" stroke="#5a4326" stroke-width="4"/>
+<g font-family="sans-serif" fill="#222" text-anchor="middle"><text x="200" y="43" font-size="22" fill="#fff">mai</text><text x="200" y="125" font-size="60">3</text><text x="200" y="165" font-size="20">samedi</text></g>
+</svg>

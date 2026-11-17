@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220">
+<rect width="400" height="220" fill="#f6f1e7"/>
+<rect x="70" y="10" width="260" height="200" fill="#fff4d6" stroke="#5a4326" stroke-width="4"/>
+<g font-family="sans-serif" fill="#222" text-anchor="middle"><text x="200" y="50" font-size="24" font-weight="bold">Fête de l'école</text><text x="200" y="90" font-size="20">samedi 14 juin</text><text x="200" y="125" font-size="20">14 h</text><text x="200" y="160" font-size="20">entrée gratuite</text></g>
+</svg>

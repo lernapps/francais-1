@@ -1,0 +1,241 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Les articles : le, la, l', les"
+description: Du setzt den Artikel le, la, l' oder les vor ein Wort und beschriftest mit Léa und Noé ihr Klassenzimmer.
+competencies: [bestimmter-artikel]
+scope: |
+  Die Seite führt den bestimmten Artikel ein: le (männlich), la (weiblich), l' vor Vokal und les im Plural. Das Geschlecht gehört zum französischen Wort und wird mit ihm gelernt. Die Kinder benennen Dinge im Klassenzimmer mit Artikel (la porte, le tableau, l'ordinateur) und bilden den Plural mit les und -s, das man nicht hört. Nicht auf dieser Seite: der unbestimmte Artikel, Verbformen, Zahlen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das Klassenzimmer von Léa und Noé
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du die kleinen Wörter **le**, **la**, **l'** und **les** richtig vor französische Wörter setzen (im Deutschen sind das *der*, *die*, *das*) und Dinge im Klassenzimmer benennen. Das ist der erste Schritt zu eurer Postkarte.
+      - type: text
+        text: |
+          Léa (10) und Noé (11) sind neu an einer Schule in Lyon. Auf ihrer Postkarte an die Partnerklasse in Deutschland wollen sie zeigen, was es in ihrem Klassenzimmer gibt. Léa sagt: «Voilà la porte et le tableau !» **Voilà** heißt «Hier ist». Du hörst sie gleich und sprichst nach.
+  - type: section
+    id: woerter
+    title: Die Wörter mit ihrem Artikel
+    blocks:
+      - type: text
+        text: |
+          Im Französischen hat jedes Wort ein Geschlecht: männlich oder weiblich. Du erkennst es am **Artikel**, dem kleinen Wort vor dem Nomen: **le** für männliche, **la** für weibliche Wörter. Dem Deutschen *der*, *die*, *das* entspricht das nicht genau: Auch *das Fenster* ist im Französischen weiblich (*la fenêtre*).
+      - type: table
+        caption: Dinge im Klassenzimmer mit bestimmtem Artikel
+        header: [Artikel, Französisch, Deutsch]
+        rows:
+          - [le, le tableau, die Tafel]
+          - [le, le sac, die Tasche]
+          - [la, la porte, die Tür]
+          - [la, la fenêtre, das Fenster]
+          - [la, la table, der Tisch]
+          - ["l'", "l'ordinateur", der Computer]
+          - ["l'", "l'école", die Schule]
+          - [les, les livres, die Bücher]
+      - type: text
+        text: |
+          Beginnt das Wort mit einem Selbstlaut (a, e, i, o, u), schrumpft **le** oder **la** zu **l'**: *l'ordinateur*, *l'école*. Bei mehreren Dingen steht **les**, egal ob männlich oder weiblich, und das Wort bekommt ein **s**: *le livre* wird zu *les livres*.
+      - type: text
+        text: |
+          Die Stimmen sind von einer KI gemacht (du siehst das Zeichen «KI»). Zum Aufnehmen fragt dein Browser, ob er das Mikrofon benutzen darf: Erlaube es, sonst kannst du dich nicht aufnehmen.
+      - type: speaking-task
+        id: artikel-bestimmt-nachsprechen-1
+        language: fr
+        task: Höre den Satz an, sprich ihn nach und vergleiche.
+        items:
+          - audio: lea-porte-tableau.mp3
+            text: "Voilà la porte et le tableau !"
+          - audio: noe-ordinateur.mp3
+            text: "Voilà l'ordinateur."
+          - audio: les-livres.mp3
+            text: "Voilà les livres."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Das Geschlecht gehört zum Wort
+        blocks:
+          - type: text
+            text: |
+              Ob ein Wort **le** oder **la** braucht, kannst du meistens nicht erraten: Der Tisch ist im Deutschen männlich, *la table* aber weiblich. Schreibe und lerne darum immer **le tableau**, **la porte**, nie nur *tableau* oder *porte*.
+          - type: text
+            text: |
+              Das Plural-s von *les livres* hörst du nicht. Das Wort **les** verrät dir den Plural.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: artikel-bestimmt-waehlen-1
+        text: "Léa zeigt auf den Tisch und sagt: «Voilà ___ table.» Welcher Artikel passt?"
+        explanation: "Table ist ein weibliches Wort, darum la table."
+        links:
+          - title: "Lernkarte: bestimmter Artikel"
+            url: https://lernapps.net/apps/map/franzoesisch/c/bestimmter-artikel/
+        options:
+          - text: la
+            correct: true
+            info: "Richtig: Table ist weiblich, darum la table."
+          - text: le
+            correct: false
+            info: "Le steht vor männlichen Wörtern wie le tableau. Table ist weiblich: la table."
+          - text: les
+            correct: false
+            info: "Les steht bei mehreren Dingen. Hier ist es nur ein Tisch."
+      - type: language-task
+        id: artikel-bestimmt-luecke-2
+        languages: { source: de, target: fr }
+        mode: choice
+        form: { case: ok, apostrophe: ok }
+        task: "Wähle in jeder Lücke den Artikel, der passt. Zur Hilfe: est = ist, à côté de = neben, sur = auf."
+        items:
+          - source: Die Tür ist neben dem Fenster.
+            target: "[La] porte est à côté de [la] fenêtre."
+            distractors: [[Le, Les], [le, les]]
+            mistakes:
+              - answer: "Le porte est à côté de la fenêtre."
+                message: "Porte ist weiblich: la porte, nicht le porte."
+          - source: Der Computer steht auf dem Tisch.
+            target: "[L']ordinateur est sur [la] table."
+            distractors: [[Le, La], [le, les]]
+            mistakes:
+              - answer: "Le ordinateur est sur la table."
+                message: "Ordinateur beginnt mit einem Vokal, darum l'ordinateur: le oder la werden zu l'."
+      - type: language-task
+        id: artikel-bestimmt-beschriften-3
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok }
+        task: Schreibe zu jeder Nummer im Klassenzimmer das französische Wort mit Artikel.
+        material:
+          - type: labelled-figure
+            image: images/klassenzimmer.svg
+            alt: Ein Klassenzimmer von der Seite. Nummer 1 an der Tür, Nummer 2 am Fenster, Nummer 3 an der Tafel, Nummer 4 am Tisch, Nummer 5 an der Tasche, Nummer 6 am Computer.
+            caption: Das Klassenzimmer von Léa und Noé. Schau auf die Nummern.
+            legend: false
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            labels:
+              - { x: 12, y: 40, text: Tür }
+              - { x: 44, y: 22, text: Fenster }
+              - { x: 80, y: 22, text: Tafel }
+              - { x: 64, y: 62, text: Tisch }
+              - { x: 30, y: 62, text: Tasche }
+              - { x: 52, y: 40, text: Computer }
+        items:
+          - marker: "1"
+            target: la porte
+            mistakes:
+              - answer: le porte
+                message: "Porte ist weiblich: la porte."
+              - answer: porte
+                message: "Es fehlt der Artikel: la porte. Lerne jedes Wort mit seinem Artikel."
+          - marker: "2"
+            target: la fenêtre
+            mistakes:
+              - answer: le fenêtre
+                message: "Fenêtre ist weiblich: la fenêtre."
+          - marker: "3"
+            target: le tableau
+            mistakes:
+              - answer: la tableau
+                message: "Tableau ist männlich: le tableau."
+          - marker: "4"
+            target: la table
+            mistakes:
+              - answer: le table
+                message: "Table ist weiblich, auch wenn der Tisch im Deutschen männlich ist: la table."
+          - marker: "5"
+            target: le sac
+            mistakes:
+              - answer: sac
+                message: "Es fehlt der Artikel: le sac."
+              - answer: la sac
+                message: "Sac ist männlich: le sac."
+          - marker: "6"
+            target: l'ordinateur
+            mistakes:
+              - answer: le ordinateur
+                message: "Ordinateur beginnt mit einem Selbstlaut, darum l'ordinateur."
+              - answer: ordinateur
+                message: "Es fehlt der Artikel: l'ordinateur."
+      - type: language-task
+        id: artikel-bestimmt-plural-4
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok }
+        task: Schreibe auf Französisch, was Léa mehrfach sieht.
+        items:
+          - source: die Türen
+            target: les portes
+            mistakes:
+              - answer: les porte
+                message: "Du hörst das s nicht, aber du schreibst es: les portes."
+              - answer: la portes
+                message: "Bei mehreren Dingen steht les, nicht la: les portes."
+          - source: die Fenster
+            target: les fenêtres
+            mistakes:
+              - answer: la fenêtres
+                message: "Bei mehreren Dingen steht les, nicht la: les fenêtres."
+              - answer: les fenêtre
+                message: "Auch hier gehört das Plural-s ans Wort: les fenêtres."
+          - source: die Computer
+            target: les ordinateurs
+            mistakes:
+              - answer: les ordinateur
+                message: "Das Plural-s gehört ans Wort: les ordinateurs."
+      - type: language-task
+        id: artikel-bestimmt-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Höre zu und schreibe den Satz, den du hörst. Achte darauf, ob du le, la, l' oder les hörst; du kannst den Satz mehrmals anhören.
+        items:
+          - audio: la-table.mp3
+            target: "Voilà la table."
+            mistakes:
+              - answer: "Voilà le table."
+                message: "Table ist weiblich: la table. Das hörst du am Artikel la."
+          - audio: les-sacs.mp3
+            target: "Voilà les sacs."
+            mistakes:
+              - answer: "Voilà les sac."
+                message: "Du hörst das s nicht, aber les zeigt den Plural: les sacs."
+          - audio: l-ecole.mp3
+            target: "Voilà l'école."
+            mistakes:
+              - answer: "Voilà le école."
+                message: "École beginnt mit einem Vokal: l'école."
+  - type: section
+    id: postkarte
+    title: Ein Satz für die Postkarte
+    blocks:
+      - type: text
+        text: |
+          Léa und Noé schreiben unter ihr Foto vom Klassenzimmer «Voilà …» oder «Voici …». Beides heißt «Hier ist …». Schreibe ihre ersten Sätze, mit dem richtigen Artikel.
+      - type: language-task
+        id: artikel-bestimmt-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe den Satz für die Postkarte auf Französisch.
+        items:
+          - source: Hier ist die Tafel.
+            target: "(Voilà|Voici) le tableau."
+            mistakes:
+              - answer: "Voilà la tableau."
+                message: "Tableau ist männlich: le tableau."
+              - answer: "Voilà tableau."
+                message: "Es fehlt der Artikel: le tableau."
+          - source: Hier ist die Tür.
+            target: "(Voilà|Voici) la porte."
+            mistakes:
+              - answer: "Voilà le porte."
+                message: "Porte ist weiblich: la porte."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Auf der Postkarte fehlen noch die Nummern der Klassenzimmer. Auf der nächsten Seite lernst du die Zahlen bis 100.

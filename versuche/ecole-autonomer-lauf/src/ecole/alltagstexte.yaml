@@ -1,0 +1,159 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Lire : Stundenplan und Plakat"
+description: Du liest einen Stundenplan und ein Plakat und holst Fach, Tag, Uhrzeit und Preis heraus. Dann schreibst du die Postkarte fertig.
+competencies: [alltagstexte]
+scope: |
+  Die Seite übt, kurze Alltagstexte der Schule zu lesen: einen Stundenplan und ein Plakat. Die Kinder entnehmen ihnen Fach, Wochentag, Datum, Uhrzeit und Preis. Sie schreiben außerdem die Postkarte fertig und schauen auf das Kapitel zurück. Nicht auf dieser Seite: lange Texte, neue Grammatik.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was steht da?
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du einen Stundenplan und ein Plakat lesen und die wichtigen Angaben herausfinden. Du brauchst dafür Zahlen, Uhrzeit, Datum und die Schulfächer der Seiten davor.
+      - type: text
+        text: |
+          Léa und Noé hängen in der Schule zwei Dinge auf: den Stundenplan ihrer Klasse und ein Plakat für das Schulfest. Sie wollen beides auf der Postkarte erwähnen.
+  - type: section
+    id: texte
+    title: Der Stundenplan und das Plakat
+    blocks:
+      - type: table
+        caption: "Der Stundenplan von Léa. Spalten: Wochentage, Zeilen: Uhrzeiten (8 h = huit heures)."
+        header: [Uhrzeit, lundi, mardi]
+        rowHeaders: true
+        rows:
+          - ["8 h", les maths, le français]
+          - ["9 h", l'histoire, le sport]
+          - ["10 h", la musique, le dessin]
+      - type: figure
+        image: images/poster.svg
+        alt: "Ein Plakat mit dem Text: Fête de l'école, samedi 14 juin, 14 h, entrée gratuite."
+        caption: "Das Plakat für das Schulfest. Gratuit heißt kostenlos, une fête ist ein Fest."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Bei Texten musst du nicht jedes Wort kennen. Suche die Angaben, die du kennst: einen Wochentag, ein Datum, eine Uhrzeit (**14 h** heißt *quatorze heures*) und ein Fach.
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Erst die bekannten Wörter suchen
+        blocks:
+          - type: text
+            text: |
+              Auf einem Plakat oder Stundenplan stehen wenige Wörter. Suche zuerst die, die du kennst: Tage, Zahlen, Fächer. Der Rest ergibt sich oft von selbst.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: alltagstexte-fach-1
+        text: "Léa schaut auf den Stundenplan. Welches Fach hat sie am mardi um neuf heures (9 h)?"
+        explanation: "In der Zeile 9 h und der Spalte mardi steht le sport."
+        links:
+          - title: "Lernkarte: Alltagstexte"
+            url: https://lernapps.net/apps/map/franzoesisch/c/alltagstexte/
+        options:
+          - text: le sport
+            correct: true
+            info: "Richtig: In der Zeile 9 h und der Spalte mardi steht le sport."
+          - text: l'histoire
+            correct: false
+            info: "L'histoire steht um 9 h, aber am lundi, nicht am mardi."
+          - text: le dessin
+            correct: false
+            info: "Le dessin steht am mardi, aber um 10 h, nicht um 9 h."
+      - type: single-choice
+        id: alltagstexte-tag-2
+        text: "An welchem Wochentag ist das Schulfest auf dem Plakat?"
+        explanation: "Auf dem Plakat steht samedi, das ist Samstag."
+        links:
+          - title: "Lernkarte: Alltagstexte"
+            url: https://lernapps.net/apps/map/franzoesisch/c/alltagstexte/
+        options:
+          - text: samedi
+            correct: true
+            info: "Richtig: samedi heißt Samstag."
+          - text: dimanche
+            correct: false
+            info: "Dimanche heißt Sonntag. Auf dem Plakat steht samedi."
+          - text: jeudi
+            correct: false
+            info: "Jeudi heißt Donnerstag. Auf dem Plakat steht samedi."
+      - type: matching
+        id: alltagstexte-angaben-3
+        text: Ordne den Angaben auf dem Plakat zu, was sie bedeuten.
+        pairs:
+          - { left: samedi, right: Samstag }
+          - { left: 14 juin, right: 14. Juni }
+          - { left: 14 h, right: vierzehn Uhr }
+        distractors: [Sonntag, 15. Juni]
+        explanation: "Samedi ist Samstag, juin ist Juni, 14 h sind quatorze heures, also 14 Uhr."
+        links:
+          - title: "Lernkarte: Alltagstexte"
+            url: https://lernapps.net/apps/map/franzoesisch/c/alltagstexte/
+      - type: language-task
+        id: alltagstexte-stundenplan-4
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe das Fach auf Französisch, mit Artikel.
+        items:
+          - source: "Montag, 9 Uhr"
+            target: "l'histoire"
+            mistakes:
+              - answer: "le histoire"
+                message: "Histoire beginnt mit einem Selbstlaut: l'histoire."
+          - source: "Dienstag, 8 Uhr"
+            target: "le français"
+          - source: "Dienstag, 10 Uhr"
+            target: "le dessin"
+            mistakes:
+              - answer: "la dessin"
+                message: "Dessin ist männlich: le dessin."
+      - type: true-false
+        id: alltagstexte-preis-5
+        text: "Stimmt das? Das Schulfest kostet auf dem Plakat Eintritt."
+        answer: false
+        explanation: "Auf dem Plakat steht entrée gratuite. Gratuit heißt kostenlos."
+        links:
+          - title: "Lernkarte: Alltagstexte"
+            url: https://lernapps.net/apps/map/franzoesisch/c/alltagstexte/
+  - type: section
+    id: postkarte
+    title: Die Postkarte wird fertig
+    blocks:
+      - type: text
+        text: |
+          Jetzt schreiben Léa und Noé den Anfang der Postkarte an ihre Partnerklasse. Du kennst alles dafür.
+      - type: language-task
+        id: alltagstexte-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe die Sätze für die Postkarte auf Französisch.
+        items:
+          - source: Hallo! Hier ist die Schule.
+            target: "Salut ! (Voilà|Voici) l'école."
+          - source: Es ist 8 Uhr. Heute ist Montag.
+            target: "Il est huit heures. Aujourd'hui, c'est lundi."
+          - source: Ich habe Mathe und Sport.
+            target: "J'ai maths et sport."
+  - type: section
+    id: rueckblick
+    title: Rückblick auf das Kapitel
+    blocks:
+      - type: text
+        text: |
+          Du hast in diesem Kapitel viel gelernt: den Artikel (le, la, l', les und un, une, des), die Zahlen bis 100, die Uhrzeit, Wochentage, Monate und das Datum, Fächer und Schulsachen und zwei kleine Sätze mit *je suis* und *j'ai*. Du kannst jetzt einen Stundenplan und ein Plakat lesen. Die Postkarte von Léa und Noé ist fertig. Salut et à bientôt !
+      - type: speaking-task
+        id: alltagstexte-nachsprechen-1
+        language: fr
+        task: Sprich zum Abschluss nach, was Léa und Noé auf die Postkarte schreiben.
+        items:
+          - audio: salut-voila-l-ecole.mp3
+            text: "Salut ! Voilà l'école."
+          - audio: noe-salut-je-suis-noe.mp3
+            text: "Salut ! Je suis Noé."

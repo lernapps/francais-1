@@ -1,0 +1,170 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Quelle heure est-il ? Die Uhrzeit"
+description: Du fragst nach der Uhrzeit und sagst sie, damit Léa und Noé pünktlich zur ersten Stunde kommen.
+competencies: [uhrzeit]
+scope: |
+  Die Seite übt die Uhrzeit: die Frage Quelle heure est-il ? und die Antwort Il est … heures mit vollen Stunden, et quart, et demie, midi und minuit sowie une heure im Singular. Nicht auf dieser Seite: Minuten vor der Stunde (moins), der 24-Stunden-Plan, Verben außer der festen Wendung il est.
+blocks:
+  - type: section
+    id: einstieg
+    title: Wann fängt die Schule an?
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du nach der Uhrzeit fragen und sie sagen. Dafür brauchst du die Zahlen von der letzten Seite.
+      - type: text
+        text: |
+          Léa und Noé laufen zur Schule. Noé fragt: «Quelle heure est-il ?» Das heißt: «Wie spät ist es?» Léa schaut auf die Uhr und antwortet: «Il est huit heures.»
+  - type: section
+    id: woerter
+    title: So sagst du die Uhrzeit
+    blocks:
+      - type: figure
+        image: images/uhren.svg
+        alt: Drei Uhren nebeneinander. Die erste zeigt 8 Uhr, die zweite Viertel nach 8, die dritte halb 9.
+        caption: "Von links nach rechts: 8:00, 8:15, 8:30."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Die Uhrzeit auf Französisch
+        header: [Uhr, Französisch]
+        rows:
+          - ["8:00", "Il est huit heures."]
+          - ["8:15", "Il est huit heures et quart."]
+          - ["8:30", "Il est huit heures et demie."]
+          - ["1:00", "Il est une heure."]
+          - ["12:00 mittags", "Il est midi."]
+          - ["12:00 nachts", "Il est minuit."]
+      - type: text
+        text: |
+          Nach **il est** kommt die Zahl und dann **heure** (Stunde). Bei mehr als einer Stunde bekommt es ein **s**: *huit heures*. Nur bei 1 Uhr steht *une heure* ohne s. **Et quart** heißt «Viertel nach», **et demie** «halb».
+      - type: speaking-task
+        id: uhrzeit-nachsprechen-1
+        language: fr
+        task: Höre die Uhrzeit an, sprich sie nach und vergleiche.
+        items:
+          - audio: noe-quelle-heure.mp3
+            text: "Quelle heure est-il ?"
+          - audio: il-est-huit-heures.mp3
+            text: "Il est huit heures."
+          - audio: noe-il-est-huit-heures-et-demie.mp3
+            text: "Il est huit heures et demie."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Heure oder heures
+        blocks:
+          - type: text
+            text: |
+              Das **s** bei *heures* hörst du nicht, aber du schreibst es, sobald es mehr als eine Stunde ist: *deux heures*, *huit heures*. Bei 1 Uhr heißt es **une heure**, und *heure* ist weiblich.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: uhrzeit-frage-1
+        text: "Noé fragt: «Quelle heure est-il ?» Was will er wissen?"
+        explanation: "Quelle heure est-il ? heißt «Wie spät ist es?»."
+        links:
+          - title: "Lernkarte: Uhrzeit"
+            url: https://lernapps.net/apps/map/franzoesisch/c/uhrzeit/
+        options:
+          - text: Wie spät es ist
+            correct: true
+            info: "Richtig: Quelle heure est-il ? fragt nach der Uhrzeit."
+          - text: Wie alt Léa ist
+            correct: false
+            info: "Nach dem Alter fragt man anders. Hier steht heure, das heißt Stunde."
+          - text: Wie die Schule heißt
+            correct: false
+            info: "Nach einem Namen fragt man anders. Hier steht heure, das heißt Stunde."
+      - type: matching
+        id: uhrzeit-zuordnen-2
+        text: Ordne jeder Uhrzeit den französischen Satz zu.
+        pairs:
+          - { left: "8:00", right: Il est huit heures. }
+          - { left: "8:15", right: Il est huit heures et quart. }
+          - { left: "8:30", right: Il est huit heures et demie. }
+          - { left: "1:00", right: Il est une heure. }
+        distractors: [Il est un heure.]
+        explanation: "Et quart ist ein Viertel nach, et demie halb. Bei 1 Uhr steht une heure."
+        links:
+          - title: "Lernkarte: Uhrzeit"
+            url: https://lernapps.net/apps/map/franzoesisch/c/uhrzeit/
+      - type: language-task
+        id: uhrzeit-schreiben-3
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe die Uhrzeit auf Französisch.
+        items:
+          - source: Es ist 9 Uhr.
+            target: "Il est neuf heures."
+            mistakes:
+              - answer: "Il est neuf heure."
+                message: "Bei mehr als einer Stunde steht heures mit s: neuf heures."
+          - source: Es ist 1 Uhr.
+            target: "Il est une heure."
+            mistakes:
+              - answer: "Il est un heure."
+                message: "Heure ist weiblich: une heure."
+              - answer: "Il est une heures."
+                message: "Bei 1 Uhr steht heure ohne s: une heure."
+          - source: Es ist halb drei.
+            target: "Il est deux heures et demie."
+            mistakes:
+              - answer: "Il est trois heures et demie."
+                message: "Halb drei heißt 2:30, also deux heures et demie."
+          - source: Es ist Viertel nach zehn.
+            target: "Il est dix heures et quart."
+            mistakes:
+              - answer: "Il est dix heures quart."
+                message: "Es fehlt et: dix heures et quart."
+      - type: true-false
+        id: uhrzeit-wahr-4
+        text: "Stimmt das? «Il est trois heure.» ist richtig geschrieben."
+        answer: false
+        explanation: "Ab zwei Stunden steht heures mit s: Il est trois heures. Das s hörst du nicht."
+        links:
+          - title: "Lernkarte: Uhrzeit"
+            url: https://lernapps.net/apps/map/franzoesisch/c/uhrzeit/
+      - type: language-task
+        id: uhrzeit-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Höre zu und schreibe den Satz, den du hörst. Du kannst ihn mehrmals anhören.
+        items:
+          - audio: il-est-sept-heures.mp3
+            target: "Il est sept heures."
+            mistakes:
+              - answer: "Il est sept heure."
+                message: "Du hörst das s nicht, aber du schreibst es: sept heures."
+          - audio: il-est-midi.mp3
+            target: "Il est midi."
+          - audio: il-est-trois-heures-et-quart.mp3
+            target: "Il est trois heures et quart."
+  - type: section
+    id: postkarte
+    title: Die Uhrzeit für die Postkarte
+    blocks:
+      - type: text
+        text: |
+          Léa und Noé schreiben auf die Postkarte, wann sie bei der Schule ankommen.
+      - type: language-task
+        id: uhrzeit-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe die Sätze für die Postkarte auf Französisch.
+        items:
+          - source: Es ist 8 Uhr. Hier ist die Schule.
+            target: "Il est huit heures. (Voilà|Voici) l'école."
+          - source: Es ist halb neun. Hier ist die Schule.
+            target: "Il est huit heures et demie. (Voilà|Voici) l'école."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Jetzt weiß die Postkarte, wann die Schule anfängt. Auf der nächsten Seite lernst du Wochentage, Monate und das Datum.

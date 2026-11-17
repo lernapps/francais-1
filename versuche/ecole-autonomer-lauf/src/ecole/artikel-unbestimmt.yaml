@@ -1,0 +1,180 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Un, une, des : Léas Schultasche"
+description: Du sagst mit un, une und des, was in Léas Schultasche ist, und merkst den Unterschied zu le, la und les.
+competencies: [unbestimmter-artikel]
+scope: |
+  Die Seite führt den unbestimmten Artikel ein: un (männlich), une (weiblich) und des (Plural, wird wie les nicht am s gehört). Die Kinder sagen, welche Dinge in der Schultasche sind (un stylo, une trousse, des livres). Der Unterschied zum bestimmten Artikel: le und la meinen etwas, das man kennt, un und une irgendein Ding. Nicht auf dieser Seite: Teilungsartikel, Verbformen, Mengenangaben.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was ist in der Tasche?
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du sagen, was in einer Tasche ist: ein Stift, eine Federtasche, Bücher. Dafür brauchst du **un**, **une** und **des**, im Deutschen *ein*, *eine*. Auf der letzten Seite hast du le, la und les gelernt.
+      - type: text
+        text: |
+          Léa packt ihre Schultasche für den ersten Tag. Noé schaut zu und fragt, was sie mitnimmt. Léa sagt: «Voilà un stylo et une trousse !»
+  - type: section
+    id: woerter
+    title: Die Sachen in der Tasche
+    blocks:
+      - type: figure
+        image: images/tasche.svg
+        alt: Eine rote Schultasche mit einem Fach. Daneben liegen ein Stift, ein Blatt Papier und ein Buch.
+        caption: "Was Léa einpackt: ein Stift, ein Blatt, ein Buch."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Schulsachen mit un, une und des
+        header: [Artikel, Französisch, Deutsch]
+        rows:
+          - [un, un stylo, ein Stift]
+          - [un, un livre, ein Buch]
+          - [un, un ordinateur, ein Computer]
+          - [une, une trousse, eine Federtasche]
+          - [une, une feuille, ein Blatt]
+          - [des, des livres, Bücher]
+          - [des, des feuilles, Blätter]
+      - type: text
+        text: |
+          **Un** steht vor männlichen, **une** vor weiblichen Wörtern, wie bei le und la. **Des** steht bei mehreren Dingen, egal ob männlich oder weiblich. Mit *le*, *la*, *les* meinst du etwas Bestimmtes, das alle kennen (*le tableau* an der Wand). Mit *un*, *une*, *des* meinst du irgendein Ding oder mehrere (*un stylo* aus der Tasche).
+      - type: speaking-task
+        id: artikel-unbestimmt-nachsprechen-1
+        language: fr
+        task: Höre den Satz an, sprich ihn nach und vergleiche.
+        items:
+          - audio: un-stylo-une-trousse.mp3
+            text: "Voilà un stylo et une trousse."
+          - audio: noe-un-ordinateur.mp3
+            text: "Voilà un ordinateur."
+          - audio: des-livres.mp3
+            text: "Voilà des livres."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Des hörst du, das s nicht
+        blocks:
+          - type: text
+            text: |
+              **Des livres** (Bücher) und **les livres** (die Bücher) klingen fast gleich. Achte auf den kleinen Unterschied: *des* heißt «irgendwelche», *les* heißt «die bestimmten». Das Plural-s am Wort hörst du auch hier nicht.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: artikel-unbestimmt-waehlen-1
+        text: "Léa zieht einen Stift aus der Tasche: «Voilà ___ stylo.» Welcher Artikel passt?"
+        explanation: "Stylo ist ein männliches Wort im Singular, darum un stylo."
+        links:
+          - title: "Lernkarte: unbestimmter Artikel"
+            url: https://lernapps.net/apps/map/franzoesisch/c/unbestimmter-artikel/
+        options:
+          - text: un
+            correct: true
+            info: "Richtig: Stylo ist männlich, darum un stylo."
+          - text: une
+            correct: false
+            info: "Une steht vor weiblichen Wörtern wie une trousse. Stylo ist männlich."
+          - text: des
+            correct: false
+            info: "Des steht bei mehreren Dingen. Hier ist es nur ein Stift."
+      - type: language-task
+        id: artikel-unbestimmt-luecke-2
+        languages: { source: de, target: fr }
+        mode: choice
+        form: { case: ok, apostrophe: ok }
+        task: Wähle in jeder Lücke den Artikel, der passt.
+        items:
+          - source: Hier sind ein Buch und ein Blatt.
+            target: "Voilà [un] livre et [une] feuille."
+            distractors: [[une, des], [un, des]]
+            mistakes:
+              - answer: "Voilà une livre et une feuille."
+                message: "Livre ist männlich: un livre."
+          - source: Hier sind Blätter und ein Computer.
+            target: "Voilà [des] feuilles et [un] ordinateur."
+            distractors: [[une, un], [une, des]]
+            mistakes:
+              - answer: "Voilà une feuilles et un ordinateur."
+                message: "Bei mehreren Blättern steht des, nicht une: des feuilles."
+      - type: matching
+        id: artikel-unbestimmt-zuordnen-3
+        text: Ordne jeder deutschen Wendung die französische zu.
+        pairs:
+          - { left: ein Stift, right: un stylo }
+          - { left: eine Federtasche, right: une trousse }
+          - { left: Bücher, right: des livres }
+          - { left: ein Computer, right: un ordinateur }
+        distractors: [une stylo, un trousse]
+        explanation: "Stylo ist männlich (un), trousse weiblich (une), bei Bücher steht des."
+        links:
+          - title: "Lernkarte: unbestimmter Artikel"
+            url: https://lernapps.net/apps/map/franzoesisch/c/unbestimmter-artikel/
+      - type: language-task
+        id: artikel-unbestimmt-schreiben-4
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe den Satz auf Französisch.
+        items:
+          - source: Hier ist ein Blatt.
+            target: "(Voilà|Voici) une feuille."
+            mistakes:
+              - answer: "Voilà un feuille."
+                message: "Feuille ist weiblich: une feuille."
+          - source: Hier sind Bücher.
+            target: "(Voilà|Voici) des livres."
+            mistakes:
+              - answer: "Voilà des livre."
+                message: "Das Plural-s gehört ans Wort: des livres."
+              - answer: "Voilà un livres."
+                message: "Bei mehreren Dingen steht des, nicht un: des livres."
+          - source: Hier ist ein Computer.
+            target: "(Voilà|Voici) un ordinateur."
+            mistakes:
+              - answer: "Voilà une ordinateur."
+                message: "Ordinateur ist männlich: un ordinateur."
+      - type: language-task
+        id: artikel-unbestimmt-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Höre zu und schreibe den Satz, den du hörst. Achte darauf, ob du un, une oder des hörst.
+        items:
+          - audio: un-stylo.mp3
+            target: "Voilà un stylo."
+          - audio: une-trousse.mp3
+            target: "Voilà une trousse."
+            mistakes:
+              - answer: "Voilà un trousse."
+                message: "Trousse ist weiblich: une trousse."
+          - audio: des-feuilles.mp3
+            target: "Voilà des feuilles."
+            mistakes:
+              - answer: "Voilà des feuille."
+                message: "Du hörst das s nicht, aber du schreibst es: des feuilles."
+  - type: section
+    id: postkarte
+    title: Léas Tasche auf der Postkarte
+    blocks:
+      - type: text
+        text: |
+          Auf der Postkarte sollen die Kinder in Deutschland sehen, was Léa in der Tasche hat. Schreibe, was Léa sagt.
+      - type: language-task
+        id: artikel-unbestimmt-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe den Satz für die Postkarte auf Französisch.
+        items:
+          - source: Hier sind ein Stift und eine Federtasche.
+            target: "(Voilà|Voici) un stylo et une trousse."
+          - source: Hier sind Bücher und ein Blatt.
+            target: "(Voilà|Voici) des livres et une feuille."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Léas Tasche ist gepackt. Jetzt muss sie wissen, wann die Schule anfängt. Auf der nächsten Seite lernst du die Uhrzeit.
