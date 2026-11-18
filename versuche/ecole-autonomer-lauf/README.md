@@ -26,7 +26,7 @@ Eine Geschichte in einem Schultag trägt die Seiten: Léa (10) und Noé (11), ne
 
 ## Ausprobieren
 
-Den Ordner `src/` über das `src/` eines frisch erzeugten Explainers kopieren (`rm -r src && cp -r versuche/ecole-autonomer-lauf/src src`), dann `npx --no -- lernapps check`.
+Den Inhalt des Ordners `src/` (ohne `main.ts`, das ist der erzeugte Einstieg der Runtime und fehlt hier absichtlich) in das `src/` eines frisch erzeugten Explainers kopieren: `cp -r versuche/ecole-autonomer-lauf/src/* src/`, dann `npx --no -- lernapps check`. Vorher das Platzhalter-Kapitel `src/thema` löschen.
 
 ## Was nicht geprüft ist
 
