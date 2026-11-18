@@ -1,0 +1,188 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "À l'école : Schulsachen und Fächer"
+description: Du sprichst über deine Schulsachen und Fächer und unterscheidest je suis und j'ai.
+competencies: [schule-und-schulalltag]
+scope: |
+  Die Seite übt, über die Schule zu sprechen: Schulsachen (un stylo, une trousse), Schulfächer (les maths, l'histoire, le sport, la musique, le dessin) und die festen Wendungen je suis (ich bin) und j'ai (ich habe), zum Beispiel Je suis élève. und J'ai maths à huit heures. Sie verbindet Artikel und Uhrzeit der letzten Seiten. Nicht auf dieser Seite: andere Verbformen, Vorlieben (j'aime), Stundenplan lesen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Was ich in der Schule habe
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du auf Französisch sagen, wer du in der Schule bist, was du dabeihast und welches Fach du wann hast.
+      - type: text
+        text: |
+          Léa und Noé stellen sich ihrer Partnerklasse vor. Léa sagt: «Je suis élève. J'ai un stylo et une trousse.» **Élève** heißt «Schülerin» oder «Schüler».
+  - type: section
+    id: woerter
+    title: Schulfächer, Sachen und zwei kleine Sätze
+    blocks:
+      - type: figure
+        image: images/federtasche.svg
+        alt: Eine blaue Federtasche, ein gelber Stift und ein Blatt Papier mit Zeilen. Rechts stehen Léa mit gelber Haarspange und roter Jacke und Noé mit schwarzen Locken, Brille und blauer Jacke.
+        caption: Eine Federtasche, ein Stift und ein Blatt, dazu Léa und Noé. Das sind Dinge, die du in der Schule hast.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Schulfächer
+        header: [Französisch, Deutsch]
+        rows:
+          - [le français, Französisch]
+          - [les maths, Mathe]
+          - [l'histoire, Geschichte]
+          - [le sport, Sport]
+          - [la musique, Musik]
+          - [le dessin, Zeichnen]
+      - type: text
+        text: |
+          Mit **je suis** sagst du, wer du bist: *Je suis élève.* (Ich bin Schüler.) Mit **j'ai** sagst du, was du hast: *J'ai un stylo.* (Ich habe einen Stift.) Mit einem Fach und einer Uhrzeit sagst du, wann du es hast: *J'ai maths à huit heures.* (Ich habe um acht Uhr Mathe.) **À** heißt hier «um», **et** heißt «und». Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: *J'ai sport.* Als einzelnes Wort lernst du das Fach aber mit Artikel: *le sport*.
+      - type: speaking-task
+        id: schule-nachsprechen-1
+        language: fr
+        task: Höre den Satz an, sprich ihn nach und vergleiche.
+        items:
+          - audio: j-ai-un-stylo.mp3
+            text: "J'ai un stylo."
+          - audio: noe-je-suis-eleve.mp3
+            text: "Je suis élève."
+          - audio: j-ai-maths-huit-heures.mp3
+            text: "J'ai maths à huit heures."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Je suis oder j'ai?
+        blocks:
+          - type: text
+            text: |
+              **Je suis** heißt *ich bin*, **j'ai** heißt *ich habe*. Sie klingen ähnlich, bedeuten aber etwas anderes. Frage dich: Sage ich, **wer** ich bin (*je suis élève*), oder, was ich **habe** (*j'ai un stylo*)?
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: schule-waehlen-1
+        text: "Léa sagt, dass sie Schülerin ist. Welcher Satz passt?"
+        explanation: "Je suis heißt «ich bin». Mit élève sagst du, wer du bist."
+        links:
+          - title: "Lernkarte: Schule und Schulalltag"
+            url: https://lernapps.net/apps/map/franzoesisch/c/schule-und-schulalltag/
+        options:
+          - text: "Je suis élève."
+            correct: true
+            info: "Richtig: je suis heißt ich bin."
+          - text: "J'ai élève."
+            correct: false
+            info: "J'ai heißt ich habe. Du hast keine Schülerin, du bist eine."
+      - type: language-task
+        id: schule-luecke-2
+        languages: { source: de, target: fr }
+        mode: choice
+        form: { case: ok, apostrophe: ok }
+        task: Wähle in jeder Lücke das Wort, das passt.
+        items:
+          - source: Ich bin Schüler. Ich habe ein Buch.
+            target: "[Je suis] élève. [J'ai] un livre."
+            distractors: [["J'ai", "Il est"], ["Je suis", "Il a"]]
+            mistakes:
+              - answer: "J'ai élève. Je suis un livre."
+                message: "Je suis sagt, wer du bist, j'ai sagt, was du hast. Du hast ein Buch (j'ai un livre), du bist Schüler (je suis élève)."
+      - type: matching
+        id: schule-zuordnen-3
+        text: Ordne jedem Fach das deutsche Wort zu.
+        pairs:
+          - { left: les maths, right: Mathe }
+          - { left: l'histoire, right: Geschichte }
+          - { left: le sport, right: Sport }
+          - { left: la musique, right: Musik }
+        distractors: [Zeichnen]
+        explanation: "Maths heißt Mathe, histoire Geschichte, musique Musik. Le dessin ist das Zeichnen."
+        links:
+          - title: "Lernkarte: Schule und Schulalltag"
+            url: https://lernapps.net/apps/map/franzoesisch/c/schule-und-schulalltag/
+      - type: language-task
+        id: schule-schreiben-4
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe den Satz auf Französisch.
+        items:
+          - source: Ich habe eine Federtasche.
+            target: "J'ai une trousse."
+            mistakes:
+              - answer: "Je suis une trousse."
+                message: "Je suis heißt ich bin. Du hast eine Federtasche: j'ai une trousse."
+              - answer: "J'ai un trousse."
+                message: "Trousse ist weiblich: une trousse."
+          - source: Ich bin Schülerin.
+            target: "Je suis élève."
+            mistakes:
+              - answer: "J'ai élève."
+                message: "J'ai heißt ich habe. Du bist Schülerin: je suis élève."
+          - source: Ich habe um acht Uhr Mathe.
+            target: "J'ai maths à huit heures."
+            mistakes:
+              - answer: "J'ai maths à huit heure."
+                message: "Ab zwei Stunden steht heures mit s: huit heures."
+      - type: language-task
+        id: schule-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Höre zu und schreibe den Satz, den du hörst. Achte darauf, ob du je suis oder j'ai hörst.
+        items:
+          - audio: j-ai-une-trousse.mp3
+            target: "J'ai une trousse."
+          - audio: j-ai-histoire.mp3
+            target: "J'ai histoire."
+            mistakes:
+              - answer: "J'ai l'histoire."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai histoire."
+          - audio: je-suis-eleve.mp3
+            target: "Je suis élève."
+            mistakes:
+              - answer: "J'ai élève."
+                message: "Du hörst je suis, ich bin: je suis élève."
+      - type: open-task
+        id: schule-vorstellen-6
+        task: "Stelle dich auf Französisch vor, in zwei bis vier Sätzen: Sage, dass du Schüler oder Schülerin bist, was du in der Tasche hast und welches Fach du um acht Uhr hast."
+        points:
+          - text: "Ich sage mit je suis, dass ich Schüler oder Schülerin bin (Je suis élève)."
+            source: /ecole/schule/#woerter
+          - text: "Ich sage mit j'ai und un oder une, was ich in der Tasche habe (J'ai un stylo)."
+            source: /ecole/schule/#woerter
+          - text: "Ich sage mit j'ai, welches Fach ich um acht Uhr habe (J'ai maths à huit heures)."
+            source: /ecole/schule/#woerter
+        solution: |
+          Je suis élève. J'ai un stylo et une trousse. J'ai maths à huit heures.
+  - type: section
+    id: postkarte
+    title: Léas Schule auf der Postkarte
+    blocks:
+      - type: text
+        text: |
+          Du hast dich eben vorgestellt. Léa und Noé tun es auf ihrer Postkarte. Schreibe ihren Satz.
+      - type: language-task
+        id: schule-postkarte-7
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe die Sätze für die Postkarte auf Französisch.
+        items:
+          - source: Ich bin Léa. Ich habe Musik.
+            target: "Je suis Léa. J'ai musique."
+            mistakes:
+              - answer: "Je suis Léa. J'ai la musique."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai musique."
+          - source: Ich habe Sport und Mathe.
+            target: "J'ai sport et maths."
+            mistakes:
+              - answer: "J'ai le sport et les maths."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai sport, j'ai maths."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Die Postkarte ist fast fertig. Auf der letzten Seite liest du einen Stundenplan und ein Plakat und schaust auf alles zurück.

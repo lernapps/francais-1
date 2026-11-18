@@ -1,0 +1,169 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Quel jour ? Wochentage, Monate und Datum"
+description: Du nennst Wochentage und Monate und sagst das Datum, damit Léa und Noé ihre Postkarte datieren können.
+competencies: [datum-wochentage-monate]
+scope: |
+  Die Seite übt die sieben Wochentage, die zwölf Monate und das Datum mit C'est le … (3 mai, le premier septembre). Wochentage und Monate werden auf Französisch klein geschrieben. Nicht auf dieser Seite: Jahreszahlen über 100, Feste, Verbformen außer der festen Wendung c'est.
+blocks:
+  - type: section
+    id: einstieg
+    title: Welcher Tag ist heute?
+    blocks:
+      - type: text
+        text: |
+          Nach dieser Seite kannst du Wochentage und Monate nennen und das Datum sagen. Die Zahlen von Seite 2 brauchst du dafür wieder.
+      - type: text
+        text: |
+          Auf der Postkarte soll ein Datum stehen. Léa hängt den Kalender der Klasse an die Wand und sagt: «Aujourd'hui, c'est lundi.» **Aujourd'hui** heißt «heute», **c'est** heißt «es ist».
+  - type: section
+    id: woerter
+    title: Tage, Monate und Datum
+    blocks:
+      - type: figure
+        image: images/kalender.svg
+        alt: Ein Kalenderblatt. Oben steht der Monat mai, in der Mitte die große Zahl 3, unten der Wochentag lundi. Links steht Léa mit gelber Haarspange, rechts Noé mit schwarzen Locken und Brille.
+        caption: "So liest du ein Kalenderblatt: oben der Monat, in der Mitte der Tag, unten der Wochentag. Léa und Noé stehen daneben."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Die Wochentage
+        header: [Deutsch, Französisch]
+        rows:
+          - [Montag, lundi]
+          - [Dienstag, mardi]
+          - [Mittwoch, mercredi]
+          - [Donnerstag, jeudi]
+          - [Freitag, vendredi]
+          - [Samstag, samedi]
+          - [Sonntag, dimanche]
+      - type: table
+        caption: Die Monate
+        header: [Deutsch, Französisch]
+        rows:
+          - [Januar, janvier]
+          - [Februar, février]
+          - [März, mars]
+          - [April, avril]
+          - [Mai, mai]
+          - [Juni, juin]
+          - [Juli, juillet]
+          - [August, août]
+          - [September, septembre]
+          - [Oktober, octobre]
+          - [November, novembre]
+          - [Dezember, décembre]
+      - type: text
+        text: |
+          Das Datum sagst du so: **C'est le** + Zahl + Monat, zum Beispiel *C'est le douze juin.* Für den ersten Tag des Monats sagst du *le premier*: *C'est le premier septembre.* Wochentage und Monate schreibst du klein.
+      - type: speaking-task
+        id: datum-nachsprechen-1
+        language: fr
+        task: Höre den Satz an, sprich ihn nach und vergleiche.
+        items:
+          - audio: aujourdhui-lundi.mp3
+            text: "Aujourd'hui, c'est lundi."
+          - audio: noe-c-est-le-trois-mai.mp3
+            text: "C'est le trois mai."
+          - audio: c-est-le-quinze-mai.mp3
+            text: "C'est le quinze mai."
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Klein schreiben, Grundzahl sagen
+        blocks:
+          - type: text
+            text: |
+              Im Deutschen schreibst du Montag und Mai groß. Im Französischen schreibst du *lundi* und *mai* klein. Und ein Datum sagst du nicht mit «der dritte», sondern mit der Grundzahl: *le trois mai*.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: datum-ordnen-1
+        text: "Bringe die Wochentage in die richtige Reihenfolge, mit lundi zuerst."
+        items: [lundi, mardi, mercredi, jeudi, vendredi]
+        explanation: "Die Woche beginnt auf Französisch mit lundi, dem Montag. Danach folgen mardi, mercredi, jeudi und vendredi."
+        links:
+          - title: "Lernkarte: Wochentage, Monate, Datum"
+            url: https://lernapps.net/apps/map/franzoesisch/c/datum-wochentage-monate/
+      - type: matching
+        id: datum-zuordnen-2
+        text: Ordne jedem deutschen Monat den französischen zu.
+        pairs:
+          - { left: Februar, right: février }
+          - { left: August, right: août }
+          - { left: Dezember, right: décembre }
+          - { left: Juni, right: juin }
+        distractors: [juillet]
+        explanation: "Juin ist Juni, juillet ist Juli. Das ähnelt sich, ist aber nicht gleich."
+        links:
+          - title: "Lernkarte: Wochentage, Monate, Datum"
+            url: https://lernapps.net/apps/map/franzoesisch/c/datum-wochentage-monate/
+      - type: language-task
+        id: datum-schreiben-3
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe das Datum auf Französisch. Du darfst die Zahl mit Ziffern schreiben.
+        items:
+          - source: Es ist der 12. Juni.
+            target: "C'est le (12|douze) juin."
+          - source: Es ist der 1. September.
+            target: "C'est le (premier|1er) septembre."
+            mistakes:
+              - answer: "C'est le un septembre."
+                message: "Am ersten Tag des Monats sagst du le premier."
+          - source: Es ist der 25. Dezember.
+            target: "C'est le (25|vingt-cinq) décembre."
+      - type: language-task
+        id: datum-tage-4
+        languages: { source: de, target: fr }
+        form: { case: ok, accents: hint, punctuation: ok }
+        task: Schreibe den Wochentag auf Französisch.
+        items:
+          - source: Mittwoch
+            target: mercredi
+          - source: Samstag
+            target: samedi
+          - source: Sonntag
+            target: dimanche
+      - type: language-task
+        id: datum-diktat-5
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Höre zu und schreibe den Satz, den du hörst. Du kannst ihn mehrmals anhören.
+        items:
+          - audio: c-est-mardi.mp3
+            target: "C'est mardi."
+          - audio: c-est-le-quinze-mai.mp3
+            target: "C'est le quinze mai."
+          - audio: c-est-le-premier-septembre.mp3
+            target: "C'est le premier septembre."
+            mistakes:
+              - answer: "C'est le un septembre."
+                message: "Am ersten Tag des Monats sagst du le premier."
+  - type: section
+    id: postkarte
+    title: Das Datum für die Postkarte
+    blocks:
+      - type: text
+        text: |
+          Léa und Noé schreiben das Datum oben auf ihre Postkarte.
+      - type: language-task
+        id: datum-postkarte-6
+        languages: { source: de, target: fr }
+        form: { case: ok, apostrophe: ok, punctuation: ok }
+        task: Schreibe die Sätze für die Postkarte auf Französisch.
+        items:
+          - source: Heute ist Montag.
+            target: "Aujourd'hui, c'est lundi."
+          - source: Heute ist der 3. Mai.
+            target: "Aujourd'hui, c'est le (3|trois) mai."
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: |
+          Die Postkarte hat jetzt Zimmernummern, Uhrzeit und Datum. Auf der nächsten Seite sprichst du über Schulsachen und Fächer.

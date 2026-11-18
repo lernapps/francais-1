@@ -1,0 +1,104 @@
+reviewed:
+  commit: 9e38652d51dab78bb7c390c616ca0b727390162e
+  repo: /home/user
+report: .reviews/user-9e38652/report.yaml
+archetype: explainer
+outcome: pass
+rules:
+  [
+    runs-in-browser,
+    no-account,
+    free-of-charge,
+    no-ads,
+    learners-act,
+    learner-text-german,
+    no-learner-data-in-texts,
+    no-tracking,
+    own-data-only,
+    third-party-licence,
+    plan-file,
+    retrospective-filled,
+    app-content-matches,
+    correct-content-support,
+    strand-from-map,
+    topic-has-exercises,
+    explainer-mistakes-diagnosed,
+    explainer-open-points,
+    explainer-scope-matches,
+    explainer-plausible-numbers,
+    explainer-quote-sourced,
+    explainer-formulas-static,
+    explainer-readable-without-js,
+    explainer-stable-ids,
+    prefer-built-in-block,
+    content-matches-competencies,
+    explainer-figure-hides-answer,
+    explainer-page-goal,
+    explainer-learner-start,
+    explainer-representation-explained,
+    explainer-control-purpose,
+    explainer-text-figure-agree,
+    explainer-one-step,
+    explainer-exercise-progression,
+    explainer-steps-explain,
+    explainer-honest-headings,
+    explainer-age-appropriate,
+    explainer-story-carries,
+    explainer-language-practice,
+  ]
+findings:
+  - rule: explainer-scope-matches
+    link: https://lernapps.net/tooling/rules/#explainer-scope-matches
+    severity: warning
+    where: "src/ecole/schule.yaml, scope of the page"
+    found: 'The scope says: "Sie verbindet Artikel, Uhrzeit und Datum der letzten Seiten." The page uses articles and one time ("à huit heures") but no date at all.'
+    fix: 'Remove "Datum" from the scope, or add an exercise that uses a date on this page.'
+  - rule: explainer-page-goal
+    link: https://lernapps.net/tooling/rules/#explainer-page-goal
+    severity: hint
+    where: "src/ecole/artikel-unbestimmt.yaml, section einstieg; src/ecole/uhrzeit.yaml, section einstieg"
+    found: 'Page 3 says "Auf der letzten Seite hast du le, la und les gelernt." but the page before it is zahlen (page 2). Page 4 says "Dafür brauchst du die Zahlen von der letzten Seite." but the page before it is artikel-unbestimmt. Page 5 (datum) has the same sentence about "die Zahlen von der letzten Seite" while the page before is uhrzeit.'
+    fix: 'Name the page that is meant ("auf der Seite über die Zahlen") or say "vorher"; keep the links to earlier pages true to the order in chapter.yaml.'
+    moveTo: [check]
+  - rule: explainer-learner-start
+    link: https://lernapps.net/tooling/rules/#explainer-learner-start
+    severity: hint
+    where: "src/ecole/schule.yaml, sections woerter and uebung; src/ecole/alltagstexte.yaml, section texte"
+    found: 'Page 1 and the content guide say to always learn a word with its article, but page 6 teaches "J''ai maths à huit heures." and "J''ai histoire." without article and never says why the article is dropped or what "à" means. Dictation "J''ai histoire." and the postcard "J''ai musique." have no message for the likely answer "J''ai l''histoire". Page 7 uses "le français" in the timetable and as a writing task, but the word is not introduced on any page (page 6 lists five subjects without it).'
+    fix: 'Explain in the Merke box that no article follows j''ai with a subject and that "à huit heures" means "um acht Uhr"; add a mistakes entry for the version with an article; add "le français" to the subject table of page 6.'
+  - rule: explainer-one-step
+    link: https://lernapps.net/tooling/rules/#explainer-one-step
+    severity: hint
+    where: "src/ecole/schule.yaml, whole page"
+    found: 'The page introduces je suis versus j''ai, five school subjects, and "à" with a time in one go (title: "Schulsachen und Fächer").'
+    fix: 'Keep one new idea: either the subjects, or je suis versus j''ai; move the sentence with "à huit heures" to a later step or explain it in its own box.'
+  - rule: content-matches-competencies
+    link: https://lernapps.net/tooling/rules/#content-matches-competencies
+    severity: hint
+    where: "src/ecole/zahlen.yaml"
+    found: 'The competency zahlen-bis-100 reads "Ich kann die Zahlen bis 100 verstehen und sagen". The page lists 1-20 and the tens, and explains 70-99, but not how 21-69 are built (vingt-cinq, trente-six) or the "et un" forms (vingt et un). Learners cannot say most of the numbers up to 100 from this page.'
+    fix: 'Add one short rule with examples for tens plus ones (21-69) and the "et un" exception, with one exercise for it.'
+  - rule: explainer-honest-headings
+    link: https://lernapps.net/tooling/rules/#explainer-honest-headings
+    severity: hint
+    where: "src/ecole/datum.yaml, note title in section merke"
+    found: 'The heading "Klein schreiben, ohne -ten" uses "-ten" (German ordinal ending) before the text explains it.'
+    fix: 'Use "Klein schreiben, Grundzahl sagen".'
+  - rule: third-party-licence
+    link: https://lernapps.net/tooling/rules/#third-party-licence
+    severity: hint
+    where: 'src/app.yaml sources; plan, Notes "Quellen"'
+    found: 'Words come from "Grundwortschatz Französisch, Stufe A1 (FLELex / Beacco, CC BY-NC-SA 4.0), einzelne Wörter". The source and licence are named. The plan itself says that NC/SA may not fit the app''s licence (LICENSE: MIT; figures CC BY 4.0); the creator agreed to single words with source.'
+    fix: "Confirm that single words from the list do not make the app an adaptation under CC BY-NC-SA, or say in the entry which parts the licence applies to."
+  - proposal:
+      id: no-committed-dependencies
+      title: Dependencies are not committed
+      text: The repository does not contain node_modules or other installed dependencies; .gitignore and the tracked files agree. A dependency on the tooling points to a release or tag, not to a working branch.
+      scope: [listing]
+      severity: warning
+      actsIn: [check]
+    severity: warning
+    where: "repository, git ls-files"
+    found: '.gitignore lists node_modules/, but 4888 files below node_modules/ are tracked at the commit. package.json depends on "@lernapps/tooling": "github:lernapps/tooling#claude/focused-hawking-9sf3r1", a working branch.'
+    fix: "Run git rm -r --cached node_modules and commit; depend on a published version of @lernapps/tooling."
+at: 2026-11-18

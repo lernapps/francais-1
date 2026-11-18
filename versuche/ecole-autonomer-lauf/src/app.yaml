@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+subject: franzoesisch
+title: "À l'école – Mon premier jour"
+intro: |
+  Léa und Noé sind neu an einer Schule in Lyon. Gemeinsam mit ihnen lernst du, über deine Schule zu sprechen, und schreibst eine Postkarte an eine Partnerklasse in Deutschland. Für das erste Lernjahr Französisch.
+languages: [de]
+chapters: [ecole]
+sources:
+  - title: Lernkarte Französisch, lernapps.net (Kompetenzen und Reihenfolge)
+    url: https://lernapps.net/apps/map/franzoesisch/
+  - title: Grundwortschatz Französisch, Stufe A1 (FLELex / Beacco, CC BY-NC-SA 4.0), einzelne Wörter
+    url: https://lernapps.net/apps/map/franzoesisch/grundwortschatz/
+scope:
+  text: |
+    Die App übt im ersten Lernjahr Französisch den Schulalltag: den bestimmten und den unbestimmten Artikel, die Zahlen bis 100, die Uhrzeit, Wochentage, Monate und das Datum sowie Schulsachen und Fächer. Am Ende lesen die Kinder einen Stundenplan und ein Schild und schreiben eine Postkarte. Jedes Wort, das eine Aufgabe braucht, steht auf der Seite mit Artikel und deutscher Bedeutung. Verbformen werden nur als feste Wendungen gelernt (c'est, il est, j'ai, je suis, voici).
+  out:
+    - "Konjugation von Verben (außer den festen Wendungen)"
+    - "Zahlen über 100"
+    - "Vergangenheitsformen"
+    - "Lautschrift und eigene Ausspracheregeln"

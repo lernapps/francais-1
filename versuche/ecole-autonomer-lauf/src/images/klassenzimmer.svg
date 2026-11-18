@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" role="img">
+<title>Klassenzimmer mit Tür, Fenster, Tafel, Tisch, Tasche und Computer; rechts stehen Léa und Noé</title>
+<rect x="0" y="0" width="400" height="260" fill="#f6f1e7"/>
+<rect x="0" y="200" width="400" height="60" fill="#d9c9a8"/>
+<rect x="20" y="30" width="60" height="150" fill="#b98b5c" stroke="#5a4326" stroke-width="3"/>
+<circle cx="70" cy="110" r="4" fill="#5a4326"/>
+<rect x="130" y="40" width="90" height="70" fill="#cfe8f7" stroke="#5a4326" stroke-width="3"/>
+<line x1="175" y1="40" x2="175" y2="110" stroke="#5a4326" stroke-width="3"/>
+<rect x="250" y="30" width="130" height="80" fill="#2f5d50" stroke="#5a4326" stroke-width="4"/>
+<rect x="150" y="150" width="120" height="14" fill="#b98b5c" stroke="#5a4326" stroke-width="3"/>
+<rect x="160" y="164" width="8" height="40" fill="#5a4326"/>
+<rect x="252" y="164" width="8" height="40" fill="#5a4326"/>
+<rect x="95" y="150" width="44" height="50" rx="8" fill="#e07a5f" stroke="#5a4326" stroke-width="3"/>
+<rect x="185" y="102" width="50" height="34" fill="#dfe3e8" stroke="#5a4326" stroke-width="3"/>
+<rect x="200" y="136" width="20" height="14" fill="#5a4326"/>
+<g class="lea" transform="translate(285,98) scale(0.5)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#d33"/>
+<ellipse cx="50" cy="52" rx="30" ry="32" fill="#f3d2b3"/>
+<path d="M18 54 Q14 14 50 12 Q86 14 82 54 Q80 34 62 28 Q40 36 22 40 Z" fill="#6b3f1e"/>
+<path d="M22 30 Q50 14 78 30" fill="none" stroke="#f2c230" stroke-width="5"/>
+<circle cx="40" cy="56" r="3" fill="#222"/><circle cx="60" cy="56" r="3" fill="#222"/>
+<path d="M42 68 Q50 75 58 68" fill="none"/>
+</g><g class="noe" transform="translate(338,94) scale(0.52)" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a6fd8"/>
+<path d="M26 100 C22 130 24 156 30 170" stroke="#244a9a" stroke-width="5" fill="none"/>
+<ellipse cx="50" cy="54" rx="30" ry="32" fill="#c68f62"/>
+<path d="M18 54 Q10 22 30 14 Q40 6 52 12 Q72 6 82 22 Q92 40 82 54 Q80 34 62 28 Q40 34 22 42 Z" fill="#222"/>
+<circle cx="39" cy="57" r="8" fill="none"/><circle cx="61" cy="57" r="8" fill="none"/><path d="M47 57 L53 57" fill="none"/>
+<circle cx="39" cy="57" r="2.5" fill="#222"/><circle cx="61" cy="57" r="2.5" fill="#222"/>
+<path d="M42 70 Q50 77 58 70" fill="none"/>
+</g>
+</svg>

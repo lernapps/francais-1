@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "À l'école"
+summary: Mit Léa und Noé sprichst du über Schulsachen, Zahlen, Uhrzeit und Datum und schreibst eine Postkarte.
+pages: [artikel-bestimmt, zahlen, artikel-unbestimmt, uhrzeit, datum, schule, alltagstexte]
