@@ -77,6 +77,11 @@ Voraussetzungen (`requires`) liegen alle früher in der Reihenfolge: unbestimmte
 
 **Screenshot-Kontrolle (Code):** Alle 7 Figuren je in eigenem Bild bei 360 px und 1280 px angesehen (Klassenzimmer, Türschilder, Tasche, Uhren, Kalender, Federtasche, Plakat); Seitenbild von Seite 1 bei 360 px angesehen, kein Querscrollen; Lerner-Check von Seite 1 durch Sub-Agent im Browser. Seiten 2–7 nicht einzeln von einem Sub-Agent als Lerner geprüft (nur `lernapps check` und Figuren).
 
+**Durchgang der ganzen App als Kind der Klasse 5 (Sub-Agent, 360 und 1280 px) und was daraufhin geändert wurde:**
+Gefunden: (1) Kalender-Figur zeigte samedi, der Text lundi, und das Datum sprang (3. Mai, Montag, 3. Oktober); (2) Seiten 3, 4, 5 nannten die falsche "letzte Seite"; (3) Seite 3: Text mit Federtasche, Bild mit Buch; (4) nach j'ai steht das Fach ohne Artikel, Seite 7 verlangt ihn; (5) Titel "0 à 100", aber 0 und 21 bis 69 fehlen, 77 und 25 werden gefragt; (6) "salut" und "le français" nirgends eingeführt, "et", "voici", "à" unerklärt; (7) die Orte der Geschichte springen; (8) Stundenplan passt nicht zur Postkarte (Montag 8 Uhr: Mathe und Sport).
+Geändert: Figuren Kalender (lundi) und Tasche (Federtasche statt Buch); Datum auf Seite 5 durchgehend Montag, 3. Mai; Verweise "auf Seite 1" und "auf Seite 2"; Geschichte in einem Schultag (Flur, Pause, Klassenzimmer); Zahlen 0, 21 bis 69, et, Übung `zahlen-zehner-7`; Merke und Fehlermeldungen zu j'ai ohne Artikel; Wörter salut, et, voici, à, le français, midi/minuit eingeführt; Postkartensatz Seite 7 passt zum Stundenplan; Überschrift "Klein schreiben, Grundzahl sagen"; Scope Seite 6 ohne "Datum".
+Nicht geändert: "Deine Fassung kann trotzdem richtig sein" bei anderen richtigen Formen (Runtime); Zimmer 80 steht auf keiner Tür; die Schnitte von Ort und Zeit auf Seite 7 (Plakat samedi 14 juin).
+
 **Offen:** Lizenzfrage A1-Liste (Creatorin: einzelne Wörter mit Quelle okay); ob "Mon premier jour"-Geschichte genügt; Prüfung durch die Creatorin am Ende.
 
 ## Explore

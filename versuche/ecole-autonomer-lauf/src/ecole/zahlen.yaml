@@ -3,7 +3,7 @@ title: "Les nombres : 0 à 100"
 description: Du liest, hörst und sagst die Zahlen bis 100 und trägst Zimmernummern auf Léas und Noés Postkarte ein.
 competencies: [zahlen-bis-100]
 scope: |
-  Die Seite übt die französischen Zahlen bis 100: die Zahlen bis 20, die Zehner und die besonderen Zahlen ab 70 (soixante-dix = 60 + 10, quatre-vingts = 4 × 20, quatre-vingt-dix = 4 × 20 + 10). Die Kinder lesen, hören und schreiben Zimmernummern (la salle douze). Nicht auf dieser Seite: Zahlen über 100, Uhrzeit, Datum, Verbformen.
+  Die Seite übt die französischen Zahlen bis 100: die Zahlen bis 20, die Zehner, das Zusammensetzen von Zehnern und Einern (25, 36, 21 mit et) und die besonderen Zahlen ab 70 (soixante-dix = 60 + 10, quatre-vingts = 4 × 20, quatre-vingt-dix = 4 × 20 + 10). Die Kinder lesen, hören und schreiben Zimmernummern (la salle douze). Nicht auf dieser Seite: Zahlen über 100, Uhrzeit, Datum, Verbformen.
 blocks:
   - type: section
     id: einstieg
@@ -14,21 +14,22 @@ blocks:
           Nach dieser Seite kannst du Zahlen bis 100 lesen, hören und schreiben. Gleich brauchst du sie für die Zimmernummern auf Léas und Noés Postkarte.
       - type: text
         text: |
-          Léa und Noé suchen ihr neues Klassenzimmer in der Schule in Lyon. An den Türen stehen Nummern. Noé liest laut: «Voilà la salle douze !» **La salle** heißt «der Raum».
+          Léa und Noé haben die erste Stunde hinter sich. Jetzt suchen sie in der Schule den Raum für die nächste Stunde. An den Türen stehen Nummern. Noé liest laut: «Voilà la salle douze !» **La salle** heißt «der Raum».
   - type: section
     id: woerter
     title: Die Zahlen
     blocks:
       - type: figure
         image: images/tueren.svg
-        alt: Drei Türen mit Zimmernummern an Schildern, von links nach rechts 12, 74 und 85.
-        caption: Drei Türen in Léas und Noés Schule. Die Nummern sagst du gleich auf Französisch.
+        alt: Drei Türen mit Zimmernummern an Schildern, von links nach rechts 12, 74 und 85. Zwischen den Türen gehen Léa mit gelber Haarspange und roter Jacke und Noé mit schwarzen Locken, Brille und blauer Jacke.
+        caption: Léa und Noé gehen an drei Türen ihrer Schule vorbei. Die Nummern lernst du gleich auf Französisch.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: Die Zahlen von 1 bis 20
         header: [Zahl, Französisch]
         rows:
+          - ["0", zéro]
           - ["1", un]
           - ["2", deux]
           - ["3", trois]
@@ -64,6 +65,9 @@ blocks:
       - type: text
         text: |
           Ab 70 rechnen die Franzosen: **soixante-dix** ist 60 + 10, **quatre-vingts** ist 4 × 20 und **quatre-vingt-dix** ist 4 × 20 + 10. So entstehen die Zahlen dazwischen: 74 ist *soixante-quatorze* (60 + 14), 85 ist *quatre-vingt-cinq* (80 + 5) und 99 ist *quatre-vingt-dix-neuf* (80 + 19).
+      - type: text
+        text: |
+          Zwischen den Zehnern setzt du Zehner und Einer zusammen: **vingt-cinq** (20 + 5), **trente-six** (30 + 6), **soixante-neuf** (60 + 9). Bei 21, 31, 41, 51 und 61 steht ein **et**: *vingt et un*, *trente et un*. Und die Zahlen ab 70 setzt du genauso zusammen: 77 ist *soixante-dix-sept* (60 + 17), 95 ist *quatre-vingt-quinze* (80 + 15).
       - type: speaking-task
         id: zahlen-nachsprechen-1
         language: fr
@@ -153,6 +157,26 @@ blocks:
             mistakes:
               - answer: quatre-vingt-neuf
                 message: "Das wäre 89. 99 ist quatre-vingt + dix-neuf (19)."
+      - type: language-task
+        id: zahlen-zehner-7
+        languages: { source: de, target: fr }
+        form: { case: ok, hyphen: hint }
+        task: Schreibe die Zahl auf Französisch. Zehner und Einer setzt du zusammen.
+        items:
+          - source: "25"
+            target: vingt-cinq
+          - source: "36"
+            target: trente-six
+            mistakes:
+              - answer: trente-seize
+                message: "Seize ist 16. Du brauchst 6: trente + six."
+          - source: "21"
+            target: vingt et un
+            mistakes:
+              - answer: vingt-un
+                message: "Bei 21 steht et: vingt et un."
+          - source: "52"
+            target: cinquante-deux
       - type: language-task
         id: zahlen-diktat-5
         languages: { source: de, target: fr }

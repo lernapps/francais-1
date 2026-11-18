@@ -11,18 +11,18 @@ blocks:
     blocks:
       - type: text
         text: |
-          Nach dieser Seite kannst du sagen, was in einer Tasche ist: ein Stift, eine Federtasche, Bücher. Dafür brauchst du **un**, **une** und **des**, im Deutschen *ein*, *eine*. Auf der letzten Seite hast du le, la und les gelernt.
+          Nach dieser Seite kannst du sagen, was in einer Tasche ist: ein Stift, eine Federtasche, Bücher. Dafür brauchst du **un**, **une** und **des**, im Deutschen *ein*, *eine*. Auf Seite 1 hast du le, la und les gelernt.
       - type: text
         text: |
-          Léa packt ihre Schultasche für den ersten Tag. Noé schaut zu und fragt, was sie mitnimmt. Léa sagt: «Voilà un stylo et une trousse !»
+          In der Pause legt Léa ihre Sachen aus der Schultasche auf den Tisch. Noé schaut zu und fragt, was sie dabeihat. Léa sagt: «Voilà un stylo et une trousse !»
   - type: section
     id: woerter
     title: Die Sachen in der Tasche
     blocks:
       - type: figure
         image: images/tasche.svg
-        alt: Eine rote Schultasche mit einem Fach. Daneben liegen ein Stift, ein Blatt Papier und ein Buch.
-        caption: "Was Léa einpackt: ein Stift, ein Blatt, ein Buch."
+        alt: Eine rote Schultasche mit einem Fach. Daneben liegen ein Stift, eine blaue Federtasche und ein Blatt Papier. Rechts stehen Léa mit gelber Haarspange und roter Jacke und Noé mit schwarzen Locken, Brille und blauer Jacke.
+        caption: "Was Léa dabeihat: ein Stift, eine Federtasche, ein Blatt. Noé schaut zu."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -59,7 +59,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Des livres** (Bücher) und **les livres** (die Bücher) klingen fast gleich. Achte auf den kleinen Unterschied: *des* heißt «irgendwelche», *les* heißt «die bestimmten». Das Plural-s am Wort hörst du auch hier nicht.
+              **Des livres** (Bücher) und **les livres** (die Bücher) klingen fast gleich. Achte auf den kleinen Unterschied: *des* heißt «irgendwelche», *les* heißt «die bestimmten».
   - type: section
     id: uebung
     title: Übung
@@ -156,7 +156,7 @@ blocks:
                 message: "Du hörst das s nicht, aber du schreibst es: des feuilles."
   - type: section
     id: postkarte
-    title: Léas Tasche auf der Postkarte
+    title: Léas Sachen auf der Postkarte
     blocks:
       - type: text
         text: |
@@ -177,4 +177,4 @@ blocks:
     blocks:
       - type: text
         text: |
-          Léas Tasche ist gepackt. Jetzt muss sie wissen, wann die Schule anfängt. Auf der nächsten Seite lernst du die Uhrzeit.
+          Die Pause ist bald vorbei. Jetzt will Noé wissen, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.

@@ -3,7 +3,7 @@ title: "À l'école : Schulsachen und Fächer"
 description: Du sprichst über deine Schulsachen und Fächer und unterscheidest je suis und j'ai.
 competencies: [schule-und-schulalltag]
 scope: |
-  Die Seite übt, über die Schule zu sprechen: Schulsachen (un stylo, une trousse), Schulfächer (les maths, l'histoire, le sport, la musique, le dessin) und die festen Wendungen je suis (ich bin) und j'ai (ich habe), zum Beispiel Je suis élève. und J'ai maths à huit heures. Sie verbindet Artikel, Uhrzeit und Datum der letzten Seiten. Nicht auf dieser Seite: andere Verbformen, Vorlieben (j'aime), Stundenplan lesen.
+  Die Seite übt, über die Schule zu sprechen: Schulsachen (un stylo, une trousse), Schulfächer (les maths, l'histoire, le sport, la musique, le dessin) und die festen Wendungen je suis (ich bin) und j'ai (ich habe), zum Beispiel Je suis élève. und J'ai maths à huit heures. Sie verbindet Artikel und Uhrzeit der letzten Seiten. Nicht auf dieser Seite: andere Verbformen, Vorlieben (j'aime), Stundenplan lesen.
 blocks:
   - type: section
     id: einstieg
@@ -21,14 +21,15 @@ blocks:
     blocks:
       - type: figure
         image: images/federtasche.svg
-        alt: Eine blaue Federtasche, ein gelber Stift und ein Blatt Papier mit Zeilen.
-        caption: Eine Federtasche, ein Stift und ein Blatt. Das sind Dinge, die du in der Schule hast.
+        alt: Eine blaue Federtasche, ein gelber Stift und ein Blatt Papier mit Zeilen. Rechts stehen Léa mit gelber Haarspange und roter Jacke und Noé mit schwarzen Locken, Brille und blauer Jacke.
+        caption: Eine Federtasche, ein Stift und ein Blatt, dazu Léa und Noé. Das sind Dinge, die du in der Schule hast.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: Schulfächer
         header: [Französisch, Deutsch]
         rows:
+          - [le français, Französisch]
           - [les maths, Mathe]
           - [l'histoire, Geschichte]
           - [le sport, Sport]
@@ -36,7 +37,7 @@ blocks:
           - [le dessin, Zeichnen]
       - type: text
         text: |
-          Mit **je suis** sagst du, wer du bist: *Je suis élève.* (Ich bin Schüler.) Mit **j'ai** sagst du, was du hast: *J'ai un stylo.* (Ich habe einen Stift.) Mit einem Fach und einer Uhrzeit sagst du, wann du es hast: *J'ai maths à huit heures.* (Ich habe um acht Uhr Mathe.)
+          Mit **je suis** sagst du, wer du bist: *Je suis élève.* (Ich bin Schüler.) Mit **j'ai** sagst du, was du hast: *J'ai un stylo.* (Ich habe einen Stift.) Mit einem Fach und einer Uhrzeit sagst du, wann du es hast: *J'ai maths à huit heures.* (Ich habe um acht Uhr Mathe.) **À** heißt hier «um», **et** heißt «und». Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: *J'ai sport.* Als einzelnes Wort lernst du das Fach aber mit Artikel: *le sport*.
       - type: speaking-task
         id: schule-nachsprechen-1
         language: fr
@@ -135,6 +136,9 @@ blocks:
             target: "J'ai une trousse."
           - audio: j-ai-histoire.mp3
             target: "J'ai histoire."
+            mistakes:
+              - answer: "J'ai l'histoire."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai histoire."
           - audio: je-suis-eleve.mp3
             target: "Je suis élève."
             mistakes:
@@ -167,12 +171,18 @@ blocks:
         items:
           - source: Ich bin Léa. Ich habe Musik.
             target: "Je suis Léa. J'ai musique."
+            mistakes:
+              - answer: "Je suis Léa. J'ai la musique."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai musique."
           - source: Ich habe Sport und Mathe.
             target: "J'ai sport et maths."
+            mistakes:
+              - answer: "J'ai le sport et les maths."
+                message: "Wenn du sagst, welches Fach du hast, lässt du den Artikel weg: j'ai sport, j'ai maths."
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
         text: |
-          Die Postkarte ist fast fertig. Auf der letzten Seite liest du einen Stundenplan und ein Schild und schaust auf alles zurück.
+          Die Postkarte ist fast fertig. Auf der letzten Seite liest du einen Stundenplan und ein Plakat und schaust auf alles zurück.

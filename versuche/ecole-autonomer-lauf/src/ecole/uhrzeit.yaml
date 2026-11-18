@@ -11,18 +11,18 @@ blocks:
     blocks:
       - type: text
         text: |
-          Nach dieser Seite kannst du nach der Uhrzeit fragen und sie sagen. Dafür brauchst du die Zahlen von der letzten Seite.
+          Nach dieser Seite kannst du nach der Uhrzeit fragen und sie sagen. Dafür brauchst du die Zahlen von Seite 2.
       - type: text
         text: |
-          Léa und Noé laufen zur Schule. Noé fragt: «Quelle heure est-il ?» Das heißt: «Wie spät ist es?» Léa schaut auf die Uhr und antwortet: «Il est huit heures.»
+          Die Pause ist bald vorbei. Noé fragt: «Quelle heure est-il ?» Das heißt: «Wie spät ist es?» Léa schaut auf die Uhr und antwortet: «Il est huit heures.»
   - type: section
     id: woerter
     title: So sagst du die Uhrzeit
     blocks:
       - type: figure
         image: images/uhren.svg
-        alt: Drei Uhren nebeneinander. Die erste zeigt 8 Uhr, die zweite Viertel nach 8, die dritte halb 9.
-        caption: "Von links nach rechts: 8:00, 8:15, 8:30."
+        alt: Drei Uhren nebeneinander. Die erste zeigt 8 Uhr, die zweite Viertel nach 8, die dritte halb 9. Rechts daneben stehen Léa mit gelber Haarspange und Noé mit schwarzen Locken und Brille.
+        caption: "Von links nach rechts: 8:00, 8:15, 8:30. Léa und Noé schauen auf die Uhren."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -37,7 +37,7 @@ blocks:
           - ["12:00 nachts", "Il est minuit."]
       - type: text
         text: |
-          Nach **il est** kommt die Zahl und dann **heure** (Stunde). Bei mehr als einer Stunde bekommt es ein **s**: *huit heures*. Nur bei 1 Uhr steht *une heure* ohne s. **Et quart** heißt «Viertel nach», **et demie** «halb».
+          Nach **il est** kommt die Zahl und dann **heure** (Stunde). Bei mehr als einer Stunde bekommt es ein **s**: *huit heures*. Nur bei 1 Uhr steht *une heure* ohne s. **Et quart** heißt «Viertel nach», **et demie** «halb». **Midi** ist 12 Uhr mittags, **minuit** 12 Uhr nachts; beide brauchen kein *heures*.
       - type: speaking-task
         id: uhrzeit-nachsprechen-1
         language: fr
@@ -150,7 +150,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Léa und Noé schreiben auf die Postkarte, wann sie bei der Schule ankommen.
+          Léa und Noé schreiben auf die Postkarte, wann die Schule beginnt.
       - type: language-task
         id: uhrzeit-postkarte-6
         languages: { source: de, target: fr }

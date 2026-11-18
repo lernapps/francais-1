@@ -29,8 +29,8 @@ blocks:
           - ["10 h", la musique, le dessin]
       - type: figure
         image: images/poster.svg
-        alt: "Ein Plakat mit dem Text: Fête de l'école, samedi 14 juin, 14 h, entrée gratuite."
-        caption: "Das Plakat für das Schulfest. Gratuit heißt kostenlos, une fête ist ein Fest."
+        alt: "Ein Plakat mit dem Text: Fête de l'école, samedi 14 juin, 14 h, entrée gratuite. Links steht Léa mit gelber Haarspange, rechts Noé mit schwarzen Locken und Brille."
+        caption: "Das Plakat für das Schulfest, vor dem Léa und Noé stehen. Gratuit heißt kostenlos, une fête ist ein Fest."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -100,7 +100,7 @@ blocks:
         id: alltagstexte-stundenplan-4
         languages: { source: de, target: fr }
         form: { case: ok, apostrophe: ok, punctuation: ok }
-        task: Schreibe das Fach auf Französisch, mit Artikel.
+        task: Schreibe das Fach auf Französisch, als Wort mit Artikel wie in der Tabelle auf Seite 6.
         items:
           - source: "Montag, 9 Uhr"
             target: "l'histoire"
@@ -128,7 +128,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Jetzt schreiben Léa und Noé den Anfang der Postkarte an ihre Partnerklasse. Du kennst alles dafür.
+          Jetzt schreiben Léa und Noé den Anfang der Postkarte an ihre Partnerklasse. **Salut !** heißt «Hallo!»; «Bonjour !» geht auch. Du kennst alles andere dafür.
       - type: language-task
         id: alltagstexte-postkarte-6
         languages: { source: de, target: fr }
@@ -136,11 +136,11 @@ blocks:
         task: Schreibe die Sätze für die Postkarte auf Französisch.
         items:
           - source: Hallo! Hier ist die Schule.
-            target: "Salut ! (Voilà|Voici) l'école."
+            target: "(Salut|Bonjour) ! (Voilà|Voici) l'école."
           - source: Es ist 8 Uhr. Heute ist Montag.
             target: "Il est huit heures. Aujourd'hui, c'est lundi."
-          - source: Ich habe Mathe und Sport.
-            target: "J'ai maths et sport."
+          - source: Ich habe um 8 Uhr Mathe.
+            target: "J'ai maths à huit heures."
   - type: section
     id: rueckblick
     title: Rückblick auf das Kapitel

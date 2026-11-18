@@ -11,7 +11,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Nach dieser Seite kannst du Wochentage und Monate nennen und das Datum sagen. Die Zahlen von der letzten Seite brauchst du dafür wieder.
+          Nach dieser Seite kannst du Wochentage und Monate nennen und das Datum sagen. Die Zahlen von Seite 2 brauchst du dafür wieder.
       - type: text
         text: |
           Auf der Postkarte soll ein Datum stehen. Léa hängt den Kalender der Klasse an die Wand und sagt: «Aujourd'hui, c'est lundi.» **Aujourd'hui** heißt «heute», **c'est** heißt «es ist».
@@ -21,8 +21,8 @@ blocks:
     blocks:
       - type: figure
         image: images/kalender.svg
-        alt: Ein Kalenderblatt. Oben steht der Monat mai, in der Mitte die große Zahl 3, unten der Wochentag samedi.
-        caption: "So liest du ein Kalenderblatt: oben der Monat, in der Mitte der Tag, unten der Wochentag."
+        alt: Ein Kalenderblatt. Oben steht der Monat mai, in der Mitte die große Zahl 3, unten der Wochentag lundi. Links steht Léa mit gelber Haarspange, rechts Noé mit schwarzen Locken und Brille.
+        caption: "So liest du ein Kalenderblatt: oben der Monat, in der Mitte der Tag, unten der Wochentag. Léa und Noé stehen daneben."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -71,7 +71,7 @@ blocks:
     title: Merke
     blocks:
       - type: note
-        title: Klein schreiben, ohne -ten
+        title: Klein schreiben, Grundzahl sagen
         blocks:
           - type: text
             text: |
@@ -158,8 +158,8 @@ blocks:
         items:
           - source: Heute ist Montag.
             target: "Aujourd'hui, c'est lundi."
-          - source: Heute ist der 3. Oktober.
-            target: "Aujourd'hui, c'est le (3|trois) octobre."
+          - source: Heute ist der 3. Mai.
+            target: "Aujourd'hui, c'est le (3|trois) mai."
   - type: section
     id: weiter
     title: Wie es weitergeht

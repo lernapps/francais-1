@@ -31,7 +31,7 @@ Jede `requires` einer Seite liegt auf einer früheren Seite; keine Recap-Seite, 
 - Jede Seite hat Abschnitte mit festen ids in dieser Reihenfolge: `einstieg` (Ziel in Kinderworten und Szene von Léa und Noé), `woerter` (neue Wörter, jedes mit Artikel und Bedeutung, mit Hören und Nachsprechen), `merke` (Box "Merke", nennt den typischen Fehler), `uebung` (mindestens vier Übungen von leicht nach schwer), `postkarte` (Anwendung, Schritt der Postkarte), `weiter` (ein Satz, was als Nächstes kommt). Titel passen zum Inhalt der Seite.
 - Eine neue Idee pro Seite. Höchstens 350 Wörter Lesetext und 4 Textblöcke hintereinander; innerhalb der ersten 4 Blöcke eine Figur, Tabelle oder Übung.
 - Seite 7 (`alltagstexte.yaml`) hat statt `woerter` den Abschnitt `texte` (Stundenplan, Plakat) und endet statt mit `weiter` mit `rueckblick` (Rückblick auf das Kapitel und Nachsprechen zum Abschluss).
-- Geschichte: Léa (10) und Noé (11), gezeichnet, neu an einer Schule in Lyon; sie schreiben eine Postkarte an ihre deutsche Partnerklasse. Ihre Namen, ihr Alter und die Schule bleiben auf jeder Seite gleich. Keine Figuren aus Büchern, Filmen oder Marken.
+- Geschichte: Léa (10) und Noé (11), auf jeder Seite gezeichnet (siehe Figures), neu an einer Schule in Lyon; Seite 1 stellt sie vor (Alter, Aussehen, Ort); sie schreiben eine Postkarte an ihre deutsche Partnerklasse. Ihre Namen, ihr Alter und die Schule bleiben auf jeder Seite gleich. Keine Figuren aus Büchern, Filmen oder Marken.
 - Einzel-Auswahl (`single-choice`) braucht `links` und `info` auch an der richtigen Option. Jede Seite hat `scope` (und `src/app.yaml` hat `scope` mit `text` und `out`), weil Seite 6 eine `open-task` hat.
 
 ## Terminology
@@ -51,7 +51,7 @@ Jede Übung steht im Abschnitt `uebung`. Es gibt keine Datendatei: kein Block li
 - **Lückensatz**: mode `gap`.
 - **Hören und schreiben**: `language-task` mit `audio` (Diktat von Zahlen, Uhrzeiten, Daten).
 - **Nachsprechen**: `speaking-task`, 1–10 Items mit `audio` und `text`; zählt als Übung der Seite, nicht in einer Selbsteinschätzung.
-- **Zahlen ableiten** (Seite 2, `zahlen.yaml`): `language-task` mode `table` (60 + 10 = soixante-dix, 4 × 20 = quatre-vingts), danach `write` und `number` (soixante-quinze = 75, Fehler 65 und 15 mit Meldung).
+- **Zahlen ableiten** (Seite 2, `zahlen.yaml`): `language-task` mode `table` (60 + 10 = soixante-dix, 4 × 20 = quatre-vingts), danach `write` und `number` (soixante-quinze = 75, Fehler 65 und 15 mit Meldung), Zehner plus Einer (`zahlen-zehner-7`: 25, 36, 21 mit et, 52).
 - **Zuordnen** (`matching` mit `distractors`): Seiten 2, 3, 4, 5, 6, 7; links Deutsch oder Ziffern, rechts Französisch.
 - **Einzelauswahl** (`single-choice`): Einstieg jeder Seite (Frage zum Satz oder Artikel) und Textverständnis auf Seite 7.
 - **Wahr/falsch** (`true-false`): Seite 4 (heure/heures) und Seite 7 (Eintritt).
@@ -65,7 +65,12 @@ Jede Übung steht im Abschnitt `uebung`. Es gibt keine Datendatei: kein Block li
 ## Figures
 
 - Gezeichnetes SVG in `src/images/` (Beispiel `klassenzimmer.svg`), mit `alt` (was gezeigt wird) und Beschriftung (worauf man schaut); nie die Lösung im Bild.
-- Klassenzimmer mit nummerierten Markern (`klassenzimmer.svg`, Seite 1), Türschilder (`tueren.svg`, 2), Schultasche (`tasche.svg`, 3), Uhren (`uhren.svg`, 4), Kalenderblatt (`kalender.svg`, 5), Federtasche (`federtasche.svg`, 6), Plakat (`poster.svg`, 7); der Stundenplan ist eine Tabelle. Zeichnungen, keine Fotos; keine Stereotype. Léa und Noé gleich gezeichnet auf allen Seiten.
+- **Die zwei Kinder, auf jeder Seite gleich** (Stil: Kopf und weicher Rumpf mit Umriss, kein Hals, keine Arme und Beine, nach der Vorlage der Französisch-App von lernapps.net, eigene Zeichnung):
+  - **Léa**, 10 Jahre: braune Haare mit gelber Haarspange, helle Haut, rote Jacke. Stimme `ff_siwis`.
+  - **Noé**, 11 Jahre (etwas größer): schwarze Locken, runde Brille, mittelbraune Haut, blaue Jacke mit Tragegurt. Stimme `pierre`.
+  - Beide wohnen und lernen in Lyon und sind neu an der Schule. Sie sind auf Seite 1 im Text (`einstieg`) vorgestellt und in `images/lea-und-noe.svg` gezeichnet. Jede andere Zeichnung enthält beide, mit denselben Farben; Text, `alt` und `caption` nennen sie mit Namen. Was sie sagen, steht im Text der Seite, nicht im Bild.
+  - Neue Szene: Datei aus einer bestehenden SVG kopieren (die `<g class="lea">` und `<g class="noe">` unverändert übernehmen, nur `translate` und `scale` ändern), `<title>` setzen.
+- Zeichnungen (alle in `src/images/`, mit Léa und Noé): Klassenzimmer mit nummerierten Markern (`klassenzimmer.svg`, Seite 1; die Kinder stehen rechts, die Marker auf den Gegenständen), Vorstellung der Kinder (`lea-und-noe.svg`, Seite 1), Türschilder (`tueren.svg`, 2), Schultasche (`tasche.svg`, 3), Uhren (`uhren.svg`, 4), Kalenderblatt (`kalender.svg`, 5), Federtasche (`federtasche.svg`, 6), Plakat (`poster.svg`, 7); der Stundenplan ist eine Tabelle. Zeichnungen, keine Fotos; keine Stereotype.
 - Figuren funktionieren bei 360 px Breite und ohne Farbe als alleinigem Zeichen. Bildquelle und Lizenz: selbst erstellt, CC BY 4.0.
 - Keine Komponente (`prefer-built-in-block`): alles mit Blöcken lösbar.
 
@@ -88,4 +93,8 @@ Jede Übung steht im Abschnitt `uebung`. Es gibt keine Datendatei: kein Block li
 
 ## Rules learned from mistakes
 
-None yet.
+- Verweise auf frühere Seiten nennen die Seite mit Nummer ("auf Seite 2"), nie "auf der letzten Seite": Die Seiten 3, 4 und 5 nannten die falsche Seite.
+- Text, Bild, `alt` und `caption` zeigen dasselbe (Gegenstände, Wochentag, Datum): Kalender zeigte samedi, der Text lundi; die Tasche zeigte ein Buch, der Text eine Federtasche.
+- Jedes Wort, das eine Aufgabe verlangt, steht vorher auf einer Seite (salut, le français, 0, 21 bis 69, et, voici, à): Der Titel "0 à 100" verspricht alle Zahlen.
+- Eine Regel, die eine spätere Seite bricht, wird dort erklärt: Nach j'ai steht ein Fach ohne Artikel (Seite 6), als einzelnes Wort mit Artikel (Seite 7). Für die Fehlform steht eine Meldung in `mistakes`.
+- Die Geschichte läuft in einem Tag in der Schule: Seite 1 Klassenzimmer, 2 Flur nach der ersten Stunde, 3 Pause am Tisch, 4 Pause fast vorbei, 5 Klassenzimmer mit Kalender (Montag, 3. Mai), 6 Vorstellen, 7 Plakat und Stundenplan. Ein Ort, der nicht passt, bricht die Geschichte.

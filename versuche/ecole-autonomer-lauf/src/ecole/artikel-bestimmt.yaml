@@ -14,7 +14,16 @@ blocks:
           Nach dieser Seite kannst du die kleinen Wörter **le**, **la**, **l'** und **les** richtig vor französische Wörter setzen (im Deutschen sind das *der*, *die*, *das*) und Dinge im Klassenzimmer benennen. Das ist der erste Schritt zu eurer Postkarte.
       - type: text
         text: |
-          Léa (10) und Noé (11) sind neu an einer Schule in Lyon. Auf ihrer Postkarte an die Partnerklasse in Deutschland wollen sie zeigen, was es in ihrem Klassenzimmer gibt. Léa sagt: «Voilà la porte et le tableau !» **Voilà** heißt «Hier ist». Du hörst sie gleich und sprichst nach.
+          Das sind **Léa** und **Noé**. Léa ist 10 Jahre alt, hat braune Haare mit einer gelben Haarspange und trägt eine rote Jacke. Noé ist 11, hat schwarze Locken, eine runde Brille und eine blaue Jacke. Beide sind neu an einer Schule in Lyon.
+      - type: figure
+        image: images/lea-und-noe.svg
+        alt: Zwei Kinder im Klassenzimmer vor einem Fenster. Links Léa mit braunen Haaren, gelber Haarspange und roter Jacke, rechts Noé mit schwarzen Locken, runder Brille und blauer Jacke.
+        caption: Léa (links, 10 Jahre) und Noé (rechts, 11 Jahre) in ihrem Klassenzimmer in Lyon.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Auf ihrer Postkarte an die Partnerklasse in Deutschland wollen die beiden zeigen, was es in ihrem Klassenzimmer gibt. Léa sagt: «Voilà la porte et le tableau !» **Voilà** (oder **Voici**) heißt «Hier ist», **et** heißt «und». Du hörst sie gleich und sprichst nach.
   - type: section
     id: woerter
     title: Die Wörter mit ihrem Artikel
@@ -112,8 +121,8 @@ blocks:
         material:
           - type: labelled-figure
             image: images/klassenzimmer.svg
-            alt: Ein Klassenzimmer von der Seite. Nummer 1 an der Tür, Nummer 2 am Fenster, Nummer 3 an der Tafel, Nummer 4 am Tisch, Nummer 5 an der Tasche, Nummer 6 am Computer.
-            caption: Das Klassenzimmer von Léa und Noé. Schau auf die Nummern.
+            alt: Ein Klassenzimmer von der Seite, rechts stehen Léa und Noé. Nummer 1 an der Tür, Nummer 2 am Fenster, Nummer 3 an der Tafel, Nummer 4 am Tisch, Nummer 5 an der Tasche, Nummer 6 am Computer.
+            caption: Das Klassenzimmer von Léa und Noé (die beiden stehen rechts). Schau auf die Nummern.
             legend: false
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -238,4 +247,4 @@ blocks:
     blocks:
       - type: text
         text: |
-          Auf der Postkarte fehlen noch die Nummern der Klassenzimmer. Auf der nächsten Seite lernst du die Zahlen bis 100.
+          Auf der Postkarte fehlen noch die Zimmernummern der Schule. Auf der nächsten Seite lernst du die Zahlen bis 100.
