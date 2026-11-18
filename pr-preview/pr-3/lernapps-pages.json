@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "subject": "franzoesisch",
+  "pages": [
+    {
+      "path": "kapitel-1/laut-und-schrift/",
+      "title": "Laut und Schrift",
+      "competencies": [
+        "laut-und-schrift"
+      ]
+    },
+    {
+      "path": "kapitel-1/begruessen/",
+      "title": "Begrüßen und Vorstellen",
+      "competencies": [
+        "begruessen-und-vorstellen"
+      ]
+    },
+    {
+      "path": "kapitel-1/zahlen/",
+      "title": "Zahlen bis 100",
+      "competencies": [
+        "zahlen-bis-100"
+      ]
+    },
+    {
+      "path": "kapitel-1/pronomen/",
+      "title": "Wer macht was? Die Pronomen",
+      "competencies": [
+        "subjektpronomen"
+      ]
+    },
+    {
+      "path": "kapitel-1/etre/",
+      "title": "Das Verb être",
+      "competencies": [
+        "verb-etre"
+      ]
+    },
+    {
+      "path": "kapitel-1/artikel/",
+      "title": "Der bestimmte Artikel",
+      "competencies": [
+        "bestimmter-artikel"
+      ]
+    },
+    {
+      "path": "kapitel-1/avoir/",
+      "title": "Das Verb avoir",
+      "competencies": [
+        "verb-avoir"
+      ]
+    }
+  ]
+}
